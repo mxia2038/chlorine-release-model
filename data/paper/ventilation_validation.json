@@ -1,0 +1,110 @@
+{
+  "source": {
+    "citation": "Lambert, A.R., Lin, C.-L., Mardorf, E., O'Shaughnessy, P. (2010). CFD Simulation of Contaminant Decay for High Reynolds Flow in a Controlled Environment. Annals of Occupational Hygiene 54(1), 88-99.",
+    "doi": "10.1093/annhyg/mep057",
+    "table": "Table 1",
+    "experiment": "CO2 washout in a 3.40 m x 3.44 m x 2.29 m mechanically ventilated chamber; four measurement locations; 19 and 34 ACH"
+  },
+  "modelBasis": "Perfectly mixed single-zone decay, C/C0 = exp[-(Q/V)t], equivalent to Kmodel = tau/tau_CMSTR = 1",
+  "cases": [
+    {
+      "ach": 19,
+      "location": 1,
+      "tauExpMin": 4.119,
+      "kExp": 1.307,
+      "tauPerfectMixingMin": 3.1514919663351186,
+      "experimentalExcessOverPerfectMixingPct": 30.699999999999996,
+      "perfectMixingErrorVsExperimentPct": -23.48890589135424,
+      "t95ExpMin": 12.339421234768889,
+      "t95PerfectMixingMin": 9.441026193396242
+    },
+    {
+      "ach": 19,
+      "location": 2,
+      "tauExpMin": 4.004,
+      "kExp": 1.27,
+      "tauPerfectMixingMin": 3.152755905511811,
+      "experimentalExcessOverPerfectMixingPct": 27,
+      "perfectMixingErrorVsExperimentPct": -21.259842519685034,
+      "t95ExpMin": 11.994912023310178,
+      "t95PerfectMixingMin": 9.444812616779668
+    },
+    {
+      "ach": 19,
+      "location": 3,
+      "tauExpMin": 4.105,
+      "kExp": 1.302,
+      "tauPerfectMixingMin": 3.15284178187404,
+      "experimentalExcessOverPerfectMixingPct": 30.200000000000003,
+      "perfectMixingErrorVsExperimentPct": -23.19508448540707,
+      "t95ExpMin": 12.297480982939133,
+      "t95PerfectMixingMin": 9.445069879369534
+    },
+    {
+      "ach": 19,
+      "location": 4,
+      "tauExpMin": 4.454,
+      "kExp": 1.413,
+      "tauPerfectMixingMin": 3.152158527954706,
+      "experimentalExcessOverPerfectMixingPct": 41.300000000000004,
+      "perfectMixingErrorVsExperimentPct": -29.22859164897381,
+      "t95ExpMin": 13.342991546409474,
+      "t95PerfectMixingMin": 9.443023033552352
+    },
+    {
+      "ach": 34,
+      "location": 1,
+      "tauExpMin": 2.225,
+      "kExp": 1.288,
+      "tauPerfectMixingMin": 1.7274844720496894,
+      "experimentalExcessOverPerfectMixingPct": 28.800000000000004,
+      "perfectMixingErrorVsExperimentPct": -22.360248447204977,
+      "t95ExpMin": 6.6655043086576296,
+      "t95PerfectMixingMin": 5.175080984982632
+    },
+    {
+      "ach": 34,
+      "location": 2,
+      "tauExpMin": 2.064,
+      "kExp": 1.195,
+      "tauPerfectMixingMin": 1.7271966527196652,
+      "experimentalExcessOverPerfectMixingPct": 19.500000000000007,
+      "perfectMixingErrorVsExperimentPct": -16.317991631799167,
+      "t95ExpMin": 6.183191412615438,
+      "t95PerfectMixingMin": 5.174218755326725
+    },
+    {
+      "ach": 34,
+      "location": 3,
+      "tauExpMin": 2.147,
+      "kExp": 1.243,
+      "tauPerfectMixingMin": 1.727272727272727,
+      "experimentalExcessOverPerfectMixingPct": 24.30000000000001,
+      "perfectMixingErrorVsExperimentPct": -19.54947707160096,
+      "t95ExpMin": 6.431837191320418,
+      "t95PerfectMixingMin": 5.174446654320529
+    },
+    {
+      "ach": 34,
+      "location": 4,
+      "tauExpMin": 2.237,
+      "kExp": 1.295,
+      "tauPerfectMixingMin": 1.7274131274131277,
+      "experimentalExcessOverPerfectMixingPct": 29.499999999999993,
+      "perfectMixingErrorVsExperimentPct": -22.779922779922767,
+      "t95ExpMin": 6.701453095940278,
+      "t95PerfectMixingMin": 5.174867255552338
+    }
+  ],
+  "summary": {
+    "kExpMin": 1.195,
+    "kExpMax": 1.413,
+    "kExpMean": 1.289125,
+    "experimentalExcessOverPerfectMixingPctMin": 19.500000000000007,
+    "experimentalExcessOverPerfectMixingPctMax": 41.300000000000004,
+    "experimentalExcessOverPerfectMixingPctMean": 28.912500000000005,
+    "perfectMixingErrorVsExperimentPctMin": -29.22859164897381,
+    "perfectMixingErrorVsExperimentPctMax": -16.317991631799167,
+    "perfectMixingErrorVsExperimentPctMean": -22.272508059493504
+  }
+}

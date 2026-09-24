@@ -1,0 +1,6321 @@
+{
+  "config": "config/default_25mm.json",
+  "stepS": 20,
+  "summary": {
+    "leakedKg": 41652.78959726478,
+    "leakDurationS": 5393.306522400592,
+    "fanNm3H": 5021.138776129302,
+    "maxRoomChlorineMolFraction": 0.5401068448144393,
+    "mainCoolingKW": 4980.318722050863,
+    "tailCoolingKW": 553.3649075312441,
+    "mainTankM3PerTank": 179.4600573272385,
+    "sourcePeakKgS": 4.011166204521167
+  },
+  "figure2": {
+    "endS": 9000,
+    "release": [
+      {
+        "timeS": 20,
+        "leakRateKgS": 7.9646086878935725,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7495460451114168,
+        "heatEvapRateKgS": 0.6375139998391866,
+        "massEvapRateKgS": 0.0011645768097192212
+      },
+      {
+        "timeS": 40,
+        "leakRateKgS": 7.962680504754147,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7493645845898718,
+        "heatEvapRateKgS": 1.007495916503761,
+        "massEvapRateKgS": 0.002067961501900846
+      },
+      {
+        "timeS": 60,
+        "leakRateKgS": 7.960758944140441,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7491837473114962,
+        "heatEvapRateKgS": 1.201791953192045,
+        "massEvapRateKgS": 0.0028535699616587798
+      },
+      {
+        "timeS": 80,
+        "leakRateKgS": 7.9588438363281755,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.749003517303608,
+        "heatEvapRateKgS": 1.343421510006312,
+        "massEvapRateKgS": 0.003577377122137417
+      },
+      {
+        "timeS": 100,
+        "leakRateKgS": 7.956935017254578,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7488238791263272,
+        "heatEvapRateKgS": 1.4579245905889802,
+        "massEvapRateKgS": 0.004257232772439199
+      },
+      {
+        "timeS": 120,
+        "leakRateKgS": 7.955032328237586,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7486448178461501,
+        "heatEvapRateKgS": 1.554108926200826,
+        "massEvapRateKgS": 0.0049024341710701995
+      },
+      {
+        "timeS": 140,
+        "leakRateKgS": 7.953135615712564,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7484663190111723,
+        "heatEvapRateKgS": 1.6370457568266072,
+        "massEvapRateKgS": 0.005519091245465564
+      },
+      {
+        "timeS": 160,
+        "leakRateKgS": 7.951244730985219,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7482883686278349,
+        "heatEvapRateKgS": 1.7099473725432364,
+        "massEvapRateKgS": 0.006111525431845585
+      },
+      {
+        "timeS": 180,
+        "leakRateKgS": 7.949359529999468,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7481109531390793,
+        "heatEvapRateKgS": 1.7749599144663963,
+        "massEvapRateKgS": 0.006682950651585859
+      },
+      {
+        "timeS": 200,
+        "leakRateKgS": 7.9474798731192005,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7479340594038086,
+        "heatEvapRateKgS": 1.8335927628965627,
+        "massEvapRateKgS": 0.007235852483584988
+      },
+      {
+        "timeS": 220,
+        "leakRateKgS": 7.945605624922882,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.747757674677558,
+        "heatEvapRateKgS": 1.8869516976085863,
+        "massEvapRateKgS": 0.00777221157330176
+      },
+      {
+        "timeS": 240,
+        "leakRateKgS": 7.9437366540101,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7475817865942885,
+        "heatEvapRateKgS": 1.9358731155852376,
+        "massEvapRateKgS": 0.00829364363217877
+      },
+      {
+        "timeS": 260,
+        "leakRateKgS": 7.9418728328192,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7474063831492257,
+        "heatEvapRateKgS": 1.981006168404717,
+        "massEvapRateKgS": 0.008801491817453403
+      },
+      {
+        "timeS": 280,
+        "leakRateKgS": 7.940014037455227,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7472314526826661,
+        "heatEvapRateKgS": 2.022865513348317,
+        "massEvapRateKgS": 0.009296890234666344
+      },
+      {
+        "timeS": 300,
+        "leakRateKgS": 7.938160147527475,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7470569838646901,
+        "heatEvapRateKgS": 2.061866534872844,
+        "massEvapRateKgS": 0.009780809067397296
+      },
+      {
+        "timeS": 320,
+        "leakRateKgS": 7.936311045995971,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.746882965680714,
+        "heatEvapRateKgS": 2.098349637095294,
+        "massEvapRateKgS": 0.010254087552210179
+      },
+      {
+        "timeS": 340,
+        "leakRateKgS": 7.934466619026317,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7467093874178292,
+        "heatEvapRateKgS": 2.13259746617109,
+        "massEvapRateKgS": 0.010717458645233097
+      },
+      {
+        "timeS": 360,
+        "leakRateKgS": 7.9326267558522945,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7465362386518728,
+        "heatEvapRateKgS": 2.1648474125001607,
+        "massEvapRateKgS": 0.011171567849426745
+      },
+      {
+        "timeS": 380,
+        "leakRateKgS": 7.930791348645767,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7463635092351831,
+        "heatEvapRateKgS": 2.1953008747899676,
+        "massEvapRateKgS": 0.011616987838364632
+      },
+      {
+        "timeS": 400,
+        "leakRateKgS": 7.928960292393364,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7461911892849951,
+        "heatEvapRateKgS": 2.22413024943047,
+        "massEvapRateKgS": 0.012054229990340391
+      },
+      {
+        "timeS": 420,
+        "leakRateKgS": 7.927133484779542,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7460192691724351,
+        "heatEvapRateKgS": 2.2514842883439816,
+        "massEvapRateKgS": 0.01248375360950515
+      },
+      {
+        "timeS": 440,
+        "leakRateKgS": 7.9253108260756004,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.745847739512076,
+        "heatEvapRateKgS": 2.277492264814331,
+        "massEvapRateKgS": 0.012905973387165958
+      },
+      {
+        "timeS": 460,
+        "leakRateKgS": 7.923492219034276,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7456765911520179,
+        "heatEvapRateKgS": 2.3022672539334637,
+        "massEvapRateKgS": 0.013321265504581284
+      },
+      {
+        "timeS": 480,
+        "leakRateKgS": 7.921677568789591,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.745505815164463,
+        "heatEvapRateKgS": 2.3259087456164123,
+        "massEvapRateKgS": 0.013729972673352148
+      },
+      {
+        "timeS": 500,
+        "leakRateKgS": 7.919866782761611,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7453354028367514,
+        "heatEvapRateKgS": 2.3485047477111345,
+        "massEvapRateKgS": 0.014132408335169062
+      },
+      {
+        "timeS": 520,
+        "leakRateKgS": 7.9180597705658124,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7451653456628331,
+        "heatEvapRateKgS": 2.370133494793186,
+        "massEvapRateKgS": 0.014528860189270246
+      },
+      {
+        "timeS": 540,
+        "leakRateKgS": 7.916256443926805,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7449956353351472,
+        "heatEvapRateKgS": 2.3908648486379382,
+        "massEvapRateKgS": 0.014919593177009563
+      },
+      {
+        "timeS": 560,
+        "leakRateKgS": 7.914456716596134,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7448262637368872,
+        "heatEvapRateKgS": 2.410761455153362,
+        "massEvapRateKgS": 0.015304852024117027
+      },
+      {
+        "timeS": 580,
+        "leakRateKgS": 7.912660504273909,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7446572229346253,
+        "heatEvapRateKgS": 2.429879707143553,
+        "massEvapRateKgS": 0.01568486341964754
+      },
+      {
+        "timeS": 600,
+        "leakRateKgS": 7.910867724534084,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7444885051712801,
+        "heatEvapRateKgS": 2.448270550928417,
+        "massEvapRateKgS": 0.016059837894251385
+      },
+      {
+        "timeS": 620,
+        "leakRateKgS": 7.909078296753111,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7443201028594025,
+        "heatEvapRateKgS": 2.465980166395372,
+        "massEvapRateKgS": 0.016429971447864698
+      },
+      {
+        "timeS": 640,
+        "leakRateKgS": 7.907292142041837,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.744152008574767,
+        "heatEvapRateKgS": 2.4830505436966614,
+        "massEvapRateKgS": 0.016795446967218165
+      },
+      {
+        "timeS": 660,
+        "leakRateKgS": 7.905509183180417,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7439842150502458,
+        "heatEvapRateKgS": 2.499519974966279,
+        "massEvapRateKgS": 0.017156435465987052
+      },
+      {
+        "timeS": 680,
+        "leakRateKgS": 7.903729344556106,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7438167151699547,
+        "heatEvapRateKgS": 2.515423475714769,
+        "massEvapRateKgS": 0.01751309717443899
+      },
+      {
+        "timeS": 700,
+        "leakRateKgS": 7.901952552103741,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7436495019636513,
+        "heatEvapRateKgS": 2.530793147681723,
+        "massEvapRateKgS": 0.017865582500698453
+      },
+      {
+        "timeS": 720,
+        "leakRateKgS": 7.900178733248788,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7434825686013764,
+        "heatEvapRateKgS": 2.545658492677866,
+        "massEvapRateKgS": 0.01821403288195717
+      },
+      {
+        "timeS": 740,
+        "leakRateKgS": 7.898407816852811,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7433159083883211,
+        "heatEvapRateKgS": 2.5600466851795125,
+        "massEvapRateKgS": 0.01855858154090707
+      },
+      {
+        "timeS": 760,
+        "leakRateKgS": 7.896639733161212,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7431495147599085,
+        "heatEvapRateKgS": 2.5739828100356896,
+        "massEvapRateKgS": 0.018899354160197075
+      },
+      {
+        "timeS": 780,
+        "leakRateKgS": 7.894874413753155,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7429833812770823,
+        "heatEvapRateKgS": 2.5874900705289874,
+        "massEvapRateKgS": 0.019236469485695535
+      },
+      {
+        "timeS": 800,
+        "leakRateKgS": 7.893111791493521,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.742817501621784,
+        "heatEvapRateKgS": 2.6005899711321288,
+        "massEvapRateKgS": 0.01957003986768314
+      },
+      {
+        "timeS": 820,
+        "leakRateKgS": 7.891351800486818,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7426518695926159,
+        "heatEvapRateKgS": 2.6133024785758088,
+        "massEvapRateKgS": 0.019900171747733602
+      },
+      {
+        "timeS": 840,
+        "leakRateKgS": 7.889594376032928,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7424864791006766,
+        "heatEvapRateKgS": 2.625646164252843,
+        "massEvapRateKgS": 0.020226966097905374
+      },
+      {
+        "timeS": 860,
+        "leakRateKgS": 7.887839454584597,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.74232132416556,
+        "heatEvapRateKgS": 2.6376383305013027,
+        "massEvapRateKgS": 0.020550518817922567
+      },
+      {
+        "timeS": 880,
+        "leakRateKgS": 7.886086973706582,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7421563989115112,
+        "heatEvapRateKgS": 2.649295122912962,
+        "massEvapRateKgS": 0.020870921095231455
+      },
+      {
+        "timeS": 900,
+        "leakRateKgS": 7.884336872036366,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7419916975637291,
+        "heatEvapRateKgS": 2.660631630486521,
+        "massEvapRateKgS": 0.021188259732153603
+      },
+      {
+        "timeS": 920,
+        "leakRateKgS": 7.882589089246379,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7418272144448108,
+        "heatEvapRateKgS": 2.6716619751737,
+        "massEvapRateKgS": 0.021502617443793913
+      },
+      {
+        "timeS": 940,
+        "leakRateKgS": 7.880843566007608,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7416629439713274,
+        "heatEvapRateKgS": 2.682399392140678,
+        "massEvapRateKgS": 0.021814073129885595
+      },
+      {
+        "timeS": 960,
+        "leakRateKgS": 7.879100243954583,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7414988806505283,
+        "heatEvapRateKgS": 2.6928563018783858,
+        "massEvapRateKgS": 0.02212270212334775
+      },
+      {
+        "timeS": 980,
+        "leakRateKgS": 7.877359065651628,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.741335019077166,
+        "heatEvapRateKgS": 2.7030443751365856,
+        "massEvapRateKgS": 0.022428576417984805
+      },
+      {
+        "timeS": 1000,
+        "leakRateKgS": 7.875619974560318,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7411713539304323,
+        "heatEvapRateKgS": 2.712974591523044,
+        "massEvapRateKgS": 0.022731764877459506
+      },
+      {
+        "timeS": 1020,
+        "leakRateKgS": 7.873882915008117,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.741007879971008,
+        "heatEvapRateKgS": 2.722657292496015,
+        "massEvapRateKgS": 0.023032333427415785
+      },
+      {
+        "timeS": 1040,
+        "leakRateKgS": 7.872147832158097,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7408445920382123,
+        "heatEvapRateKgS": 2.7321022293822237,
+        "massEvapRateKgS": 0.02333034523240681
+      },
+      {
+        "timeS": 1060,
+        "leakRateKgS": 7.87041467197971,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7406814850472526,
+        "heatEvapRateKgS": 2.74131860697078,
+        "massEvapRateKgS": 0.02362586085909288
+      },
+      {
+        "timeS": 1080,
+        "leakRateKgS": 7.868683381220558,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7405185539865673,
+        "heatEvapRateKgS": 2.7503151231635927,
+        "massEvapRateKgS": 0.023918938427007767
+      },
+      {
+        "timeS": 1100,
+        "leakRateKgS": 7.8669539073791155,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7403557939152601,
+        "heatEvapRateKgS": 2.759100005102889,
+        "massEvapRateKgS": 0.02420963374804807
+      },
+      {
+        "timeS": 1120,
+        "leakRateKgS": 7.86522619867834,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7401931999606142,
+        "heatEvapRateKgS": 2.7676810421449987,
+        "massEvapRateKgS": 0.024498000455713875
+      },
+      {
+        "timeS": 1140,
+        "leakRateKgS": 7.863500204040162,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7400307673156938,
+        "heatEvapRateKgS": 2.776065616005149,
+        "massEvapRateKgS": 0.024784090125019077
+      },
+      {
+        "timeS": 1160,
+        "leakRateKgS": 7.861775873060786,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7398684912370187,
+        "heatEvapRateKgS": 2.784260728359565,
+        "massEvapRateKgS": 0.02506795238389285
+      },
+      {
+        "timeS": 1180,
+        "leakRateKgS": 7.86005315598677,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7397063670423125,
+        "heatEvapRateKgS": 2.7922730261579063,
+        "massEvapRateKgS": 0.025349635016808654
+      },
+      {
+        "timeS": 1200,
+        "leakRateKgS": 7.858332003691855,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7395443901083233,
+        "heatEvapRateKgS": 2.800108824870234,
+        "massEvapRateKgS": 0.02562918406130247
+      },
+      {
+        "timeS": 1220,
+        "leakRateKgS": 7.856612367654497,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7393825558687088,
+        "heatEvapRateKgS": 2.8077741298673127,
+        "massEvapRateKgS": 0.025906643897975368
+      },
+      {
+        "timeS": 1240,
+        "leakRateKgS": 7.85489419993609,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7392208598119863,
+        "heatEvapRateKgS": 2.8152746561112516,
+        "massEvapRateKgS": 0.026182057334517318
+      },
+      {
+        "timeS": 1260,
+        "leakRateKgS": 7.853177453159802,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7390592974795417,
+        "heatEvapRateKgS": 2.8226158463139983,
+        "massEvapRateKgS": 0.026455465684236585
+      },
+      {
+        "timeS": 1280,
+        "leakRateKgS": 7.8514620804900686,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7388978644636993,
+        "heatEvapRateKgS": 2.8298028877045063,
+        "massEvapRateKgS": 0.0267269088395335
+      },
+      {
+        "timeS": 1300,
+        "leakRateKgS": 7.849748035612633,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7387365564058437,
+        "heatEvapRateKgS": 2.8368407275304,
+        "massEvapRateKgS": 0.026996425340715613
+      },
+      {
+        "timeS": 1320,
+        "leakRateKgS": 7.848035272715167,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7385753689945951,
+        "heatEvapRateKgS": 2.843734087406913,
+        "massEvapRateKgS": 0.027264052440514892
+      },
+      {
+        "timeS": 1340,
+        "leakRateKgS": 7.846323746468417,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7384142979640363,
+        "heatEvapRateKgS": 2.8504874766143327,
+        "massEvapRateKgS": 0.027529826164634574
+      },
+      {
+        "timeS": 1360,
+        "leakRateKgS": 7.844613412007851,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7382533390919848,
+        "heatEvapRateKgS": 2.8571052044348884,
+        "massEvapRateKgS": 0.027793781368623916
+      },
+      {
+        "timeS": 1380,
+        "leakRateKgS": 7.8429042249158,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.738092488198312,
+        "heatEvapRateKgS": 2.863591391611102,
+        "massEvapRateKgS": 0.028055951791352833
+      },
+      {
+        "timeS": 1400,
+        "leakRateKgS": 7.84119614120405,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7379317411433051,
+        "heatEvapRateKgS": 2.869949980999446,
+        "massEvapRateKgS": 0.02831637010533449
+      },
+      {
+        "timeS": 1420,
+        "leakRateKgS": 7.839489117296883,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7377710938260711,
+        "heatEvapRateKgS": 2.8761847474860596,
+        "massEvapRateKgS": 0.028575067964122746
+      },
+      {
+        "timeS": 1440,
+        "leakRateKgS": 7.837783110014513,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7376105421829784,
+        "heatEvapRateKgS": 2.8822993072248937,
+        "massEvapRateKgS": 0.028832076046992
+      },
+      {
+        "timeS": 1460,
+        "leakRateKgS": 7.836078076556953,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7374500821861377,
+        "heatEvapRateKgS": 2.888297126252994,
+        "massEvapRateKgS": 0.02908742410108985
+      },
+      {
+        "timeS": 1480,
+        "leakRateKgS": 7.834373974488228,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.737289709841917,
+        "heatEvapRateKgS": 2.894181528532534,
+        "massEvapRateKgS": 0.029341140981236875
+      },
+      {
+        "timeS": 1500,
+        "leakRateKgS": 7.8326707617209665,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7371294211894908,
+        "heatEvapRateKgS": 2.8999557034646157,
+        "massEvapRateKgS": 0.029593254687534164
+      },
+      {
+        "timeS": 1520,
+        "leakRateKgS": 7.830968396501328,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7369692122994225,
+        "heatEvapRateKgS": 2.9056227129158763,
+        "massEvapRateKgS": 0.029843792400925877
+      },
+      {
+        "timeS": 1540,
+        "leakRateKgS": 7.829266837394253,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7368090792722759,
+        "heatEvapRateKgS": 2.911185497795187,
+        "massEvapRateKgS": 0.03009278051685265
+      },
+      {
+        "timeS": 1560,
+        "leakRateKgS": 7.82756604326903,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7366490182372564,
+        "heatEvapRateKgS": 2.9166468842145252,
+        "massEvapRateKgS": 0.0303402446771212
+      },
+      {
+        "timeS": 1580,
+        "leakRateKgS": 7.825865973285142,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7364890253508797,
+        "heatEvapRateKgS": 2.92200958926501,
+        "massEvapRateKgS": 0.030586209800105246
+      },
+      {
+        "timeS": 1600,
+        "leakRateKgS": 7.8241665868783965,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7363290967956668,
+        "heatEvapRateKgS": 2.9272762264365504,
+        "massEvapRateKgS": 0.030830700109384813
+      },
+      {
+        "timeS": 1620,
+        "leakRateKgS": 7.822467843747329,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.736169228778863,
+        "heatEvapRateKgS": 2.932449310707088,
+        "massEvapRateKgS": 0.031073739160922258
+      },
+      {
+        "timeS": 1640,
+        "leakRateKgS": 7.8207697038398365,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7360094175311815,
+        "heatEvapRateKgS": 2.9375312633252526,
+        "massEvapRateKgS": 0.03131534986886652
+      },
+      {
+        "timeS": 1660,
+        "leakRateKgS": 7.819072127340049,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7358496593055672,
+        "heatEvapRateKgS": 2.9425244163081317,
+        "massEvapRateKgS": 0.03155555453006997
+      },
+      {
+        "timeS": 1680,
+        "leakRateKgS": 7.817375074655444,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7356899503759842,
+        "heatEvapRateKgS": 2.9474310166744164,
+        "massEvapRateKgS": 0.03179437484739646
+      },
+      {
+        "timeS": 1700,
+        "leakRateKgS": 7.81567850640413,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7355302870362188,
+        "heatEvapRateKgS": 2.952253230431111,
+        "massEvapRateKgS": 0.032031831951893304
+      },
+      {
+        "timeS": 1720,
+        "leakRateKgS": 7.8139823834023705,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7353706655987056,
+        "heatEvapRateKgS": 2.956993146330862,
+        "massEvapRateKgS": 0.03226794642389471
+      },
+      {
+        "timeS": 1740,
+        "leakRateKgS": 7.812286666652255,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7352110823933673,
+        "heatEvapRateKgS": 2.961652779415514,
+        "massEvapRateKgS": 0.03250273831311974
+      },
+      {
+        "timeS": 1760,
+        "leakRateKgS": 7.810591317329561,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7350515337664727,
+        "heatEvapRateKgS": 2.966234074360184,
+        "massEvapRateKgS": 0.032736227157823115
+      },
+      {
+        "timeS": 1780,
+        "leakRateKgS": 7.808896296771778,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7348920160795083,
+        "heatEvapRateKgS": 2.970738908631193,
+        "massEvapRateKgS": 0.032968432003053445
+      },
+      {
+        "timeS": 1800,
+        "leakRateKgS": 7.807201566466267,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7347325257080658,
+        "heatEvapRateKgS": 2.9751690954700627,
+        "massEvapRateKgS": 0.03319937141806974
+      },
+      {
+        "timeS": 1820,
+        "leakRateKgS": 7.805507088038572,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.734573059040741,
+        "heatEvapRateKgS": 2.9795263867148956,
+        "massEvapRateKgS": 0.0334290635129634
+      },
+      {
+        "timeS": 1840,
+        "leakRateKgS": 7.803812823240855,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7344136124780454,
+        "heatEvapRateKgS": 2.9838124754696183,
+        "massEvapRateKgS": 0.033657525954530226
+      },
+      {
+        "timeS": 1860,
+        "leakRateKgS": 7.80211873394044,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7342541824313286,
+        "heatEvapRateKgS": 2.988028998630781,
+        "massEvapRateKgS": 0.03388477598143337
+      },
+      {
+        "timeS": 1880,
+        "leakRateKgS": 7.8004247821084824,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7340947653217116,
+        "heatEvapRateKgS": 2.992177539280809,
+        "massEvapRateKgS": 0.034110830418696246
+      },
+      {
+        "timeS": 1900,
+        "leakRateKgS": 7.798730929808718,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7339353575790286,
+        "heatEvapRateKgS": 2.996259628956264,
+        "massEvapRateKgS": 0.03433570569156137
+      },
+      {
+        "timeS": 1920,
+        "leakRateKgS": 7.7970371391863065,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7337759556407758,
+        "heatEvapRateKgS": 3.000276749798517,
+        "massEvapRateKgS": 0.034559417838749024
+      },
+      {
+        "timeS": 1940,
+        "leakRateKgS": 7.7953433724567525,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.73361655595107,
+        "heatEvapRateKgS": 3.00423033659428,
+        "massEvapRateKgS": 0.03478198252514739
+      },
+      {
+        "timeS": 1960,
+        "leakRateKgS": 7.793649591894894,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7334571549596116,
+        "heatEvapRateKgS": 3.0081217787125545,
+        "massEvapRateKgS": 0.03500341505396404
+      },
+      {
+        "timeS": 1980,
+        "leakRateKgS": 7.79195575982395,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7332977491206546,
+        "heatEvapRateKgS": 3.011952421944196,
+        "massEvapRateKgS": 0.03522373037836662
+      },
+      {
+        "timeS": 2000,
+        "leakRateKgS": 7.790261838604613,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7331383348919788,
+        "heatEvapRateKgS": 3.0157235702498957,
+        "massEvapRateKgS": 0.03544294311263879
+      },
+      {
+        "timeS": 2020,
+        "leakRateKgS": 7.788567790624193,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7329789087338698,
+        "heatEvapRateKgS": 3.019436487421986,
+        "massEvapRateKgS": 0.0356610675428763
+      },
+      {
+        "timeS": 2040,
+        "leakRateKgS": 7.78687357828577,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7328194671080966,
+        "heatEvapRateKgS": 3.023092398665035,
+        "massEvapRateKgS": 0.03587811763724607
+      },
+      {
+        "timeS": 2060,
+        "leakRateKgS": 7.785179163997394,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7326600064768967,
+        "heatEvapRateKgS": 3.026692492099941,
+        "massEvapRateKgS": 0.03609410705583024
+      },
+      {
+        "timeS": 2080,
+        "leakRateKgS": 7.783484510161279,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7325005233019576,
+        "heatEvapRateKgS": 3.030237920195889,
+        "massEvapRateKgS": 0.036309049160075484
+      },
+      {
+        "timeS": 2100,
+        "leakRateKgS": 7.781789579163009,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7323410140434022,
+        "heatEvapRateKgS": 3.0337298011342426,
+        "massEvapRateKgS": 0.03652295702186707
+      },
+      {
+        "timeS": 2120,
+        "leakRateKgS": 7.780094333360737,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7321814751587719,
+        "heatEvapRateKgS": 3.037169220108218,
+        "massEvapRateKgS": 0.036735843432245646
+      },
+      {
+        "timeS": 2140,
+        "leakRateKgS": 7.778398735074364,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7320219031020077,
+        "heatEvapRateKgS": 3.040557230561862,
+        "massEvapRateKgS": 0.03694772090978403
+      },
+      {
+        "timeS": 2160,
+        "leakRateKgS": 7.776702746574703,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7318622943224316,
+        "heatEvapRateKgS": 3.043894855371705,
+        "massEvapRateKgS": 0.03715860170864008
+      },
+      {
+        "timeS": 2180,
+        "leakRateKgS": 7.775006330072599,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7317026452637218,
+        "heatEvapRateKgS": 3.0471830879741852,
+        "massEvapRateKgS": 0.03736849782630092
+      },
+      {
+        "timeS": 2200,
+        "leakRateKgS": 7.773309447708022,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7315429523628865,
+        "heatEvapRateKgS": 3.0504228934418354,
+        "massEvapRateKgS": 0.03757742101103294
+      },
+      {
+        "timeS": 2220,
+        "leakRateKgS": 7.771612061539092,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.731383212049231,
+        "heatEvapRateKgS": 3.053615209510892,
+        "massEvapRateKgS": 0.037785382769051176
+      },
+      {
+        "timeS": 2240,
+        "leakRateKgS": 7.769914133531058,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7312234207433203,
+        "heatEvapRateKgS": 3.0567609475629745,
+        "massEvapRateKgS": 0.037992394371420865
+      },
+      {
+        "timeS": 2260,
+        "leakRateKgS": 7.768215625545194,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7310635748559348,
+        "heatEvapRateKgS": 3.059860993563235,
+        "massEvapRateKgS": 0.03819846686070346
+      },
+      {
+        "timeS": 2280,
+        "leakRateKgS": 7.766516499327625,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7309036707870179,
+        "heatEvapRateKgS": 3.0629162089572124,
+        "massEvapRateKgS": 0.038403611057358504
+      },
+      {
+        "timeS": 2300,
+        "leakRateKgS": 7.76481671649806,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7307437049246165,
+        "heatEvapRateKgS": 3.0659274315285754,
+        "massEvapRateKgS": 0.03860783756591232
+      },
+      {
+        "timeS": 2320,
+        "leakRateKgS": 7.763116238538429,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7305836736438107,
+        "heatEvapRateKgS": 3.0688954762197533,
+        "massEvapRateKgS": 0.038811156780903855
+      },
+      {
+        "timeS": 2340,
+        "leakRateKgS": 7.761415026781403,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7304235733056343,
+        "heatEvapRateKgS": 3.07182113591732,
+        "massEvapRateKgS": 0.039013578892617355
+      },
+      {
+        "timeS": 2360,
+        "leakRateKgS": 7.75971304239881,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7302634002559836,
+        "heatEvapRateKgS": 3.07470518220389,
+        "massEvapRateKgS": 0.03921511389261128
+      },
+      {
+        "timeS": 2380,
+        "leakRateKgS": 7.758010246389898,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7301031508245142,
+        "heatEvapRateKgS": 3.0775483660782816,
+        "massEvapRateKgS": 0.039415771579052156
+      },
+      {
+        "timeS": 2400,
+        "leakRateKgS": 7.756306599569489,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7299428213235248,
+        "heatEvapRateKgS": 3.080351418645424,
+        "massEvapRateKgS": 0.039615561561861704
+      },
+      {
+        "timeS": 2420,
+        "leakRateKgS": 7.754602062555951,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7297824080468267,
+        "heatEvapRateKgS": 3.08311505177755,
+        "massEvapRateKgS": 0.03981449326768523
+      },
+      {
+        "timeS": 2440,
+        "leakRateKgS": 7.7528965957590295,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7296219072685971,
+        "heatEvapRateKgS": 3.08583995874809,
+        "massEvapRateKgS": 0.040012575944688766
+      },
+      {
+        "timeS": 2460,
+        "leakRateKgS": 7.751190159367504,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7294613152422185,
+        "heatEvapRateKgS": 3.088526814839521,
+        "massEvapRateKgS": 0.040209818667192074
+      },
+      {
+        "timeS": 2480,
+        "leakRateKgS": 7.7494827133366435,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7293006281990977,
+        "heatEvapRateKgS": 3.0911762779264693,
+        "massEvapRateKgS": 0.040406230340144275
+      },
+      {
+        "timeS": 2500,
+        "leakRateKgS": 7.747774217375487,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7291398423474688,
+        "heatEvapRateKgS": 3.093788989035278,
+        "massEvapRateKgS": 0.04060181970344876
+      },
+      {
+        "timeS": 2520,
+        "leakRateKgS": 7.7460646309339,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7289789538711753,
+        "heatEvapRateKgS": 3.0963655728810293,
+        "massEvapRateKgS": 0.04079659533614319
+      },
+      {
+        "timeS": 2540,
+        "leakRateKgS": 7.744353913189415,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.728817958928432,
+        "heatEvapRateKgS": 3.09890663838323,
+        "massEvapRateKgS": 0.04099056566044074
+      },
+      {
+        "timeS": 2560,
+        "leakRateKgS": 7.742642023033835,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7286568536505631,
+        "heatEvapRateKgS": 3.101412779160988,
+        "massEvapRateKgS": 0.04118373894563793
+      },
+      {
+        "timeS": 2580,
+        "leakRateKgS": 7.740928919059599,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7284956341407203,
+        "heatEvapRateKgS": 3.103884574008819,
+        "massEvapRateKgS": 0.041376123311894476
+      },
+      {
+        "timeS": 2600,
+        "leakRateKgS": 7.739214559545867,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7283342964725721,
+        "heatEvapRateKgS": 3.106322587353763,
+        "massEvapRateKgS": 0.041567726733890184
+      },
+      {
+        "timeS": 2620,
+        "leakRateKgS": 7.737498902444339,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7281728366889706,
+        "heatEvapRateKgS": 3.1087273696947633,
+        "massEvapRateKgS": 0.04175855704436349
+      },
+      {
+        "timeS": 2640,
+        "leakRateKgS": 7.735781905364795,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7280112508005895,
+        "heatEvapRateKgS": 3.111099458025195,
+        "massEvapRateKgS": 0.04194862193753665
+      },
+      {
+        "timeS": 2660,
+        "leakRateKgS": 7.734063525560301,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7278495347845327,
+        "heatEvapRateKgS": 3.1134393762390196,
+        "massEvapRateKgS": 0.04213792897243144
+      },
+      {
+        "timeS": 2680,
+        "leakRateKgS": 7.732343719912112,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7276876845829127,
+        "heatEvapRateKgS": 3.1157476355216285,
+        "massEvapRateKgS": 0.04232648557608
+      },
+      {
+        "timeS": 2700,
+        "leakRateKgS": 7.730622444914234,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7275256961013982,
+        "heatEvapRateKgS": 3.1180247347257692,
+        "massEvapRateKgS": 0.042514299046634396
+      },
+      {
+        "timeS": 2720,
+        "leakRateKgS": 7.728899656657622,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7273635652077273,
+        "heatEvapRateKgS": 3.120271160733375,
+        "massEvapRateKgS": 0.04270137655637907
+      },
+      {
+        "timeS": 2740,
+        "leakRateKgS": 7.7271753108140055,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7272012877301844,
+        "heatEvapRateKgS": 3.122487388803821,
+        "massEvapRateKgS": 0.04288772515464938
+      },
+      {
+        "timeS": 2760,
+        "leakRateKgS": 7.725449362619327,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7270388594560427,
+        "heatEvapRateKgS": 3.124673882909181,
+        "massEvapRateKgS": 0.04307335177066015
+      },
+      {
+        "timeS": 2780,
+        "leakRateKgS": 7.723721766856758,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7268762761299652,
+        "heatEvapRateKgS": 3.1268310960571455,
+        "massEvapRateKgS": 0.04325826321624716
+      },
+      {
+        "timeS": 2800,
+        "leakRateKgS": 7.721992477839285,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7267135334523654,
+        "heatEvapRateKgS": 3.1289594706019512,
+        "massEvapRateKgS": 0.04344246618852484
+      },
+      {
+        "timeS": 2820,
+        "leakRateKgS": 7.720261449391852,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7265506270777283,
+        "heatEvapRateKgS": 3.1310594385439448,
+        "massEvapRateKgS": 0.04362596727246339
+      },
+      {
+        "timeS": 2840,
+        "leakRateKgS": 7.718528634833004,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7263875526128809,
+        "heatEvapRateKgS": 3.1331314218182555,
+        "massEvapRateKgS": 0.04380877294338784
+      },
+      {
+        "timeS": 2860,
+        "leakRateKgS": 7.716793986956049,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7262243056152214,
+        "heatEvapRateKgS": 3.1351758325728936,
+        "massEvapRateKgS": 0.04399088956940214
+      },
+      {
+        "timeS": 2880,
+        "leakRateKgS": 7.715057458009696,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7260608815908949,
+        "heatEvapRateKgS": 3.1371930734368756,
+        "massEvapRateKgS": 0.04417232341374072
+      },
+      {
+        "timeS": 2900,
+        "leakRateKgS": 7.713318999678126,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.72589727599292,
+        "heatEvapRateKgS": 3.1391835377786093,
+        "massEvapRateKgS": 0.044353080637050075
+      },
+      {
+        "timeS": 2920,
+        "leakRateKgS": 7.7115785630605105,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7257334842192595,
+        "heatEvapRateKgS": 3.141147609955154,
+        "massEvapRateKgS": 0.04453316729960296
+      },
+      {
+        "timeS": 2940,
+        "leakRateKgS": 7.7098360986499115,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7255695016108363,
+        "heatEvapRateKgS": 3.143085665552337,
+        "massEvapRateKgS": 0.04471258936344713
+      },
+      {
+        "timeS": 2960,
+        "leakRateKgS": 7.70809155631155,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7254053234494865,
+        "heatEvapRateKgS": 3.1449980716165626,
+        "massEvapRateKgS": 0.044891352694491314
+      },
+      {
+        "timeS": 2980,
+        "leakRateKgS": 7.706344885260421,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7252409449558546,
+        "heatEvapRateKgS": 3.1468851868782495,
+        "massEvapRateKgS": 0.04506946306453011
+      },
+      {
+        "timeS": 3000,
+        "leakRateKgS": 7.704596034038205,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7250763612872191,
+        "heatEvapRateKgS": 3.1487473619673585,
+        "massEvapRateKgS": 0.04524692615321012
+      },
+      {
+        "timeS": 3020,
+        "leakRateKgS": 7.702844950489446,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7249115675352515,
+        "heatEvapRateKgS": 3.1505849396213823,
+        "massEvapRateKgS": 0.0454237475499391
+      },
+      {
+        "timeS": 3040,
+        "leakRateKgS": 7.701091581736985,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7247465587237041,
+        "heatEvapRateKgS": 3.1523982548859193,
+        "massEvapRateKgS": 0.045599932755740084
+      },
+      {
+        "timeS": 3060,
+        "leakRateKgS": 7.69933587415657,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7245813298060206,
+        "heatEvapRateKgS": 3.1541876353082485,
+        "massEvapRateKgS": 0.04577548718505213
+      },
+      {
+        "timeS": 3080,
+        "leakRateKgS": 7.697577773350642,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7244158756628694,
+        "heatEvapRateKgS": 3.155953401124093,
+        "massEvapRateKgS": 0.045950416167479656
+      },
+      {
+        "timeS": 3100,
+        "leakRateKgS": 7.695817224121232,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.724250191099592,
+        "heatEvapRateKgS": 3.157695865437794,
+        "massEvapRateKgS": 0.046124724949491575
+      },
+      {
+        "timeS": 3120,
+        "leakRateKgS": 7.694054170441935,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7240842708435669,
+        "heatEvapRateKgS": 3.1594153343962033,
+        "massEvapRateKgS": 0.046298418696072326
+      },
+      {
+        "timeS": 3140,
+        "leakRateKgS": 7.692288555428916,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7239181095414793,
+        "heatEvapRateKgS": 3.161112107356458,
+        "massEvapRateKgS": 0.04647150249232572
+      },
+      {
+        "timeS": 3160,
+        "leakRateKgS": 7.6905203213108955,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7237517017564984,
+        "heatEvapRateKgS": 3.1627864770478853,
+        "massEvapRateKgS": 0.04664398134503365
+      },
+      {
+        "timeS": 3180,
+        "leakRateKgS": 7.688749409398067,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7235850419653502,
+        "heatEvapRateKgS": 3.1644387297281473,
+        "massEvapRateKgS": 0.046815860184170374
+      },
+      {
+        "timeS": 3200,
+        "leakRateKgS": 7.686975760049895,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7234181245552886,
+        "heatEvapRateKgS": 3.1660691453340055,
+        "massEvapRateKgS": 0.04698714386437436
+      },
+      {
+        "timeS": 3220,
+        "leakRateKgS": 7.6851993126417275,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7232509438209526,
+        "heatEvapRateKgS": 3.1676779976266585,
+        "massEvapRateKgS": 0.04715783716637838
+      },
+      {
+        "timeS": 3240,
+        "leakRateKgS": 7.683420005530174,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7230834939611082,
+        "heatEvapRateKgS": 3.1692655543319885,
+        "massEvapRateKgS": 0.047327944798399454
+      },
+      {
+        "timeS": 3260,
+        "leakRateKgS": 7.681637776017184,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7229157690752677,
+        "heatEvapRateKgS": 3.170832077275806,
+        "massEvapRateKgS": 0.047497471397489575
+      },
+      {
+        "timeS": 3280,
+        "leakRateKgS": 7.679852560312751,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7227477631601794,
+        "heatEvapRateKgS": 3.1723778225142985,
+        "massEvapRateKgS": 0.047666421530848456
+      },
+      {
+        "timeS": 3300,
+        "leakRateKgS": 7.678064293496184,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7225794701061842,
+        "heatEvapRateKgS": 3.173903040459749,
+        "massEvapRateKgS": 0.047834799697099216
+      },
+      {
+        "timeS": 3320,
+        "leakRateKgS": 7.67627290947585,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7224108836934258,
+        "heatEvapRateKgS": 3.1754079760017495,
+        "massEvapRateKgS": 0.04800261032752818
+      },
+      {
+        "timeS": 3340,
+        "leakRateKgS": 7.674478340947343,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.722241997587914,
+        "heatEvapRateKgS": 3.1768928686239617,
+        "massEvapRateKgS": 0.048169857787289584
+      },
+      {
+        "timeS": 3360,
+        "leakRateKgS": 7.672680519349955,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7220728053374288,
+        "heatEvapRateKgS": 3.1783579525166403,
+        "massEvapRateKgS": 0.04833654637657627
+      },
+      {
+        "timeS": 3380,
+        "leakRateKgS": 7.670879374821392,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7219033003672587,
+        "heatEvapRateKgS": 3.1798034566849287,
+        "massEvapRateKgS": 0.04850268033175712
+      },
+      {
+        "timeS": 3400,
+        "leakRateKgS": 7.669074836150622,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7217334759757625,
+        "heatEvapRateKgS": 3.181229605053141,
+        "massEvapRateKgS": 0.04866826382648216
+      },
+      {
+        "timeS": 3420,
+        "leakRateKgS": 7.667266830728755,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7215633253297478,
+        "heatEvapRateKgS": 3.182636616565051,
+        "massEvapRateKgS": 0.04883330097275603
+      },
+      {
+        "timeS": 3440,
+        "leakRateKgS": 7.665455284497855,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7213928414596523,
+        "heatEvapRateKgS": 3.1840247052803208,
+        "massEvapRateKgS": 0.04899779582198075
+      },
+      {
+        "timeS": 3460,
+        "leakRateKgS": 7.663640121897573,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7212220172545231,
+        "heatEvapRateKgS": 3.185394080467163,
+        "massEvapRateKgS": 0.049161752365968286
+      },
+      {
+        "timeS": 3480,
+        "leakRateKgS": 7.661821265809455,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7210508454567738,
+        "heatEvapRateKgS": 3.186744946691301,
+        "massEvapRateKgS": 0.04932517453792372
+      },
+      {
+        "timeS": 3500,
+        "leakRateKgS": 7.659998637498831,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7208793186567174,
+        "heatEvapRateKgS": 3.188077503901303,
+        "massEvapRateKgS": 0.04948806621339973
+      },
+      {
+        "timeS": 3520,
+        "leakRateKgS": 7.658172156554114,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7207074292868523,
+        "heatEvapRateKgS": 3.1893919475104098,
+        "massEvapRateKgS": 0.0496504312112229
+      },
+      {
+        "timeS": 3540,
+        "leakRateKgS": 7.656341740823389,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7205351696158957,
+        "heatEvapRateKgS": 3.1906884684748276,
+        "massEvapRateKgS": 0.04981227329439235
+      },
+      {
+        "timeS": 3560,
+        "leakRateKgS": 7.654507306348104,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7203625317425428,
+        "heatEvapRateKgS": 3.1919672533686603,
+        "massEvapRateKgS": 0.04997359617095154
+      },
+      {
+        "timeS": 3580,
+        "leakRateKgS": 7.652668767293736,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.720189507588942,
+        "heatEvapRateKgS": 3.193228484455381,
+        "massEvapRateKgS": 0.05013440349483332
+      },
+      {
+        "timeS": 3600,
+        "leakRateKgS": 7.650826035877203,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7200160888938636,
+        "heatEvapRateKgS": 3.1944723397560764,
+        "massEvapRateKgS": 0.05029469886667913
+      },
+      {
+        "timeS": 3620,
+        "leakRateKgS": 7.64897902229088,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7198422672055488,
+        "heatEvapRateKgS": 3.1956989931143607,
+        "massEvapRateKgS": 0.050454485834632454
+      },
+      {
+        "timeS": 3640,
+        "leakRateKgS": 7.647127634622958,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7196680338742155,
+        "heatEvapRateKgS": 3.196908614257976,
+        "massEvapRateKgS": 0.05061376789510711
+      },
+      {
+        "timeS": 3660,
+        "leakRateKgS": 7.645271778773992,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.719493380044203,
+        "heatEvapRateKgS": 3.198101368857314,
+        "massEvapRateKgS": 0.05077254849353076
+      },
+      {
+        "timeS": 3680,
+        "leakRateKgS": 7.643411358369331,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7193182966457334,
+        "heatEvapRateKgS": 3.1992774185805852,
+        "massEvapRateKgS": 0.050930831025063836
+      },
+      {
+        "timeS": 3700,
+        "leakRateKgS": 7.64154627466723,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7191427743862612,
+        "heatEvapRateKgS": 3.200436921145859,
+        "massEvapRateKgS": 0.05108861883529431
+      },
+      {
+        "timeS": 3720,
+        "leakRateKgS": 7.639676426462343,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7189668037413929,
+        "heatEvapRateKgS": 3.201580030369956,
+        "massEvapRateKgS": 0.051245915220908565
+      },
+      {
+        "timeS": 3740,
+        "leakRateKgS": 7.637801709984313,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7187903749453431,
+        "heatEvapRateKgS": 3.2027068962140497,
+        "massEvapRateKgS": 0.05140272343033849
+      },
+      {
+        "timeS": 3760,
+        "leakRateKgS": 7.6359220187911365,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7186134779808986,
+        "heatEvapRateKgS": 3.2038176648261705,
+        "massEvapRateKgS": 0.05155904666438514
+      },
+      {
+        "timeS": 3780,
+        "leakRateKgS": 7.634037243656982,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7184361025688616,
+        "heatEvapRateKgS": 3.2049124785804843,
+        "massEvapRateKgS": 0.05171488807681908
+      },
+      {
+        "timeS": 3800,
+        "leakRateKgS": 7.6321472724540635,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7182582381569319,
+        "heatEvapRateKgS": 3.2059914761132937,
+        "massEvapRateKgS": 0.05187025077495736
+      },
+      {
+        "timeS": 3820,
+        "leakRateKgS": 7.630251990028207,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7180798739079979,
+        "heatEvapRateKgS": 3.2070547923558026,
+        "massEvapRateKgS": 0.052025137820217525
+      },
+      {
+        "timeS": 3840,
+        "leakRateKgS": 7.6283512780676626,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7179009986877893,
+        "heatEvapRateKgS": 3.2081025585635503,
+        "massEvapRateKgS": 0.05217955222864836
+      },
+      {
+        "timeS": 3860,
+        "leakRateKgS": 7.626445014964702,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7177216010518529,
+        "heatEvapRateKgS": 3.2091349023425897,
+        "massEvapRateKgS": 0.05233349697143776
+      },
+      {
+        "timeS": 3880,
+        "leakRateKgS": 7.624533075669522,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7175416692318033,
+        "heatEvapRateKgS": 3.210151947672047,
+        "massEvapRateKgS": 0.052486974975396984
+      },
+      {
+        "timeS": 3900,
+        "leakRateKgS": 7.622615331535889,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7173611911207963,
+        "heatEvapRateKgS": 3.211153814923432,
+        "massEvapRateKgS": 0.05263998912342229
+      },
+      {
+        "timeS": 3920,
+        "leakRateKgS": 7.620691650157947,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7171801542581716,
+        "heatEvapRateKgS": 3.21214062087616,
+        "massEvapRateKgS": 0.052792542254932615
+      },
+      {
+        "timeS": 3940,
+        "leakRateKgS": 7.618761895197565,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7169985458132034,
+        "heatEvapRateKgS": 3.213112478729573,
+        "massEvapRateKgS": 0.05294463716628402
+      },
+      {
+        "timeS": 3960,
+        "leakRateKgS": 7.616825926201524,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7168163525678972,
+        "heatEvapRateKgS": 3.2140694981110456,
+        "massEvapRateKgS": 0.0530962766111599
+      },
+      {
+        "timeS": 3980,
+        "leakRateKgS": 7.614883598407781,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7166335608987568,
+        "heatEvapRateKgS": 3.2150117850803426,
+        "massEvapRateKgS": 0.05324746330093768
+      },
+      {
+        "timeS": 4000,
+        "leakRateKgS": 7.612934762540022,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7164501567574499,
+        "heatEvapRateKgS": 3.2159394421297818,
+        "massEvapRateKgS": 0.05339819990503023
+      },
+      {
+        "timeS": 4020,
+        "leakRateKgS": 7.610979264589589,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7162661256502847,
+        "heatEvapRateKgS": 3.2168525681803075,
+        "massEvapRateKgS": 0.053548489051202866
+      },
+      {
+        "timeS": 4040,
+        "leakRateKgS": 7.6090169455838135,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.716081452616409,
+        "heatEvapRateKgS": 3.2177512585731884,
+        "massEvapRateKgS": 0.05369833332586462
+      },
+      {
+        "timeS": 4060,
+        "leakRateKgS": 7.6070476413397,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7158961222046286,
+        "heatEvapRateKgS": 3.218635605057082,
+        "massEvapRateKgS": 0.05384773527433349
+      },
+      {
+        "timeS": 4080,
+        "leakRateKgS": 7.6050711822017965,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7157101184487388,
+        "heatEvapRateKgS": 3.219505695770413,
+        "massEvapRateKgS": 0.05399669740107492
+      },
+      {
+        "timeS": 4100,
+        "leakRateKgS": 7.603087392762976,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7155234248412473,
+        "heatEvapRateKgS": 3.220361615218665,
+        "massEvapRateKgS": 0.054145222169912854
+      },
+      {
+        "timeS": 4120,
+        "leakRateKgS": 7.601096091566731,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7153360243053566,
+        "heatEvapRateKgS": 3.2212034442464486,
+        "massEvapRateKgS": 0.05429331200421232
+      },
+      {
+        "timeS": 4140,
+        "leakRateKgS": 7.599097090789452,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7151478991650642,
+        "heatEvapRateKgS": 3.222031260003881,
+        "massEvapRateKgS": 0.054440969287032695
+      },
+      {
+        "timeS": 4160,
+        "leakRateKgS": 7.597090195901007,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7149590311132193,
+        "heatEvapRateKgS": 3.222845135907189,
+        "massEvapRateKgS": 0.05458819636125053
+      },
+      {
+        "timeS": 4180,
+        "leakRateKgS": 7.5950752053017485,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7147694011773624,
+        "heatEvapRateKgS": 3.2236451415929643,
+        "massEvapRateKgS": 0.05473499552965081
+      },
+      {
+        "timeS": 4200,
+        "leakRateKgS": 7.593051909933914,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7145789896831534,
+        "heatEvapRateKgS": 3.224431342865743,
+        "massEvapRateKgS": 0.0548813690549851
+      },
+      {
+        "timeS": 4220,
+        "leakRateKgS": 7.591020092865151,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7143877762151777,
+        "heatEvapRateKgS": 3.225203801638417,
+        "massEvapRateKgS": 0.055027319159995106
+      },
+      {
+        "timeS": 4240,
+        "leakRateKgS": 7.588979528841649,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7141957395748921,
+        "heatEvapRateKgS": 3.2259625758650956,
+        "massEvapRateKgS": 0.055172848027400176
+      },
+      {
+        "timeS": 4260,
+        "leakRateKgS": 7.586929983808131,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7140028577354509,
+        "heatEvapRateKgS": 3.2267077194657716,
+        "massEvapRateKgS": 0.055317957799846704
+      },
+      {
+        "timeS": 4280,
+        "leakRateKgS": 7.584871214391568,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7138091077931181,
+        "heatEvapRateKgS": 3.227439282242135,
+        "massEvapRateKgS": 0.05546265057981713
+      },
+      {
+        "timeS": 4300,
+        "leakRateKgS": 7.5828029673452395,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7136144659149497,
+        "heatEvapRateKgS": 3.2281573097839042,
+        "massEvapRateKgS": 0.05560692842949662
+      },
+      {
+        "timeS": 4320,
+        "leakRateKgS": 7.5807249789492825,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7134189072823776,
+        "heatEvapRateKgS": 3.228861843364971,
+        "massEvapRateKgS": 0.05575079337059461
+      },
+      {
+        "timeS": 4340,
+        "leakRateKgS": 7.578636974363474,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7132224060303014,
+        "heatEvapRateKgS": 3.2295529198284285,
+        "massEvapRateKgS": 0.0558942473841184
+      },
+      {
+        "timeS": 4360,
+        "leakRateKgS": 7.576538666927468,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7130249351812342,
+        "heatEvapRateKgS": 3.2302305714594675,
+        "massEvapRateKgS": 0.05603729241009545
+      },
+      {
+        "timeS": 4380,
+        "leakRateKgS": 7.574429757403131,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7128264665739984,
+        "heatEvapRateKgS": 3.230894825845295,
+        "massEvapRateKgS": 0.05617993034724107
+      },
+      {
+        "timeS": 4400,
+        "leakRateKgS": 7.572309933152965,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7126269707864077,
+        "heatEvapRateKgS": 3.2315457057205967,
+        "massEvapRateKgS": 0.056322163052567195
+      },
+      {
+        "timeS": 4420,
+        "leakRateKgS": 7.570178867247872,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7124264170512993,
+        "heatEvapRateKgS": 3.2321832287974566,
+        "massEvapRateKgS": 0.05646399234092816
+      },
+      {
+        "timeS": 4440,
+        "leakRateKgS": 7.568036217496581,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7122247731651934,
+        "heatEvapRateKgS": 3.232807407578096,
+        "massEvapRateKgS": 0.056605419984498126
+      },
+      {
+        "timeS": 4460,
+        "leakRateKgS": 7.565881625388151,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7120220053887731,
+        "heatEvapRateKgS": 3.2334182491487318,
+        "massEvapRateKgS": 0.05674644771217485
+      },
+      {
+        "timeS": 4480,
+        "leakRateKgS": 7.563714714937727,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7118180783382584,
+        "heatEvapRateKgS": 3.2340157549527007,
+        "massEvapRateKgS": 0.056887077208903444
+      },
+      {
+        "timeS": 4500,
+        "leakRateKgS": 7.561535091424452,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7116129548666319,
+        "heatEvapRateKgS": 3.234599920540652,
+        "massEvapRateKgS": 0.05702731011491298
+      },
+      {
+        "timeS": 4520,
+        "leakRateKgS": 7.559342340008836,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7114065959335202,
+        "heatEvapRateKgS": 3.235170735295342,
+        "massEvapRateKgS": 0.05716714802485827
+      },
+      {
+        "timeS": 4540,
+        "leakRateKgS": 7.557136024215133,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7111989604623699,
+        "heatEvapRateKgS": 3.235728182128277,
+        "massEvapRateKgS": 0.05730659248685781
+      },
+      {
+        "timeS": 4560,
+        "leakRateKgS": 7.55491568426209,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7109900051833572,
+        "heatEvapRateKgS": 3.2362722371449038,
+        "massEvapRateKgS": 0.05744564500141738
+      },
+      {
+        "timeS": 4580,
+        "leakRateKgS": 7.552680835223034,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7107796844602323,
+        "heatEvapRateKgS": 3.2368028692749684,
+        "massEvapRateKgS": 0.05758430702022875
+      },
+      {
+        "timeS": 4600,
+        "leakRateKgS": 7.550430964993294,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7105679500990351,
+        "heatEvapRateKgS": 3.23732003986351,
+        "massEvapRateKgS": 0.05772257994482942
+      },
+      {
+        "timeS": 4620,
+        "leakRateKgS": 7.548165532039504,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7103547511362839,
+        "heatEvapRateKgS": 3.2378237022180665,
+        "massEvapRateKgS": 0.05786046512510955
+      },
+      {
+        "timeS": 4640,
+        "leakRateKgS": 7.545883962901319,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7101400336038614,
+        "heatEvapRateKgS": 3.238313801106204,
+        "massEvapRateKgS": 0.05799796385764834
+      },
+      {
+        "timeS": 4660,
+        "leakRateKgS": 7.543585649411085,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7099237402673603,
+        "heatEvapRateKgS": 3.2387902721973765,
+        "massEvapRateKgS": 0.058135077383861075
+      },
+      {
+        "timeS": 4680,
+        "leakRateKgS": 7.541269945591332,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7097058103341065,
+        "heatEvapRateKgS": 3.239253041441264,
+        "massEvapRateKgS": 0.05827180688793426
+      },
+      {
+        "timeS": 4700,
+        "leakRateKgS": 7.538936164182836,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7094861791264174,
+        "heatEvapRateKgS": 3.2397020243742807,
+        "massEvapRateKgS": 0.05840815349452309
+      },
+      {
+        "timeS": 4720,
+        "leakRateKgS": 7.5365835727476425,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7092647777148586,
+        "heatEvapRateKgS": 3.2401371253439444,
+        "massEvapRateKgS": 0.05854411826618165
+      },
+      {
+        "timeS": 4740,
+        "leakRateKgS": 7.534211389281188,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7090415325053028,
+        "heatEvapRateKgS": 3.2405582366391967,
+        "massEvapRateKgS": 0.0586797022004911
+      },
+      {
+        "timeS": 4760,
+        "leakRateKgS": 7.531818777255138,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7088163647724125,
+        "heatEvapRateKgS": 3.24096523751277,
+        "massEvapRateKgS": 0.058814906226845556
+      },
+      {
+        "timeS": 4780,
+        "leakRateKgS": 7.529404839997337,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7085891901307403,
+        "heatEvapRateKgS": 3.241357993078868,
+        "massEvapRateKgS": 0.05894973120284861
+      },
+      {
+        "timeS": 4800,
+        "leakRateKgS": 7.526968614296309,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7083599179328506,
+        "heatEvapRateKgS": 3.2417363530662677,
+        "massEvapRateKgS": 0.05908417791026423
+      },
+      {
+        "timeS": 4820,
+        "leakRateKgS": 7.524509063094394,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.708128450581674,
+        "heatEvapRateKgS": 3.2421001504032985,
+        "massEvapRateKgS": 0.059218247050457105
+      },
+      {
+        "timeS": 4840,
+        "leakRateKgS": 7.522025067104306,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7078946827415449,
+        "heatEvapRateKgS": 3.2424491996058755,
+        "massEvapRateKgS": 0.059351939239243326
+      },
+      {
+        "timeS": 4860,
+        "leakRateKgS": 7.519515415147162,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.707658500428917,
+        "heatEvapRateKgS": 3.242783294934223,
+        "massEvapRateKgS": 0.05948525500105856
+      },
+      {
+        "timeS": 4880,
+        "leakRateKgS": 7.516978792963321,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7074197799593562,
+        "heatEvapRateKgS": 3.2431022082758894,
+        "massEvapRateKgS": 0.059618194762331114
+      },
+      {
+        "timeS": 4900,
+        "leakRateKgS": 7.514413770187868,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7071783867218099,
+        "heatEvapRateKgS": 3.2434056867034493,
+        "massEvapRateKgS": 0.05975075884392365
+      },
+      {
+        "timeS": 4920,
+        "leakRateKgS": 7.511818785105827,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.706934173743924,
+        "heatEvapRateKgS": 3.243693449642785,
+        "massEvapRateKgS": 0.0598829474524783
+      },
+      {
+        "timeS": 4940,
+        "leakRateKgS": 7.509192126702383,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7066869800027986,
+        "heatEvapRateKgS": 3.243965185572607,
+        "massEvapRateKgS": 0.060014760670461874
+      },
+      {
+        "timeS": 4960,
+        "leakRateKgS": 7.506531913392446,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7064366284232354,
+        "heatEvapRateKgS": 3.2442205481548405,
+        "massEvapRateKgS": 0.06014619844465972
+      },
+      {
+        "timeS": 4980,
+        "leakRateKgS": 7.503836067640052,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7061829234891803,
+        "heatEvapRateKgS": 3.2444591516695014,
+        "massEvapRateKgS": 0.06027726057280527
+      },
+      {
+        "timeS": 5000,
+        "leakRateKgS": 7.501102285444856,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7059256483721088,
+        "heatEvapRateKgS": 3.244680565591973,
+        "massEvapRateKgS": 0.06040794668795117
+      },
+      {
+        "timeS": 5020,
+        "leakRateKgS": 7.498327999355942,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7056645614502726,
+        "heatEvapRateKgS": 3.2448843081032512,
+        "massEvapRateKgS": 0.060538256240080746
+      },
+      {
+        "timeS": 5040,
+        "leakRateKgS": 7.4955103332366155,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7053993920516308,
+        "heatEvapRateKgS": 3.2450698382592087,
+        "massEvapRateKgS": 0.060668188474316834
+      },
+      {
+        "timeS": 5060,
+        "leakRateKgS": 7.4926460463934985,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7051298351958638,
+        "heatEvapRateKgS": 3.2452365464565154,
+        "massEvapRateKgS": 0.06079774240489111
+      },
+      {
+        "timeS": 5080,
+        "leakRateKgS": 7.48973146381612,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7048555450292489,
+        "heatEvapRateKgS": 3.245383742708146,
+        "massEvapRateKgS": 0.06092691678377221
+      },
+      {
+        "timeS": 5100,
+        "leakRateKgS": 7.486762388019098,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7045761265281648,
+        "heatEvapRateKgS": 3.2455106420651085,
+        "massEvapRateKgS": 0.06105571006248006
+      },
+      {
+        "timeS": 5120,
+        "leakRateKgS": 7.4837339861285725,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7042911248728415,
+        "heatEvapRateKgS": 3.2456163462643253,
+        "massEvapRateKgS": 0.06118412034508658
+      },
+      {
+        "timeS": 5140,
+        "leakRateKgS": 7.4806406430634285,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7040000116303069,
+        "heatEvapRateKgS": 3.245699820302414,
+        "massEvapRateKgS": 0.061312145329637024
+      },
+      {
+        "timeS": 5160,
+        "leakRateKgS": 7.477475767345585,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7037021664792722,
+        "heatEvapRateKgS": 3.245759862059117,
+        "massEvapRateKgS": 0.06143978223408895
+      },
+      {
+        "timeS": 5180,
+        "leakRateKgS": 7.474231529208146,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7033968525635974,
+        "heatEvapRateKgS": 3.2457950621943112,
+        "massEvapRateKgS": 0.06156702770113072
+      },
+      {
+        "timeS": 5200,
+        "leakRateKgS": 7.470898499393526,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.703083182499733,
+        "heatEvapRateKgS": 3.2458037500985832,
+        "massEvapRateKgS": 0.06169387767351725
+      },
+      {
+        "timeS": 5220,
+        "leakRateKgS": 7.467465137811361,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7027600702545249,
+        "heatEvapRateKgS": 3.2457839192698827,
+        "massEvapRateKgS": 0.06182032722713106
+      },
+      {
+        "timeS": 5240,
+        "leakRateKgS": 7.463917047010817,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7024261608898017,
+        "heatEvapRateKgS": 3.245733121310695,
+        "massEvapRateKgS": 0.06194637034147984
+      },
+      {
+        "timeS": 5260,
+        "leakRateKgS": 7.460235841317148,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7020797241372811,
+        "heatEvapRateKgS": 3.245648310120621,
+        "massEvapRateKgS": 0.0620719995740342
+      },
+      {
+        "timeS": 5280,
+        "leakRateKgS": 7.4563973547273,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7017184857443632,
+        "heatEvapRateKgS": 3.245525603115586,
+        "massEvapRateKgS": 0.06219720557977977
+      },
+      {
+        "timeS": 5300,
+        "leakRateKgS": 7.452368635931101,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7013393446768119,
+        "heatEvapRateKgS": 3.245359895613305,
+        "massEvapRateKgS": 0.06232197636680205
+      },
+      {
+        "timeS": 5320,
+        "leakRateKgS": 7.448102528222628,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7009378630364439,
+        "heatEvapRateKgS": 3.2451441944148813,
+        "massEvapRateKgS": 0.062446296066881624
+      },
+      {
+        "timeS": 5340,
+        "leakRateKgS": 7.443526882308979,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7005072508830031,
+        "heatEvapRateKgS": 3.244868355541641,
+        "massEvapRateKgS": 0.06257014272097755
+      },
+      {
+        "timeS": 5360,
+        "leakRateKgS": 7.438519827708772,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.7000360390356533,
+        "heatEvapRateKgS": 3.2445163555599743,
+        "massEvapRateKgS": 0.06269348375425082
+      },
+      {
+        "timeS": 5380,
+        "leakRateKgS": 7.43283875183873,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.6995013953240494,
+        "heatEvapRateKgS": 3.2440590002414225,
+        "massEvapRateKgS": 0.06281626463924005
+      },
+      {
+        "timeS": 5400,
+        "leakRateKgS": 7.425800135875391,
+        "transferRateKgS": 10.31258618542385,
+        "flashRateKgS": 0.4649558364520348,
+        "heatEvapRateKgS": 3.1489764362018215,
+        "massEvapRateKgS": 0.06281626463924005
+      },
+      {
+        "timeS": 5420,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 3.0795752866589003,
+        "massEvapRateKgS": 0.06281626463924005
+      },
+      {
+        "timeS": 5440,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 3.0319763513688565,
+        "massEvapRateKgS": 0.061438138490076746
+      },
+      {
+        "timeS": 5460,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.9934483701953587,
+        "massEvapRateKgS": 0.06083235519970983
+      },
+      {
+        "timeS": 5480,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.9602774944121246,
+        "massEvapRateKgS": 0.060233822277008756
+      },
+      {
+        "timeS": 5500,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.930759183094783,
+        "massEvapRateKgS": 0.05964149862520871
+      },
+      {
+        "timeS": 5520,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.9039413506764533,
+        "massEvapRateKgS": 0.05905467511265532
+      },
+      {
+        "timeS": 5540,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.8792275844848447,
+        "massEvapRateKgS": 0.05847282784632377
+      },
+      {
+        "timeS": 5560,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.8562147226901966,
+        "massEvapRateKgS": 0.05789554885830685
+      },
+      {
+        "timeS": 5580,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.8346149707629316,
+        "massEvapRateKgS": 0.057322508466816656
+      },
+      {
+        "timeS": 5600,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.814214278661511,
+        "massEvapRateKgS": 0.05675343281888121
+      },
+      {
+        "timeS": 5620,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.794848254024675,
+        "massEvapRateKgS": 0.056188089543018
+      },
+      {
+        "timeS": 5640,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.776387344155234,
+        "massEvapRateKgS": 0.05562627809310944
+      },
+      {
+        "timeS": 5660,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.758727266129986,
+        "massEvapRateKgS": 0.055067822977066284
+      },
+      {
+        "timeS": 5680,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.741782576589011,
+        "massEvapRateKgS": 0.05451256884779928
+      },
+      {
+        "timeS": 5700,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.7254822064728197,
+        "massEvapRateKgS": 0.05396037684500132
+      },
+      {
+        "timeS": 5720,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.709766272725074,
+        "massEvapRateKgS": 0.0534111218051619
+      },
+      {
+        "timeS": 5740,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.694583746825475,
+        "massEvapRateKgS": 0.05286469009126502
+      },
+      {
+        "timeS": 5760,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.6798907142749635,
+        "massEvapRateKgS": 0.052320977875449384
+      },
+      {
+        "timeS": 5780,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.6656490515210276,
+        "massEvapRateKgS": 0.051779889759678975
+      },
+      {
+        "timeS": 5800,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.6518254040109026,
+        "massEvapRateKgS": 0.051241337653248654
+      },
+      {
+        "timeS": 5820,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.638390385541863,
+        "massEvapRateKgS": 0.05070523984858437
+      },
+      {
+        "timeS": 5840,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.6253179429574898,
+        "massEvapRateKgS": 0.05017152025232975
+      },
+      {
+        "timeS": 5860,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.6125848462346255,
+        "massEvapRateKgS": 0.049640107739593736
+      },
+      {
+        "timeS": 5880,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.6001702749446425,
+        "massEvapRateKgS": 0.04911093560700339
+      },
+      {
+        "timeS": 5900,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.588055479693864,
+        "massEvapRateKgS": 0.04858394110584729
+      },
+      {
+        "timeS": 5920,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.5762235025479496,
+        "massEvapRateKgS": 0.04805906504075288
+      },
+      {
+        "timeS": 5940,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.5646589443303864,
+        "massEvapRateKgS": 0.047536251422449376
+      },
+      {
+        "timeS": 5960,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.5533477695202533,
+        "massEvapRateKgS": 0.04701544716552011
+      },
+      {
+        "timeS": 5980,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.5422771415698273,
+        "massEvapRateKgS": 0.04649660182384922
+      },
+      {
+        "timeS": 6000,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.531435283029807,
+        "massEvapRateKgS": 0.04597966735786171
+      },
+      {
+        "timeS": 6020,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.5208113560549745,
+        "massEvapRateKgS": 0.045464597928744965
+      },
+      {
+        "timeS": 6040,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.5103953597684527,
+        "massEvapRateKgS": 0.04495134971569902
+      },
+      {
+        "timeS": 6060,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.5001780416606367,
+        "massEvapRateKgS": 0.04443988075294568
+      },
+      {
+        "timeS": 6080,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.4901508207420275,
+        "massEvapRateKgS": 0.04393015078377438
+      },
+      {
+        "timeS": 6100,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.480305720595106,
+        "massEvapRateKgS": 0.04342212112934477
+      },
+      {
+        "timeS": 6120,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.4706353108069754,
+        "massEvapRateKgS": 0.04291575457032513
+      },
+      {
+        "timeS": 6140,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.461132655532594,
+        "massEvapRateKgS": 0.04241101523973992
+      },
+      {
+        "timeS": 6160,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.4517912681532446,
+        "massEvapRateKgS": 0.04190786852564168
+      },
+      {
+        "timeS": 6180,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.4426050711681815,
+        "massEvapRateKgS": 0.04140628098242266
+      },
+      {
+        "timeS": 6200,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.4335683605979535,
+        "massEvapRateKgS": 0.040906220249748215
+      },
+      {
+        "timeS": 6220,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.4246757742929894,
+        "massEvapRateKgS": 0.040407654978233364
+      },
+      {
+        "timeS": 6240,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.4159222636347883,
+        "massEvapRateKgS": 0.03991055476110075
+      },
+      {
+        "timeS": 6260,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.407303068195243,
+        "massEvapRateKgS": 0.039414890071157
+      },
+      {
+        "timeS": 6280,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.398813692983679,
+        "massEvapRateKgS": 0.038920632202508125
+      },
+      {
+        "timeS": 6300,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.390449887965034,
+        "massEvapRateKgS": 0.03842775321650563
+      },
+      {
+        "timeS": 6320,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.3822076295773256,
+        "massEvapRateKgS": 0.03793622589147544
+      },
+      {
+        "timeS": 6340,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.374083104014347,
+        "massEvapRateKgS": 0.037446023675834036
+      },
+      {
+        "timeS": 6360,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.366072692071219,
+        "massEvapRateKgS": 0.03695712064424019
+      },
+      {
+        "timeS": 6380,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.3581729553773405,
+        "massEvapRateKgS": 0.036469491456469355
+      },
+      {
+        "timeS": 6400,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.3503806238641785,
+        "massEvapRateKgS": 0.03598311131873065
+      },
+      {
+        "timeS": 6420,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.342692584334712,
+        "massEvapRateKgS": 0.03549795594717489
+      },
+      {
+        "timeS": 6440,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.3351058700180998,
+        "massEvapRateKgS": 0.03501400153336671
+      },
+      {
+        "timeS": 6460,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.3276176510074342,
+        "massEvapRateKgS": 0.034531224711515214
+      },
+      {
+        "timeS": 6480,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.3202252254906877,
+        "massEvapRateKgS": 0.03404960252727603
+      },
+      {
+        "timeS": 6500,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.3129260116956387,
+        "massEvapRateKgS": 0.033569112407953405
+      },
+      {
+        "timeS": 6520,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.305717540478771,
+        "massEvapRateKgS": 0.033089732133945164
+      },
+      {
+        "timeS": 6540,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.298597448496076,
+        "massEvapRateKgS": 0.03261143981128442
+      },
+      {
+        "timeS": 6560,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2915634719007256,
+        "massEvapRateKgS": 0.03213421384514286
+      },
+      {
+        "timeS": 6580,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.284613440518557,
+        "massEvapRateKgS": 0.031658032914168265
+      },
+      {
+        "timeS": 6600,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.27774527245769,
+        "massEvapRateKgS": 0.031182875945536582
+      },
+      {
+        "timeS": 6620,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2709569691132168,
+        "massEvapRateKgS": 0.030708722090604414
+      },
+      {
+        "timeS": 6640,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.264246610532032,
+        "massEvapRateKgS": 0.030235550701052855
+      },
+      {
+        "timeS": 6660,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2576123511064368,
+        "massEvapRateKgS": 0.02976334130541681
+      },
+      {
+        "timeS": 6680,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2510524155683305,
+        "massEvapRateKgS": 0.029292073585896933
+      },
+      {
+        "timeS": 6700,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2445650952586655,
+        "massEvapRateKgS": 0.02882172735535276
+      },
+      {
+        "timeS": 6720,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2381487446493114,
+        "massEvapRateKgS": 0.028352282534376057
+      },
+      {
+        "timeS": 6740,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2318017780966346,
+        "massEvapRateKgS": 0.027883719128343233
+      },
+      {
+        "timeS": 6760,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2255226668081756,
+        "massEvapRateKgS": 0.027416017204344428
+      },
+      {
+        "timeS": 6780,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2193099360054735,
+        "massEvapRateKgS": 0.026949156867884093
+      },
+      {
+        "timeS": 6800,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2131621622676994,
+        "massEvapRateKgS": 0.026483118239244884
+      },
+      {
+        "timeS": 6820,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2070779710421595,
+        "massEvapRateKgS": 0.02601788142940185
+      },
+      {
+        "timeS": 6840,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.2010560343089622,
+        "massEvapRateKgS": 0.02555342651536826
+      },
+      {
+        "timeS": 6860,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.1950950683883095,
+        "massEvapRateKgS": 0.025089733514847213
+      },
+      {
+        "timeS": 6880,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.1891938318798188,
+        "massEvapRateKgS": 0.024626782360054614
+      },
+      {
+        "timeS": 6900,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.1833511237243335,
+        "massEvapRateKgS": 0.02416455287056889
+      },
+      {
+        "timeS": 6920,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.177565781379271,
+        "massEvapRateKgS": 0.02370302472505085
+      },
+      {
+        "timeS": 6940,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.171836679099579,
+        "massEvapRateKgS": 0.023242177431662788
+      },
+      {
+        "timeS": 6960,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.166162726316796,
+        "massEvapRateKgS": 0.022781990296999642
+      },
+      {
+        "timeS": 6980,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.160542866109467,
+        "massEvapRateKgS": 0.02232244239332559
+      },
+      {
+        "timeS": 7000,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.1549760737586494,
+        "massEvapRateKgS": 0.021863512523887237
+      },
+      {
+        "timeS": 7020,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.1494613553828135,
+        "massEvapRateKgS": 0.0214051791860485
+      },
+      {
+        "timeS": 7040,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.1439977466467885,
+        "massEvapRateKgS": 0.020947420531961847
+      },
+      {
+        "timeS": 7060,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.138584311539888,
+        "massEvapRateKgS": 0.02049021432645548
+      },
+      {
+        "timeS": 7080,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.133220141218751,
+        "massEvapRateKgS": 0.020033537901774617
+      },
+      {
+        "timeS": 7100,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.127904352910721,
+        "massEvapRateKgS": 0.019577368108767083
+      },
+      {
+        "timeS": 7120,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.122636088873887,
+        "massEvapRateKgS": 0.019121681264046765
+      },
+      {
+        "timeS": 7140,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.117414515410263,
+        "massEvapRateKgS": 0.01866645309260223
+      },
+      {
+        "timeS": 7160,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.1122388219288317,
+        "massEvapRateKgS": 0.0182116586652397
+      },
+      {
+        "timeS": 7180,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.107108220055318,
+        "massEvapRateKgS": 0.01775727233015677
+      },
+      {
+        "timeS": 7200,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.1020219427859272,
+        "massEvapRateKgS": 0.017303267637833897
+      },
+      {
+        "timeS": 7220,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.096979243682389,
+        "massEvapRateKgS": 0.016849617258299476
+      },
+      {
+        "timeS": 7240,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0919793961058235,
+        "massEvapRateKgS": 0.016396292889668058
+      },
+      {
+        "timeS": 7260,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0870216924872538,
+        "massEvapRateKgS": 0.015943265156663087
+      },
+      {
+        "timeS": 7280,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.082105443632469,
+        "massEvapRateKgS": 0.0154905034976083
+      },
+      {
+        "timeS": 7300,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0772299780594277,
+        "massEvapRateKgS": 0.015037976038096534
+      },
+      {
+        "timeS": 7320,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0723946413663006,
+        "massEvapRateKgS": 0.014585649449208173
+      },
+      {
+        "timeS": 7340,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.067598795628357,
+        "massEvapRateKgS": 0.01413348878773891
+      },
+      {
+        "timeS": 7360,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0628418188221946,
+        "massEvapRateKgS": 0.013681457315387387
+      },
+      {
+        "timeS": 7380,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0581231042757686,
+        "massEvapRateKgS": 0.013229516293220184
+      },
+      {
+        "timeS": 7400,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.053442060142772,
+        "massEvapRateKgS": 0.012777624746940431
+      },
+      {
+        "timeS": 7420,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.048798108900134,
+        "massEvapRateKgS": 0.012325739197488859
+      },
+      {
+        "timeS": 7440,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0441906868673083,
+        "massEvapRateKgS": 0.011873813350239662
+      },
+      {
+        "timeS": 7460,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0396192437463045,
+        "massEvapRateKgS": 0.011421797734431527
+      },
+      {
+        "timeS": 7480,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.035083242181266,
+        "massEvapRateKgS": 0.01096963928237856
+      },
+      {
+        "timeS": 7500,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.030582157336665,
+        "massEvapRateKgS": 0.010517280835271104
+      },
+      {
+        "timeS": 7520,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0261154764931155,
+        "massEvapRateKgS": 0.010064660558771218
+      },
+      {
+        "timeS": 7540,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.021682698659929,
+        "massEvapRateKgS": 0.00961171124679974
+      },
+      {
+        "timeS": 7560,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0172833342035417,
+        "massEvapRateKgS": 0.009158359485421383
+      },
+      {
+        "timeS": 7580,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0129169044910507,
+        "massEvapRateKgS": 0.00870452463985369
+      },
+      {
+        "timeS": 7600,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0085829415480876,
+        "massEvapRateKgS": 0.00825011761529506
+      },
+      {
+        "timeS": 7620,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.0042809877303553,
+        "massEvapRateKgS": 0.007795039324866875
+      },
+      {
+        "timeS": 7640,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 2.00001059540814,
+        "massEvapRateKgS": 0.007339178772968455
+      },
+      {
+        "timeS": 7660,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9957713266631383,
+        "massEvapRateKgS": 0.0068824106257151215
+      },
+      {
+        "timeS": 7680,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9915627529971378,
+        "massEvapRateKgS": 0.006424592085250753
+      },
+      {
+        "timeS": 7700,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9873844550518274,
+        "massEvapRateKgS": 0.005965558800423067
+      },
+      {
+        "timeS": 7720,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9832360223393288,
+        "massEvapRateKgS": 0.00550511941307917
+      },
+      {
+        "timeS": 7740,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9791170529829192,
+        "massEvapRateKgS": 0.005043048121731275
+      },
+      {
+        "timeS": 7760,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9750271534674497,
+        "massEvapRateKgS": 0.004579074275635308
+      },
+      {
+        "timeS": 7780,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9709659383990719,
+        "massEvapRateKgS": 0.004112867359133992
+      },
+      {
+        "timeS": 7800,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9669330302737933,
+        "massEvapRateKgS": 0.0036440145065718453
+      },
+      {
+        "timeS": 7820,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9629280592544849,
+        "massEvapRateKgS": 0.003171985261435064
+      },
+      {
+        "timeS": 7840,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9589506629559985,
+        "massEvapRateKgS": 0.002696073067349278
+      },
+      {
+        "timeS": 7860,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.955000486237978,
+        "massEvapRateKgS": 0.0022152905225736918
+      },
+      {
+        "timeS": 7880,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9510771810050827,
+        "massEvapRateKgS": 0.0017281614193648237
+      },
+      {
+        "timeS": 7900,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9471804060142333,
+        "massEvapRateKgS": 0.0012322397446147848
+      },
+      {
+        "timeS": 7920,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 1.9433098266886606,
+        "massEvapRateKgS": 0.000722672486690087
+      },
+      {
+        "timeS": 7940,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0.5868685114059323,
+        "massEvapRateKgS": 0.00018437449205726967
+      },
+      {
+        "timeS": 7960,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 7980,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8000,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8020,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8040,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8060,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8080,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8100,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8120,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8140,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8160,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8180,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8200,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8220,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8240,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8260,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8280,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8300,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8320,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8340,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8360,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8380,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8400,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8420,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8440,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8460,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8480,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8500,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8520,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8540,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8560,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8580,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8600,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8620,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8640,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8660,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8680,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8700,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8720,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8740,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8760,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8780,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8800,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8820,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8840,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8860,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8880,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8900,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8920,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8940,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8960,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 8980,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      },
+      {
+        "timeS": 9000,
+        "leakRateKgS": 0,
+        "transferRateKgS": 0,
+        "flashRateKgS": 0,
+        "heatEvapRateKgS": 0,
+        "massEvapRateKgS": 0
+      }
+    ],
+    "absorberInlet": [
+      {
+        "timeS": 20,
+        "chlorineLoadKgH": 17.581106886086346,
+        "dropletsLoadKgH": 37.970365684588295,
+        "totalChlorineLoadKgH": 55.55147257067464
+      },
+      {
+        "timeS": 40,
+        "chlorineLoadKgH": 39.79512687360104,
+        "dropletsLoadKgH": 75.79796287818081,
+        "totalChlorineLoadKgH": 115.59308975178186
+      },
+      {
+        "timeS": 60,
+        "chlorineLoadKgH": 64.39931239265132,
+        "dropletsLoadKgH": 113.48332539874569,
+        "totalChlorineLoadKgH": 177.88263779139703
+      },
+      {
+        "timeS": 80,
+        "chlorineLoadKgH": 90.71748786909832,
+        "dropletsLoadKgH": 151.0269843771896,
+        "totalChlorineLoadKgH": 241.7444722462879
+      },
+      {
+        "timeS": 100,
+        "chlorineLoadKgH": 118.39953251347998,
+        "dropletsLoadKgH": 188.42946829380108,
+        "totalChlorineLoadKgH": 306.8290008072811
+      },
+      {
+        "timeS": 120,
+        "chlorineLoadKgH": 147.20821989073775,
+        "dropletsLoadKgH": 225.69130301322724,
+        "totalChlorineLoadKgH": 372.899522903965
+      },
+      {
+        "timeS": 140,
+        "chlorineLoadKgH": 176.97145978707294,
+        "dropletsLoadKgH": 262.81301181807186,
+        "totalChlorineLoadKgH": 439.7844716051448
+      },
+      {
+        "timeS": 160,
+        "chlorineLoadKgH": 207.55850383689437,
+        "dropletsLoadKgH": 299.79511544119765,
+        "totalChlorineLoadKgH": 507.353619278092
+      },
+      {
+        "timeS": 180,
+        "chlorineLoadKgH": 238.86628387113333,
+        "dropletsLoadKgH": 336.63813209680836,
+        "totalChlorineLoadKgH": 575.5044159679417
+      },
+      {
+        "timeS": 200,
+        "chlorineLoadKgH": 270.81124109411707,
+        "dropletsLoadKgH": 373.3425775103806,
+        "totalChlorineLoadKgH": 644.1538186044977
+      },
+      {
+        "timeS": 220,
+        "chlorineLoadKgH": 303.32413968148734,
+        "dropletsLoadKgH": 409.9089649475114,
+        "totalChlorineLoadKgH": 713.2331046289987
+      },
+      {
+        "timeS": 240,
+        "chlorineLoadKgH": 336.34660019048385,
+        "dropletsLoadKgH": 446.33780524174244,
+        "totalChlorineLoadKgH": 782.6844054322263
+      },
+      {
+        "timeS": 260,
+        "chlorineLoadKgH": 369.82868656024556,
+        "dropletsLoadKgH": 482.62960682141636,
+        "totalChlorineLoadKgH": 852.4582933816619
+      },
+      {
+        "timeS": 280,
+        "chlorineLoadKgH": 403.7271704688111,
+        "dropletsLoadKgH": 518.7848757356188,
+        "totalChlorineLoadKgH": 922.5120462044299
+      },
+      {
+        "timeS": 300,
+        "chlorineLoadKgH": 438.00424842801146,
+        "dropletsLoadKgH": 554.8041156792541,
+        "totalChlorineLoadKgH": 992.8083641072656
+      },
+      {
+        "timeS": 320,
+        "chlorineLoadKgH": 472.6265714599817,
+        "dropletsLoadKgH": 590.6878280173017,
+        "totalChlorineLoadKgH": 1063.3143994772834
+      },
+      {
+        "timeS": 340,
+        "chlorineLoadKgH": 507.56449661140977,
+        "dropletsLoadKgH": 626.4365118082947,
+        "totalChlorineLoadKgH": 1134.0010084197045
+      },
+      {
+        "timeS": 360,
+        "chlorineLoadKgH": 542.7914996727746,
+        "dropletsLoadKgH": 662.0506638270608,
+        "totalChlorineLoadKgH": 1204.8421634998354
+      },
+      {
+        "timeS": 380,
+        "chlorineLoadKgH": 578.2837074729284,
+        "dropletsLoadKgH": 697.5307785867634,
+        "totalChlorineLoadKgH": 1275.8144860596917
+      },
+      {
+        "timeS": 400,
+        "chlorineLoadKgH": 614.0195204815652,
+        "dropletsLoadKgH": 732.8773483602766,
+        "totalChlorineLoadKgH": 1346.8968688418418
+      },
+      {
+        "timeS": 420,
+        "chlorineLoadKgH": 649.9793047102223,
+        "dropletsLoadKgH": 768.0908632009287,
+        "totalChlorineLoadKgH": 1418.070167911151
+      },
+      {
+        "timeS": 440,
+        "chlorineLoadKgH": 686.1451375494576,
+        "dropletsLoadKgH": 803.1718109626413,
+        "totalChlorineLoadKgH": 1489.3169485120989
+      },
+      {
+        "timeS": 460,
+        "chlorineLoadKgH": 722.5005961223759,
+        "dropletsLoadKgH": 838.1206773194982,
+        "totalChlorineLoadKgH": 1560.621273441874
+      },
+      {
+        "timeS": 480,
+        "chlorineLoadKgH": 759.0305795388279,
+        "dropletsLoadKgH": 872.9379457847657,
+        "totalChlorineLoadKgH": 1631.9685253235934
+      },
+      {
+        "timeS": 500,
+        "chlorineLoadKgH": 795.7211584627144,
+        "dropletsLoadKgH": 907.6240977293924,
+        "totalChlorineLoadKgH": 1703.3452561921067
+      },
+      {
+        "timeS": 520,
+        "chlorineLoadKgH": 832.5594468940161,
+        "dropletsLoadKgH": 942.179612400012,
+        "totalChlorineLoadKgH": 1774.7390592940283
+      },
+      {
+        "timeS": 540,
+        "chlorineLoadKgH": 869.5334921757922,
+        "dropletsLoadKgH": 976.6049669364724,
+        "totalChlorineLoadKgH": 1846.1384591122646
+      },
+      {
+        "timeS": 560,
+        "chlorineLoadKgH": 906.6321800721432,
+        "dropletsLoadKgH": 1010.9006363889089,
+        "totalChlorineLoadKgH": 1917.532816461052
+      },
+      {
+        "timeS": 580,
+        "chlorineLoadKgH": 943.8451524004792,
+        "dropletsLoadKgH": 1045.0670937343864,
+        "totalChlorineLoadKgH": 1988.9122461348657
+      },
+      {
+        "timeS": 600,
+        "chlorineLoadKgH": 981.1627351926422,
+        "dropletsLoadKgH": 1079.1048098931253,
+        "totalChlorineLoadKgH": 2060.267545085768
+      },
+      {
+        "timeS": 620,
+        "chlorineLoadKgH": 1018.5758757417675,
+        "dropletsLoadKgH": 1113.0142537443298,
+        "totalChlorineLoadKgH": 2131.5901294860973
+      },
+      {
+        "timeS": 640,
+        "chlorineLoadKgH": 1056.0760871920313,
+        "dropletsLoadKgH": 1146.7958921416375,
+        "totalChlorineLoadKgH": 2202.8719793336686
+      },
+      {
+        "timeS": 660,
+        "chlorineLoadKgH": 1093.6553995662844,
+        "dropletsLoadKgH": 1180.4501899282027,
+        "totalChlorineLoadKgH": 2274.105589494487
+      },
+      {
+        "timeS": 680,
+        "chlorineLoadKgH": 1131.3063163164238,
+        "dropletsLoadKgH": 1213.977609951431,
+        "totalChlorineLoadKgH": 2345.283926267855
+      },
+      {
+        "timeS": 700,
+        "chlorineLoadKgH": 1169.0217756340503,
+        "dropletsLoadKgH": 1247.3786130773785,
+        "totalChlorineLoadKgH": 2416.4003887114286
+      },
+      {
+        "timeS": 720,
+        "chlorineLoadKgH": 1206.7951158825797,
+        "dropletsLoadKgH": 1280.6536582048275,
+        "totalChlorineLoadKgH": 2487.4487740874074
+      },
+      {
+        "timeS": 740,
+        "chlorineLoadKgH": 1244.6200446127382,
+        "dropletsLoadKgH": 1313.8032022790544,
+        "totalChlorineLoadKgH": 2558.4232468917926
+      },
+      {
+        "timeS": 760,
+        "chlorineLoadKgH": 1282.4906107059649,
+        "dropletsLoadKgH": 1346.827700305298,
+        "totalChlorineLoadKgH": 2629.318311011263
+      },
+      {
+        "timeS": 780,
+        "chlorineLoadKgH": 1320.401179258373,
+        "dropletsLoadKgH": 1379.727605361946,
+        "totalChlorineLoadKgH": 2700.128784620319
+      },
+      {
+        "timeS": 800,
+        "chlorineLoadKgH": 1358.3464088743717,
+        "dropletsLoadKgH": 1412.503368613438,
+        "totalChlorineLoadKgH": 2770.8497774878097
+      },
+      {
+        "timeS": 820,
+        "chlorineLoadKgH": 1396.3212310861165,
+        "dropletsLoadKgH": 1445.1554393229135,
+        "totalChlorineLoadKgH": 2841.47667040903
+      },
+      {
+        "timeS": 840,
+        "chlorineLoadKgH": 1434.3208316543391,
+        "dropletsLoadKgH": 1477.6842648645957,
+        "totalChlorineLoadKgH": 2912.005096518935
+      },
+      {
+        "timeS": 860,
+        "chlorineLoadKgH": 1472.3406335392465,
+        "dropletsLoadKgH": 1510.0902907359346,
+        "totalChlorineLoadKgH": 2982.430924275181
+      },
+      {
+        "timeS": 880,
+        "chlorineLoadKgH": 1510.3762813581623,
+        "dropletsLoadKgH": 1542.3739605695098,
+        "totalChlorineLoadKgH": 3052.750241927672
+      },
+      {
+        "timeS": 900,
+        "chlorineLoadKgH": 1548.4236271703273,
+        "dropletsLoadKgH": 1574.5357161447055,
+        "totalChlorineLoadKgH": 3122.959343315033
+      },
+      {
+        "timeS": 920,
+        "chlorineLoadKgH": 1586.4787174494877,
+        "dropletsLoadKgH": 1606.5759973991633,
+        "totalChlorineLoadKgH": 3193.054714848651
+      },
+      {
+        "timeS": 940,
+        "chlorineLoadKgH": 1624.5377811221797,
+        "dropletsLoadKgH": 1638.4952424400228,
+        "totalChlorineLoadKgH": 3263.0330235622023
+      },
+      {
+        "timeS": 960,
+        "chlorineLoadKgH": 1662.5972185644375,
+        "dropletsLoadKgH": 1670.2938875549535,
+        "totalChlorineLoadKgH": 3332.891106119391
+      },
+      {
+        "timeS": 980,
+        "chlorineLoadKgH": 1700.6535914624071,
+        "dropletsLoadKgH": 1701.9723672229889,
+        "totalChlorineLoadKgH": 3402.6259586853957
+      },
+      {
+        "timeS": 1000,
+        "chlorineLoadKgH": 1738.7036134533666,
+        "dropletsLoadKgH": 1733.5311141251666,
+        "totalChlorineLoadKgH": 3472.2347275785332
+      },
+      {
+        "timeS": 1020,
+        "chlorineLoadKgH": 1776.7441414731832,
+        "dropletsLoadKgH": 1764.970559154981,
+        "totalChlorineLoadKgH": 3541.714700628164
+      },
+      {
+        "timeS": 1040,
+        "chlorineLoadKgH": 1814.7721677445384,
+        "dropletsLoadKgH": 1796.291131428656,
+        "totalChlorineLoadKgH": 3611.0632991731945
+      },
+      {
+        "timeS": 1060,
+        "chlorineLoadKgH": 1852.7848123474605,
+        "dropletsLoadKgH": 1827.493258295242,
+        "totalChlorineLoadKgH": 3680.2780706427025
+      },
+      {
+        "timeS": 1080,
+        "chlorineLoadKgH": 1890.7793163200226,
+        "dropletsLoadKgH": 1858.5773653465408,
+        "totalChlorineLoadKgH": 3749.3566816665634
+      },
+      {
+        "timeS": 1100,
+        "chlorineLoadKgH": 1928.7530352425779,
+        "dropletsLoadKgH": 1889.5438764268686,
+        "totalChlorineLoadKgH": 3818.2969116694467
+      },
+      {
+        "timeS": 1120,
+        "chlorineLoadKgH": 1966.7034332637675,
+        "dropletsLoadKgH": 1920.3932136426574,
+        "totalChlorineLoadKgH": 3887.096646906425
+      },
+      {
+        "timeS": 1140,
+        "chlorineLoadKgH": 2004.6280775308,
+        "dropletsLoadKgH": 1951.125797371899,
+        "totalChlorineLoadKgH": 3955.753874902699
+      },
+      {
+        "timeS": 1160,
+        "chlorineLoadKgH": 2042.5246329902684,
+        "dropletsLoadKgH": 1981.7420462734426,
+        "totalChlorineLoadKgH": 4024.266679263711
+      },
+      {
+        "timeS": 1180,
+        "chlorineLoadKgH": 2080.390857529115,
+        "dropletsLoadKgH": 2012.242377296142,
+        "totalChlorineLoadKgH": 4092.6332348252567
+      },
+      {
+        "timeS": 1200,
+        "chlorineLoadKgH": 2118.2245974282887,
+        "dropletsLoadKgH": 2042.6272056878606,
+        "totalChlorineLoadKgH": 4160.851803116149
+      },
+      {
+        "timeS": 1220,
+        "chlorineLoadKgH": 2156.0237831042828,
+        "dropletsLoadKgH": 2072.8969450043387,
+        "totalChlorineLoadKgH": 4228.920728108622
+      },
+      {
+        "timeS": 1240,
+        "chlorineLoadKgH": 2193.7864251160627,
+        "dropletsLoadKgH": 2103.0520071179258,
+        "totalChlorineLoadKgH": 4296.838432233988
+      },
+      {
+        "timeS": 1260,
+        "chlorineLoadKgH": 2231.510610416975,
+        "dropletsLoadKgH": 2133.092802226181,
+        "totalChlorineLoadKgH": 4364.603412643156
+      },
+      {
+        "timeS": 1280,
+        "chlorineLoadKgH": 2269.194498833098,
+        "dropletsLoadKgH": 2163.019738860343,
+        "totalChlorineLoadKgH": 4432.214237693441
+      },
+      {
+        "timeS": 1300,
+        "chlorineLoadKgH": 2306.8363197511476,
+        "dropletsLoadKgH": 2192.8332238936805,
+        "totalChlorineLoadKgH": 4499.669543644828
+      },
+      {
+        "timeS": 1320,
+        "chlorineLoadKgH": 2344.4343690005508,
+        "dropletsLoadKgH": 2222.533662549715,
+        "totalChlorineLoadKgH": 4566.968031550266
+      },
+      {
+        "timeS": 1340,
+        "chlorineLoadKgH": 2381.987005915635,
+        "dropletsLoadKgH": 2252.1214584103286,
+        "totalChlorineLoadKgH": 4634.108464325964
+      },
+      {
+        "timeS": 1360,
+        "chlorineLoadKgH": 2419.492650565095,
+        "dropletsLoadKgH": 2281.5970134237555,
+        "totalChlorineLoadKgH": 4701.089663988851
+      },
+      {
+        "timeS": 1380,
+        "chlorineLoadKgH": 2456.94978113697,
+        "dropletsLoadKgH": 2310.9607279124566,
+        "totalChlorineLoadKgH": 4767.910509049427
+      },
+      {
+        "timeS": 1400,
+        "chlorineLoadKgH": 2494.356931468364,
+        "dropletsLoadKgH": 2340.2130005808913,
+        "totalChlorineLoadKgH": 4834.569932049255
+      },
+      {
+        "timeS": 1420,
+        "chlorineLoadKgH": 2531.712688710014,
+        "dropletsLoadKgH": 2369.3542285231697,
+        "totalChlorineLoadKgH": 4901.066917233184
+      },
+      {
+        "timeS": 1440,
+        "chlorineLoadKgH": 2569.015691116612,
+        "dropletsLoadKgH": 2398.3848072306087,
+        "totalChlorineLoadKgH": 4967.4004983472205
+      },
+      {
+        "timeS": 1460,
+        "chlorineLoadKgH": 2606.2646259545277,
+        "dropletsLoadKgH": 2427.3051305991826,
+        "totalChlorineLoadKgH": 5033.56975655371
+      },
+      {
+        "timeS": 1480,
+        "chlorineLoadKgH": 2643.4582275192174,
+        "dropletsLoadKgH": 2456.1155909368667,
+        "totalChlorineLoadKgH": 5099.573818456084
+      },
+      {
+        "timeS": 1500,
+        "chlorineLoadKgH": 2680.5952752552357,
+        "dropletsLoadKgH": 2484.816578970889,
+        "totalChlorineLoadKgH": 5165.411854226125
+      },
+      {
+        "timeS": 1520,
+        "chlorineLoadKgH": 2717.6745919722703,
+        "dropletsLoadKgH": 2513.40848385488,
+        "totalChlorineLoadKgH": 5231.08307582715
+      },
+      {
+        "timeS": 1540,
+        "chlorineLoadKgH": 2754.695042151155,
+        "dropletsLoadKgH": 2541.891693175926,
+        "totalChlorineLoadKgH": 5296.5867353270805
+      },
+      {
+        "timeS": 1560,
+        "chlorineLoadKgH": 2791.6555303342543,
+        "dropletsLoadKgH": 2570.2665929615373,
+        "totalChlorineLoadKgH": 5361.922123295792
+      },
+      {
+        "timeS": 1580,
+        "chlorineLoadKgH": 2828.5549995950255,
+        "dropletsLoadKgH": 2598.53356768651,
+        "totalChlorineLoadKgH": 5427.088567281536
+      },
+      {
+        "timeS": 1600,
+        "chlorineLoadKgH": 2865.3924300819467,
+        "dropletsLoadKgH": 2626.6930002797126,
+        "totalChlorineLoadKgH": 5492.08543036166
+      },
+      {
+        "timeS": 1620,
+        "chlorineLoadKgH": 2902.1668376323473,
+        "dropletsLoadKgH": 2654.7452721307723,
+        "totalChlorineLoadKgH": 5556.91210976312
+      },
+      {
+        "timeS": 1640,
+        "chlorineLoadKgH": 2938.877272451999,
+        "dropletsLoadKgH": 2682.6907630966807,
+        "totalChlorineLoadKgH": 5621.56803554868
+      },
+      {
+        "timeS": 1660,
+        "chlorineLoadKgH": 2975.522817856604,
+        "dropletsLoadKgH": 2710.5298515083114,
+        "totalChlorineLoadKgH": 5686.052669364915
+      },
+      {
+        "timeS": 1680,
+        "chlorineLoadKgH": 3012.102589071603,
+        "dropletsLoadKgH": 2738.2629141768534,
+        "totalChlorineLoadKgH": 5750.365503248457
+      },
+      {
+        "timeS": 1700,
+        "chlorineLoadKgH": 3048.6157320869606,
+        "dropletsLoadKgH": 2765.890326400163,
+        "totalChlorineLoadKgH": 5814.5060584871235
+      },
+      {
+        "timeS": 1720,
+        "chlorineLoadKgH": 3085.0614225638174,
+        "dropletsLoadKgH": 2793.412461969028,
+        "totalChlorineLoadKgH": 5878.473884532845
+      },
+      {
+        "timeS": 1740,
+        "chlorineLoadKgH": 3121.438864790101,
+        "dropletsLoadKgH": 2820.8296931733603,
+        "totalChlorineLoadKgH": 5942.268557963462
+      },
+      {
+        "timeS": 1760,
+        "chlorineLoadKgH": 3157.7472906823973,
+        "dropletsLoadKgH": 2848.1423908082998,
+        "totalChlorineLoadKgH": 6005.889681490697
+      },
+      {
+        "timeS": 1780,
+        "chlorineLoadKgH": 3193.985958831534,
+        "dropletsLoadKgH": 2875.3509241802476,
+        "totalChlorineLoadKgH": 6069.3368830117815
+      },
+      {
+        "timeS": 1800,
+        "chlorineLoadKgH": 3230.15415358953,
+        "dropletsLoadKgH": 2902.455661112814,
+        "totalChlorineLoadKgH": 6132.609814702344
+      },
+      {
+        "timeS": 1820,
+        "chlorineLoadKgH": 3266.2511841956753,
+        "dropletsLoadKgH": 2929.4569679526967,
+        "totalChlorineLoadKgH": 6195.708152148372
+      },
+      {
+        "timeS": 1840,
+        "chlorineLoadKgH": 3302.2763839396803,
+        "dropletsLoadKgH": 2956.355209575478,
+        "totalChlorineLoadKgH": 6258.631593515158
+      },
+      {
+        "timeS": 1860,
+        "chlorineLoadKgH": 3338.2291093599506,
+        "dropletsLoadKgH": 2983.150749391349,
+        "totalChlorineLoadKgH": 6321.379858751299
+      },
+      {
+        "timeS": 1880,
+        "chlorineLoadKgH": 3374.1087394751576,
+        "dropletsLoadKgH": 3009.8439493507617,
+        "totalChlorineLoadKgH": 6383.952688825919
+      },
+      {
+        "timeS": 1900,
+        "chlorineLoadKgH": 3409.9146750473997,
+        "dropletsLoadKgH": 3036.435169950005,
+        "totalChlorineLoadKgH": 6446.349844997405
+      },
+      {
+        "timeS": 1920,
+        "chlorineLoadKgH": 3445.646337875356,
+        "dropletsLoadKgH": 3062.9247702367047,
+        "totalChlorineLoadKgH": 6508.571108112061
+      },
+      {
+        "timeS": 1940,
+        "chlorineLoadKgH": 3481.3031701159043,
+        "dropletsLoadKgH": 3089.313107815262,
+        "totalChlorineLoadKgH": 6570.616277931166
+      },
+      {
+        "timeS": 1960,
+        "chlorineLoadKgH": 3516.884633632805,
+        "dropletsLoadKgH": 3115.6005388522076,
+        "totalChlorineLoadKgH": 6632.485172485012
+      },
+      {
+        "timeS": 1980,
+        "chlorineLoadKgH": 3552.390209371106,
+        "dropletsLoadKgH": 3141.787418081494,
+        "totalChlorineLoadKgH": 6694.1776274526
+      },
+      {
+        "timeS": 2000,
+        "chlorineLoadKgH": 3587.8193967560114,
+        "dropletsLoadKgH": 3167.874098809712,
+        "totalChlorineLoadKgH": 6755.693495565723
+      },
+      {
+        "timeS": 2020,
+        "chlorineLoadKgH": 3623.1717131150376,
+        "dropletsLoadKgH": 3193.860932921239,
+        "totalChlorineLoadKgH": 6817.032646036277
+      },
+      {
+        "timeS": 2040,
+        "chlorineLoadKgH": 3658.446693122332,
+        "dropletsLoadKgH": 3219.748270883318,
+        "totalChlorineLoadKgH": 6878.19496400565
+      },
+      {
+        "timeS": 2060,
+        "chlorineLoadKgH": 3693.64388826411,
+        "dropletsLoadKgH": 3245.536461751069,
+        "totalChlorineLoadKgH": 6939.180350015179
+      },
+      {
+        "timeS": 2080,
+        "chlorineLoadKgH": 3728.762866324213,
+        "dropletsLoadKgH": 3271.2258531724233,
+        "totalChlorineLoadKgH": 6999.988719496636
+      },
+      {
+        "timeS": 2100,
+        "chlorineLoadKgH": 3763.803210888851,
+        "dropletsLoadKgH": 3296.8167913929983,
+        "totalChlorineLoadKgH": 7060.620002281849
+      },
+      {
+        "timeS": 2120,
+        "chlorineLoadKgH": 3798.764520869646,
+        "dropletsLoadKgH": 3322.3096212609007,
+        "totalChlorineLoadKgH": 7121.0741421305465
+      },
+      {
+        "timeS": 2140,
+        "chlorineLoadKgH": 3833.646410044136,
+        "dropletsLoadKgH": 3347.704686231459,
+        "totalChlorineLoadKgH": 7181.351096275595
+      },
+      {
+        "timeS": 2160,
+        "chlorineLoadKgH": 3868.4485066129496,
+        "dropletsLoadKgH": 3373.002328371889,
+        "totalChlorineLoadKgH": 7241.450834984838
+      },
+      {
+        "timeS": 2180,
+        "chlorineLoadKgH": 3903.170452772904,
+        "dropletsLoadKgH": 3398.2028883658895,
+        "totalChlorineLoadKgH": 7301.373341138793
+      },
+      {
+        "timeS": 2200,
+        "chlorineLoadKgH": 3937.8119043053107,
+        "dropletsLoadKgH": 3423.3067055181764,
+        "totalChlorineLoadKgH": 7361.118609823487
+      },
+      {
+        "timeS": 2220,
+        "chlorineLoadKgH": 3972.3725301788277,
+        "dropletsLoadKgH": 3448.3141177589387,
+        "totalChlorineLoadKgH": 7420.686647937766
+      },
+      {
+        "timeS": 2240,
+        "chlorineLoadKgH": 4006.8520121662086,
+        "dropletsLoadKgH": 3473.2254616482346,
+        "totalChlorineLoadKgH": 7480.077473814443
+      },
+      {
+        "timeS": 2260,
+        "chlorineLoadKgH": 4041.2500444743573,
+        "dropletsLoadKgH": 3498.0410723803125,
+        "totalChlorineLoadKgH": 7539.29111685467
+      },
+      {
+        "timeS": 2280,
+        "chlorineLoadKgH": 4075.5663333871107,
+        "dropletsLoadKgH": 3522.76128378787,
+        "totalChlorineLoadKgH": 7598.32761717498
+      },
+      {
+        "timeS": 2300,
+        "chlorineLoadKgH": 4109.800596920199,
+        "dropletsLoadKgH": 3547.3864283462394,
+        "totalChlorineLoadKgH": 7657.187025266438
+      },
+      {
+        "timeS": 2320,
+        "chlorineLoadKgH": 4143.952564487879,
+        "dropletsLoadKgH": 3571.916837177506,
+        "totalChlorineLoadKgH": 7715.869401665384
+      },
+      {
+        "timeS": 2340,
+        "chlorineLoadKgH": 4178.021976580748,
+        "dropletsLoadKgH": 3596.3528400545574,
+        "totalChlorineLoadKgH": 7774.374816635305
+      },
+      {
+        "timeS": 2360,
+        "chlorineLoadKgH": 4212.008584454269,
+        "dropletsLoadKgH": 3620.6947654050623,
+        "totalChlorineLoadKgH": 7832.703349859332
+      },
+      {
+        "timeS": 2380,
+        "chlorineLoadKgH": 4245.912149827553,
+        "dropletsLoadKgH": 3644.9429403153827,
+        "totalChlorineLoadKgH": 7890.855090142935
+      },
+      {
+        "timeS": 2400,
+        "chlorineLoadKgH": 4279.732444592011,
+        "dropletsLoadKgH": 3669.0976905344087,
+        "totalChlorineLoadKgH": 7948.83013512642
+      },
+      {
+        "timeS": 2420,
+        "chlorineLoadKgH": 4313.469250529438,
+        "dropletsLoadKgH": 3693.1593404773325,
+        "totalChlorineLoadKgH": 8006.628591006771
+      },
+      {
+        "timeS": 2440,
+        "chlorineLoadKgH": 4347.122359039164,
+        "dropletsLoadKgH": 3717.1282132293404,
+        "totalChlorineLoadKgH": 8064.250572268504
+      },
+      {
+        "timeS": 2460,
+        "chlorineLoadKgH": 4380.691570873915,
+        "dropletsLoadKgH": 3741.004630549243,
+        "totalChlorineLoadKgH": 8121.696201423158
+      },
+      {
+        "timeS": 2480,
+        "chlorineLoadKgH": 4414.176695884019,
+        "dropletsLoadKgH": 3764.7889128730226,
+        "totalChlorineLoadKgH": 8178.965608757042
+      },
+      {
+        "timeS": 2500,
+        "chlorineLoadKgH": 4447.5775527696505,
+        "dropletsLoadKgH": 3788.4813793173175,
+        "totalChlorineLoadKgH": 8236.058932086968
+      },
+      {
+        "timeS": 2520,
+        "chlorineLoadKgH": 4480.89396884077,
+        "dropletsLoadKgH": 3812.0823476828273,
+        "totalChlorineLoadKgH": 8292.976316523596
+      },
+      {
+        "timeS": 2540,
+        "chlorineLoadKgH": 4514.125779784489,
+        "dropletsLoadKgH": 3835.592134457642,
+        "totalChlorineLoadKgH": 8349.71791424213
+      },
+      {
+        "timeS": 2560,
+        "chlorineLoadKgH": 4547.272829439549,
+        "dropletsLoadKgH": 3859.011054820496,
+        "totalChlorineLoadKgH": 8406.283884260045
+      },
+      {
+        "timeS": 2580,
+        "chlorineLoadKgH": 4580.334969577653,
+        "dropletsLoadKgH": 3882.3394226439536,
+        "totalChlorineLoadKgH": 8462.674392221606
+      },
+      {
+        "timeS": 2600,
+        "chlorineLoadKgH": 4613.31205969139,
+        "dropletsLoadKgH": 3905.5775504975036,
+        "totalChlorineLoadKgH": 8518.889610188893
+      },
+      {
+        "timeS": 2620,
+        "chlorineLoadKgH": 4646.203966788488,
+        "dropletsLoadKgH": 3928.7257496505836,
+        "totalChlorineLoadKgH": 8574.929716439072
+      },
+      {
+        "timeS": 2640,
+        "chlorineLoadKgH": 4679.01056519218,
+        "dropletsLoadKgH": 3951.7843300755276,
+        "totalChlorineLoadKgH": 8630.794895267707
+      },
+      {
+        "timeS": 2660,
+        "chlorineLoadKgH": 4711.731736347429,
+        "dropletsLoadKgH": 3974.7536004504254,
+        "totalChlorineLoadKgH": 8686.485336797854
+      },
+      {
+        "timeS": 2680,
+        "chlorineLoadKgH": 4744.36736863282,
+        "dropletsLoadKgH": 3997.6338681619004,
+        "totalChlorineLoadKgH": 8742.00123679472
+      },
+      {
+        "timeS": 2700,
+        "chlorineLoadKgH": 4776.917357177879,
+        "dropletsLoadKgH": 4020.4254393078118,
+        "totalChlorineLoadKgH": 8797.342796485691
+      },
+      {
+        "timeS": 2720,
+        "chlorineLoadKgH": 4809.381603685656,
+        "dropletsLoadKgH": 4043.1286186998645,
+        "totalChlorineLoadKgH": 8852.510222385521
+      },
+      {
+        "timeS": 2740,
+        "chlorineLoadKgH": 4841.760016260338,
+        "dropletsLoadKgH": 4065.7437098661353,
+        "totalChlorineLoadKgH": 8907.503726126473
+      },
+      {
+        "timeS": 2760,
+        "chlorineLoadKgH": 4874.052509239749,
+        "dropletsLoadKgH": 4088.271015053508,
+        "totalChlorineLoadKgH": 8962.323524293257
+      },
+      {
+        "timeS": 2780,
+        "chlorineLoadKgH": 4906.259003032542,
+        "dropletsLoadKgH": 4110.710835230029,
+        "totalChlorineLoadKgH": 9016.969838262572
+      },
+      {
+        "timeS": 2800,
+        "chlorineLoadKgH": 4938.379423959898,
+        "dropletsLoadKgH": 4133.06347008716,
+        "totalChlorineLoadKgH": 9071.442894047057
+      },
+      {
+        "timeS": 2820,
+        "chlorineLoadKgH": 4970.413704101603,
+        "dropletsLoadKgH": 4155.329218041937,
+        "totalChlorineLoadKgH": 9125.74292214354
+      },
+      {
+        "timeS": 2840,
+        "chlorineLoadKgH": 5002.36178114633,
+        "dropletsLoadKgH": 4177.508376239052,
+        "totalChlorineLoadKgH": 9179.870157385383
+      },
+      {
+        "timeS": 2860,
+        "chlorineLoadKgH": 5034.223598245969,
+        "dropletsLoadKgH": 4199.6012405528145,
+        "totalChlorineLoadKgH": 9233.824838798784
+      },
+      {
+        "timeS": 2880,
+        "chlorineLoadKgH": 5065.9991038738835,
+        "dropletsLoadKgH": 4221.608105589028,
+        "totalChlorineLoadKgH": 9287.607209462913
+      },
+      {
+        "timeS": 2900,
+        "chlorineLoadKgH": 5097.688251686935,
+        "dropletsLoadKgH": 4243.529264686762,
+        "totalChlorineLoadKgH": 9341.217516373697
+      },
+      {
+        "timeS": 2920,
+        "chlorineLoadKgH": 5129.291000391151,
+        "dropletsLoadKgH": 4265.365009920017,
+        "totalChlorineLoadKgH": 9394.656010311168
+      },
+      {
+        "timeS": 2940,
+        "chlorineLoadKgH": 5160.807313610927,
+        "dropletsLoadKgH": 4287.115632099287,
+        "totalChlorineLoadKgH": 9447.922945710214
+      },
+      {
+        "timeS": 2960,
+        "chlorineLoadKgH": 5192.237159761596,
+        "dropletsLoadKgH": 4308.781420773011,
+        "totalChlorineLoadKgH": 9501.018580534606
+      },
+      {
+        "timeS": 2980,
+        "chlorineLoadKgH": 5223.5805119252955,
+        "dropletsLoadKgH": 4330.362664228914,
+        "totalChlorineLoadKgH": 9553.94317615421
+      },
+      {
+        "timeS": 3000,
+        "chlorineLoadKgH": 5254.837347729998,
+        "dropletsLoadKgH": 4351.859649495226,
+        "totalChlorineLoadKgH": 9606.696997225225
+      },
+      {
+        "timeS": 3020,
+        "chlorineLoadKgH": 5286.007649231584,
+        "dropletsLoadKgH": 4373.2726623418,
+        "totalChlorineLoadKgH": 9659.280311573384
+      },
+      {
+        "timeS": 3040,
+        "chlorineLoadKgH": 5317.091402798877,
+        "dropletsLoadKgH": 4394.60198728109,
+        "totalChlorineLoadKgH": 9711.693390079967
+      },
+      {
+        "timeS": 3060,
+        "chlorineLoadKgH": 5348.0885990015195,
+        "dropletsLoadKgH": 4415.847907569014,
+        "totalChlorineLoadKgH": 9763.936506570533
+      },
+      {
+        "timeS": 3080,
+        "chlorineLoadKgH": 5378.999232500603,
+        "dropletsLoadKgH": 4437.010705205688,
+        "totalChlorineLoadKgH": 9816.00993770629
+      },
+      {
+        "timeS": 3100,
+        "chlorineLoadKgH": 5409.823301941953,
+        "dropletsLoadKgH": 4458.090660936032,
+        "totalChlorineLoadKgH": 9867.913962877985
+      },
+      {
+        "timeS": 3120,
+        "chlorineLoadKgH": 5440.560809851975,
+        "dropletsLoadKgH": 4479.08805425023,
+        "totalChlorineLoadKgH": 9919.648864102204
+      },
+      {
+        "timeS": 3140,
+        "chlorineLoadKgH": 5471.211762535991,
+        "dropletsLoadKgH": 4500.003163384061,
+        "totalChlorineLoadKgH": 9971.214925920052
+      },
+      {
+        "timeS": 3160,
+        "chlorineLoadKgH": 5501.776169978946,
+        "dropletsLoadKgH": 4520.836265319078,
+        "totalChlorineLoadKgH": 10022.612435298024
+      },
+      {
+        "timeS": 3180,
+        "chlorineLoadKgH": 5532.254045748446,
+        "dropletsLoadKgH": 4541.587635782642,
+        "totalChlorineLoadKgH": 10073.841681531088
+      },
+      {
+        "timeS": 3200,
+        "chlorineLoadKgH": 5562.645406900009,
+        "dropletsLoadKgH": 4562.257549247804,
+        "totalChlorineLoadKgH": 10124.902956147813
+      },
+      {
+        "timeS": 3220,
+        "chlorineLoadKgH": 5592.950273884487,
+        "dropletsLoadKgH": 4582.846278933022,
+        "totalChlorineLoadKgH": 10175.796552817508
+      },
+      {
+        "timeS": 3240,
+        "chlorineLoadKgH": 5623.168670457539,
+        "dropletsLoadKgH": 4603.354096801723,
+        "totalChlorineLoadKgH": 10226.522767259263
+      },
+      {
+        "timeS": 3260,
+        "chlorineLoadKgH": 5653.300623591137,
+        "dropletsLoadKgH": 4623.781273561684,
+        "totalChlorineLoadKgH": 10277.08189715282
+      },
+      {
+        "timeS": 3280,
+        "chlorineLoadKgH": 5683.346163386996,
+        "dropletsLoadKgH": 4644.128078664248,
+        "totalChlorineLoadKgH": 10327.474242051245
+      },
+      {
+        "timeS": 3300,
+        "chlorineLoadKgH": 5713.305322991864,
+        "dropletsLoadKgH": 4664.394780303351,
+        "totalChlorineLoadKgH": 10377.700103295214
+      },
+      {
+        "timeS": 3320,
+        "chlorineLoadKgH": 5743.178138514629,
+        "dropletsLoadKgH": 4684.581645414364,
+        "totalChlorineLoadKgH": 10427.759783928992
+      },
+      {
+        "timeS": 3340,
+        "chlorineLoadKgH": 5772.964648945138,
+        "dropletsLoadKgH": 4704.688939672741,
+        "totalChlorineLoadKgH": 10477.653588617879
+      },
+      {
+        "timeS": 3360,
+        "chlorineLoadKgH": 5802.6648960747225,
+        "dropletsLoadKgH": 4724.716927492456,
+        "totalChlorineLoadKgH": 10527.381823567179
+      },
+      {
+        "timeS": 3380,
+        "chlorineLoadKgH": 5832.278924418302,
+        "dropletsLoadKgH": 4744.665872024246,
+        "totalChlorineLoadKgH": 10576.944796442549
+      },
+      {
+        "timeS": 3400,
+        "chlorineLoadKgH": 5861.806781138062,
+        "dropletsLoadKgH": 4764.536035153611,
+        "totalChlorineLoadKgH": 10626.342816291673
+      },
+      {
+        "timeS": 3420,
+        "chlorineLoadKgH": 5891.248515968617,
+        "dropletsLoadKgH": 4784.327677498614,
+        "totalChlorineLoadKgH": 10675.57619346723
+      },
+      {
+        "timeS": 3440,
+        "chlorineLoadKgH": 5920.60418114361,
+        "dropletsLoadKgH": 4804.041058407424,
+        "totalChlorineLoadKgH": 10724.645239551035
+      },
+      {
+        "timeS": 3460,
+        "chlorineLoadKgH": 5949.873831323698,
+        "dropletsLoadKgH": 4823.676435955621,
+        "totalChlorineLoadKgH": 10773.550267279319
+      },
+      {
+        "timeS": 3480,
+        "chlorineLoadKgH": 5979.05752352586,
+        "dropletsLoadKgH": 4843.234066943249,
+        "totalChlorineLoadKgH": 10822.291590469109
+      },
+      {
+        "timeS": 3500,
+        "chlorineLoadKgH": 6008.1553170539755,
+        "dropletsLoadKgH": 4862.714206891593,
+        "totalChlorineLoadKgH": 10870.869523945568
+      },
+      {
+        "timeS": 3520,
+        "chlorineLoadKgH": 6037.167273430622,
+        "dropletsLoadKgH": 4882.11711003969,
+        "totalChlorineLoadKgH": 10919.284383470313
+      },
+      {
+        "timeS": 3540,
+        "chlorineLoadKgH": 6066.093456330052,
+        "dropletsLoadKgH": 4901.443029340533,
+        "totalChlorineLoadKgH": 10967.536485670586
+      },
+      {
+        "timeS": 3560,
+        "chlorineLoadKgH": 6094.933931512268,
+        "dropletsLoadKgH": 4920.692216456991,
+        "totalChlorineLoadKgH": 11015.626147969258
+      },
+      {
+        "timeS": 3580,
+        "chlorineLoadKgH": 6123.688766758179,
+        "dropletsLoadKgH": 4939.864921757403,
+        "totalChlorineLoadKgH": 11063.553688515582
+      },
+      {
+        "timeS": 3600,
+        "chlorineLoadKgH": 6152.358031805761,
+        "dropletsLoadKgH": 4958.961394310835,
+        "totalChlorineLoadKgH": 11111.319426116595
+      },
+      {
+        "timeS": 3620,
+        "chlorineLoadKgH": 6180.941798287193,
+        "dropletsLoadKgH": 4977.981881882008,
+        "totalChlorineLoadKgH": 11158.9236801692
+      },
+      {
+        "timeS": 3640,
+        "chlorineLoadKgH": 6209.440139666902,
+        "dropletsLoadKgH": 4996.926630925851,
+        "totalChlorineLoadKgH": 11206.366770592753
+      },
+      {
+        "timeS": 3660,
+        "chlorineLoadKgH": 6237.853131180482,
+        "dropletsLoadKgH": 5015.79588658168,
+        "totalChlorineLoadKgH": 11253.649017762162
+      },
+      {
+        "timeS": 3680,
+        "chlorineLoadKgH": 6266.18084977443,
+        "dropletsLoadKgH": 5034.589892666976,
+        "totalChlorineLoadKgH": 11300.770742441406
+      },
+      {
+        "timeS": 3700,
+        "chlorineLoadKgH": 6294.423374046649,
+        "dropletsLoadKgH": 5053.308891670759,
+        "totalChlorineLoadKgH": 11347.732265717408
+      },
+      {
+        "timeS": 3720,
+        "chlorineLoadKgH": 6322.5807841876795,
+        "dropletsLoadKgH": 5071.953124746508,
+        "totalChlorineLoadKgH": 11394.533908934187
+      },
+      {
+        "timeS": 3740,
+        "chlorineLoadKgH": 6350.653161922598,
+        "dropletsLoadKgH": 5090.522831704633,
+        "totalChlorineLoadKgH": 11441.175993627232
+      },
+      {
+        "timeS": 3760,
+        "chlorineLoadKgH": 6378.640590453536,
+        "dropletsLoadKgH": 5109.018251004464,
+        "totalChlorineLoadKgH": 11487.658841458
+      },
+      {
+        "timeS": 3780,
+        "chlorineLoadKgH": 6406.543154402781,
+        "dropletsLoadKgH": 5127.439619745735,
+        "totalChlorineLoadKgH": 11533.982774148517
+      },
+      {
+        "timeS": 3800,
+        "chlorineLoadKgH": 6434.360939756392,
+        "dropletsLoadKgH": 5145.787173659528,
+        "totalChlorineLoadKgH": 11580.14811341592
+      },
+      {
+        "timeS": 3820,
+        "chlorineLoadKgH": 6462.094033808297,
+        "dropletsLoadKgH": 5164.061147098659,
+        "totalChlorineLoadKgH": 11626.155180906957
+      },
+      {
+        "timeS": 3840,
+        "chlorineLoadKgH": 6489.742525104796,
+        "dropletsLoadKgH": 5182.261773027478,
+        "totalChlorineLoadKgH": 11672.004298132273
+      },
+      {
+        "timeS": 3860,
+        "chlorineLoadKgH": 6517.306503389439,
+        "dropletsLoadKgH": 5200.389283011038,
+        "totalChlorineLoadKgH": 11717.695786400476
+      },
+      {
+        "timeS": 3880,
+        "chlorineLoadKgH": 6544.78605954823,
+        "dropletsLoadKgH": 5218.4439072036075,
+        "totalChlorineLoadKgH": 11763.229966751838
+      },
+      {
+        "timeS": 3900,
+        "chlorineLoadKgH": 6572.181285555062,
+        "dropletsLoadKgH": 5236.425874336484,
+        "totalChlorineLoadKgH": 11808.607159891546
+      },
+      {
+        "timeS": 3920,
+        "chlorineLoadKgH": 6599.492274417374,
+        "dropletsLoadKgH": 5254.335411705089,
+        "totalChlorineLoadKgH": 11853.827686122462
+      },
+      {
+        "timeS": 3940,
+        "chlorineLoadKgH": 6626.719120121943,
+        "dropletsLoadKgH": 5272.172745155256,
+        "totalChlorineLoadKgH": 11898.891865277199
+      },
+      {
+        "timeS": 3960,
+        "chlorineLoadKgH": 6653.8619175807535,
+        "dropletsLoadKgH": 5289.938099068723,
+        "totalChlorineLoadKgH": 11943.800016649477
+      },
+      {
+        "timeS": 3980,
+        "chlorineLoadKgH": 6680.920762576893,
+        "dropletsLoadKgH": 5307.631696347739,
+        "totalChlorineLoadKgH": 11988.552458924632
+      },
+      {
+        "timeS": 4000,
+        "chlorineLoadKgH": 6707.895751710394,
+        "dropletsLoadKgH": 5325.253758398744,
+        "totalChlorineLoadKgH": 12033.149510109139
+      },
+      {
+        "timeS": 4020,
+        "chlorineLoadKgH": 6734.786982343962,
+        "dropletsLoadKgH": 5342.804505115076,
+        "totalChlorineLoadKgH": 12077.591487459038
+      },
+      {
+        "timeS": 4040,
+        "chlorineLoadKgH": 6761.594552548527,
+        "dropletsLoadKgH": 5360.28415485862,
+        "totalChlorineLoadKgH": 12121.878707407148
+      },
+      {
+        "timeS": 4060,
+        "chlorineLoadKgH": 6788.318561048504,
+        "dropletsLoadKgH": 5377.692924440368,
+        "totalChlorineLoadKgH": 12166.011485488872
+      },
+      {
+        "timeS": 4080,
+        "chlorineLoadKgH": 6814.9591071667555,
+        "dropletsLoadKgH": 5395.031029099774,
+        "totalChlorineLoadKgH": 12209.99013626653
+      },
+      {
+        "timeS": 4100,
+        "chlorineLoadKgH": 6841.516290769089,
+        "dropletsLoadKgH": 5412.298682482866,
+        "totalChlorineLoadKgH": 12253.814973251956
+      },
+      {
+        "timeS": 4120,
+        "chlorineLoadKgH": 6867.99021220827,
+        "dropletsLoadKgH": 5429.496096619016,
+        "totalChlorineLoadKgH": 12297.486308827287
+      },
+      {
+        "timeS": 4140,
+        "chlorineLoadKgH": 6894.380972267424,
+        "dropletsLoadKgH": 5446.6234818962685,
+        "totalChlorineLoadKgH": 12341.004454163693
+      },
+      {
+        "timeS": 4160,
+        "chlorineLoadKgH": 6920.688672102725,
+        "dropletsLoadKgH": 5463.681047035139,
+        "totalChlorineLoadKgH": 12384.369719137863
+      },
+      {
+        "timeS": 4180,
+        "chlorineLoadKgH": 6946.913413185284,
+        "dropletsLoadKgH": 5480.668999060787,
+        "totalChlorineLoadKgH": 12427.582412246073
+      },
+      {
+        "timeS": 4200,
+        "chlorineLoadKgH": 6973.055297242123,
+        "dropletsLoadKgH": 5497.587543273416,
+        "totalChlorineLoadKgH": 12470.642840515538
+      },
+      {
+        "timeS": 4220,
+        "chlorineLoadKgH": 6999.114426196087,
+        "dropletsLoadKgH": 5514.436883216798,
+        "totalChlorineLoadKgH": 12513.551309412886
+      },
+      {
+        "timeS": 4240,
+        "chlorineLoadKgH": 7025.090902104598,
+        "dropletsLoadKgH": 5531.217220644794,
+        "totalChlorineLoadKgH": 12556.308122749393
+      },
+      {
+        "timeS": 4260,
+        "chlorineLoadKgH": 7050.984827097096,
+        "dropletsLoadKgH": 5547.9287554856755,
+        "totalChlorineLoadKgH": 12598.913582582773
+      },
+      {
+        "timeS": 4280,
+        "chlorineLoadKgH": 7076.796303311013,
+        "dropletsLoadKgH": 5564.571685804136,
+        "totalChlorineLoadKgH": 12641.367989115148
+      },
+      {
+        "timeS": 4300,
+        "chlorineLoadKgH": 7102.525432826127,
+        "dropletsLoadKgH": 5581.14620776077,
+        "totalChlorineLoadKgH": 12683.671640586897
+      },
+      {
+        "timeS": 4320,
+        "chlorineLoadKgH": 7128.172317597111,
+        "dropletsLoadKgH": 5597.652515568845,
+        "totalChlorineLoadKgH": 12725.824833165956
+      },
+      {
+        "timeS": 4340,
+        "chlorineLoadKgH": 7153.737059384087,
+        "dropletsLoadKgH": 5614.090801448134,
+        "totalChlorineLoadKgH": 12767.827860832222
+      },
+      {
+        "timeS": 4360,
+        "chlorineLoadKgH": 7179.219759680985,
+        "dropletsLoadKgH": 5630.461255575579,
+        "totalChlorineLoadKgH": 12809.681015256563
+      },
+      {
+        "timeS": 4380,
+        "chlorineLoadKgH": 7204.620519641468,
+        "dropletsLoadKgH": 5646.764066032514,
+        "totalChlorineLoadKgH": 12851.384585673983
+      },
+      {
+        "timeS": 4400,
+        "chlorineLoadKgH": 7229.939440002168,
+        "dropletsLoadKgH": 5662.999418748157,
+        "totalChlorineLoadKgH": 12892.938858750325
+      },
+      {
+        "timeS": 4420,
+        "chlorineLoadKgH": 7255.176621002994,
+        "dropletsLoadKgH": 5679.167497439047,
+        "totalChlorineLoadKgH": 12934.34411844204
+      },
+      {
+        "timeS": 4440,
+        "chlorineLoadKgH": 7280.332162304151,
+        "dropletsLoadKgH": 5695.268483544071,
+        "totalChlorineLoadKgH": 12975.600645848222
+      },
+      {
+        "timeS": 4460,
+        "chlorineLoadKgH": 7305.4061628996005,
+        "dropletsLoadKgH": 5711.302556154667,
+        "totalChlorineLoadKgH": 13016.708719054268
+      },
+      {
+        "timeS": 4480,
+        "chlorineLoadKgH": 7330.398721026553,
+        "dropletsLoadKgH": 5727.269891939786,
+        "totalChlorineLoadKgH": 13057.66861296634
+      },
+      {
+        "timeS": 4500,
+        "chlorineLoadKgH": 7355.309934070609,
+        "dropletsLoadKgH": 5743.170665065085,
+        "totalChlorineLoadKgH": 13098.480599135695
+      },
+      {
+        "timeS": 4520,
+        "chlorineLoadKgH": 7380.139898466083,
+        "dropletsLoadKgH": 5759.005047105822,
+        "totalChlorineLoadKgH": 13139.144945571905
+      },
+      {
+        "timeS": 4540,
+        "chlorineLoadKgH": 7404.888709591023,
+        "dropletsLoadKgH": 5774.773206952826,
+        "totalChlorineLoadKgH": 13179.66191654385
+      },
+      {
+        "timeS": 4560,
+        "chlorineLoadKgH": 7429.556461656344,
+        "dropletsLoadKgH": 5790.475310710823,
+        "totalChlorineLoadKgH": 13220.031772367167
+      },
+      {
+        "timeS": 4580,
+        "chlorineLoadKgH": 7454.143247588481,
+        "dropletsLoadKgH": 5806.111521588368,
+        "totalChlorineLoadKgH": 13260.254769176849
+      },
+      {
+        "timeS": 4600,
+        "chlorineLoadKgH": 7478.6491589048155,
+        "dropletsLoadKgH": 5821.681999778469,
+        "totalChlorineLoadKgH": 13300.331158683284
+      },
+      {
+        "timeS": 4620,
+        "chlorineLoadKgH": 7503.074285581114,
+        "dropletsLoadKgH": 5837.186902328882,
+        "totalChlorineLoadKgH": 13340.261187909997
+      },
+      {
+        "timeS": 4640,
+        "chlorineLoadKgH": 7527.418715910075,
+        "dropletsLoadKgH": 5852.626383000985,
+        "totalChlorineLoadKgH": 13380.04509891106
+      },
+      {
+        "timeS": 4660,
+        "chlorineLoadKgH": 7551.682536349957,
+        "dropletsLoadKgH": 5868.0005921158645,
+        "totalChlorineLoadKgH": 13419.683128465822
+      },
+      {
+        "timeS": 4680,
+        "chlorineLoadKgH": 7575.865831362157,
+        "dropletsLoadKgH": 5883.3096763861695,
+        "totalChlorineLoadKgH": 13459.175507748327
+      },
+      {
+        "timeS": 4700,
+        "chlorineLoadKgH": 7599.968683236387,
+        "dropletsLoadKgH": 5898.553778731995,
+        "totalChlorineLoadKgH": 13498.522461968383
+      },
+      {
+        "timeS": 4720,
+        "chlorineLoadKgH": 7623.991171901996,
+        "dropletsLoadKgH": 5913.733038078846,
+        "totalChlorineLoadKgH": 13537.724209980843
+      },
+      {
+        "timeS": 4740,
+        "chlorineLoadKgH": 7647.933374723643,
+        "dropletsLoadKgH": 5928.847589135378,
+        "totalChlorineLoadKgH": 13576.780963859022
+      },
+      {
+        "timeS": 4760,
+        "chlorineLoadKgH": 7671.795366279394,
+        "dropletsLoadKgH": 5943.897562148308,
+        "totalChlorineLoadKgH": 13615.692928427703
+      },
+      {
+        "timeS": 4780,
+        "chlorineLoadKgH": 7695.577218118861,
+        "dropletsLoadKgH": 5958.883082631369,
+        "totalChlorineLoadKgH": 13654.46030075023
+      },
+      {
+        "timeS": 4800,
+        "chlorineLoadKgH": 7719.278998498749,
+        "dropletsLoadKgH": 5973.80427106475,
+        "totalChlorineLoadKgH": 13693.0832695635
+      },
+      {
+        "timeS": 4820,
+        "chlorineLoadKgH": 7742.900772092643,
+        "dropletsLoadKgH": 5988.661242560746,
+        "totalChlorineLoadKgH": 13731.56201465339
+      },
+      {
+        "timeS": 4840,
+        "chlorineLoadKgH": 7766.442599671334,
+        "dropletsLoadKgH": 6003.454106490628,
+        "totalChlorineLoadKgH": 13769.896706161962
+      },
+      {
+        "timeS": 4860,
+        "chlorineLoadKgH": 7789.904537749351,
+        "dropletsLoadKgH": 6018.182966066748,
+        "totalChlorineLoadKgH": 13808.0875038161
+      },
+      {
+        "timeS": 4880,
+        "chlorineLoadKgH": 7813.286638192492,
+        "dropletsLoadKgH": 6032.847917872782,
+        "totalChlorineLoadKgH": 13846.134556065274
+      },
+      {
+        "timeS": 4900,
+        "chlorineLoadKgH": 7836.588947780201,
+        "dropletsLoadKgH": 6047.449051333535,
+        "totalChlorineLoadKgH": 13884.037999113736
+      },
+      {
+        "timeS": 4920,
+        "chlorineLoadKgH": 7859.811507715326,
+        "dropletsLoadKgH": 6061.986448113927,
+        "totalChlorineLoadKgH": 13921.797955829254
+      },
+      {
+        "timeS": 4940,
+        "chlorineLoadKgH": 7882.9543530723,
+        "dropletsLoadKgH": 6076.460181434515,
+        "totalChlorineLoadKgH": 13959.414534506815
+      },
+      {
+        "timeS": 4960,
+        "chlorineLoadKgH": 7906.017512172752,
+        "dropletsLoadKgH": 6090.870315288036,
+        "totalChlorineLoadKgH": 13996.887827460789
+      },
+      {
+        "timeS": 4980,
+        "chlorineLoadKgH": 7929.001005875073,
+        "dropletsLoadKgH": 6105.216903537687,
+        "totalChlorineLoadKgH": 14034.21790941276
+      },
+      {
+        "timeS": 5000,
+        "chlorineLoadKgH": 7951.904846761266,
+        "dropletsLoadKgH": 6119.49998887312,
+        "totalChlorineLoadKgH": 14071.404835634385
+      },
+      {
+        "timeS": 5020,
+        "chlorineLoadKgH": 7974.729038200112,
+        "dropletsLoadKgH": 6133.719601593781,
+        "totalChlorineLoadKgH": 14108.448639793893
+      },
+      {
+        "timeS": 5040,
+        "chlorineLoadKgH": 7997.473573260313,
+        "dropletsLoadKgH": 6147.875758180868,
+        "totalChlorineLoadKgH": 14145.34933144118
+      },
+      {
+        "timeS": 5060,
+        "chlorineLoadKgH": 8020.138433439765,
+        "dropletsLoadKgH": 6161.968459607963,
+        "totalChlorineLoadKgH": 14182.106893047729
+      },
+      {
+        "timeS": 5080,
+        "chlorineLoadKgH": 8042.723587167288,
+        "dropletsLoadKgH": 6175.997689325033,
+        "totalChlorineLoadKgH": 14218.72127649232
+      },
+      {
+        "timeS": 5100,
+        "chlorineLoadKgH": 8065.228988019451,
+        "dropletsLoadKgH": 6189.9634108292275,
+        "totalChlorineLoadKgH": 14255.192398848678
+      },
+      {
+        "timeS": 5120,
+        "chlorineLoadKgH": 8087.654572576066,
+        "dropletsLoadKgH": 6203.865564705937,
+        "totalChlorineLoadKgH": 14291.520137282003
+      },
+      {
+        "timeS": 5140,
+        "chlorineLoadKgH": 8110.000257810833,
+        "dropletsLoadKgH": 6217.704064980303,
+        "totalChlorineLoadKgH": 14327.704322791136
+      },
+      {
+        "timeS": 5160,
+        "chlorineLoadKgH": 8132.265937874069,
+        "dropletsLoadKgH": 6231.4787945558,
+        "totalChlorineLoadKgH": 14363.74473242987
+      },
+      {
+        "timeS": 5180,
+        "chlorineLoadKgH": 8154.451480065538,
+        "dropletsLoadKgH": 6245.189599420313,
+        "totalChlorineLoadKgH": 14399.641079485851
+      },
+      {
+        "timeS": 5200,
+        "chlorineLoadKgH": 8176.55671970486,
+        "dropletsLoadKgH": 6258.83628115061,
+        "totalChlorineLoadKgH": 14435.39300085547
+      },
+      {
+        "timeS": 5220,
+        "chlorineLoadKgH": 8198.581453463361,
+        "dropletsLoadKgH": 6272.418587005433,
+        "totalChlorineLoadKgH": 14471.000040468794
+      },
+      {
+        "timeS": 5240,
+        "chlorineLoadKgH": 8220.525430484238,
+        "dropletsLoadKgH": 6285.936196494428,
+        "totalChlorineLoadKgH": 14506.461626978667
+      },
+      {
+        "timeS": 5260,
+        "chlorineLoadKgH": 8242.388340208818,
+        "dropletsLoadKgH": 6299.388702603088,
+        "totalChlorineLoadKgH": 14541.777042811906
+      },
+      {
+        "timeS": 5280,
+        "chlorineLoadKgH": 8264.16979507962,
+        "dropletsLoadKgH": 6312.775584540069,
+        "totalChlorineLoadKgH": 14576.94537961969
+      },
+      {
+        "timeS": 5300,
+        "chlorineLoadKgH": 8285.869304829768,
+        "dropletsLoadKgH": 6326.096166254501,
+        "totalChlorineLoadKgH": 14611.96547108427
+      },
+      {
+        "timeS": 5320,
+        "chlorineLoadKgH": 8307.486235947525,
+        "dropletsLoadKgH": 6339.349549259569,
+        "totalChlorineLoadKgH": 14646.835785207095
+      },
+      {
+        "timeS": 5340,
+        "chlorineLoadKgH": 8329.019742412856,
+        "dropletsLoadKgH": 6352.5344942657,
+        "totalChlorineLoadKgH": 14681.554236678556
+      },
+      {
+        "timeS": 5360,
+        "chlorineLoadKgH": 8350.468632590446,
+        "dropletsLoadKgH": 6365.649185339372,
+        "totalChlorineLoadKgH": 14716.117817929819
+      },
+      {
+        "timeS": 5380,
+        "chlorineLoadKgH": 8371.831059460545,
+        "dropletsLoadKgH": 6378.690656307453,
+        "totalChlorineLoadKgH": 14750.521715767998
+      },
+      {
+        "timeS": 5400,
+        "chlorineLoadKgH": 8388.94377516101,
+        "dropletsLoadKgH": 6379.804682854126,
+        "totalChlorineLoadKgH": 14768.748458015136
+      },
+      {
+        "timeS": 5420,
+        "chlorineLoadKgH": 8399.228950495051,
+        "dropletsLoadKgH": 6357.361143121704,
+        "totalChlorineLoadKgH": 14756.590093616756
+      },
+      {
+        "timeS": 5440,
+        "chlorineLoadKgH": 8408.85767582831,
+        "dropletsLoadKgH": 6334.996557605086,
+        "totalChlorineLoadKgH": 14743.854233433398
+      },
+      {
+        "timeS": 5460,
+        "chlorineLoadKgH": 8417.95692047071,
+        "dropletsLoadKgH": 6312.71064855093,
+        "totalChlorineLoadKgH": 14730.66756902164
+      },
+      {
+        "timeS": 5480,
+        "chlorineLoadKgH": 8426.596483721252,
+        "dropletsLoadKgH": 6290.503139183003,
+        "totalChlorineLoadKgH": 14717.099622904256
+      },
+      {
+        "timeS": 5500,
+        "chlorineLoadKgH": 8434.824319066642,
+        "dropletsLoadKgH": 6268.373753698741,
+        "totalChlorineLoadKgH": 14703.198072765383
+      },
+      {
+        "timeS": 5520,
+        "chlorineLoadKgH": 8442.676144673178,
+        "dropletsLoadKgH": 6246.322217265832,
+        "totalChlorineLoadKgH": 14688.99836193901
+      },
+      {
+        "timeS": 5540,
+        "chlorineLoadKgH": 8450.179993178399,
+        "dropletsLoadKgH": 6224.348256018793,
+        "totalChlorineLoadKgH": 14674.528249197192
+      },
+      {
+        "timeS": 5560,
+        "chlorineLoadKgH": 8457.358687612577,
+        "dropletsLoadKgH": 6202.451597055577,
+        "totalChlorineLoadKgH": 14659.810284668154
+      },
+      {
+        "timeS": 5580,
+        "chlorineLoadKgH": 8464.23132178093,
+        "dropletsLoadKgH": 6180.631968434178,
+        "totalChlorineLoadKgH": 14644.863290215108
+      },
+      {
+        "timeS": 5600,
+        "chlorineLoadKgH": 8470.814208023397,
+        "dropletsLoadKgH": 6158.889099169258,
+        "totalChlorineLoadKgH": 14629.703307192656
+      },
+      {
+        "timeS": 5620,
+        "chlorineLoadKgH": 8477.121516412319,
+        "dropletsLoadKgH": 6137.2227192287755,
+        "totalChlorineLoadKgH": 14614.344235641094
+      },
+      {
+        "timeS": 5640,
+        "chlorineLoadKgH": 8483.165723917096,
+        "dropletsLoadKgH": 6115.63255953064,
+        "totalChlorineLoadKgH": 14598.798283447737
+      },
+      {
+        "timeS": 5660,
+        "chlorineLoadKgH": 8488.957940705553,
+        "dropletsLoadKgH": 6094.1183519393635,
+        "totalChlorineLoadKgH": 14583.076292644917
+      },
+      {
+        "timeS": 5680,
+        "chlorineLoadKgH": 8494.508153800127,
+        "dropletsLoadKgH": 6072.679829262735,
+        "totalChlorineLoadKgH": 14567.187983062862
+      },
+      {
+        "timeS": 5700,
+        "chlorineLoadKgH": 8499.82541328044,
+        "dropletsLoadKgH": 6051.316725248499,
+        "totalChlorineLoadKgH": 14551.14213852894
+      },
+      {
+        "timeS": 5720,
+        "chlorineLoadKgH": 8504.917977417463,
+        "dropletsLoadKgH": 6030.0287745810465,
+        "totalChlorineLoadKgH": 14534.946751998508
+      },
+      {
+        "timeS": 5740,
+        "chlorineLoadKgH": 8509.793427742865,
+        "dropletsLoadKgH": 6008.815712878128,
+        "totalChlorineLoadKgH": 14518.609140620993
+      },
+      {
+        "timeS": 5760,
+        "chlorineLoadKgH": 8514.458761649143,
+        "dropletsLoadKgH": 5987.677276687563,
+        "totalChlorineLoadKgH": 14502.136038336706
+      },
+      {
+        "timeS": 5780,
+        "chlorineLoadKgH": 8518.920467890488,
+        "dropletsLoadKgH": 5966.613203483971,
+        "totalChlorineLoadKgH": 14485.533671374458
+      },
+      {
+        "timeS": 5800,
+        "chlorineLoadKgH": 8523.184588861466,
+        "dropletsLoadKgH": 5945.623231665512,
+        "totalChlorineLoadKgH": 14468.807820526978
+      },
+      {
+        "timeS": 5820,
+        "chlorineLoadKgH": 8527.256772505076,
+        "dropletsLoadKgH": 5924.707100550633,
+        "totalChlorineLoadKgH": 14451.963873055709
+      },
+      {
+        "timeS": 5840,
+        "chlorineLoadKgH": 8531.142315982725,
+        "dropletsLoadKgH": 5903.864550374838,
+        "totalChlorineLoadKgH": 14435.006866357562
+      },
+      {
+        "timeS": 5860,
+        "chlorineLoadKgH": 8534.846202724588,
+        "dropletsLoadKgH": 5883.0953222874505,
+        "totalChlorineLoadKgH": 14417.941525012038
+      },
+      {
+        "timeS": 5880,
+        "chlorineLoadKgH": 8538.373134105488,
+        "dropletsLoadKgH": 5862.399158348415,
+        "totalChlorineLoadKgH": 14400.772292453903
+      },
+      {
+        "timeS": 5900,
+        "chlorineLoadKgH": 8541.727556715763,
+        "dropletsLoadKgH": 5841.775801525076,
+        "totalChlorineLoadKgH": 14383.50335824084
+      },
+      {
+        "timeS": 5920,
+        "chlorineLoadKgH": 8544.913685990403,
+        "dropletsLoadKgH": 5821.224995688999,
+        "totalChlorineLoadKgH": 14366.138681679402
+      },
+      {
+        "timeS": 5940,
+        "chlorineLoadKgH": 8547.935526803676,
+        "dropletsLoadKgH": 5800.746485612784,
+        "totalChlorineLoadKgH": 14348.68201241646
+      },
+      {
+        "timeS": 5960,
+        "chlorineLoadKgH": 8550.796891516573,
+        "dropletsLoadKgH": 5780.340016966896,
+        "totalChlorineLoadKgH": 14331.13690848347
+      },
+      {
+        "timeS": 5980,
+        "chlorineLoadKgH": 8553.50141587183,
+        "dropletsLoadKgH": 5760.005336316505,
+        "totalChlorineLoadKgH": 14313.506752188336
+      },
+      {
+        "timeS": 6000,
+        "chlorineLoadKgH": 8556.052573058625,
+        "dropletsLoadKgH": 5739.742191118344,
+        "totalChlorineLoadKgH": 14295.794764176968
+      },
+      {
+        "timeS": 6020,
+        "chlorineLoadKgH": 8558.45368621188,
+        "dropletsLoadKgH": 5719.5503297175665,
+        "totalChlorineLoadKgH": 14278.004015929448
+      },
+      {
+        "timeS": 6040,
+        "chlorineLoadKgH": 8560.707939565433,
+        "dropletsLoadKgH": 5699.429501344624,
+        "totalChlorineLoadKgH": 14260.137440910057
+      },
+      {
+        "timeS": 6060,
+        "chlorineLoadKgH": 8562.818388441834,
+        "dropletsLoadKgH": 5679.379456112153,
+        "totalChlorineLoadKgH": 14242.197844553986
+      },
+      {
+        "timeS": 6080,
+        "chlorineLoadKgH": 8564.78796823193,
+        "dropletsLoadKgH": 5659.399945011865,
+        "totalChlorineLoadKgH": 14224.187913243797
+      },
+      {
+        "timeS": 6100,
+        "chlorineLoadKgH": 8566.619502493322,
+        "dropletsLoadKgH": 5639.490719911464,
+        "totalChlorineLoadKgH": 14206.110222404786
+      },
+      {
+        "timeS": 6120,
+        "chlorineLoadKgH": 8568.315710277127,
+        "dropletsLoadKgH": 5619.651533551556,
+        "totalChlorineLoadKgH": 14187.967243828683
+      },
+      {
+        "timeS": 6140,
+        "chlorineLoadKgH": 8569.879212776172,
+        "dropletsLoadKgH": 5599.882139542585,
+        "totalChlorineLoadKgH": 14169.761352318757
+      },
+      {
+        "timeS": 6160,
+        "chlorineLoadKgH": 8571.312539374352,
+        "dropletsLoadKgH": 5580.182292361766,
+        "totalChlorineLoadKgH": 14151.494831736118
+      },
+      {
+        "timeS": 6180,
+        "chlorineLoadKgH": 8572.618133165639,
+        "dropletsLoadKgH": 5560.551747350042,
+        "totalChlorineLoadKgH": 14133.169880515681
+      },
+      {
+        "timeS": 6200,
+        "chlorineLoadKgH": 8573.798356001817,
+        "dropletsLoadKgH": 5540.990260709043,
+        "totalChlorineLoadKgH": 14114.788616710859
+      },
+      {
+        "timeS": 6220,
+        "chlorineLoadKgH": 8574.855493120187,
+        "dropletsLoadKgH": 5521.497589498057,
+        "totalChlorineLoadKgH": 14096.353082618243
+      },
+      {
+        "timeS": 6240,
+        "chlorineLoadKgH": 8575.791757395724,
+        "dropletsLoadKgH": 5502.073491631015,
+        "totalChlorineLoadKgH": 14077.865249026738
+      },
+      {
+        "timeS": 6260,
+        "chlorineLoadKgH": 8576.609293256548,
+        "dropletsLoadKgH": 5482.717725873484,
+        "totalChlorineLoadKgH": 14059.327019130033
+      },
+      {
+        "timeS": 6280,
+        "chlorineLoadKgH": 8577.310180296745,
+        "dropletsLoadKgH": 5463.430051839669,
+        "totalChlorineLoadKgH": 14040.740232136413
+      },
+      {
+        "timeS": 6300,
+        "chlorineLoadKgH": 8577.896436616382,
+        "dropletsLoadKgH": 5444.210229989431,
+        "totalChlorineLoadKgH": 14022.106666605814
+      },
+      {
+        "timeS": 6320,
+        "chlorineLoadKgH": 8578.370021915087,
+        "dropletsLoadKgH": 5425.05802162531,
+        "totalChlorineLoadKgH": 14003.428043540396
+      },
+      {
+        "timeS": 6340,
+        "chlorineLoadKgH": 8578.732840362412,
+        "dropletsLoadKgH": 5405.973188889558,
+        "totalChlorineLoadKgH": 13984.70602925197
+      },
+      {
+        "timeS": 6360,
+        "chlorineLoadKgH": 8578.986743265647,
+        "dropletsLoadKgH": 5386.95549476119,
+        "totalChlorineLoadKgH": 13965.942238026837
+      },
+      {
+        "timeS": 6380,
+        "chlorineLoadKgH": 8579.133531553345,
+        "dropletsLoadKgH": 5368.004703053038,
+        "totalChlorineLoadKgH": 13947.138234606384
+      },
+      {
+        "timeS": 6400,
+        "chlorineLoadKgH": 8579.17495809094,
+        "dropletsLoadKgH": 5349.120578408818,
+        "totalChlorineLoadKgH": 13928.295536499758
+      },
+      {
+        "timeS": 6420,
+        "chlorineLoadKgH": 8579.112729842971,
+        "dropletsLoadKgH": 5330.3028863002055,
+        "totalChlorineLoadKgH": 13909.415616143177
+      },
+      {
+        "timeS": 6440,
+        "chlorineLoadKgH": 8578.948509894983,
+        "dropletsLoadKgH": 5311.551393023924,
+        "totalChlorineLoadKgH": 13890.499902918906
+      },
+      {
+        "timeS": 6460,
+        "chlorineLoadKgH": 8578.683919346806,
+        "dropletsLoadKgH": 5292.865865698846,
+        "totalChlorineLoadKgH": 13871.549785045652
+      },
+      {
+        "timeS": 6480,
+        "chlorineLoadKgH": 8578.320539087723,
+        "dropletsLoadKgH": 5274.246072263094,
+        "totalChlorineLoadKgH": 13852.566611350816
+      },
+      {
+        "timeS": 6500,
+        "chlorineLoadKgH": 8577.859911462985,
+        "dropletsLoadKgH": 5255.691781471162,
+        "totalChlorineLoadKgH": 13833.551692934147
+      },
+      {
+        "timeS": 6520,
+        "chlorineLoadKgH": 8577.303541840272,
+        "dropletsLoadKgH": 5237.202762891045,
+        "totalChlorineLoadKgH": 13814.506304731316
+      },
+      {
+        "timeS": 6540,
+        "chlorineLoadKgH": 8576.652900083793,
+        "dropletsLoadKgH": 5218.778786901375,
+        "totalChlorineLoadKgH": 13795.431686985168
+      },
+      {
+        "timeS": 6560,
+        "chlorineLoadKgH": 8575.909421943037,
+        "dropletsLoadKgH": 5200.419624688568,
+        "totalChlorineLoadKgH": 13776.329046631605
+      },
+      {
+        "timeS": 6580,
+        "chlorineLoadKgH": 8575.074510362574,
+        "dropletsLoadKgH": 5182.125048243989,
+        "totalChlorineLoadKgH": 13757.199558606564
+      },
+      {
+        "timeS": 6600,
+        "chlorineLoadKgH": 8574.14953671865,
+        "dropletsLoadKgH": 5163.89483036111,
+        "totalChlorineLoadKgH": 13738.044367079761
+      },
+      {
+        "timeS": 6620,
+        "chlorineLoadKgH": 8573.135841987865,
+        "dropletsLoadKgH": 5145.728744632697,
+        "totalChlorineLoadKgH": 13718.864586620562
+      },
+      {
+        "timeS": 6640,
+        "chlorineLoadKgH": 8572.034737852735,
+        "dropletsLoadKgH": 5127.626565447996,
+        "totalChlorineLoadKgH": 13699.66130330073
+      },
+      {
+        "timeS": 6660,
+        "chlorineLoadKgH": 8570.847507748525,
+        "dropletsLoadKgH": 5109.588067989925,
+        "totalChlorineLoadKgH": 13680.435575738451
+      },
+      {
+        "timeS": 6680,
+        "chlorineLoadKgH": 8569.57540785539,
+        "dropletsLoadKgH": 5091.613028232291,
+        "totalChlorineLoadKgH": 13661.18843608768
+      },
+      {
+        "timeS": 6700,
+        "chlorineLoadKgH": 8568.219668039463,
+        "dropletsLoadKgH": 5073.701222937004,
+        "totalChlorineLoadKgH": 13641.920890976467
+      },
+      {
+        "timeS": 6720,
+        "chlorineLoadKgH": 8566.78149274632,
+        "dropletsLoadKgH": 5055.852429651301,
+        "totalChlorineLoadKgH": 13622.633922397621
+      },
+      {
+        "timeS": 6740,
+        "chlorineLoadKgH": 8565.262061849886,
+        "dropletsLoadKgH": 5038.066426704989,
+        "totalChlorineLoadKgH": 13603.328488554875
+      },
+      {
+        "timeS": 6760,
+        "chlorineLoadKgH": 8563.662531459637,
+        "dropletsLoadKgH": 5020.342993207689,
+        "totalChlorineLoadKgH": 13584.005524667326
+      },
+      {
+        "timeS": 6780,
+        "chlorineLoadKgH": 8561.984034688747,
+        "dropletsLoadKgH": 5002.68190904609,
+        "totalChlorineLoadKgH": 13564.665943734837
+      },
+      {
+        "timeS": 6800,
+        "chlorineLoadKgH": 8560.227682385595,
+        "dropletsLoadKgH": 4985.082954881225,
+        "totalChlorineLoadKgH": 13545.31063726682
+      },
+      {
+        "timeS": 6820,
+        "chlorineLoadKgH": 8558.394563830865,
+        "dropletsLoadKgH": 4967.545912145735,
+        "totalChlorineLoadKgH": 13525.9404759766
+      },
+      {
+        "timeS": 6840,
+        "chlorineLoadKgH": 8556.485747402292,
+        "dropletsLoadKgH": 4950.070563041161,
+        "totalChlorineLoadKgH": 13506.556310443453
+      },
+      {
+        "timeS": 6860,
+        "chlorineLoadKgH": 8554.502281208986,
+        "dropletsLoadKgH": 4932.65669053524,
+        "totalChlorineLoadKgH": 13487.158971744226
+      },
+      {
+        "timeS": 6880,
+        "chlorineLoadKgH": 8552.445193697115,
+        "dropletsLoadKgH": 4915.304078359204,
+        "totalChlorineLoadKgH": 13467.749272056319
+      },
+      {
+        "timeS": 6900,
+        "chlorineLoadKgH": 8550.315494228531,
+        "dropletsLoadKgH": 4898.012511005103,
+        "totalChlorineLoadKgH": 13448.328005233634
+      },
+      {
+        "timeS": 6920,
+        "chlorineLoadKgH": 8548.11417363393,
+        "dropletsLoadKgH": 4880.781773723117,
+        "totalChlorineLoadKgH": 13428.895947357047
+      },
+      {
+        "timeS": 6940,
+        "chlorineLoadKgH": 8545.842204741888,
+        "dropletsLoadKgH": 4863.611652518901,
+        "totalChlorineLoadKgH": 13409.453857260789
+      },
+      {
+        "timeS": 6960,
+        "chlorineLoadKgH": 8543.500542885147,
+        "dropletsLoadKgH": 4846.501934150918,
+        "totalChlorineLoadKgH": 13390.002477036065
+      },
+      {
+        "timeS": 6980,
+        "chlorineLoadKgH": 8541.090126385301,
+        "dropletsLoadKgH": 4829.452406127793,
+        "totalChlorineLoadKgH": 13370.542532513095
+      },
+      {
+        "timeS": 7000,
+        "chlorineLoadKgH": 8538.611877017074,
+        "dropletsLoadKgH": 4812.462856705683,
+        "totalChlorineLoadKgH": 13351.074733722759
+      },
+      {
+        "timeS": 7020,
+        "chlorineLoadKgH": 8536.066700453186,
+        "dropletsLoadKgH": 4795.5330748856295,
+        "totalChlorineLoadKgH": 13331.599775338815
+      },
+      {
+        "timeS": 7040,
+        "chlorineLoadKgH": 8533.455486690817,
+        "dropletsLoadKgH": 4778.662850410953,
+        "totalChlorineLoadKgH": 13312.118337101769
+      },
+      {
+        "timeS": 7060,
+        "chlorineLoadKgH": 8530.779110460564,
+        "dropletsLoadKgH": 4761.851973764638,
+        "totalChlorineLoadKgH": 13292.631084225202
+      },
+      {
+        "timeS": 7080,
+        "chlorineLoadKgH": 8528.038431618725,
+        "dropletsLoadKgH": 4745.100236166728,
+        "totalChlorineLoadKgH": 13273.138667785453
+      },
+      {
+        "timeS": 7100,
+        "chlorineLoadKgH": 8525.2342955237,
+        "dropletsLoadKgH": 4728.407429571731,
+        "totalChlorineLoadKgH": 13253.641725095431
+      },
+      {
+        "timeS": 7120,
+        "chlorineLoadKgH": 8522.367533397233,
+        "dropletsLoadKgH": 4711.7733466660475,
+        "totalChlorineLoadKgH": 13234.140880063282
+      },
+      {
+        "timeS": 7140,
+        "chlorineLoadKgH": 8519.438962671149,
+        "dropletsLoadKgH": 4695.197780865378,
+        "totalChlorineLoadKgH": 13214.636743536528
+      },
+      {
+        "timeS": 7160,
+        "chlorineLoadKgH": 8516.449387320214,
+        "dropletsLoadKgH": 4678.680526312173,
+        "totalChlorineLoadKgH": 13195.129913632387
+      },
+      {
+        "timeS": 7180,
+        "chlorineLoadKgH": 8513.399598181699,
+        "dropletsLoadKgH": 4662.221377873068,
+        "totalChlorineLoadKgH": 13175.620976054768
+      },
+      {
+        "timeS": 7200,
+        "chlorineLoadKgH": 8510.290373262129,
+        "dropletsLoadKgH": 4645.820131136338,
+        "totalChlorineLoadKgH": 13156.110504398468
+      },
+      {
+        "timeS": 7220,
+        "chlorineLoadKgH": 8507.122478031724,
+        "dropletsLoadKgH": 4629.476582409357,
+        "totalChlorineLoadKgH": 13136.599060441082
+      },
+      {
+        "timeS": 7240,
+        "chlorineLoadKgH": 8503.896665706943,
+        "dropletsLoadKgH": 4613.190528716075,
+        "totalChlorineLoadKgH": 13117.087194423018
+      },
+      {
+        "timeS": 7260,
+        "chlorineLoadKgH": 8500.613677521502,
+        "dropletsLoadKgH": 4596.961767794486,
+        "totalChlorineLoadKgH": 13097.575445315988
+      },
+      {
+        "timeS": 7280,
+        "chlorineLoadKgH": 8497.274242986217,
+        "dropletsLoadKgH": 4580.790098094129,
+        "totalChlorineLoadKgH": 13078.064341080346
+      },
+      {
+        "timeS": 7300,
+        "chlorineLoadKgH": 8493.87908013793,
+        "dropletsLoadKgH": 4564.675318773569,
+        "totalChlorineLoadKgH": 13058.5543989115
+      },
+      {
+        "timeS": 7320,
+        "chlorineLoadKgH": 8490.428895777755,
+        "dropletsLoadKgH": 4548.617229697923,
+        "totalChlorineLoadKgH": 13039.046125475677
+      },
+      {
+        "timeS": 7340,
+        "chlorineLoadKgH": 8486.924385698854,
+        "dropletsLoadKgH": 4532.615631436355,
+        "totalChlorineLoadKgH": 13019.540017135208
+      },
+      {
+        "timeS": 7360,
+        "chlorineLoadKgH": 8483.366234903791,
+        "dropletsLoadKgH": 4516.670325259611,
+        "totalChlorineLoadKgH": 13000.036560163402
+      },
+      {
+        "timeS": 7380,
+        "chlorineLoadKgH": 8479.755117811585,
+        "dropletsLoadKgH": 4500.781113137546,
+        "totalChlorineLoadKgH": 12980.53623094913
+      },
+      {
+        "timeS": 7400,
+        "chlorineLoadKgH": 8476.091698454376,
+        "dropletsLoadKgH": 4484.947797736667,
+        "totalChlorineLoadKgH": 12961.039496191042
+      },
+      {
+        "timeS": 7420,
+        "chlorineLoadKgH": 8472.376630663664,
+        "dropletsLoadKgH": 4469.170182417681,
+        "totalChlorineLoadKgH": 12941.546813081346
+      },
+      {
+        "timeS": 7440,
+        "chlorineLoadKgH": 8468.610558245817,
+        "dropletsLoadKgH": 4453.448071233051,
+        "totalChlorineLoadKgH": 12922.058629478868
+      },
+      {
+        "timeS": 7460,
+        "chlorineLoadKgH": 8464.794115146618,
+        "dropletsLoadKgH": 4437.781268924571,
+        "totalChlorineLoadKgH": 12902.57538407119
+      },
+      {
+        "timeS": 7480,
+        "chlorineLoadKgH": 8460.927925604297,
+        "dropletsLoadKgH": 4422.169580920928,
+        "totalChlorineLoadKgH": 12883.097506525224
+      },
+      {
+        "timeS": 7500,
+        "chlorineLoadKgH": 8457.01260429043,
+        "dropletsLoadKgH": 4406.612813335293,
+        "totalChlorineLoadKgH": 12863.625417625724
+      },
+      {
+        "timeS": 7520,
+        "chlorineLoadKgH": 8453.04875643783,
+        "dropletsLoadKgH": 4391.110772962916,
+        "totalChlorineLoadKgH": 12844.159529400746
+      },
+      {
+        "timeS": 7540,
+        "chlorineLoadKgH": 8449.036977954258,
+        "dropletsLoadKgH": 4375.663267278719,
+        "totalChlorineLoadKgH": 12824.700245232976
+      },
+      {
+        "timeS": 7560,
+        "chlorineLoadKgH": 8444.977855520443,
+        "dropletsLoadKgH": 4360.27010443491,
+        "totalChlorineLoadKgH": 12805.247959955352
+      },
+      {
+        "timeS": 7580,
+        "chlorineLoadKgH": 8440.8719666704,
+        "dropletsLoadKgH": 4344.9310932585995,
+        "totalChlorineLoadKgH": 12785.803059929
+      },
+      {
+        "timeS": 7600,
+        "chlorineLoadKgH": 8436.719879851462,
+        "dropletsLoadKgH": 4329.646043249426,
+        "totalChlorineLoadKgH": 12766.365923100888
+      },
+      {
+        "timeS": 7620,
+        "chlorineLoadKgH": 8432.522154460525,
+        "dropletsLoadKgH": 4314.41476457719,
+        "totalChlorineLoadKgH": 12746.936919037715
+      },
+      {
+        "timeS": 7640,
+        "chlorineLoadKgH": 8428.279340851892,
+        "dropletsLoadKgH": 4299.237068079495,
+        "totalChlorineLoadKgH": 12727.516408931388
+      },
+      {
+        "timeS": 7660,
+        "chlorineLoadKgH": 8423.991980310491,
+        "dropletsLoadKgH": 4284.1127652594005,
+        "totalChlorineLoadKgH": 12708.104745569892
+      },
+      {
+        "timeS": 7680,
+        "chlorineLoadKgH": 8419.660604981913,
+        "dropletsLoadKgH": 4269.041668283081,
+        "totalChlorineLoadKgH": 12688.702273264993
+      },
+      {
+        "timeS": 7700,
+        "chlorineLoadKgH": 8415.285737747345,
+        "dropletsLoadKgH": 4254.023589977492,
+        "totalChlorineLoadKgH": 12669.309327724837
+      },
+      {
+        "timeS": 7720,
+        "chlorineLoadKgH": 8410.867892026483,
+        "dropletsLoadKgH": 4239.058343828043,
+        "totalChlorineLoadKgH": 12649.926235854526
+      },
+      {
+        "timeS": 7740,
+        "chlorineLoadKgH": 8406.407571483653,
+        "dropletsLoadKgH": 4224.145743976287,
+        "totalChlorineLoadKgH": 12630.55331545994
+      },
+      {
+        "timeS": 7760,
+        "chlorineLoadKgH": 8401.905269600042,
+        "dropletsLoadKgH": 4209.28560521761,
+        "totalChlorineLoadKgH": 12611.190874817652
+      },
+      {
+        "timeS": 7780,
+        "chlorineLoadKgH": 8397.361469054218,
+        "dropletsLoadKgH": 4194.477742998928,
+        "totalChlorineLoadKgH": 12591.839212053146
+      },
+      {
+        "timeS": 7800,
+        "chlorineLoadKgH": 8392.776640817132,
+        "dropletsLoadKgH": 4179.721973416396,
+        "totalChlorineLoadKgH": 12572.49861423353
+      },
+      {
+        "timeS": 7820,
+        "chlorineLoadKgH": 8388.151242801172,
+        "dropletsLoadKgH": 4165.018113213127,
+        "totalChlorineLoadKgH": 12553.1693560143
+      },
+      {
+        "timeS": 7840,
+        "chlorineLoadKgH": 8383.485717770278,
+        "dropletsLoadKgH": 4150.365979776914,
+        "totalChlorineLoadKgH": 12533.851697547192
+      },
+      {
+        "timeS": 7860,
+        "chlorineLoadKgH": 8378.780489928224,
+        "dropletsLoadKgH": 4135.765391137962,
+        "totalChlorineLoadKgH": 12514.545881066186
+      },
+      {
+        "timeS": 7880,
+        "chlorineLoadKgH": 8374.035958882672,
+        "dropletsLoadKgH": 4121.216165966628,
+        "totalChlorineLoadKgH": 12495.2521248493
+      },
+      {
+        "timeS": 7900,
+        "chlorineLoadKgH": 8369.252487536432,
+        "dropletsLoadKgH": 4106.718123571169,
+        "totalChlorineLoadKgH": 12475.970611107601
+      },
+      {
+        "timeS": 7920,
+        "chlorineLoadKgH": 8364.430371817674,
+        "dropletsLoadKgH": 4092.2710838954977,
+        "totalChlorineLoadKgH": 12456.701455713172
+      },
+      {
+        "timeS": 7940,
+        "chlorineLoadKgH": 8342.439813925654,
+        "dropletsLoadKgH": 4077.874867516949,
+        "totalChlorineLoadKgH": 12420.314681442604
+      },
+      {
+        "timeS": 7960,
+        "chlorineLoadKgH": 8313.091912424474,
+        "dropletsLoadKgH": 4063.529295644047,
+        "totalChlorineLoadKgH": 12376.621208068522
+      },
+      {
+        "timeS": 7980,
+        "chlorineLoadKgH": 8283.847254020242,
+        "dropletsLoadKgH": 4049.234190114289,
+        "totalChlorineLoadKgH": 12333.081444134532
+      },
+      {
+        "timeS": 8000,
+        "chlorineLoadKgH": 8254.705475513672,
+        "dropletsLoadKgH": 4034.989373391929,
+        "totalChlorineLoadKgH": 12289.694848905601
+      },
+      {
+        "timeS": 8020,
+        "chlorineLoadKgH": 8225.666214983168,
+        "dropletsLoadKgH": 4020.7946685657766,
+        "totalChlorineLoadKgH": 12246.460883548945
+      },
+      {
+        "timeS": 8040,
+        "chlorineLoadKgH": 8196.729111780345,
+        "dropletsLoadKgH": 4006.6498993469972,
+        "totalChlorineLoadKgH": 12203.379011127343
+      },
+      {
+        "timeS": 8060,
+        "chlorineLoadKgH": 8167.893806525539,
+        "dropletsLoadKgH": 3992.554890066921,
+        "totalChlorineLoadKgH": 12160.448696592459
+      },
+      {
+        "timeS": 8080,
+        "chlorineLoadKgH": 8139.159941103354,
+        "dropletsLoadKgH": 3978.509465674869,
+        "totalChlorineLoadKgH": 12117.669406778223
+      },
+      {
+        "timeS": 8100,
+        "chlorineLoadKgH": 8110.5271586582085,
+        "dropletsLoadKgH": 3964.5134517359684,
+        "totalChlorineLoadKgH": 12075.040610394177
+      },
+      {
+        "timeS": 8120,
+        "chlorineLoadKgH": 8081.995103589903,
+        "dropletsLoadKgH": 3950.5666744289942,
+        "totalChlorineLoadKgH": 12032.561778018897
+      },
+      {
+        "timeS": 8140,
+        "chlorineLoadKgH": 8053.5634215492055,
+        "dropletsLoadKgH": 3936.6689605442084,
+        "totalChlorineLoadKgH": 11990.232382093414
+      },
+      {
+        "timeS": 8160,
+        "chlorineLoadKgH": 8025.2317594334545,
+        "dropletsLoadKgH": 3922.820137481205,
+        "totalChlorineLoadKgH": 11948.05189691466
+      },
+      {
+        "timeS": 8180,
+        "chlorineLoadKgH": 7996.999765382164,
+        "dropletsLoadKgH": 3909.020033246774,
+        "totalChlorineLoadKgH": 11906.019798628939
+      },
+      {
+        "timeS": 8200,
+        "chlorineLoadKgH": 7968.867088772661,
+        "dropletsLoadKgH": 3895.268476452756,
+        "totalChlorineLoadKgH": 11864.135565225417
+      },
+      {
+        "timeS": 8220,
+        "chlorineLoadKgH": 7940.833380215734,
+        "dropletsLoadKgH": 3881.5652963139237,
+        "totalChlorineLoadKgH": 11822.398676529658
+      },
+      {
+        "timeS": 8240,
+        "chlorineLoadKgH": 7912.8982915512825,
+        "dropletsLoadKgH": 3867.910322645853,
+        "totalChlorineLoadKgH": 11780.808614197136
+      },
+      {
+        "timeS": 8260,
+        "chlorineLoadKgH": 7885.061475844004,
+        "dropletsLoadKgH": 3854.303385862812,
+        "totalChlorineLoadKgH": 11739.364861706816
+      },
+      {
+        "timeS": 8280,
+        "chlorineLoadKgH": 7857.322587379081,
+        "dropletsLoadKgH": 3840.744316975656,
+        "totalChlorineLoadKgH": 11698.066904354737
+      },
+      {
+        "timeS": 8300,
+        "chlorineLoadKgH": 7829.681281657884,
+        "dropletsLoadKgH": 3827.2329475897277,
+        "totalChlorineLoadKgH": 11656.914229247612
+      },
+      {
+        "timeS": 8320,
+        "chlorineLoadKgH": 7802.1372153937,
+        "dropletsLoadKgH": 3813.7691099027675,
+        "totalChlorineLoadKgH": 11615.906325296468
+      },
+      {
+        "timeS": 8340,
+        "chlorineLoadKgH": 7774.690046507464,
+        "dropletsLoadKgH": 3800.352636702824,
+        "totalChlorineLoadKgH": 11575.042683210288
+      },
+      {
+        "timeS": 8360,
+        "chlorineLoadKgH": 7747.339434123515,
+        "dropletsLoadKgH": 3786.983361366186,
+        "totalChlorineLoadKgH": 11534.322795489701
+      },
+      {
+        "timeS": 8380,
+        "chlorineLoadKgH": 7720.085038565355,
+        "dropletsLoadKgH": 3773.6611178553044,
+        "totalChlorineLoadKgH": 11493.746156420659
+      },
+      {
+        "timeS": 8400,
+        "chlorineLoadKgH": 7692.926521351439,
+        "dropletsLoadKgH": 3760.3857407167384,
+        "totalChlorineLoadKgH": 11453.312262068177
+      },
+      {
+        "timeS": 8420,
+        "chlorineLoadKgH": 7665.863545190968,
+        "dropletsLoadKgH": 3747.1570650790936,
+        "totalChlorineLoadKgH": 11413.020610270061
+      },
+      {
+        "timeS": 8440,
+        "chlorineLoadKgH": 7638.895773979695,
+        "dropletsLoadKgH": 3733.9749266509775,
+        "totalChlorineLoadKgH": 11372.870700630672
+      },
+      {
+        "timeS": 8460,
+        "chlorineLoadKgH": 7612.022872795761,
+        "dropletsLoadKgH": 3720.8391617189595,
+        "totalChlorineLoadKgH": 11332.862034514721
+      },
+      {
+        "timeS": 8480,
+        "chlorineLoadKgH": 7585.244507895526,
+        "dropletsLoadKgH": 3707.7496071455384,
+        "totalChlorineLoadKgH": 11292.994115041065
+      },
+      {
+        "timeS": 8500,
+        "chlorineLoadKgH": 7558.5603467094315,
+        "dropletsLoadKgH": 3694.7061003671124,
+        "totalChlorineLoadKgH": 11253.266447076545
+      },
+      {
+        "timeS": 8520,
+        "chlorineLoadKgH": 7531.970057837862,
+        "dropletsLoadKgH": 3681.708479391965,
+        "totalChlorineLoadKgH": 11213.678537229827
+      },
+      {
+        "timeS": 8540,
+        "chlorineLoadKgH": 7505.47331104704,
+        "dropletsLoadKgH": 3668.75658279825,
+        "totalChlorineLoadKgH": 11174.22989384529
+      },
+      {
+        "timeS": 8560,
+        "chlorineLoadKgH": 7479.069777264912,
+        "dropletsLoadKgH": 3655.850249731988,
+        "totalChlorineLoadKgH": 11134.9200269969
+      },
+      {
+        "timeS": 8580,
+        "chlorineLoadKgH": 7452.759128577074,
+        "dropletsLoadKgH": 3642.989319905068,
+        "totalChlorineLoadKgH": 11095.748448482142
+      },
+      {
+        "timeS": 8600,
+        "chlorineLoadKgH": 7426.541038222692,
+        "dropletsLoadKgH": 3630.173633593257,
+        "totalChlorineLoadKgH": 11056.71467181595
+      },
+      {
+        "timeS": 8620,
+        "chlorineLoadKgH": 7400.415180590441,
+        "dropletsLoadKgH": 3617.4030316342187,
+        "totalChlorineLoadKgH": 11017.81821222466
+      },
+      {
+        "timeS": 8640,
+        "chlorineLoadKgH": 7374.381231214472,
+        "dropletsLoadKgH": 3604.677355425532,
+        "totalChlorineLoadKgH": 10979.058586640003
+      },
+      {
+        "timeS": 8660,
+        "chlorineLoadKgH": 7348.438866770371,
+        "dropletsLoadKgH": 3591.9964469227257,
+        "totalChlorineLoadKgH": 10940.435313693097
+      },
+      {
+        "timeS": 8680,
+        "chlorineLoadKgH": 7322.587765071149,
+        "dropletsLoadKgH": 3579.3601486373113,
+        "totalChlorineLoadKgH": 10901.94791370846
+      },
+      {
+        "timeS": 8700,
+        "chlorineLoadKgH": 7296.827605063242,
+        "dropletsLoadKgH": 3566.768303634833,
+        "totalChlorineLoadKgH": 10863.595908698075
+      },
+      {
+        "timeS": 8720,
+        "chlorineLoadKgH": 7271.15806682252,
+        "dropletsLoadKgH": 3554.2207555329123,
+        "totalChlorineLoadKgH": 10825.378822355433
+      },
+      {
+        "timeS": 8740,
+        "chlorineLoadKgH": 7245.578831550313,
+        "dropletsLoadKgH": 3541.7173484993114,
+        "totalChlorineLoadKgH": 10787.296180049625
+      },
+      {
+        "timeS": 8760,
+        "chlorineLoadKgH": 7220.089581569459,
+        "dropletsLoadKgH": 3529.2579272499934,
+        "totalChlorineLoadKgH": 10749.347508819454
+      },
+      {
+        "timeS": 8780,
+        "chlorineLoadKgH": 7194.690000320351,
+        "dropletsLoadKgH": 3516.842337047197,
+        "totalChlorineLoadKgH": 10711.532337367547
+      },
+      {
+        "timeS": 8800,
+        "chlorineLoadKgH": 7169.379772357007,
+        "dropletsLoadKgH": 3504.4704236975126,
+        "totalChlorineLoadKgH": 10673.85019605452
+      },
+      {
+        "timeS": 8820,
+        "chlorineLoadKgH": 7144.158583343156,
+        "dropletsLoadKgH": 3492.1420335499693,
+        "totalChlorineLoadKgH": 10636.300616893126
+      },
+      {
+        "timeS": 8840,
+        "chlorineLoadKgH": 7119.026120048333,
+        "dropletsLoadKgH": 3479.857013494124,
+        "totalChlorineLoadKgH": 10598.883133542457
+      },
+      {
+        "timeS": 8860,
+        "chlorineLoadKgH": 7093.982070343982,
+        "dropletsLoadKgH": 3467.615210958163,
+        "totalChlorineLoadKgH": 10561.597281302145
+      },
+      {
+        "timeS": 8880,
+        "chlorineLoadKgH": 7069.02612319959,
+        "dropletsLoadKgH": 3455.4164739070043,
+        "totalChlorineLoadKgH": 10524.442597106594
+      },
+      {
+        "timeS": 8900,
+        "chlorineLoadKgH": 7044.157968678819,
+        "dropletsLoadKgH": 3443.260650840412,
+        "totalChlorineLoadKgH": 10487.41861951923
+      },
+      {
+        "timeS": 8920,
+        "chlorineLoadKgH": 7019.377297935656,
+        "dropletsLoadKgH": 3431.1475907911117,
+        "totalChlorineLoadKgH": 10450.524888726768
+      },
+      {
+        "timeS": 8940,
+        "chlorineLoadKgH": 6994.68380321058,
+        "dropletsLoadKgH": 3419.077143322919,
+        "totalChlorineLoadKgH": 10413.760946533499
+      },
+      {
+        "timeS": 8960,
+        "chlorineLoadKgH": 6970.077177826737,
+        "dropletsLoadKgH": 3407.0491585288682,
+        "totalChlorineLoadKgH": 10377.126336355606
+      },
+      {
+        "timeS": 8980,
+        "chlorineLoadKgH": 6945.557116186133,
+        "dropletsLoadKgH": 3395.0634870293534,
+        "totalChlorineLoadKgH": 10340.620603215486
+      },
+      {
+        "timeS": 9000,
+        "chlorineLoadKgH": 6921.123313765838,
+        "dropletsLoadKgH": 3383.119979970271,
+        "totalChlorineLoadKgH": 10304.243293736108
+      }
+    ]
+  }
+}

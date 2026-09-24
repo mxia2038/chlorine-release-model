@@ -16,7 +16,7 @@ node src/calc.mjs config/default_25mm.json
 node src/design_basis.mjs config/default_25mm.json
 ```
 
-The calculation writes release and ventilation time series to `outputs/data/`, and the design-basis step writes the downstream design quantities. The optional `python run_model.py` wrapper runs both steps and requires Python 3 and Node.js on PATH. Result files are generated locally and are not distributed with this repository.
+The calculation writes release and ventilation time series to `outputs/data/`, and the design-basis step writes the downstream design quantities. The optional `python run_model.py` wrapper runs both steps and requires Python 3 and Node.js on PATH. Full result files stay local in `outputs/`; compact numerical data supporting the manuscript are in `data/paper/`.
 
 ## Study scripts
 
@@ -31,6 +31,8 @@ The calculation writes release and ventilation time series to `outputs/data/`, a
 | External ventilation comparison | `src/research_ventilation_validation.mjs` |
 
 Each script writes its results to `outputs/research/`. The published external measurements used in the ventilation comparison are transcribed in the script with their source; the original experimental dataset was not collected by this project.
+
+Run `node src/export_paper_data.mjs` to regenerate the compact public dataset in `data/paper/`, including the six constant-rate inventory comparisons and nine pressure-by-pump cases reported in the manuscript.
 
 ## Plotting
 

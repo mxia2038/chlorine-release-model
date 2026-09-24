@@ -4,5 +4,5 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-# Generated results and figures are not distributed
+# Full generated results and figures are not distributed; compact paper data are in data/paper/
 outputs/

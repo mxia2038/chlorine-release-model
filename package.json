@@ -9,6 +9,7 @@
   "scripts": {
     "calc": "node src/calc.mjs config/default_25mm.json",
     "design": "node src/design_basis.mjs config/default_25mm.json",
-    "test": "node --test"
+    "test": "node --test",
+    "paper-data": "node src/export_paper_data.mjs"
   }
 }
