@@ -1,0 +1,14 @@
+{
+  "name": "chlorine-release-model",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "calc": "node src/calc.mjs config/default_25mm.json",
+    "design": "node src/design_basis.mjs config/default_25mm.json",
+    "test": "node --test"
+  }
+}

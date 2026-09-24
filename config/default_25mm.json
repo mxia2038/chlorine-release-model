@@ -1,0 +1,129 @@
+{
+  "caseName": "25 mm孔液氯泄漏与事故抽风默认工况",
+  "tank": {
+    "volumeM3": 81.42,
+    "diameterM": 2.8,
+    "pressureGaugePa": 200000,
+    "atmosphericPressurePa": 101325,
+    "dischargeCoefficient": 0.62,
+    "holeDiameterM": 0.025,
+    "liquidDensityKgM3": 1485.0124107010345,
+    "initialLiquidLevelM": 2.1,
+    "leakElevationM": 0,
+    "transferPumpM3H": 25
+  },
+  "physical": {
+    "gravityMS2": 9.81,
+    "boilingPointC": -33.95236211292493,
+    "latentHeatJkg": 286962.65052104986,
+    "liquidCpKJkgK": 0.9561563468960666,
+    "chlorinePropertyBasis": {
+      "source": "Thol et al. (2021), AIChE Journal 67:e17326, DOI 10.1002/aic.17326; evaluated with CoolProp 8.0.0 HEOS::Chlorine",
+      "densityAndCpState": "saturated liquid at 301325 Pa absolute",
+      "boilingPointAndLatentHeatState": "saturation at 101325 Pa absolute"
+    },
+    "chlorineMolarMassKgKmol": 70.906,
+    "groundInitialTempC": 25,
+    "concreteConductivityWmK": 1.1,
+    "concreteThermalDiffusivityM2s": 1.29e-07,
+    "poolThicknessM": 0.01,
+    "poolSurfaceVaporPressurePa": 101325,
+    "gasConstantJmolK": 8.314462618,
+    "stabilityA": 0.005285,
+    "stabilityN": 0.3,
+    "standardMolarVolumeNm3Kmol": 22.414
+  },
+  "antoine": {
+    "A": 4.28814,
+    "B": 969.992,
+    "C": -12.791
+  },
+  "ventilation": {
+    "roomVolumeM3": 8640,
+    "roomLengthM": 36,
+    "roomWidthM": 24,
+    "roomHeightM": 10,
+    "roomPressurePa": 101325,
+    "initialTempC": 25,
+    "makeupAirTempC": 25,
+    "envelopeTempC": 25,
+    "absorberInletPressurePa": 101325,
+    "fanMargin": 1.1,
+    "airCpKJkmolK": 29.1,
+    "chlorineCpKJkmolK": 33.9,
+    "wallUWM2K": 0,
+    "roofUWM2K": 0,
+    "floorUWM2K": 0,
+    "additionalUAWK": 0
+  },
+  "absorption": {
+    "absorbent": "NaOH",
+    "outletChlorineRequirement": {
+      "limitMgNm3": 5,
+      "designTargetMgNm3": 4,
+      "comparison": "<",
+      "dryWetBasis": "dry_assumed"
+    },
+    "designScope": {
+      "packingHeight": "excluded",
+      "heatExchangerArea": "vendor"
+    },
+    "naohMassFraction": 0.18,
+    "finalNaohMassFraction": 0.05,
+    "naohExcessFactor": null,
+    "solutionDensityKgM3": 1236.49,
+    "circulationTankCount": 3,
+    "tankWorkingVolumeFraction": 0.85,
+    "superficialGasVelocityMS": 0.55,
+    "loadFluctuationFactor": 1,
+    "diameterIncrementMm": 100,
+    "sprayDensityM3M2H": 50,
+    "tailTower": {
+      "superficialGasVelocityMS": 0.7,
+      "loadFluctuationFactor": 1,
+      "diameterIncrementMm": 100,
+      "sprayDensityM3M2H": 30,
+      "thermal": {
+        "coolantSupplyTempC": 32,
+        "coolantReturnApproachK": 4,
+        "solutionInletApproachK": 6,
+        "solutionOutletReferenceC": 43,
+        "solutionOutletLimitC": 45,
+        "coolantCpKJkgK": 4.184
+      },
+      "overallHeatTransferCoefficientWm2K": null
+    },
+    "process": {
+      "mainTowerCount": 1,
+      "mainTankCount": 2,
+      "tailTowerCount": 1,
+      "tailTankCount": 1,
+      "reuseRetiredTanks": false,
+      "mainCaptureFraction": 0.9,
+      "mainInitialSolutionKgPerTank": null,
+      "mainTankSizingBasis": "chemical_capacity",
+      "tailInitialSolutionKg": null
+    },
+    "thermal": {
+      "initialLiquidTempC": 18,
+      "switchTemperatureRiseK": 20,
+      "solutionCpKJkgK": 4.184,
+      "solutionCpBasis": "User input: 1 kcal/(kg C) = 4.184 kJ/(kg K)",
+      "gasNetHeatKJkg": 1458.402,
+      "dropletNetHeatKJkg": 1204.868,
+      "heatSource": "OxyChem Sodium Hypochlorite Handbook, pp.6-7: gas 627 BTU/lb, liquid 518 BTU/lb",
+      "heatSourceUrl": "https://files.engineering.com/files/1c61bdeb-9cc0-4b94-9ffb-cdebce0842d4/bleach.pdf",
+      "heatBasis": "Handbook reference-state approximation; phase correction included; sensible heat, dilution and water evaporation omitted",
+      "coolantTemperatureRiseK": 10,
+      "coolantSupplyTempC": 7,
+      "coolantReturnTempC": 17,
+      "overallHeatTransferCoefficientWm2K": null,
+      "coolantCpKJkgK": 4.184,
+      "coolantCpBasis": "Pure-water constant-Cp approximation; not applicable to glycol without adjustment"
+    }
+  },
+  "simulation": {
+    "timeStepS": 20,
+    "maxTimeS": 86400
+  }
+}
