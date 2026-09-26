@@ -11,7 +11,7 @@ const base=JSON.parse(await fs.readFile(path.join(root,'config','default_25mm.js
 for(const script of [
   'research_scan.mjs','research_hole_scan.mjs',
   'research_assumption_sensitivity.mjs','research_droplet_bounds.mjs',
-  'research_convergence.mjs','research_ventilation_validation.mjs'
+  'research_convergence.mjs','research_ventilation_validation.mjs','research_transfer_pairs.mjs'
 ]) await import(new URL(script,import.meta.url));
 
 await fs.mkdir(out,{recursive:true});
@@ -103,4 +103,4 @@ await write('additional_checks.json',{
   pressureStudyBasis:'Fixed baseline density, liquid heat capacity, boiling point and latent heat; Antoine temperature and flash fraction vary with pressure.'
 });
 
-console.log(`Wrote 8 paper data files to ${path.relative(root,out)}`);
+console.log(`Wrote 9 paper data files to ${path.relative(root,out)}`);

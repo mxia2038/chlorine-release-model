@@ -32,9 +32,9 @@ function panel({x,y,w,h,xmin,xmax,ymin,ymax,xticks,yticks,xlabel,ylabel,title}){
 
 const maxPi=Math.max(...rows.map(r=>r.pumpToInitialLeakRatio));
 const metrics=[
-  ['leakFractionNoTransfer','Leaked mass ratio','A. Cumulative release'],
-  ['fanRatioNoTransfer','Fan flow ratio','B. Fan flow'],
-  ['coolingRatioNoTransfer','Cooling peak ratio','C. Main cooling peak']
+  ['leakFractionNoTransfer','Leaked mass ratio','(a) Cumulative release'],
+  ['fanRatioNoTransfer','Fan flow ratio','(b) Fan flow'],
+  ['coolingRatioNoTransfer','Cooling peak ratio','(c) Main cooling duty']
 ];
 let body='';
 for(let i=0;i<metrics.length;i++){

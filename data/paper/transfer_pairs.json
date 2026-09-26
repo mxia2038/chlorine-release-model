@@ -1,0 +1,286 @@
+{
+  "input": {
+    "caseName": "25 mm孔液氯泄漏与事故抽风默认工况",
+    "tank": {
+      "volumeM3": 81.42,
+      "diameterM": 2.8,
+      "pressureGaugePa": 200000,
+      "atmosphericPressurePa": 101325,
+      "dischargeCoefficient": 0.62,
+      "holeDiameterM": 0.025,
+      "liquidDensityKgM3": 1485.0124107010345,
+      "initialLiquidLevelM": 2.1,
+      "leakElevationM": 0,
+      "transferPumpM3H": 25
+    },
+    "physical": {
+      "gravityMS2": 9.81,
+      "boilingPointC": -33.95236211292493,
+      "latentHeatJkg": 286962.65052104986,
+      "liquidCpKJkgK": 0.9561563468960665,
+      "chlorinePropertyBasis": {
+        "source": "Thol et al. (2021), AIChE Journal 67:e17326, DOI 10.1002/aic.17326; evaluated with CoolProp 8.0.0 HEOS::Chlorine",
+        "densityAndCpState": "saturated liquid at 301325 Pa absolute",
+        "boilingPointAndLatentHeatState": "saturation at 101325 Pa absolute"
+      },
+      "chlorineMolarMassKgKmol": 70.906,
+      "groundInitialTempC": 25,
+      "concreteConductivityWmK": 1.1,
+      "concreteThermalDiffusivityM2s": 1.29e-7,
+      "poolThicknessM": 0.01,
+      "poolSurfaceVaporPressurePa": 101325,
+      "gasConstantJmolK": 8.314462618,
+      "stabilityA": 0.005285,
+      "stabilityN": 0.3,
+      "standardMolarVolumeNm3Kmol": 22.414
+    },
+    "antoine": {
+      "A": 4.28814,
+      "B": 969.992,
+      "C": -12.791
+    },
+    "ventilation": {
+      "roomVolumeM3": 8640,
+      "roomLengthM": 36,
+      "roomWidthM": 24,
+      "roomHeightM": 10,
+      "roomPressurePa": 101325,
+      "initialTempC": 25,
+      "makeupAirTempC": 25,
+      "envelopeTempC": 25,
+      "absorberInletPressurePa": 101325,
+      "fanMargin": 1.1,
+      "airCpKJkmolK": 29.1,
+      "chlorineCpKJkmolK": 33.9,
+      "wallUWM2K": 0,
+      "roofUWM2K": 0,
+      "floorUWM2K": 0,
+      "additionalUAWK": 0
+    },
+    "absorption": {
+      "absorbent": "NaOH",
+      "outletChlorineRequirement": {
+        "limitMgNm3": 5,
+        "designTargetMgNm3": 4,
+        "comparison": "<",
+        "dryWetBasis": "dry_assumed"
+      },
+      "designScope": {
+        "packingHeight": "excluded",
+        "heatExchangerArea": "vendor"
+      },
+      "naohMassFraction": 0.18,
+      "finalNaohMassFraction": 0.05,
+      "naohExcessFactor": null,
+      "solutionDensityKgM3": 1236.49,
+      "circulationTankCount": 3,
+      "tankWorkingVolumeFraction": 0.85,
+      "superficialGasVelocityMS": 0.55,
+      "loadFluctuationFactor": 1,
+      "diameterIncrementMm": 100,
+      "sprayDensityM3M2H": 50,
+      "tailTower": {
+        "superficialGasVelocityMS": 0.7,
+        "loadFluctuationFactor": 1,
+        "diameterIncrementMm": 100,
+        "sprayDensityM3M2H": 30,
+        "thermal": {
+          "coolantSupplyTempC": 32,
+          "coolantReturnApproachK": 4,
+          "solutionInletApproachK": 6,
+          "solutionOutletReferenceC": 43,
+          "solutionOutletLimitC": 45,
+          "coolantCpKJkgK": 4.184
+        },
+        "overallHeatTransferCoefficientWm2K": null
+      },
+      "process": {
+        "mainTowerCount": 1,
+        "mainTankCount": 2,
+        "tailTowerCount": 1,
+        "tailTankCount": 1,
+        "reuseRetiredTanks": false,
+        "mainCaptureFraction": 0.9,
+        "mainInitialSolutionKgPerTank": null,
+        "mainTankSizingBasis": "chemical_capacity",
+        "tailInitialSolutionKg": null
+      },
+      "thermal": {
+        "initialLiquidTempC": 18,
+        "switchTemperatureRiseK": 20,
+        "solutionCpKJkgK": 4.184,
+        "solutionCpBasis": "User input: 1 kcal/(kg C) = 4.184 kJ/(kg K)",
+        "gasNetHeatKJkg": 1458.402,
+        "dropletNetHeatKJkg": 1204.868,
+        "heatSource": "OxyChem Sodium Hypochlorite Handbook, pp.6-7: gas 627 BTU/lb, liquid 518 BTU/lb",
+        "heatSourceUrl": "https://files.engineering.com/files/1c61bdeb-9cc0-4b94-9ffb-cdebce0842d4/bleach.pdf",
+        "heatBasis": "Handbook reference-state approximation; phase correction included; sensible heat, dilution and water evaporation omitted",
+        "coolantTemperatureRiseK": 10,
+        "coolantSupplyTempC": 7,
+        "coolantReturnTempC": 17,
+        "overallHeatTransferCoefficientWm2K": null,
+        "coolantCpKJkgK": 4.184,
+        "coolantCpBasis": "Pure-water constant-Cp approximation; not applicable to glycol without adjustment"
+      }
+    },
+    "simulation": {
+      "timeStepS": 20,
+      "maxTimeS": 86400
+    }
+  },
+  "inventoryFactor": 1.1290929907203786,
+  "interpretation": "Paired design comparisons use the no-transfer case under each assumption as denominator. Gas allocation prescribes phase partition only; temperature is not used to establish feasibility. Inventory check perturbs a constant reference inventory, not a coupled thermodynamic solution. Fixed-fan replay holds release histories unchanged.",
+  "rows": [
+    {
+      "id": "baseline",
+      "label": "Suspended droplets; full mixing volume",
+      "cases": [
+        {
+          "pumpM3H": 0,
+          "leakedKg": 97271.7279339294,
+          "leakDurationS": 12598.430933010002,
+          "fanNm3H": 5306.509942579331,
+          "mainCoolingKW": 7753.047994389988,
+          "residenceTimeS": 5369.999462565714
+        },
+        {
+          "pumpM3H": 25,
+          "leakedKg": 41652.78959726478,
+          "leakDurationS": 5393.306522400592,
+          "fanNm3H": 5021.138776129302,
+          "mainCoolingKW": 4980.318722050863,
+          "residenceTimeS": 5675.197760958443
+        }
+      ],
+      "reductionPct": {
+        "leakedKg": 57.17893525490068,
+        "fanNm3H": 5.377756181331483,
+        "mainCoolingKW": 35.763086651152406
+      }
+    },
+    {
+      "id": "half_volume",
+      "label": "Suspended droplets; half mixing volume",
+      "cases": [
+        {
+          "pumpM3H": 0,
+          "leakedKg": 97271.7279339294,
+          "leakDurationS": 12598.430933010002,
+          "fanNm3H": 5306.509942579331,
+          "mainCoolingKW": 8538.993324085033,
+          "residenceTimeS": 2684.999731282857
+        },
+        {
+          "pumpM3H": 25,
+          "leakedKg": 41652.78959726478,
+          "leakDurationS": 5393.306522400592,
+          "fanNm3H": 5021.138776129302,
+          "mainCoolingKW": 6963.305279323422,
+          "residenceTimeS": 2837.5988804792214
+        }
+      ],
+      "reductionPct": {
+        "leakedKg": 57.17893525490068,
+        "fanNm3H": 5.377756181331483,
+        "mainCoolingKW": 18.452854861910183
+      }
+    },
+    {
+      "id": "deposited",
+      "label": "All entrained droplets assigned to pool",
+      "cases": [
+        {
+          "pumpM3H": 0,
+          "leakedKg": 97271.7279339294,
+          "leakDurationS": 12598.430933010002,
+          "fanNm3H": 8380.229824464479,
+          "mainCoolingKW": 7560.3827906975885,
+          "residenceTimeS": 3400.378764859423
+        },
+        {
+          "pumpM3H": 25,
+          "leakedKg": 41652.78959726478,
+          "leakDurationS": 5393.306522400592,
+          "fanNm3H": 7963.171206199942,
+          "mainCoolingKW": 6219.325838773303,
+          "residenceTimeS": 3578.468276252095
+        }
+      ],
+      "reductionPct": {
+        "leakedKg": 57.17893525490068,
+        "fanNm3H": 4.9766966658481575,
+        "mainCoolingKW": 17.737950432540828
+      }
+    },
+    {
+      "id": "gas_allocation",
+      "label": "All entrained droplets assigned to gas",
+      "cases": [
+        {
+          "pumpM3H": 0,
+          "leakedKg": 97271.7279339294,
+          "leakDurationS": 12598.430933010002,
+          "fanNm3H": 8901.313151702698,
+          "mainCoolingKW": 9086.007902140429,
+          "residenceTimeS": 3201.3204180216653
+        },
+        {
+          "pumpM3H": 25,
+          "leakedKg": 41652.78959726478,
+          "leakDurationS": 5393.306522400592,
+          "fanNm3H": 8581.799536818846,
+          "mainCoolingKW": 7089.604410359095,
+          "residenceTimeS": 3320.5105080226194
+        }
+      ],
+      "reductionPct": {
+        "leakedKg": 57.17893525490068,
+        "fanNm3H": 3.5895110017866716,
+        "mainCoolingKW": 21.972284344052063
+      }
+    },
+    {
+      "id": "inventory_check",
+      "label": "Reference inventory increased to cold-state equivalent",
+      "cases": [
+        {
+          "pumpM3H": 0,
+          "leakedKg": 97271.7279339294,
+          "leakDurationS": 12598.430933010002,
+          "fanNm3H": 5306.509942579331,
+          "mainCoolingKW": 7491.973471415466,
+          "residenceTimeS": 6063.228753355148
+        },
+        {
+          "pumpM3H": 25,
+          "leakedKg": 41652.78959726478,
+          "leakDurationS": 5393.306522400592,
+          "fanNm3H": 5021.138776129302,
+          "mainCoolingKW": 4614.8582483415485,
+          "residenceTimeS": 6407.826012850164
+        }
+      ],
+      "reductionPct": {
+        "leakedKg": 57.17893525490068,
+        "fanNm3H": 5.377756181331483,
+        "mainCoolingKW": 38.402634953942794
+      }
+    }
+  ],
+  "fixedFan": {
+    "fanNm3H": 5306.509942579331,
+    "cases": [
+      {
+        "pumpM3H": 0,
+        "peakKW": 7753.047994390016,
+        "maxBalanceErrorKg": 3.6525671376352875e-10
+      },
+      {
+        "pumpM3H": 25,
+        "peakKW": 5148.156276333685,
+        "maxBalanceErrorKg": 1.5129231201171933e-10
+      }
+    ],
+    "coolingReductionPct": 33.59829218058743
+  }
+}

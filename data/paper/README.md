@@ -5,10 +5,11 @@ These JSON files contain the numerical values behind the manuscript's reported c
 | File | Manuscript content |
 |---|---|
 | `baseline_case.json` | Baseline summary and the first 9,000 s of Figure 2 time-series values |
-| `transfer_delay_scan.json` | Table 3, Table 4, and pump/delay comparisons |
-| `hole_size_scan.json` | Table 5 and Figure 3 |
-| `assumption_sensitivity.json` | Table 6 and Figure 4 |
-| `droplet_fate_bounds.json` | Table 7 and Figure 5 |
+| `transfer_delay_scan.json` | Tables 2–3 and pump/delay comparisons |
+| `hole_size_scan.json` | Table 4 and Figure 3 |
+| `assumption_sensitivity.json` | Figure 4 |
+| `droplet_fate_bounds.json` | Figure 5 |
+| `transfer_pairs.json` | Table 5, fixed-fan comparison, and reference-inventory sensitivity |
 | `time_step_convergence.json` | Time-step comparison in Section 3.7 |
 | `ventilation_validation.json` | Published chamber measurements transcribed from Lambert et al. (2010) and the Section 3.7 comparison |
 | `additional_checks.json` | Six constant-rate inventory comparisons and nine pressure-by-pump cases |

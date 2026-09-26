@@ -29,10 +29,10 @@ function panel(i,{title,ymax,yticks,ylabel}){
 let body='';
 const withdrawalMax=Math.ceil(Math.max(...release.flatMap(r=>[r.leakRateKgS,r.transferRateKgS]))/2)*2;
 const gasSourceMax=Math.ceil(Math.max(...release.flatMap(r=>[r.flashRateKgS,r.heatEvapRateKgS,r.massEvapRateKgS])));
-const p1=panel(0,{title:'A. Tank withdrawal rates',ymax:withdrawalMax,yticks:Array.from({length:7},(_,i)=>i*withdrawalMax/6),ylabel:'Mass flow (kg/s)'}); body+=p1.body;
-const p2=panel(1,{title:'B. Airborne gas-source terms',ymax:gasSourceMax,yticks:Array.from({length:6},(_,i)=>i*gasSourceMax/5),ylabel:'Gas source (kg/s)'}); body+=p2.body;
+const p1=panel(0,{title:'(a) Tank withdrawal',ymax:withdrawalMax,yticks:Array.from({length:7},(_,i)=>i*withdrawalMax/6),ylabel:'Mass flow (kg/s)'}); body+=p1.body;
+const p2=panel(1,{title:'(b) Gas source',ymax:gasSourceMax,yticks:Array.from({length:6},(_,i)=>i*gasSourceMax/5),ylabel:'Gas source (kg/s)'}); body+=p2.body;
 const maxLoad=Math.ceil(Math.max(...room.map(r=>r.totalChlorineLoadKgH))/2000)*2000;
-const p3=panel(2,{title:'C. Scrubber inlet chlorine load',ymax:maxLoad,yticks:[0,maxLoad*.25,maxLoad*.5,maxLoad*.75,maxLoad],ylabel:'Chlorine load (kg/h)'}); body+=p3.body;
+const p3=panel(2,{title:'(c) Absorber inlet load',ymax:maxLoad,yticks:[0,maxLoad*.25,maxLoad*.5,maxLoad*.75,maxLoad],ylabel:'Chlorine load (kg/h)'}); body+=p3.body;
 
 const series=(rows,x,y,key,color,dash='')=>pathLine(rows.map(r=>[x(r.timeS/60),y(r[key])]),`fill="none" stroke="${color}" stroke-width="2.2" ${dash}`);
 body+=series(release,p1.sx,p1.sy,'leakRateKgS',colors.blue);

@@ -14,8 +14,8 @@ const translate={
 const metrics=[
   ['leakedKgChangePct','Leaked mass'],
   ['fanNm3HChangePct','Fan flow'],
-  ['maxGasMolFractionChangePct','Gas Cl₂ peak'],
-  ['maxTotalChlorineKgHChangePct','Total Cl₂ peak'],
+  ['maxGasMolFractionChangePct','Gas Cl2 peak'],
+  ['maxTotalChlorineKgHChangePct','Total Cl2 peak'],
   ['mainCoolingKWChangePct','Main cooling'],
   ['tailCoolingKWChangePct','Tail cooling']
 ];
@@ -27,7 +27,6 @@ const color=v=>{
   return `rgb(${Math.round(235-135*t)},${Math.round(245-80*t)},255)`;
 };
 let body='<rect width="100%" height="100%" fill="white"/><style>text{font-family:Arial,sans-serif;fill:#1a202c}.title{font-size:16px;font-weight:600}.head{font-size:11px;font-weight:600}.cell{font-size:12px}.row{font-size:12px}</style>';
-body+=`<text x="${W/2}" y="28" text-anchor="middle" class="title">One-at-a-time assumption sensitivity (% change from baseline)</text>`;
 metrics.forEach(([,label],j)=>body+=`<text x="${left+j*cw+cw/2}" y="58" text-anchor="middle" class="head">${esc(label)}</text>`);
 rows.forEach((r,i)=>{
   const y=top+i*rh;
