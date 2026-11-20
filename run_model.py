@@ -22,7 +22,7 @@ def find_node() -> str:
     node = shutil.which("node")
     if node:
         return node
-    raise SystemExit("未找到 Node.js。请安装 Node.js 20 或更高版本后重试。")
+    raise SystemExit("未找到 Node.js。请安装 Node.js 24 或更高版本后重试。")
 
 
 def run_node(node: str, script: str, config: Path) -> None:
