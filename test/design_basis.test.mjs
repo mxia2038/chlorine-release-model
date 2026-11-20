@@ -9,10 +9,9 @@ test("capacity includes all leaked chlorine but excludes transferred inventory",
  assert.equal(b.chlorineCapacityKg,r.release.summary.leakedKg);
  assert.ok(b.chlorineCapacityKg<r.release.derived.initialLiquidMassKg);
  assert.ok(b.solutionKg>b.theoreticalSolutionKg);
- assert.ok(Math.abs(b.remainingNaohKg/b.finalSolutionKg-0.05)<1e-12);
- assert.ok(Math.abs(b.solutionKg*0.18-b.theoreticalNaohKg-b.remainingNaohKg)<1e-8);
+ assert.ok(Math.abs(b.solutionKg*0.2-b.theoreticalNaohKg-b.remainingNaohKg)<1e-8);
  assert.equal(b.finalSolutionKg,b.solutionKg+b.chlorineCapacityKg);
- assert.ok(Math.abs(b.theoreticalSolutionKg * 0.18 - b.theoreticalNaohKg)<1e-8);
+ assert.ok(Math.abs(b.theoreticalSolutionKg * 0.2 - b.theoreticalNaohKg)<1e-8);
  assert.equal(b.solutionM3,b.solutionKg/1236.49);
  assert.ok(b.chlorineCapacityKg>b.chlorineExtractedWithinWindowKg);
  for(const c of b.inletCases) assert.equal(c.totalChlorineKgH,c.gasChlorineKgH+c.dropletsKgH);
@@ -31,7 +30,7 @@ test("incomplete leak and missing design inputs do not yield full-accident capac
  assert.throws(()=>buildDesignBasis(r),/naohMassFraction/);
 });
 test("final free caustic target must be below initial concentration",()=>{
- const r=calculate(structuredClone(base));r.input.absorption.finalNaohMassFraction=0.18;
+ const r=calculate(structuredClone(base));r.input.absorption.finalNaohMassFraction=0.2;
  assert.throws(()=>buildDesignBasis(r),/finalNaohMassFraction/);
 });
 test("tower diameter uses actual maximum including startup and rounds safely",()=>{
@@ -86,7 +85,7 @@ test("nominal tail design closes capacity and simultaneous reaction heat",()=>{
  assert.equal(t.status,"calculated");
  assert.ok(t.peakReactionKW*9<b.thermalStudy.peakDesignCoolerKW);
  assert.ok(Math.abs(t.chlorineCapacityKg+b.outletTarget.emittedWithinWindowKg-b.stageCapacity.tailInletChlorineKg)<1e-8);
- assert.ok(Math.abs(t.initialSolutionKg*0.18-t.chlorineCapacityKg*b.naohKgPerKgChlorine-t.finalSolutionKg*0.05)<1e-8);
+ assert.ok(Math.abs(t.initialSolutionKg*0.2-t.chlorineCapacityKg*b.naohKgPerKgChlorine-t.finalSolutionKg*0.05)<1e-8);
  assert.ok(t.finalBasisGrossVolumeM3>t.initialBasisGrossVolumeM3);
  assert.ok(Math.abs(t.finalBasisGrossVolumeM3*0.85*1236.49-t.finalSolutionKg)<1e-8);
  assert.equal(t.designInletTemperatureC,38);
@@ -104,4 +103,35 @@ test("nominal tail design closes capacity and simultaneous reaction heat",()=>{
  const zero=buildDesignBasis(r).tailDesign;
  assert.equal(zero.peakReactionKW,0);
  assert.equal(zero.chlorineCapacityKg,0);
+});
+test("first main tank switches at 8.5% and the last runs to 5% with equal charges",()=>{
+ const r=calculate(structuredClone(base)),b=buildDesignBasis(r),s=b.stageCapacity,k=b.naohKgPerKgChlorine,m=s.mainInitialSolutionKgPerTank;
+ assert.equal(s.mainSwitchNaohMassFraction,0.085);
+ const first=m*(0.2-0.085)/(k+0.085),last=m*(0.2-0.05)/(k+0.05);
+ assert.ok(Math.abs(first+last-s.mainChlorineKg)<1e-7);
+ assert.ok(Math.abs(last-s.mainLastTankChlorineKg)<1e-7);
+ assert.ok(Math.abs((m*0.2-k*first)/(m+first)-0.085)<1e-12);
+ assert.ok(Math.abs((m*0.2-k*last)/(m+last)-0.05)<1e-12);
+ assert.ok(Math.abs(s.mainFinalGrossVolumeM3PerTank*0.85*1236.49-(m+last))<1e-7);
+ assert.ok(Math.abs(s.tailInitialSolutionKg*(0.2-0.05)/(k+0.05)-s.tailInletChlorineKg)<1e-8);
+ const cooled=b.thermalStudy.cooled;
+ assert.equal(cooled.events[0].retiredTank,1);
+ assert.equal(cooled.events[0].reason,"concentration");
+ assert.ok(Math.abs(cooled.tanks[0].naohKg/cooled.tanks[0].liquidKg-0.085)<1e-9);
+ assert.ok(cooled.tanks[1].naohKg/cooled.tanks[1].liquidKg>0.05);
+ assert.ok(cooled.unhandledKg<1e-6);
+});
+test("without a separate switch fraction the main charge is split equally to the terminal fraction",()=>{
+ const c=structuredClone(base);delete c.absorption.process.mainSwitchNaohMassFraction;
+ const b=buildDesignBasis(calculate(c)),s=b.stageCapacity;
+ assert.equal(s.mainSwitchNaohMassFraction,0.05);
+ assert.ok(Math.abs(b.remainingNaohKg/b.finalSolutionKg-0.05)<1e-12);
+ assert.ok(Math.abs(s.mainLastTankChlorineKg-s.mainChlorineKg/2)<1e-8);
+ assert.ok(Math.abs(s.mainInitialSolutionKgPerTank*2+s.tailInitialSolutionKg-b.solutionKg)<1e-8);
+});
+test("switch fraction outside the terminal-to-initial range is rejected",()=>{
+ for(const value of [0.04,0.2,0.3]){
+  const r=calculate(structuredClone(base));r.input.absorption.process.mainSwitchNaohMassFraction=value;
+  assert.throws(()=>buildDesignBasis(r),/mainSwitchNaohMassFraction/);
+ }
 });

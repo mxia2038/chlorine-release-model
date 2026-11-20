@@ -82,7 +82,7 @@
       "sourcePeakS": 5080,
       "inletPeakS": 5420,
       "heatPeakS": 5420,
-      "chlorineBalanceErrorKg": 8.143175023178628e-11,
+      "chlorineBalanceErrorKg": 7.415579261760286e-11,
       "leakKgVs5sPct": 0.005554050673839406,
       "leakKgVsBaselinePct": 0.3236449039282885,
       "fanNm3HVs5sPct": 0.0424748483205839,
@@ -101,7 +101,7 @@
       "leakDurationS": 5410.383893250786,
       "fanNm3H": 5021.130944910823,
       "mainCoolingKW": 4988.955210916483,
-      "tailCoolingKW": 554.3245213607166,
+      "tailCoolingKW": 554.3245213607165,
       "sourcePeakS": 5080,
       "inletPeakS": 5410,
       "heatPeakS": 5410,
@@ -113,7 +113,7 @@
       "mainCoolingKWVs5sPct": 0.042405651208921036,
       "mainCoolingKWVsBaselinePct": 0.2508016845082839,
       "tailCoolingKWVs5sPct": 0.04240621504076891,
-      "tailCoolingKWVsBaselinePct": 0.250804606911581
+      "tailCoolingKWVsBaselinePct": 0.2508046069115588
     },
     {
       "scenario": "延迟30秒",
@@ -128,7 +128,7 @@
       "sourcePeakS": 5080,
       "inletPeakS": 5410,
       "heatPeakS": 5410,
-      "chlorineBalanceErrorKg": 1.1525003174028825e-10,
+      "chlorineBalanceErrorKg": 1.0797407412610482e-10,
       "leakKgVs5sPct": 0,
       "leakKgVsBaselinePct": 0.3236725678323005,
       "fanNm3HVs5sPct": 0,

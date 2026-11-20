@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "pumpM3H": 25,
+      "main": {
+        "dutyKW": 4980.318722050863,
+        "timeS": 5400,
+        "roomTempC": -8.398394827454839,
+        "gasOutletC": 18,
+        "gasSensibleKW": -58.985600844852215,
+        "dropletSubcoolingKW": -90.5932264965286,
+        "waterEvaporationKW": -27.050931364599823,
+        "decompositionO2Per10PctKW": 302.9477535117987,
+        "decompositionChlorateper10PctKW": 169.50648113160165,
+        "sensibleAndEvaporationKW": -176.62975870598063,
+        "sensibleAndEvaporationPct": -3.546555322331774
+      },
+      "tail": {
+        "dutyKW": 553.3649075312441,
+        "timeS": 5400,
+        "gasInletC": 18,
+        "gasOutletC": 38,
+        "gasSensibleKW": -17.08932991777971,
+        "waterEvaporationKW": -62.80432820802321,
+        "decompositionO2Per10PctKW": 33.660861501310954,
+        "sensibleAndEvaporationKW": -79.89365812580292,
+        "sensibleAndEvaporationPct": -14.437789068019635
+      }
+    },
+    {
+      "pumpM3H": 0,
+      "main": {
+        "dutyKW": 7753.047994389988,
+        "timeS": 12600,
+        "roomTempC": -23.91798006608282,
+        "gasOutletC": 18,
+        "gasSensibleKW": -102.2243551311889,
+        "dropletSubcoolingKW": -132.73168700675046,
+        "waterEvaporationKW": -11.710735562879181,
+        "decompositionO2Per10PctKW": 469.5261720296301,
+        "decompositionChlorateper10PctKW": 262.7110724451502,
+        "sensibleAndEvaporationKW": -246.66677770081856,
+        "sensibleAndEvaporationPct": -3.1815458627278415
+      },
+      "tail": {
+        "dutyKW": 861.4481150390917,
+        "timeS": 12600,
+        "gasInletC": 18,
+        "gasOutletC": 38,
+        "gasSensibleKW": -7.39821564427967,
+        "waterEvaporationKW": -27.188893052714814,
+        "decompositionO2Per10PctKW": 52.169574669958884,
+        "sensibleAndEvaporationKW": -34.587108696994484,
+        "sensibleAndEvaporationPct": -4.014996155099248
+      }
+    }
+  ],
+  "paired": {
+    "reportedMainReductionPct": 35.763086651152406,
+    "withSensibleAndEvaporationPct": 36.00526239375251
+  }
+}

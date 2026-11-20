@@ -11,7 +11,9 @@ const base=JSON.parse(await fs.readFile(path.join(root,'config','default_25mm.js
 for(const script of [
   'research_scan.mjs','research_hole_scan.mjs',
   'research_assumption_sensitivity.mjs','research_droplet_bounds.mjs',
-  'research_convergence.mjs','research_ventilation_validation.mjs','research_transfer_pairs.mjs'
+  'research_convergence.mjs','research_transfer_pairs.mjs',
+  'research_revision_pairs.mjs','research_tank_pressure.mjs','research_thermal_terms.mjs',
+  'research_absorber_checks.mjs'
 ]) await import(new URL(script,import.meta.url));
 
 await fs.mkdir(out,{recursive:true});
@@ -32,9 +34,7 @@ await write('baseline_case.json',{
     maxRoomChlorineMolFraction:result.ventilation.summary.maxMolFraction,
     mainCoolingKW:design.thermalStudy.peakDesignCoolerKW,
     tailCoolingKW:design.tailDesign.peakReactionKW,
-    mainTankM3PerTank:(design.stageCapacity.mainInitialSolutionKgPerTank+
-      design.stageCapacity.mainChlorineKg/2)/base.absorption.solutionDensityKgM3/
-      base.absorption.tankWorkingVolumeFraction,
+    mainTankM3PerTank:design.stageCapacity.mainFinalGrossVolumeM3PerTank,
     sourcePeakKgS:result.release.summary.maxLeakPeriodGasRateKgS
   },
   figure2:{
@@ -57,7 +57,10 @@ for(const [source,target,fields] of [
   ['assumption_sensitivity.json','assumption_sensitivity.json',['rows']],
   ['droplet_fate_bounds.json','droplet_fate_bounds.json',['rows']],
   ['time_step_convergence.json','time_step_convergence.json',['rows']],
-  ['ventilation_validation.json','ventilation_validation.json',['source','modelBasis','cases','summary']]
+  ['revision_pairs.json','scenario_pairs.json',['pumpM3H','rows','stepCheck']],
+  ['tank_pressure_comparison.json','tank_pressure_comparison.json',['rows','pairs','vsConstant','stepCheck']],
+  ['absorber_checks.json','absorber_checks.json',['packing','liquidViscosityPaS','hydraulicCorrelation','cases']],
+  ['thermal_terms.json','thermal_terms.json',['cases','paired']]
 ]){
   const raw=await read(source);
   await write(target,Object.fromEntries(fields.map(key=>[key,raw[key]])));
@@ -72,7 +75,7 @@ const approximateLeak=(release,pumpKgS,delayS)=>{
 };
 const constantRateCases=[];
 for(const [holeDiameterMm,pumpM3H,delayS] of [
-  [25,25,0],[25,12.5,0],[25,50,0],[25,25,300],[15,25,0],[35,25,0]
+  [25,25,0],[25,12.5,0],[25,50,0],[25,25,300],[25,25,1800],[25,25,2400],[15,25,0],[35,25,0]
 ]){
   const input=structuredClone(base);
   input.tank.holeDiameterM=holeDiameterMm/1000;
@@ -85,7 +88,7 @@ for(const [holeDiameterMm,pumpM3H,delayS] of [
     approximationErrorPct:100*(approximateKg/r.release.summary.leakedKg-1)});
 }
 const pressurePumpCases=[];
-for(const pressureGaugeKPa of [100,200,300])for(const pumpM3H of [0,25,50]){
+for(const pressureGaugeKPa of [150,200,300])for(const pumpM3H of [0,25,50]){
   const input=structuredClone(base);
   input.tank.pressureGaugePa=pressureGaugeKPa*1000;
   input.tank.transferPumpM3H=pumpM3H;
@@ -96,11 +99,21 @@ for(const pressureGaugeKPa of [100,200,300])for(const pumpM3H of [0,25,50]){
     gasSourcePeakKgS:r.release.summary.maxLeakPeriodGasRateKgS,
     maxRoomChlorineMolFraction:r.ventilation.summary.maxMolFraction});
 }
+// Algebraic checks used in the response-time and ventilation discussion.
+const initialMassKg=result.release.derived.initialLiquidMassKg;
+const initialLeakKgS=result.release.summary.initialLeakRateKgS;
+const piQ=result.release.derived.transferPumpKgS/initialLeakKgS;
+const transferScreening=[600,2400].map(delayS=>{
+  const thetaD=initialLeakKgS*delayS/initialMassKg;
+  const equivalentZeroDelayPiQ=piQ*(1-thetaD)/(1+piQ*thetaD);
+  return {delayS,piQ,thetaD,equivalentZeroDelayPiQ,
+    equivalentCapacityReductionPct:100*(1-equivalentZeroDelayPiQ/piQ)};
+});
 await write('additional_checks.json',{
   config:'config/default_25mm.json',stepS:base.simulation.timeStepS,
   constantRateFormula:'mL0*t* + mL0*(M0-mL0*t*)/(mL0+mT); t*=min(delay,M0/mL0)',
-  constantRateCases,pressurePumpCases,
+  constantRateCases,pressurePumpCases,transferScreening,
   pressureStudyBasis:'Fixed baseline density, liquid heat capacity, boiling point and latent heat; Antoine temperature and flash fraction vary with pressure.'
 });
 
-console.log(`Wrote 9 paper data files to ${path.relative(root,out)}`);
+console.log(`Wrote 12 paper data files to ${path.relative(root,out)}`);

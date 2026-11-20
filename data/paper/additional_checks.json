@@ -36,6 +36,22 @@
       "approximationErrorPct": 1.7108447060755871
     },
     {
+      "holeDiameterMm": 25,
+      "pumpM3H": 25,
+      "delayS": 1800,
+      "modeledLeakKg": 49720.85972928497,
+      "constantRateApproxKg": 50476.86694442305,
+      "approximationErrorPct": 1.5205031032333283
+    },
+    {
+      "holeDiameterMm": 25,
+      "pumpM3H": 25,
+      "delayS": 2400,
+      "modeledLeakKg": 52401.25134622264,
+      "constantRateApproxKg": 53173.201281164846,
+      "approximationErrorPct": 1.4731517189194854
+    },
+    {
       "holeDiameterMm": 15,
       "pumpM3H": 25,
       "delayS": 0,
@@ -54,28 +70,28 @@
   ],
   "pressurePumpCases": [
     {
-      "pressureGaugeKPa": 100,
+      "pressureGaugeKPa": 150,
       "pumpM3H": 0,
-      "leakedKg": 97271.72793392937,
-      "fanNm3H": 4824.854381547002,
-      "gasSourcePeakKgS": 3.854363262972048,
-      "maxRoomChlorineMolFraction": 0.845194357371257
+      "leakedKg": 97271.72793392939,
+      "fanNm3H": 5156.9457555211275,
+      "gasSourcePeakKgS": 4.119656407712588,
+      "maxRoomChlorineMolFraction": 0.8283884454393797
     },
     {
-      "pressureGaugeKPa": 100,
+      "pressureGaugeKPa": 150,
       "pumpM3H": 25,
-      "leakedKg": 34493.62871053638,
-      "fanNm3H": 4475.660752675136,
-      "gasSourcePeakKgS": 3.575407881451068,
-      "maxRoomChlorineMolFraction": 0.5579017984723585
+      "leakedKg": 38561.73871779978,
+      "fanNm3H": 4841.746145830315,
+      "gasSourcePeakKgS": 3.86785734808877,
+      "maxRoomChlorineMolFraction": 0.5523915440418653
     },
     {
-      "pressureGaugeKPa": 100,
+      "pressureGaugeKPa": 150,
       "pumpM3H": 50,
-      "leakedKg": 20968.863791319585,
-      "fanNm3H": 4267.653279466798,
-      "gasSourcePeakKgS": 3.4092398896824134,
-      "maxRoomChlorineMolFraction": 0.4159957726315356
+      "leakedKg": 24050.80387596448,
+      "fanNm3H": 4641.911845207553,
+      "gasSourcePeakKgS": 3.7082185432477566,
+      "maxRoomChlorineMolFraction": 0.416170958352156
     },
     {
       "pressureGaugeKPa": 200,
@@ -124,6 +140,22 @@
       "fanNm3H": 4890.837738513099,
       "gasSourcePeakKgS": 3.9070744552580523,
       "maxRoomChlorineMolFraction": 0.3823368991916884
+    }
+  ],
+  "transferScreening": [
+    {
+      "delayS": 600,
+      "piQ": 1.2948013630725221,
+      "thetaD": 0.04912799756145031,
+      "equivalentZeroDelayPiQ": 1.1575570080976505,
+      "equivalentCapacityReductionPct": 10.599645543251146
+    },
+    {
+      "delayS": 2400,
+      "piQ": 1.2948013630725221,
+      "thetaD": 0.19651199024580124,
+      "equivalentZeroDelayPiQ": 0.8293374404821716,
+      "equivalentCapacityReductionPct": 35.94867412603116
     }
   ],
   "pressureStudyBasis": "Fixed baseline density, liquid heat capacity, boiling point and latent heat; Antoine temperature and flash fraction vary with pressure."

@@ -8,14 +8,21 @@ await fs.mkdir(out,{recursive:true});
 
 const cases=[
   {id:'baseline',group:'基准',label:'基准',apply:()=>{}},
-  {id:'pressure_100',group:'储罐表压',label:'100 kPa',apply:c=>c.tank.pressureGaugePa=100000},
+  {id:'pressure_150',group:'储罐表压',label:'150 kPa',apply:c=>c.tank.pressureGaugePa=150000},
   {id:'pressure_300',group:'储罐表压',label:'300 kPa',apply:c=>c.tank.pressureGaugePa=300000},
+  {id:'mixing_10',group:'有效混合体积',label:'厂房容积10%',apply:c=>c.ventilation.roomVolumeM3=base.ventilation.roomVolumeM3*.1},
   {id:'mixing_50',group:'有效混合体积',label:'厂房容积50%',apply:c=>c.ventilation.roomVolumeM3=base.ventilation.roomVolumeM3*.5},
   {id:'mixing_75',group:'有效混合体积',label:'厂房容积75%',apply:c=>c.ventilation.roomVolumeM3=base.ventilation.roomVolumeM3*.75},
-  {id:'wind_50',group:'液面风速系数',label:'0.5',apply:c=>c.ventilation.surfaceWindFactor=.5},
-  {id:'wind_200',group:'液面风速系数',label:'2.0',apply:c=>c.ventilation.surfaceWindFactor=2},
+  {id:'wind_10',group:'液面风速系数',label:'10',apply:c=>c.ventilation.surfaceWindFactor=10},
+  {id:'wind_100',group:'液面风速系数',label:'100',apply:c=>c.ventilation.surfaceWindFactor=100},
   {id:'capture_85',group:'主塔吸收比例',label:'85%',apply:c=>c.absorption.process.mainCaptureFraction=.85},
-  {id:'capture_95',group:'主塔吸收比例',label:'95%',apply:c=>c.absorption.process.mainCaptureFraction=.95}
+  {id:'capture_95',group:'主塔吸收比例',label:'95%',apply:c=>c.absorption.process.mainCaptureFraction=.95},
+  {id:'cd_080',group:'流出系数',label:'0.8',apply:c=>c.tank.dischargeCoefficient=.8},
+  {id:'cd_100',group:'流出系数',label:'1.0',apply:c=>c.tank.dischargeCoefficient=1},
+  {id:'pool_005',group:'液池厚度',label:'5 mm',apply:c=>c.physical.poolThicknessM=.005},
+  {id:'pool_020',group:'液池厚度',label:'20 mm',apply:c=>c.physical.poolThicknessM=.02},
+  {id:'ground_15',group:'地面初始温度',label:'15 °C',apply:c=>c.physical.groundInitialTempC=15},
+  {id:'ground_35',group:'地面初始温度',label:'35 °C',apply:c=>c.physical.groundInitialTempC=35}
 ];
 
 const rows=[];

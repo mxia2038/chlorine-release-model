@@ -1,38 +1,56 @@
 import fs from 'node:fs/promises';
+import { lineFigure as paperFigure, palette, textAt, verticalLabel } from './paper_line_figure.mjs';
 
-const out=new URL('../outputs/research/',import.meta.url);
-const data=JSON.parse(await fs.readFile(new URL('droplet_fate_bounds.json',out),'utf8'));
-const rows=data.rows;
-const metrics=[
-  ['fanNm3H','Fan flow'],
-  ['maxGasMolFraction','Gas Cl2 peak'],
-  ['maxTotalChlorineKgH','Total Cl2 peak'],
-  ['mainCoolingKW','Cooling peak']
+const out = new URL('../outputs/research/', import.meta.url);
+const data = JSON.parse(await fs.readFile(new URL('droplet_fate_bounds.json', out), 'utf8'));
+const rowsById = new Map(data.rows.map(row => [row.id, row]));
+const baseline = rowsById.get('suspended');
+const cases = [
+  { id: 'suspended', label: 'Suspended (baseline)', fill: '#c7cdd0' },
+  { id: 'vaporized', label: 'Assigned to gas', fill: palette.orange },
+  { id: 'deposited', label: 'Assigned to pool', fill: palette.blue }
 ];
-const colors=['#2b6cb0','#c05621','#2f855a'];
-const labels=['Suspended','Assigned to gas','Assigned to pool'];
-const ratios=rows.map(r=>metrics.map(([k])=>r[k]/rows[0][k]));
-const W=900,H=430,left=70,top=55,plotW=790,plotH=300,maxY=1.8;
-const sy=v=>top+plotH-v/maxY*plotH;
-let body='<rect width="100%" height="100%" fill="white"/><style>text{font-family:Arial,sans-serif;fill:#1a202c}.grid{stroke:#e2e8f0}.axis{stroke:#4a5568}.tick{font-size:11px}.label{font-size:12px}.title{font-size:15px;font-weight:600}</style>';
-for(const v of [0,.3,.6,.9,1.2,1.5,1.8]){
-  const y=sy(v);body+=`<line x1="${left}" y1="${y}" x2="${left+plotW}" y2="${y}" class="grid"/>`;
-  body+=`<text x="${left-8}" y="${y+4}" text-anchor="end" class="tick">${v.toFixed(1)}</text>`;
+const metrics = [
+  ['fanNm3H', ['Fan flow']],
+  ['maxGasMolFraction', ['Peak chlorine', 'mole fraction']],
+  ['maxTotalChlorineKgH', ['Peak chlorine', 'inlet load']],
+  ['mainCoolingKW', ['Peak main-tower', 'cooling duty']]
+];
+
+const left = 79, right = 919, top = 56, bottom = 358;
+const maxRatio = Math.max(...metrics.flatMap(([key]) =>
+  cases.map(c => rowsById.get(c.id)[key] / baseline[key])));
+const ceiling = Math.max(2, Math.ceil((maxRatio + 0.1) * 2) / 2);
+const y = value => bottom - value * (bottom - top) / ceiling;
+const widthPerGroup = (right - left) / metrics.length;
+const parts = [];
+for (const [i, entry] of cases.entries()) {
+  const x = [192, 409, 593][i];
+  parts.push(`<rect x="${x}" y="16" width="17" height="13" fill="${entry.fill}"/>`);
+  parts.push(textAt(x + 25, 28, entry.label, 'key', 'start'));
 }
-body+=`<line x1="${left}" y1="${top+plotH}" x2="${left+plotW}" y2="${top+plotH}" class="axis"/><line x1="${left}" y1="${top}" x2="${left}" y2="${top+plotH}" class="axis"/>`;
-body+=`<line x1="${left}" y1="${sy(1)}" x2="${left+plotW}" y2="${sy(1)}" stroke="#718096" stroke-dasharray="5 4"/>`;
-body+=`<text x="18" y="${top+plotH/2}" text-anchor="middle" class="label" transform="rotate(-90 18 ${top+plotH/2})">Ratio to suspended-droplet baseline</text>`;
-const groupW=plotW/metrics.length,barW=42;
-metrics.forEach(([,label],i)=>{
-  const center=left+groupW*(i+.5);
-  body+=`<text x="${center}" y="${top+plotH+28}" text-anchor="middle" class="label">${label}</text>`;
-  rows.forEach((r,j)=>{
-    const val=ratios[j][i],x=center+(j-1)*barW-barW*.42,y=sy(val),height=top+plotH-y;
-    body+=`<rect x="${x}" y="${y}" width="${barW*.84}" height="${height}" fill="${colors[j]}"/><text x="${x+barW*.42}" y="${y-5}" text-anchor="middle" class="tick">${val.toFixed(2)}</text>`;
+parts.push(verticalLabel(20, (top + bottom) / 2, 'Ratio to suspended-droplet baseline'));
+for (let v = 0; v <= ceiling; v += 0.5) {
+  const yy = y(v);
+  if (v > 0 && v !== 1 && v < ceiling) {
+    parts.push(`<path d="M${left},${yy} H${right}" class="guide"/>`);
+  }
+  parts.push(`<path d="M${left - 4},${yy}h4" class="axis"/>`, textAt(left - 9, yy + 5, v.toFixed(1), 'tick', 'end'));
+}
+parts.push(`<path d="M${left},${top} V${bottom} H${right}" fill="none" class="axis"/>`);
+parts.push(`<path d="M${left},${y(1)} H${right}" stroke="#424950" stroke-width="1.2" stroke-dasharray="5 5"/>`);
+const groupOffset = 42, barWidth = 36;
+metrics.forEach(([key, lines], i) => {
+  const center = left + (i + 0.5) * widthPerGroup;
+  lines.forEach((title, j) => parts.push(textAt(center, bottom + 30 + 18 * j, title, 'axis-label')));
+  cases.forEach((entry, j) => {
+    const ratio = rowsById.get(entry.id)[key] / baseline[key];
+    const x = center + (j - 1) * groupOffset;
+    parts.push(`<rect x="${x - barWidth / 2}" y="${y(ratio)}" width="${barWidth}" height="${bottom - y(ratio)}" fill="${entry.fill}"/>`);
+    if (entry.id !== 'suspended') parts.push(textAt(x, y(ratio) - 9, ratio.toFixed(2), 'axis-label'));
   });
 });
-let lx=210;
-rows.forEach((r,j)=>{body+=`<rect x="${lx}" y="392" width="13" height="13" fill="${colors[j]}"/><text x="${lx+19}" y="403" class="tick">${labels[j]}</text>`;lx+=j===0?125:170;});
-const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">${body}</svg>`;
-await fs.writeFile(new URL('droplet_boundary_comparison.svg',out),svg);
-console.log(new URL('droplet_boundary_comparison.svg',out).pathname);
+
+const output = new URL('droplet_boundary_comparison.svg', out);
+await fs.writeFile(output, paperFigure(parts.join(''), 900, 430));
+console.log(output.pathname);

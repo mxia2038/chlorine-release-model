@@ -6,13 +6,18 @@ const base=JSON.parse(await fs.readFile(new URL('../config/default_25mm.json',im
 const out=new URL('../outputs/research/',import.meta.url);
 await fs.mkdir(out,{recursive:true});
 
-const holeDiametersMm=[15,25,35];
+// 5/25/100 mm: representative small/medium/large holes of GB/T 37243-2019 §6.4.4 Table 3;
+// 15, 35 and 50 mm fill the range. Short events use smaller steps; the 5 mm no-transfer
+// release lasts about 85 h, so the 5 mm cases use a 120 h window.
+const holeDiametersMm=[5,15,25,35,50,100];
+const simFor=mm=>({timeStepS:mm>=100?2:mm>=50?5:base.simulation.timeStepS,maxTimeS:mm<=5?120*3600:base.simulation.maxTimeS});
 const scenarios=[[0,0],...[12.5,25,37.5,50].flatMap(p=>[0,30,60,120,300].map(d=>[p,d]))];
 const rows=[];
 
 for(const holeDiameterMm of holeDiametersMm){
   const noTransferInput=structuredClone(base);
   noTransferInput.tank.holeDiameterM=holeDiameterMm/1000;
+  Object.assign(noTransferInput.simulation,simFor(holeDiameterMm));
   noTransferInput.tank.transferPumpM3H=0;
   noTransferInput.tank.transferStartDelayS=0;
   const noTransferResult=calculate(noTransferInput);
@@ -23,6 +28,7 @@ for(const holeDiameterMm of holeDiametersMm){
   for(const [pumpM3H,delayS] of scenarios){
     const input=structuredClone(base);
     input.tank.holeDiameterM=holeDiameterMm/1000;
+    Object.assign(input.simulation,simFor(holeDiameterMm));
     input.tank.transferPumpM3H=pumpM3H;
     input.tank.transferStartDelayS=delayS;
     const result=calculate(input);
@@ -32,14 +38,14 @@ for(const holeDiameterMm of holeDiametersMm){
       throw new Error(`Incomplete source for ${holeDiameterMm} mm, ${pumpM3H} m3/h, ${delayS} s`);
     const mainInitial=design.stageCapacity.mainInitialSolutionKgPerTank;
     rows.push({
-      holeDiameterMm,pumpM3H,delayS,
+      holeDiameterMm,pumpM3H,delayS,timeStepS:input.simulation.timeStepS,maxTimeS:input.simulation.maxTimeS,
       initialLeakKgS,initialLeakM3H,noTransferDurationS,
       pumpToInitialLeakRatio:pumpM3H/initialLeakM3H,
       delayToNoTransferDuration:delayS/noTransferDurationS,
       leakDurationS:release.leakDurationS,leakKg:release.leakedKg,
       fanNm3H:design.fanNm3H,
       mainCoolingKW:design.thermalStudy.peakDesignCoolerKW,
-      mainTankM3:(mainInitial+design.stageCapacity.mainChlorineKg/2)/input.absorption.solutionDensityKgM3/input.absorption.tankWorkingVolumeFraction,
+      mainTankM3:design.stageCapacity.mainFinalGrossVolumeM3PerTank,
       maxBalanceErrorKg:result.ventilation.summary.maxAbsoluteChlorineBalanceErrorKg
     });
   }
@@ -78,19 +84,23 @@ const summary=holeDiametersMm.map(holeDiameterMm=>{
     delay300CoolingChangePct:100*(delayed.mainCoolingKW/baseline.mainCoolingKW-1),
     noTransferLeakChangePct:100*(noTransfer.leakKg/baseline.leakKg-1),
     noTransferFanChangePct:100*(noTransfer.fanNm3H/baseline.fanNm3H-1),
-    noTransferCoolingChangePct:100*(noTransfer.mainCoolingKW/baseline.mainCoolingKW-1)
+    noTransferCoolingChangePct:100*(noTransfer.mainCoolingKW/baseline.mainCoolingKW-1),
+    transferLeakReductionPct:100*(1-baseline.leakKg/noTransfer.leakKg),
+    transferFanReductionPct:100*(1-baseline.fanNm3H/noTransfer.fanNm3H),
+    transferCoolingReductionPct:100*(1-baseline.mainCoolingKW/noTransfer.mainCoolingKW)
   };
 });
 
 await fs.writeFile(new URL('hole_size_scan.json',out),JSON.stringify({
   createdAt:new Date().toISOString(),stepS:base.simulation.timeStepS,
+  simulationByHoleMm:Object.fromEntries(holeDiametersMm.map(mm=>[mm,simFor(mm)])),
   holeDiametersMm,scenarios,summary,rows
 },null,2));
 
 const f=(x,n=2)=>x.toFixed(n);
 let md='# 泄漏孔径扩展扫描与无量纲整理\n\n';
-md+='采用15、25、35 mm三组泄漏孔径。每组均计算相同的21个倒槽能力—响应时间场景，合计63个工况；其他输入与25 mm基准模型一致。计算步长20 s、窗口24 h。\n\n';
-md+='无量纲倒槽能力定义为 `ΠQ=倒槽体积流量/初始泄漏体积流量`，无量纲响应时间定义为 `Θd=响应时间/同孔径无倒槽泄漏持续时间`。泄漏量、风量、主塔冷却负荷和主槽容积分别除以同孔径无倒槽结果。这样可以区分孔径变化与倒槽相对能力变化。\n\n';
+md+=`采用${holeDiametersMm.join('、')} mm泄漏孔径。每组均计算相同的21个倒槽能力—响应时间场景，合计${rows.length}个工况；其他输入与25 mm基准模型一致。步长：50 mm为5 s，100 mm为2 s，其余20 s；窗口：5 mm为120 h，其余24 h。\n\n`;
+md+='无量纲倒槽能力定义为 `ΠQ=倒槽体积流量/初始泄漏体积流量`，响应时间以同孔径无倒槽泄漏持续时间归一化（字段 `delayToNoTransferDuration`）。泄漏量、风量、主塔冷却负荷和主槽容积分别除以同孔径无倒槽结果。这样可以区分孔径变化与倒槽相对能力变化。\n\n';
 md+='## 25 m³/h倒槽能力的孔径对比\n\n';
 md+='|孔径 mm|初始泄漏 m³/h|ΠQ|无倒槽持续时间 s|零延迟泄漏 kg|零延迟风量 Nm³/h|零延迟主塔冷却 kW|延迟300 s泄漏变化 %|风量变化 %|冷却变化 %|不倒槽泄漏变化 %|风量变化 %|冷却变化 %|\n';
 md+='|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n';

@@ -1,0 +1,159 @@
+{
+  "packing": {
+    "name": "51 mm x 19 mm CPVC rosette",
+    "source": "HG/T 3986-2016, Table D.2",
+    "specificAreaM2M3": 180,
+    "voidFraction": 0.89,
+    "bulkDensityKgM3": 99,
+    "piecesPerM3": 25000,
+    "dryPackingFactorM": 255,
+    "bedHeightM": 5,
+    "packingFactorM": 255,
+    "packingFactorFt": 77.724
+  },
+  "liquidViscosityPaS": 0.0046,
+  "hydraulicCorrelation": "Robbins pressure drop; flood at 0.12 Fp^0.7 in. H2O/ft",
+  "cases": [
+    {
+      "case": "baseline",
+      "fanNm3H": 5021.138776129302,
+      "leakedKg": 41652.78959726478,
+      "causticPerPass": {
+        "circulationKgH": 175290.2239982056,
+        "switchNaohMassFraction": 0.085,
+        "firstTankSwitchS": 6751.615800713102,
+        "atPeakLoad": {
+          "timeS": 5400,
+          "tankId": 1,
+          "loadKgH": 14768.748458015136,
+          "liquorNaohMassFraction": 0.11737425820677544,
+          "requiredNaohMassFraction": 0.08554663564938245,
+          "marginMassFraction": 0.03182762255739299
+        },
+        "tightest": {
+          "timeS": 6740,
+          "tankId": 1,
+          "loadKgH": 13603.328488554875,
+          "liquorNaohMassFraction": 0.08525923148285948,
+          "requiredNaohMassFraction": 0.07879604620103793,
+          "marginMassFraction": 0.0064631852818215485
+        },
+        "shortfallWindowS": null,
+        "shortfallChlorineKg": 0
+      },
+      "transferUnits": {
+        "main": {
+          "captureFraction": 0.9,
+          "transferUnits": 2.302585092994046,
+          "allowableTransferUnitHeightM": 2.1714724095162588
+        },
+        "tail": {
+          "timeS": 6400,
+          "requiredGasRemovalFraction": 0.9999892335088841,
+          "transferUnits": 11.439071921564665,
+          "allowableTransferUnitHeightM": 0.43709839699268954
+        }
+      },
+      "hydraulics": {
+        "main": {
+          "diameterMm": 1900,
+          "circulationM3H": 141.7643684932394,
+          "liquidKgM2S": 17.173472222222223,
+          "floodPressureDropPaM": 2064.9487338969448,
+          "timeS": 6400,
+          "gasVelocityMS": 0.47556133568653736,
+          "gasDensityKgM3": 2.3821840421247016,
+          "molFraction": 0.5401068448144393,
+          "percentOfFlood": 57.62097565562673,
+          "pressureDropPaM": 368.6254283140395,
+          "bedPressureDropPa": 1843.1271415701974
+        },
+        "tail": {
+          "diameterMm": 1700,
+          "circulationM3H": 68.09402076655876,
+          "liquidKgM2S": 10.304083333333333,
+          "floodPressureDropPaM": 2064.9487338969448,
+          "timeS": 6400,
+          "gasVelocityMS": 0.5940402843696886,
+          "gasDensityKgM3": 1.5401815439462327,
+          "molFraction": 0.10509881482193505,
+          "percentOfFlood": 42.991149949656716,
+          "pressureDropPaM": 201.64264083646867,
+          "bedPressureDropPa": 1008.2132041823434
+        }
+      }
+    },
+    {
+      "case": "no transfer",
+      "fanNm3H": 5306.509942579331,
+      "leakedKg": 97271.7279339294,
+      "causticPerPass": {
+        "circulationKgH": 194227.3950118622,
+        "switchNaohMassFraction": 0.085,
+        "firstTankSwitchS": 10720.73435433342,
+        "atPeakLoad": {
+          "timeS": 12600,
+          "tankId": 2,
+          "loadKgH": 22889.471365201207,
+          "liquorNaohMassFraction": 0.16544725907648597,
+          "requiredNaohMassFraction": 0.11965813071898412,
+          "marginMassFraction": 0.045789128357501846
+        },
+        "tightest": {
+          "timeS": 10720,
+          "tankId": 1,
+          "loadKgH": 21848.45450205457,
+          "liquorNaohMassFraction": 0.0850112805893806,
+          "requiredNaohMassFraction": 0.11421605956305327,
+          "marginMassFraction": -0.02920477897367267
+        },
+        "shortfallWindowS": [
+          9220,
+          10720
+        ],
+        "shortfallChlorineKg": 1074.9964253524888
+      },
+      "transferUnits": {
+        "main": {
+          "captureFraction": 0.9,
+          "transferUnits": 2.302585092994046,
+          "allowableTransferUnitHeightM": 2.1714724095162588
+        },
+        "tail": {
+          "timeS": 12600,
+          "requiredGasRemovalFraction": 0.9999969703101911,
+          "transferUnits": 12.70705031697725,
+          "allowableTransferUnitHeightM": 0.39348234840305557
+        }
+      },
+      "hydraulics": {
+        "main": {
+          "diameterMm": 2000,
+          "circulationM3H": 157.07963267948966,
+          "liquidKgM2S": 17.173472222222223,
+          "floodPressureDropPaM": 2064.9487338969448,
+          "timeS": 12600,
+          "gasVelocityMS": 0.4281138137778471,
+          "gasDensityKgM3": 3.070661188090322,
+          "molFraction": 0.8067066613449205,
+          "percentOfFlood": 58.89271892623416,
+          "pressureDropPaM": 386.83724351424826,
+          "bedPressureDropPa": 1934.1862175712413
+        },
+        "tail": {
+          "diameterMm": 1800,
+          "circulationM3H": 76.34070148223198,
+          "liquidKgM2S": 10.304083333333333,
+          "floodPressureDropPaM": 2064.9487338969448,
+          "timeS": 12600,
+          "gasVelocityMS": 0.5285355725652432,
+          "gasDensityKgM3": 2.0201542981016414,
+          "molFraction": 0.2944571721984215,
+          "percentOfFlood": 43.80701894268687,
+          "pressureDropPaM": 209.5104507306152,
+          "bedPressureDropPa": 1047.552253653076
+        }
+      }
+    }
+  ]
+}

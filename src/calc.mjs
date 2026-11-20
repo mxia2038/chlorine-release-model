@@ -1,8 +1,61 @@
 import fs from "node:fs/promises";
+import { readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const PI = Math.PI;
+
+// Saturated-chlorine table (CoolProp 8.0.0, Thol et al. 2021), used only by the
+// closed-tank pressure option. Loaded lazily so the default model has no dependency.
+let SATURATION = null;
+function saturationTable() {
+  if (!SATURATION) {
+    const t = JSON.parse(readFileSync(new URL("../config/chlorine_saturation_table.json", import.meta.url), "utf8"));
+    SATURATION = { t0: t.rows[0][0], step: t.tempStepC, rows: t.rows, source: t.source };
+  }
+  return SATURATION;
+}
+
+function saturationAt(tempC) {
+  const s = saturationTable();
+  const x = (tempC - s.t0) / s.step;
+  const i = Math.floor(x);
+  if (i < 0 || i >= s.rows.length - 1) throw new Error(`Tank temperature ${tempC} C outside saturation table`);
+  const f = x - i;
+  const a = s.rows[i], b = s.rows[i + 1];
+  const lerp = (k) => a[k] + (b[k] - a[k]) * f;
+  return { pressurePa: lerp(1), rhoL: lerp(2), rhoV: lerp(3), uL: lerp(4), uV: lerp(5), hL: lerp(6) };
+}
+
+function saturationTempFromPressure(pressurePa) {
+  const s = saturationTable();
+  let lo = s.t0, hi = s.t0 + s.step * (s.rows.length - 1) - 1e-9;
+  for (let i = 0; i < 100; i += 1) {
+    const mid = (lo + hi) / 2;
+    if (saturationAt(mid).pressurePa < pressurePa) lo = mid; else hi = mid;
+  }
+  return (lo + hi) / 2;
+}
+
+// Two-phase split of a closed vessel of fixed volume at saturation temperature T.
+function closedVesselState(totalMassKg, tempC, volumeM3, wallHeatCapacityJK, referenceTempC) {
+  const s = saturationAt(tempC);
+  const liquidKg = (volumeM3 - totalMassKg / s.rhoV) / (1 / s.rhoL - 1 / s.rhoV);
+  const vaporKg = totalMassKg - liquidKg;
+  return { s, liquidKg, vaporKg,
+    energyJ: liquidKg * s.uL + vaporKg * s.uV + wallHeatCapacityJK * (tempC - referenceTempC) };
+}
+
+function solveClosedVesselTemp(totalMassKg, energyJ, volumeM3, wallHeatCapacityJK, referenceTempC, guessC) {
+  const s = saturationTable();
+  let lo = s.t0 + 1e-6, hi = Math.min(guessC + 5, s.t0 + s.step * (s.rows.length - 1) - 1e-6);
+  for (let i = 0; i < 100; i += 1) {
+    const mid = (lo + hi) / 2;
+    if (closedVesselState(totalMassKg, mid, volumeM3, wallHeatCapacityJK, referenceTempC).energyJ < energyJ) lo = mid;
+    else hi = mid;
+  }
+  return (lo + hi) / 2;
+}
 
 function areaSegment(depth, radius) {
   const y = Math.max(0, Math.min(2 * radius, depth));
@@ -92,20 +145,51 @@ function buildLeakAndPoolSeries(input, liquidSurfaceWindMS) {
   let leakDurationS = initialLiquidVolume <= residualVolume ? 0 : null;
   const holeArea = PI * tk.holeDiameterM * tk.holeDiameterM / 4;
   const absPressurePa = tk.pressureGaugePa + tk.atmosphericPressurePa;
-  const storageTempC = storageTempFromPressureC(absPressurePa, input.antoine);
-  const flashFraction = ph.liquidCpKJkgK * 1000 * (storageTempC - ph.boilingPointC) / ph.latentHeatJkg;
-  if(!Number.isFinite(flashFraction) || flashFraction<0 || flashFraction>1)
-    throw new Error("Calculated flash fraction must lie in [0,1]");
-  // GB/T 37243-2019 D.31/D.32: for Fv<=0.2, total airborne carry is
-  // 5*Fv; for Fv>0.2, all released liquid is carried and no pool forms.
-  const airCarryFraction = flashFraction<=0.2 ? 5 * flashFraction : 1;
-  const dropletFraction = Math.max(0, airCarryFraction - flashFraction);
-  const poolFraction = Math.max(0, 1 - airCarryFraction);
   const instantVaporFraction = ph.dropletInstantVaporFraction ?? 0;
   const depositToPoolFraction = ph.dropletDepositToPoolFraction ?? 0;
-  const suspendedDropletFraction = dropletFraction * (1-instantVaporFraction-depositToPoolFraction);
-  const directGasFraction = flashFraction + dropletFraction * instantVaporFraction;
-  const effectivePoolFraction = poolFraction + dropletFraction * depositToPoolFraction;
+  // Source partition at a given tank absolute pressure. Storage temperature always
+  // follows the Antoine relation, so the closed-tank option and the constant-pressure
+  // baseline share the same flash-fraction basis.
+  const sourceFractions = (pressureAbsPa) => {
+    const storageTempC = storageTempFromPressureC(pressureAbsPa, input.antoine);
+    const flashFraction = ph.liquidCpKJkgK * 1000 * (storageTempC - ph.boilingPointC) / ph.latentHeatJkg;
+    if(!Number.isFinite(flashFraction) || flashFraction<0 || flashFraction>1)
+      throw new Error("Calculated flash fraction must lie in [0,1]");
+    // GB/T 37243-2019 D.31/D.32: for Fv<=0.2, total airborne carry is
+    // 5*Fv; for Fv>0.2, all released liquid is carried and no pool forms.
+    const airCarryFraction = flashFraction<=0.2 ? 5 * flashFraction : 1;
+    const dropletFraction = Math.max(0, airCarryFraction - flashFraction);
+    const poolFraction = Math.max(0, 1 - airCarryFraction);
+    return { storageTempC, flashFraction, airCarryFraction, dropletFraction, poolFraction,
+      suspendedDropletFraction: dropletFraction * (1-instantVaporFraction-depositToPoolFraction),
+      directGasFraction: flashFraction + dropletFraction * instantVaporFraction,
+      effectivePoolFraction: poolFraction + dropletFraction * depositToPoolFraction };
+  };
+  const initialFractions = sourceFractions(absPressurePa);
+  const { storageTempC, flashFraction, airCarryFraction, dropletFraction, poolFraction,
+    suspendedDropletFraction, directGasFraction, effectivePoolFraction } = initialFractions;
+
+  // Tank pressure option. "constant" (default): fixed gauge pressure and liquid density.
+  // "closedSaturated": closed vessel of pure saturated chlorine; each step conserves
+  // vessel mass and internal energy (saturated-liquid outflow, optional wall heat
+  // capacity and heat ingress), giving the step-start pressure and liquid density.
+  const pressureModel = tk.pressureModel ?? "constant";
+  if (!["constant", "closedSaturated"].includes(pressureModel)) throw new Error(`Unknown pressureModel ${pressureModel}`);
+  const closed = pressureModel === "closedSaturated";
+  let vessel = null;
+  if (closed) {
+    const wallHeatCapacityJK = (tk.wallMassKg ?? 0) * (tk.wallSpecificHeatJkgK ?? 0);
+    const t0C = saturationTempFromPressure(absPressurePa);
+    const s0 = saturationAt(t0C);
+    const liquidKg = initialLiquidVolume * s0.rhoL;
+    const vaporKg = (tk.volumeM3 - liquidKg / s0.rhoL) * s0.rhoV;
+    const state0 = closedVesselState(liquidKg + vaporKg, t0C, tk.volumeM3, wallHeatCapacityJK, t0C);
+    vessel = { wallHeatCapacityJK, referenceTempC: t0C, tempC: t0C, totalKg: liquidKg + vaporKg,
+      energyJ: state0.energyJ, liquidKg: state0.liquidKg, vaporKg: state0.vaporKg, s: state0.s,
+      heatIngressW: tk.heatIngressW ?? 0, initialTempC: t0C, initialPressurePa: s0.pressurePa,
+      minPressurePa: s0.pressurePa, initialTotalKg: liquidKg + vaporKg, initialEnergyJ: state0.energyJ,
+      outflowEnthalpyJ: 0, heatAddedJ: 0 };
+  }
   const beta = poolHeatCoefficient(input);
   const q3 = q3Coefficient(input, liquidSurfaceWindMS);
   const kgSToNm3H = 3600 * ph.standardMolarVolumeNm3Kmol / ph.chlorineMolarMassKgKmol;
@@ -119,6 +203,7 @@ function buildLeakAndPoolSeries(input, liquidSurfaceWindMS) {
   const totals = {
     leakedKg: 0,
     transferredKg: 0,
+    transferredM3: 0,
     flashKg: 0,
     airCarryKg: 0,
     dropletsKg: 0,
@@ -134,38 +219,88 @@ function buildLeakAndPoolSeries(input, liquidSurfaceWindMS) {
   for (let step = 0; step * sim.timeStepS < sim.maxTimeS; step += 1) {
     const t0 = step * sim.timeStepS;
     const dt = Math.min(sim.timeStepS, sim.maxTimeS - t0);
+    // Step-start tank state: constant by default, or from the closed-vessel balance.
+    const stepRho = closed ? vessel.s.rhoL : tk.liquidDensityKgM3;
+    const stepGaugePa = closed ? vessel.s.pressurePa - tk.atmosphericPressurePa : tk.pressureGaugePa;
+    const fr = closed ? sourceFractions(vessel.s.pressurePa) : initialFractions;
+    const stepTempC = closed ? vessel.tempC : null;
+    if (closed && !vessel.drained) liquidVolumeM3 = Math.max(residualVolume, vessel.liquidKg / stepRho);
     const liquidDepth = depthFromArea(Math.max(0, liquidVolumeM3 / tankLength), radius);
     const headM = Math.max(0, liquidDepth - leakElevation);
     const isLeak = liquidVolumeM3 > residualVolume && headM > 0;
     const leakRateKgS = isLeak
       ? tk.dischargeCoefficient * holeArea *
-        Math.sqrt(2 * tk.liquidDensityKgM3 * (tk.pressureGaugePa + tk.liquidDensityKgM3 * ph.gravityMS2 * headM))
+        Math.sqrt(2 * stepRho * (Math.max(0, stepGaugePa) + stepRho * ph.gravityMS2 * headM))
       : 0;
-    const availableKg = Math.max(0, liquidVolumeM3 - residualVolume) * tk.liquidDensityKgM3;
+    const availableKg = Math.max(0, liquidVolumeM3 - residualVolume) * stepRho;
     const beforePumpS = Math.min(dt, Math.max(0, (tk.transferStartDelayS ?? 0) - t0));
     const preLeakS = leakRateKgS > 0 ? Math.min(beforePumpS, availableKg / leakRateKgS) : 0;
     const afterPreKg = Math.max(0, availableKg - leakRateKgS * preLeakS);
-    const transferRateKgS = isLeak && beforePumpS < dt && afterPreKg > 0 ? pumpCapacityKgS : 0;
+    const stepPumpKgS = closed ? (tk.transferPumpM3H ?? 0) * stepRho / 3600 : pumpCapacityKgS;
+    const transferRateKgS = isLeak && beforePumpS < dt && afterPreKg > 0 ? stepPumpKgS : 0;
     const totalOutflowKgS = leakRateKgS + transferRateKgS;
     // Split the interval at pump startup, including non-grid delays such as 30 s.
     // Rates use the existing step-start head approximation.
     const concurrentS = totalOutflowKgS > 0 ? Math.min(dt - beforePumpS, afterPreKg / totalOutflowKgS) : 0;
-    const stepLeakTimeS = preLeakS + concurrentS;
-    const leakedKg = Math.min(leakRateKgS * stepLeakTimeS, availableKg);
-    const transferredKg = transferRateKgS * concurrentS;
-    liquidVolumeM3 = Math.max(residualVolume, liquidVolumeM3 - (leakedKg + transferredKg) / tk.liquidDensityKgM3);
-    if (isLeak && availableKg <= leakRateKgS * beforePumpS + totalOutflowKgS * (dt - beforePumpS)) {
+    let stepLeakTimeS = preLeakS + concurrentS;
+    let leakedKg = Math.min(leakRateKgS * stepLeakTimeS, availableKg);
+    let transferredKg = transferRateKgS * concurrentS;
+    liquidVolumeM3 = Math.max(residualVolume, liquidVolumeM3 - (leakedKg + transferredKg) / stepRho);
+    let drained = isLeak && availableKg <= leakRateKgS * beforePumpS + totalOutflowKgS * (dt - beforePumpS);
+    if (closed && leakedKg + transferredKg > 0) {
+      // Saturated liquid leaves at the step-start enthalpy; the vessel then relaxes to the
+      // saturation temperature that conserves its remaining mass, internal energy and volume.
+      const heatJ = vessel.heatIngressW * dt;
+      const after = (outKg) => {
+        const totalKg = vessel.totalKg - outKg;
+        const energyJ = vessel.energyJ - outKg * vessel.s.hL + heatJ;
+        const tempC = solveClosedVesselTemp(totalKg, energyJ, tk.volumeM3,
+          vessel.wallHeatCapacityJK, vessel.referenceTempC, vessel.tempC);
+        return { totalKg, energyJ, tempC,
+          st: closedVesselState(totalKg, tempC, tk.volumeM3, vessel.wallHeatCapacityJK, vessel.referenceTempC) };
+      };
+      // Outflow after leaking for tau seconds of this step (pump only after the pre-start phase).
+      const outflowAt = (tau) => ({ leak: leakRateKgS * tau,
+        transfer: transferRateKgS * Math.max(0, tau - preLeakS) });
+      let res = after(leakedKg + transferredKg);
+      if (res.st.liquidKg <= 0) {
+        // Part of the remaining liquid flashes to refill the vacated volume, so the liquid
+        // runs out slightly before the step-start inventory would suggest. Locate the time
+        // at which the vessel reaches zero liquid, leaving saturated vapor only.
+        let lo = 0, hi = stepLeakTimeS;
+        for (let i = 0; i < 100; i += 1) {
+          const mid = (lo + hi) / 2, o = outflowAt(mid);
+          if (after(o.leak + o.transfer).st.liquidKg > 0) lo = mid; else hi = mid;
+        }
+        stepLeakTimeS = hi;
+        const o = outflowAt(hi);
+        leakedKg = o.leak; transferredKg = o.transfer;
+        res = after(leakedKg + transferredKg);
+        drained = true;
+      }
+      vessel.outflowEnthalpyJ += (leakedKg + transferredKg) * vessel.s.hL;
+      vessel.heatAddedJ += heatJ;
+      // When the step-start liquid is fully withdrawn, the expanding saturated vapor (chlorine is a
+      // wet fluid) may recondense a trace of liquid; it is kept in the vessel inventory, and the
+      // liquid-release phase ends. Vessel blowdown after drainage is outside the model domain.
+      Object.assign(vessel, { totalKg: res.totalKg, energyJ: res.energyJ, tempC: res.tempC, s: res.st.s,
+        liquidKg: Math.max(0, res.st.liquidKg), vaporKg: res.totalKg - Math.max(0, res.st.liquidKg),
+        minPressurePa: Math.min(vessel.minPressurePa, res.st.s.pressurePa), drained });
+      if (!drained) liquidVolumeM3 = Math.max(residualVolume, vessel.liquidKg / res.st.s.rhoL);
+    }
+    totals.transferredM3 += transferredKg / stepRho;
+    if (drained) {
       liquidVolumeM3 = residualVolume;
       leakDurationS = t0 + stepLeakTimeS;
     }
 
-    const flashKg = flashFraction * leakedKg;
-    const airCarryKg = airCarryFraction * leakedKg;
-    const rawDropletsKg = dropletFraction * leakedKg;
+    const flashKg = fr.flashFraction * leakedKg;
+    const airCarryKg = fr.airCarryFraction * leakedKg;
+    const rawDropletsKg = fr.dropletFraction * leakedKg;
     const instantDropletVaporizedKg = rawDropletsKg * instantVaporFraction;
     const dropletDepositedKg = rawDropletsKg * depositToPoolFraction;
     const dropletsKg = rawDropletsKg - instantDropletVaporizedKg - dropletDepositedKg;
-    const intoPoolKg = poolFraction * leakedKg + dropletDepositedKg;
+    const intoPoolKg = fr.poolFraction * leakedKg + dropletDepositedKg;
     poolMassKg += intoPoolKg;
 
     let candidateArea = Math.min(maxPoolAreaM2, poolMassKg / (tk.liquidDensityKgM3 * ph.poolThicknessM));
@@ -226,7 +361,13 @@ function buildLeakAndPoolSeries(input, liquidSurfaceWindMS) {
       transferRateKgS,
       transferredKg,
       cumulativeTransferredKg: totals.transferredKg,
-      remainingLiquidMassKg: liquidVolumeM3 * tk.liquidDensityKgM3,
+      remainingLiquidMassKg: closed ? vessel.liquidKg : liquidVolumeM3 * tk.liquidDensityKgM3,
+      // Rates in this row use the step-start tank state; the step-end state follows the balance.
+      tankGaugePressureStepStartPa: stepGaugePa,
+      tankTempStepStartC: stepTempC,
+      tankGaugePressureStepEndPa: closed ? vessel.s.pressurePa - tk.atmosphericPressurePa : tk.pressureGaugePa,
+      tankTempStepEndC: closed ? vessel.tempC : null,
+      flashFraction: fr.flashFraction,
       flashKg,
       flashRateKgS: flashKg / dt,
       airCarryKg,
@@ -292,7 +433,7 @@ function buildLeakAndPoolSeries(input, liquidSurfaceWindMS) {
       leakEndLeakRateKgS: leakEnd?.leakRateKgS ?? 0,
       leakedKg: totals.leakedKg,
       transferredKg: totals.transferredKg,
-      transferredM3: totals.transferredKg / tk.liquidDensityKgM3,
+      transferredM3: totals.transferredM3,
       flashKg: totals.flashKg,
       dropletsKg: totals.dropletsKg,
       rawDropletsKg: totals.rawDropletsKg,
@@ -307,7 +448,34 @@ function buildLeakAndPoolSeries(input, liquidSurfaceWindMS) {
       leakEndPoolAreaM2: leakEnd?.poolAreaM2 ?? 0,
       finalGasTimeS: finalGasRow?.timeS ?? 0,
       maxLeakPeriodGasRateKgS: Math.max(...leakRows.map((r) => r.gasRateKgS), 0),
-      maxGasRateKgS: Math.max(...rows.map((r) => r.gasRateKgS), 0)
+      maxGasRateKgS: Math.max(...rows.map((r) => r.gasRateKgS), 0),
+      pressureModel,
+      closedTank: closed ? {
+        propertySource: saturationTable().source,
+        initialSaturationTempC: vessel.initialTempC,
+        finalSaturationTempC: vessel.tempC,
+        temperatureDropK: vessel.initialTempC - vessel.tempC,
+        initialGaugePressurePa: vessel.initialPressurePa - tk.atmosphericPressurePa,
+        minGaugePressurePa: vessel.minPressurePa - tk.atmosphericPressurePa,
+        leakEndFlashFraction: leakEnd?.flashFraction ?? null,
+        initialVesselMassKg: vessel.initialTotalKg,
+        residualInventoryAtDrainageKg: vessel.totalKg,
+        vaporLeftAtDrainageKg: vessel.vaporKg,
+        recondensedLiquidAtDrainageKg: vessel.liquidKg,
+        drainagePhaseVolumeM3: vessel.vaporKg / vessel.s.rhoV + vessel.liquidKg / vessel.s.rhoL,
+        // Final state rebuilt from (mass, T, V) minus the running energy account.
+        energyClosureJ: closedVesselState(vessel.totalKg, vessel.tempC, tk.volumeM3, vessel.wallHeatCapacityJK,
+          vessel.referenceTempC).energyJ - (vessel.initialEnergyJ - vessel.outflowEnthalpyJ + vessel.heatAddedJ),
+        wallHeatCapacityJK: vessel.wallHeatCapacityJK,
+        heatIngressW: vessel.heatIngressW
+      } : null,
+      // Chlorine vapor in the tank. Its release after liquid drainage is outside the model
+      // domain in both pressure options; the constant option holds the initial saturation state.
+      tankVapor: (() => {
+        const rhoV0 = saturationAt(saturationTempFromPressure(absPressurePa)).rhoV;
+        return { initialKg: (tk.volumeM3 - initialLiquidVolume) * rhoV0,
+          atDrainageKg: leakDurationS === null ? null : closed ? vessel.totalKg : tk.volumeM3 * rhoV0 };
+      })()
     }
   };
 }

@@ -8,7 +8,7 @@
     "maxRoomChlorineMolFraction": 0.5401068448144393,
     "mainCoolingKW": 4980.318722050863,
     "tailCoolingKW": 553.3649075312441,
-    "mainTankM3PerTank": 179.4600573272385,
+    "mainTankM3PerTank": 181.03242792957755,
     "sourcePeakKgS": 4.011166204521167
   },
   "figure2": {
@@ -20,7 +20,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7495460451114168,
         "heatEvapRateKgS": 0.6375139998391866,
-        "massEvapRateKgS": 0.0011645768097192212
+        "massEvapRateKgS": 0.0011645768097192214
       },
       {
         "timeS": 40,
@@ -52,7 +52,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7488238791263272,
         "heatEvapRateKgS": 1.4579245905889802,
-        "massEvapRateKgS": 0.004257232772439199
+        "massEvapRateKgS": 0.0042572327724392
       },
       {
         "timeS": 120,
@@ -60,7 +60,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7486448178461501,
         "heatEvapRateKgS": 1.554108926200826,
-        "massEvapRateKgS": 0.0049024341710701995
+        "massEvapRateKgS": 0.0049024341710702
       },
       {
         "timeS": 140,
@@ -68,7 +68,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7484663190111723,
         "heatEvapRateKgS": 1.6370457568266072,
-        "massEvapRateKgS": 0.005519091245465564
+        "massEvapRateKgS": 0.005519091245465565
       },
       {
         "timeS": 160,
@@ -76,7 +76,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7482883686278349,
         "heatEvapRateKgS": 1.7099473725432364,
-        "massEvapRateKgS": 0.006111525431845585
+        "massEvapRateKgS": 0.006111525431845586
       },
       {
         "timeS": 180,
@@ -92,7 +92,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7479340594038086,
         "heatEvapRateKgS": 1.8335927628965627,
-        "massEvapRateKgS": 0.007235852483584988
+        "massEvapRateKgS": 0.00723585248358499
       },
       {
         "timeS": 220,
@@ -100,7 +100,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.747757674677558,
         "heatEvapRateKgS": 1.8869516976085863,
-        "massEvapRateKgS": 0.00777221157330176
+        "massEvapRateKgS": 0.007772211573301761
       },
       {
         "timeS": 240,
@@ -116,7 +116,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7474063831492257,
         "heatEvapRateKgS": 1.981006168404717,
-        "massEvapRateKgS": 0.008801491817453403
+        "massEvapRateKgS": 0.008801491817453405
       },
       {
         "timeS": 280,
@@ -124,7 +124,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7472314526826661,
         "heatEvapRateKgS": 2.022865513348317,
-        "massEvapRateKgS": 0.009296890234666344
+        "massEvapRateKgS": 0.009296890234666346
       },
       {
         "timeS": 300,
@@ -132,7 +132,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7470569838646901,
         "heatEvapRateKgS": 2.061866534872844,
-        "massEvapRateKgS": 0.009780809067397296
+        "massEvapRateKgS": 0.009780809067397294
       },
       {
         "timeS": 320,
@@ -140,7 +140,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.746882965680714,
         "heatEvapRateKgS": 2.098349637095294,
-        "massEvapRateKgS": 0.010254087552210179
+        "massEvapRateKgS": 0.01025408755221018
       },
       {
         "timeS": 340,
@@ -148,7 +148,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7467093874178292,
         "heatEvapRateKgS": 2.13259746617109,
-        "massEvapRateKgS": 0.010717458645233097
+        "massEvapRateKgS": 0.010717458645233099
       },
       {
         "timeS": 360,
@@ -156,7 +156,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7465362386518728,
         "heatEvapRateKgS": 2.1648474125001607,
-        "massEvapRateKgS": 0.011171567849426745
+        "massEvapRateKgS": 0.011171567849426746
       },
       {
         "timeS": 380,
@@ -164,7 +164,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7463635092351831,
         "heatEvapRateKgS": 2.1953008747899676,
-        "massEvapRateKgS": 0.011616987838364632
+        "massEvapRateKgS": 0.011616987838364635
       },
       {
         "timeS": 400,
@@ -172,7 +172,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7461911892849951,
         "heatEvapRateKgS": 2.22413024943047,
-        "massEvapRateKgS": 0.012054229990340391
+        "massEvapRateKgS": 0.012054229990340393
       },
       {
         "timeS": 420,
@@ -180,7 +180,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7460192691724351,
         "heatEvapRateKgS": 2.2514842883439816,
-        "massEvapRateKgS": 0.01248375360950515
+        "massEvapRateKgS": 0.012483753609505151
       },
       {
         "timeS": 440,
@@ -196,7 +196,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7456765911520179,
         "heatEvapRateKgS": 2.3022672539334637,
-        "massEvapRateKgS": 0.013321265504581284
+        "massEvapRateKgS": 0.013321265504581287
       },
       {
         "timeS": 480,
@@ -204,7 +204,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.745505815164463,
         "heatEvapRateKgS": 2.3259087456164123,
-        "massEvapRateKgS": 0.013729972673352148
+        "massEvapRateKgS": 0.01372997267335215
       },
       {
         "timeS": 500,
@@ -212,7 +212,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7453354028367514,
         "heatEvapRateKgS": 2.3485047477111345,
-        "massEvapRateKgS": 0.014132408335169062
+        "massEvapRateKgS": 0.014132408335169063
       },
       {
         "timeS": 520,
@@ -220,7 +220,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7451653456628331,
         "heatEvapRateKgS": 2.370133494793186,
-        "massEvapRateKgS": 0.014528860189270246
+        "massEvapRateKgS": 0.014528860189270248
       },
       {
         "timeS": 540,
@@ -228,7 +228,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7449956353351472,
         "heatEvapRateKgS": 2.3908648486379382,
-        "massEvapRateKgS": 0.014919593177009563
+        "massEvapRateKgS": 0.014919593177009565
       },
       {
         "timeS": 560,
@@ -236,7 +236,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7448262637368872,
         "heatEvapRateKgS": 2.410761455153362,
-        "massEvapRateKgS": 0.015304852024117027
+        "massEvapRateKgS": 0.01530485202411703
       },
       {
         "timeS": 580,
@@ -244,7 +244,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7446572229346253,
         "heatEvapRateKgS": 2.429879707143553,
-        "massEvapRateKgS": 0.01568486341964754
+        "massEvapRateKgS": 0.015684863419647543
       },
       {
         "timeS": 600,
@@ -252,7 +252,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7444885051712801,
         "heatEvapRateKgS": 2.448270550928417,
-        "massEvapRateKgS": 0.016059837894251385
+        "massEvapRateKgS": 0.01605983789425139
       },
       {
         "timeS": 620,
@@ -260,7 +260,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7443201028594025,
         "heatEvapRateKgS": 2.465980166395372,
-        "massEvapRateKgS": 0.016429971447864698
+        "massEvapRateKgS": 0.0164299714478647
       },
       {
         "timeS": 640,
@@ -276,7 +276,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7439842150502458,
         "heatEvapRateKgS": 2.499519974966279,
-        "massEvapRateKgS": 0.017156435465987052
+        "massEvapRateKgS": 0.017156435465987056
       },
       {
         "timeS": 680,
@@ -292,7 +292,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7436495019636513,
         "heatEvapRateKgS": 2.530793147681723,
-        "massEvapRateKgS": 0.017865582500698453
+        "massEvapRateKgS": 0.017865582500698456
       },
       {
         "timeS": 720,
@@ -300,7 +300,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7434825686013764,
         "heatEvapRateKgS": 2.545658492677866,
-        "massEvapRateKgS": 0.01821403288195717
+        "massEvapRateKgS": 0.018214032881957172
       },
       {
         "timeS": 740,
@@ -308,7 +308,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7433159083883211,
         "heatEvapRateKgS": 2.5600466851795125,
-        "massEvapRateKgS": 0.01855858154090707
+        "massEvapRateKgS": 0.018558581540907074
       },
       {
         "timeS": 760,
@@ -332,7 +332,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.742817501621784,
         "heatEvapRateKgS": 2.6005899711321288,
-        "massEvapRateKgS": 0.01957003986768314
+        "massEvapRateKgS": 0.019570039867683145
       },
       {
         "timeS": 820,
@@ -340,7 +340,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7426518695926159,
         "heatEvapRateKgS": 2.6133024785758088,
-        "massEvapRateKgS": 0.019900171747733602
+        "massEvapRateKgS": 0.019900171747733605
       },
       {
         "timeS": 840,
@@ -348,7 +348,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7424864791006766,
         "heatEvapRateKgS": 2.625646164252843,
-        "massEvapRateKgS": 0.020226966097905374
+        "massEvapRateKgS": 0.020226966097905377
       },
       {
         "timeS": 860,
@@ -356,7 +356,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.74232132416556,
         "heatEvapRateKgS": 2.6376383305013027,
-        "massEvapRateKgS": 0.020550518817922567
+        "massEvapRateKgS": 0.020550518817922563
       },
       {
         "timeS": 880,
@@ -364,7 +364,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7421563989115112,
         "heatEvapRateKgS": 2.649295122912962,
-        "massEvapRateKgS": 0.020870921095231455
+        "massEvapRateKgS": 0.020870921095231462
       },
       {
         "timeS": 900,
@@ -372,7 +372,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7419916975637291,
         "heatEvapRateKgS": 2.660631630486521,
-        "massEvapRateKgS": 0.021188259732153603
+        "massEvapRateKgS": 0.021188259732153606
       },
       {
         "timeS": 920,
@@ -380,7 +380,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7418272144448108,
         "heatEvapRateKgS": 2.6716619751737,
-        "massEvapRateKgS": 0.021502617443793913
+        "massEvapRateKgS": 0.021502617443793916
       },
       {
         "timeS": 940,
@@ -388,7 +388,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7416629439713274,
         "heatEvapRateKgS": 2.682399392140678,
-        "massEvapRateKgS": 0.021814073129885595
+        "massEvapRateKgS": 0.0218140731298856
       },
       {
         "timeS": 960,
@@ -396,7 +396,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7414988806505283,
         "heatEvapRateKgS": 2.6928563018783858,
-        "massEvapRateKgS": 0.02212270212334775
+        "massEvapRateKgS": 0.022122702123347753
       },
       {
         "timeS": 980,
@@ -412,7 +412,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7411713539304323,
         "heatEvapRateKgS": 2.712974591523044,
-        "massEvapRateKgS": 0.022731764877459506
+        "massEvapRateKgS": 0.02273176487745951
       },
       {
         "timeS": 1020,
@@ -420,7 +420,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.741007879971008,
         "heatEvapRateKgS": 2.722657292496015,
-        "massEvapRateKgS": 0.023032333427415785
+        "massEvapRateKgS": 0.02303233342741579
       },
       {
         "timeS": 1040,
@@ -428,7 +428,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7408445920382123,
         "heatEvapRateKgS": 2.7321022293822237,
-        "massEvapRateKgS": 0.02333034523240681
+        "massEvapRateKgS": 0.023330345232406815
       },
       {
         "timeS": 1060,
@@ -436,7 +436,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7406814850472526,
         "heatEvapRateKgS": 2.74131860697078,
-        "massEvapRateKgS": 0.02362586085909288
+        "massEvapRateKgS": 0.023625860859092882
       },
       {
         "timeS": 1080,
@@ -444,7 +444,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7405185539865673,
         "heatEvapRateKgS": 2.7503151231635927,
-        "massEvapRateKgS": 0.023918938427007767
+        "massEvapRateKgS": 0.02391893842700777
       },
       {
         "timeS": 1100,
@@ -452,7 +452,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7403557939152601,
         "heatEvapRateKgS": 2.759100005102889,
-        "massEvapRateKgS": 0.02420963374804807
+        "massEvapRateKgS": 0.024209633748048073
       },
       {
         "timeS": 1120,
@@ -468,7 +468,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7400307673156938,
         "heatEvapRateKgS": 2.776065616005149,
-        "massEvapRateKgS": 0.024784090125019077
+        "massEvapRateKgS": 0.02478409012501908
       },
       {
         "timeS": 1160,
@@ -476,7 +476,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7398684912370187,
         "heatEvapRateKgS": 2.784260728359565,
-        "massEvapRateKgS": 0.02506795238389285
+        "massEvapRateKgS": 0.025067952383892856
       },
       {
         "timeS": 1180,
@@ -500,7 +500,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7393825558687088,
         "heatEvapRateKgS": 2.8077741298673127,
-        "massEvapRateKgS": 0.025906643897975368
+        "massEvapRateKgS": 0.025906643897975375
       },
       {
         "timeS": 1240,
@@ -508,7 +508,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7392208598119863,
         "heatEvapRateKgS": 2.8152746561112516,
-        "massEvapRateKgS": 0.026182057334517318
+        "massEvapRateKgS": 0.02618205733451732
       },
       {
         "timeS": 1260,
@@ -532,7 +532,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7387365564058437,
         "heatEvapRateKgS": 2.8368407275304,
-        "massEvapRateKgS": 0.026996425340715613
+        "massEvapRateKgS": 0.02699642534071562
       },
       {
         "timeS": 1320,
@@ -540,7 +540,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7385753689945951,
         "heatEvapRateKgS": 2.843734087406913,
-        "massEvapRateKgS": 0.027264052440514892
+        "massEvapRateKgS": 0.027264052440514896
       },
       {
         "timeS": 1340,
@@ -556,7 +556,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7382533390919848,
         "heatEvapRateKgS": 2.8571052044348884,
-        "massEvapRateKgS": 0.027793781368623916
+        "massEvapRateKgS": 0.02779378136862392
       },
       {
         "timeS": 1380,
@@ -564,7 +564,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.738092488198312,
         "heatEvapRateKgS": 2.863591391611102,
-        "massEvapRateKgS": 0.028055951791352833
+        "massEvapRateKgS": 0.02805595179135284
       },
       {
         "timeS": 1400,
@@ -588,7 +588,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7376105421829784,
         "heatEvapRateKgS": 2.8822993072248937,
-        "massEvapRateKgS": 0.028832076046992
+        "massEvapRateKgS": 0.028832076046992006
       },
       {
         "timeS": 1460,
@@ -596,7 +596,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7374500821861377,
         "heatEvapRateKgS": 2.888297126252994,
-        "massEvapRateKgS": 0.02908742410108985
+        "massEvapRateKgS": 0.029087424101089852
       },
       {
         "timeS": 1480,
@@ -604,7 +604,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.737289709841917,
         "heatEvapRateKgS": 2.894181528532534,
-        "massEvapRateKgS": 0.029341140981236875
+        "massEvapRateKgS": 0.029341140981236878
       },
       {
         "timeS": 1500,
@@ -612,7 +612,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7371294211894908,
         "heatEvapRateKgS": 2.8999557034646157,
-        "massEvapRateKgS": 0.029593254687534164
+        "massEvapRateKgS": 0.02959325468753417
       },
       {
         "timeS": 1520,
@@ -628,7 +628,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7368090792722759,
         "heatEvapRateKgS": 2.911185497795187,
-        "massEvapRateKgS": 0.03009278051685265
+        "massEvapRateKgS": 0.030092780516852657
       },
       {
         "timeS": 1560,
@@ -652,7 +652,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7363290967956668,
         "heatEvapRateKgS": 2.9272762264365504,
-        "massEvapRateKgS": 0.030830700109384813
+        "massEvapRateKgS": 0.030830700109384816
       },
       {
         "timeS": 1620,
@@ -668,7 +668,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7360094175311815,
         "heatEvapRateKgS": 2.9375312633252526,
-        "massEvapRateKgS": 0.03131534986886652
+        "massEvapRateKgS": 0.03131534986886653
       },
       {
         "timeS": 1660,
@@ -684,7 +684,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7356899503759842,
         "heatEvapRateKgS": 2.9474310166744164,
-        "massEvapRateKgS": 0.03179437484739646
+        "massEvapRateKgS": 0.031794374847396466
       },
       {
         "timeS": 1700,
@@ -700,7 +700,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7353706655987056,
         "heatEvapRateKgS": 2.956993146330862,
-        "massEvapRateKgS": 0.03226794642389471
+        "massEvapRateKgS": 0.03226794642389472
       },
       {
         "timeS": 1740,
@@ -708,7 +708,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7352110823933673,
         "heatEvapRateKgS": 2.961652779415514,
-        "massEvapRateKgS": 0.03250273831311974
+        "massEvapRateKgS": 0.03250273831311975
       },
       {
         "timeS": 1760,
@@ -716,7 +716,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7350515337664727,
         "heatEvapRateKgS": 2.966234074360184,
-        "massEvapRateKgS": 0.032736227157823115
+        "massEvapRateKgS": 0.03273622715782312
       },
       {
         "timeS": 1780,
@@ -724,7 +724,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7348920160795083,
         "heatEvapRateKgS": 2.970738908631193,
-        "massEvapRateKgS": 0.032968432003053445
+        "massEvapRateKgS": 0.03296843200305345
       },
       {
         "timeS": 1800,
@@ -732,7 +732,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7347325257080658,
         "heatEvapRateKgS": 2.9751690954700627,
-        "massEvapRateKgS": 0.03319937141806974
+        "massEvapRateKgS": 0.033199371418069744
       },
       {
         "timeS": 1820,
@@ -740,7 +740,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.734573059040741,
         "heatEvapRateKgS": 2.9795263867148956,
-        "massEvapRateKgS": 0.0334290635129634
+        "massEvapRateKgS": 0.03342906351296341
       },
       {
         "timeS": 1840,
@@ -748,7 +748,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7344136124780454,
         "heatEvapRateKgS": 2.9838124754696183,
-        "massEvapRateKgS": 0.033657525954530226
+        "massEvapRateKgS": 0.03365752595453023
       },
       {
         "timeS": 1860,
@@ -772,7 +772,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7339353575790286,
         "heatEvapRateKgS": 2.996259628956264,
-        "massEvapRateKgS": 0.03433570569156137
+        "massEvapRateKgS": 0.03433570569156138
       },
       {
         "timeS": 1920,
@@ -780,7 +780,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7337759556407758,
         "heatEvapRateKgS": 3.000276749798517,
-        "massEvapRateKgS": 0.034559417838749024
+        "massEvapRateKgS": 0.03455941783874903
       },
       {
         "timeS": 1940,
@@ -796,7 +796,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7334571549596116,
         "heatEvapRateKgS": 3.0081217787125545,
-        "massEvapRateKgS": 0.03500341505396404
+        "massEvapRateKgS": 0.035003415053964045
       },
       {
         "timeS": 1980,
@@ -804,7 +804,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7332977491206546,
         "heatEvapRateKgS": 3.011952421944196,
-        "massEvapRateKgS": 0.03522373037836662
+        "massEvapRateKgS": 0.035223730378366624
       },
       {
         "timeS": 2000,
@@ -820,7 +820,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7329789087338698,
         "heatEvapRateKgS": 3.019436487421986,
-        "massEvapRateKgS": 0.0356610675428763
+        "massEvapRateKgS": 0.035661067542876304
       },
       {
         "timeS": 2040,
@@ -828,7 +828,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7328194671080966,
         "heatEvapRateKgS": 3.023092398665035,
-        "massEvapRateKgS": 0.03587811763724607
+        "massEvapRateKgS": 0.035878117637246076
       },
       {
         "timeS": 2060,
@@ -844,7 +844,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7325005233019576,
         "heatEvapRateKgS": 3.030237920195889,
-        "massEvapRateKgS": 0.036309049160075484
+        "massEvapRateKgS": 0.03630904916007549
       },
       {
         "timeS": 2100,
@@ -868,7 +868,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7320219031020077,
         "heatEvapRateKgS": 3.040557230561862,
-        "massEvapRateKgS": 0.03694772090978403
+        "massEvapRateKgS": 0.036947720909784036
       },
       {
         "timeS": 2160,
@@ -876,7 +876,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7318622943224316,
         "heatEvapRateKgS": 3.043894855371705,
-        "massEvapRateKgS": 0.03715860170864008
+        "massEvapRateKgS": 0.037158601708640084
       },
       {
         "timeS": 2180,
@@ -892,7 +892,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7315429523628865,
         "heatEvapRateKgS": 3.0504228934418354,
-        "massEvapRateKgS": 0.03757742101103294
+        "massEvapRateKgS": 0.037577421011032945
       },
       {
         "timeS": 2220,
@@ -900,7 +900,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.731383212049231,
         "heatEvapRateKgS": 3.053615209510892,
-        "massEvapRateKgS": 0.037785382769051176
+        "massEvapRateKgS": 0.03778538276905118
       },
       {
         "timeS": 2240,
@@ -908,7 +908,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7312234207433203,
         "heatEvapRateKgS": 3.0567609475629745,
-        "massEvapRateKgS": 0.037992394371420865
+        "massEvapRateKgS": 0.03799239437142087
       },
       {
         "timeS": 2260,
@@ -916,7 +916,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7310635748559348,
         "heatEvapRateKgS": 3.059860993563235,
-        "massEvapRateKgS": 0.03819846686070346
+        "massEvapRateKgS": 0.03819846686070347
       },
       {
         "timeS": 2280,
@@ -924,7 +924,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7309036707870179,
         "heatEvapRateKgS": 3.0629162089572124,
-        "massEvapRateKgS": 0.038403611057358504
+        "massEvapRateKgS": 0.03840361105735851
       },
       {
         "timeS": 2300,
@@ -940,7 +940,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7305836736438107,
         "heatEvapRateKgS": 3.0688954762197533,
-        "massEvapRateKgS": 0.038811156780903855
+        "massEvapRateKgS": 0.03881115678090386
       },
       {
         "timeS": 2340,
@@ -956,7 +956,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7302634002559836,
         "heatEvapRateKgS": 3.07470518220389,
-        "massEvapRateKgS": 0.03921511389261128
+        "massEvapRateKgS": 0.039215113892611286
       },
       {
         "timeS": 2380,
@@ -964,7 +964,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7301031508245142,
         "heatEvapRateKgS": 3.0775483660782816,
-        "massEvapRateKgS": 0.039415771579052156
+        "massEvapRateKgS": 0.03941577157905216
       },
       {
         "timeS": 2400,
@@ -972,7 +972,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7299428213235248,
         "heatEvapRateKgS": 3.080351418645424,
-        "massEvapRateKgS": 0.039615561561861704
+        "massEvapRateKgS": 0.03961556156186171
       },
       {
         "timeS": 2420,
@@ -980,7 +980,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7297824080468267,
         "heatEvapRateKgS": 3.08311505177755,
-        "massEvapRateKgS": 0.03981449326768523
+        "massEvapRateKgS": 0.039814493267685235
       },
       {
         "timeS": 2440,
@@ -1020,7 +1020,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7289789538711753,
         "heatEvapRateKgS": 3.0963655728810293,
-        "massEvapRateKgS": 0.04079659533614319
+        "massEvapRateKgS": 0.040796595336143195
       },
       {
         "timeS": 2540,
@@ -1044,7 +1044,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7284956341407203,
         "heatEvapRateKgS": 3.103884574008819,
-        "massEvapRateKgS": 0.041376123311894476
+        "massEvapRateKgS": 0.04137612331189448
       },
       {
         "timeS": 2600,
@@ -1052,7 +1052,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7283342964725721,
         "heatEvapRateKgS": 3.106322587353763,
-        "massEvapRateKgS": 0.041567726733890184
+        "massEvapRateKgS": 0.04156772673389019
       },
       {
         "timeS": 2620,
@@ -1060,7 +1060,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7281728366889706,
         "heatEvapRateKgS": 3.1087273696947633,
-        "massEvapRateKgS": 0.04175855704436349
+        "massEvapRateKgS": 0.041758557044363494
       },
       {
         "timeS": 2640,
@@ -1084,7 +1084,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7276876845829127,
         "heatEvapRateKgS": 3.1157476355216285,
-        "massEvapRateKgS": 0.04232648557608
+        "massEvapRateKgS": 0.04232648557608001
       },
       {
         "timeS": 2700,
@@ -1092,7 +1092,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7275256961013982,
         "heatEvapRateKgS": 3.1180247347257692,
-        "massEvapRateKgS": 0.042514299046634396
+        "massEvapRateKgS": 0.04251429904663441
       },
       {
         "timeS": 2720,
@@ -1100,7 +1100,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7273635652077273,
         "heatEvapRateKgS": 3.120271160733375,
-        "massEvapRateKgS": 0.04270137655637907
+        "massEvapRateKgS": 0.042701376556379074
       },
       {
         "timeS": 2740,
@@ -1108,7 +1108,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7272012877301844,
         "heatEvapRateKgS": 3.122487388803821,
-        "massEvapRateKgS": 0.04288772515464938
+        "massEvapRateKgS": 0.042887725154649385
       },
       {
         "timeS": 2760,
@@ -1116,7 +1116,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7270388594560427,
         "heatEvapRateKgS": 3.124673882909181,
-        "massEvapRateKgS": 0.04307335177066015
+        "massEvapRateKgS": 0.043073351770660157
       },
       {
         "timeS": 2780,
@@ -1124,7 +1124,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7268762761299652,
         "heatEvapRateKgS": 3.1268310960571455,
-        "massEvapRateKgS": 0.04325826321624716
+        "massEvapRateKgS": 0.043258263216247164
       },
       {
         "timeS": 2800,
@@ -1132,7 +1132,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7267135334523654,
         "heatEvapRateKgS": 3.1289594706019512,
-        "massEvapRateKgS": 0.04344246618852484
+        "massEvapRateKgS": 0.04344246618852485
       },
       {
         "timeS": 2820,
@@ -1140,7 +1140,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7265506270777283,
         "heatEvapRateKgS": 3.1310594385439448,
-        "massEvapRateKgS": 0.04362596727246339
+        "massEvapRateKgS": 0.043625967272463394
       },
       {
         "timeS": 2840,
@@ -1148,7 +1148,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7263875526128809,
         "heatEvapRateKgS": 3.1331314218182555,
-        "massEvapRateKgS": 0.04380877294338784
+        "massEvapRateKgS": 0.04380877294338785
       },
       {
         "timeS": 2860,
@@ -1156,7 +1156,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7262243056152214,
         "heatEvapRateKgS": 3.1351758325728936,
-        "massEvapRateKgS": 0.04399088956940214
+        "massEvapRateKgS": 0.04399088956940215
       },
       {
         "timeS": 2880,
@@ -1164,7 +1164,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7260608815908949,
         "heatEvapRateKgS": 3.1371930734368756,
-        "massEvapRateKgS": 0.04417232341374072
+        "massEvapRateKgS": 0.04417232341374073
       },
       {
         "timeS": 2900,
@@ -1172,7 +1172,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.72589727599292,
         "heatEvapRateKgS": 3.1391835377786093,
-        "massEvapRateKgS": 0.044353080637050075
+        "massEvapRateKgS": 0.04435308063705008
       },
       {
         "timeS": 2920,
@@ -1180,7 +1180,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7257334842192595,
         "heatEvapRateKgS": 3.141147609955154,
-        "massEvapRateKgS": 0.04453316729960296
+        "massEvapRateKgS": 0.044533167299602966
       },
       {
         "timeS": 2940,
@@ -1188,7 +1188,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7255695016108363,
         "heatEvapRateKgS": 3.143085665552337,
-        "massEvapRateKgS": 0.04471258936344713
+        "massEvapRateKgS": 0.04471258936344714
       },
       {
         "timeS": 2960,
@@ -1204,7 +1204,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7252409449558546,
         "heatEvapRateKgS": 3.1468851868782495,
-        "massEvapRateKgS": 0.04506946306453011
+        "massEvapRateKgS": 0.045069463064530114
       },
       {
         "timeS": 3000,
@@ -1212,7 +1212,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7250763612872191,
         "heatEvapRateKgS": 3.1487473619673585,
-        "massEvapRateKgS": 0.04524692615321012
+        "massEvapRateKgS": 0.045246926153210125
       },
       {
         "timeS": 3020,
@@ -1220,7 +1220,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7249115675352515,
         "heatEvapRateKgS": 3.1505849396213823,
-        "massEvapRateKgS": 0.0454237475499391
+        "massEvapRateKgS": 0.04542374754993911
       },
       {
         "timeS": 3040,
@@ -1228,7 +1228,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7247465587237041,
         "heatEvapRateKgS": 3.1523982548859193,
-        "massEvapRateKgS": 0.045599932755740084
+        "massEvapRateKgS": 0.04559993275574009
       },
       {
         "timeS": 3060,
@@ -1236,7 +1236,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7245813298060206,
         "heatEvapRateKgS": 3.1541876353082485,
-        "massEvapRateKgS": 0.04577548718505213
+        "massEvapRateKgS": 0.045775487185052144
       },
       {
         "timeS": 3080,
@@ -1252,7 +1252,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.724250191099592,
         "heatEvapRateKgS": 3.157695865437794,
-        "massEvapRateKgS": 0.046124724949491575
+        "massEvapRateKgS": 0.04612472494949158
       },
       {
         "timeS": 3120,
@@ -1260,7 +1260,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7240842708435669,
         "heatEvapRateKgS": 3.1594153343962033,
-        "massEvapRateKgS": 0.046298418696072326
+        "massEvapRateKgS": 0.04629841869607233
       },
       {
         "timeS": 3140,
@@ -1268,7 +1268,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7239181095414793,
         "heatEvapRateKgS": 3.161112107356458,
-        "massEvapRateKgS": 0.04647150249232572
+        "massEvapRateKgS": 0.04647150249232573
       },
       {
         "timeS": 3160,
@@ -1276,7 +1276,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7237517017564984,
         "heatEvapRateKgS": 3.1627864770478853,
-        "massEvapRateKgS": 0.04664398134503365
+        "massEvapRateKgS": 0.046643981345033655
       },
       {
         "timeS": 3180,
@@ -1284,7 +1284,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7235850419653502,
         "heatEvapRateKgS": 3.1644387297281473,
-        "massEvapRateKgS": 0.046815860184170374
+        "massEvapRateKgS": 0.04681586018417038
       },
       {
         "timeS": 3200,
@@ -1292,7 +1292,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7234181245552886,
         "heatEvapRateKgS": 3.1660691453340055,
-        "massEvapRateKgS": 0.04698714386437436
+        "massEvapRateKgS": 0.046987143864374366
       },
       {
         "timeS": 3220,
@@ -1300,7 +1300,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7232509438209526,
         "heatEvapRateKgS": 3.1676779976266585,
-        "massEvapRateKgS": 0.04715783716637838
+        "massEvapRateKgS": 0.047157837166378384
       },
       {
         "timeS": 3240,
@@ -1316,7 +1316,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7229157690752677,
         "heatEvapRateKgS": 3.170832077275806,
-        "massEvapRateKgS": 0.047497471397489575
+        "massEvapRateKgS": 0.04749747139748958
       },
       {
         "timeS": 3280,
@@ -1324,7 +1324,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7227477631601794,
         "heatEvapRateKgS": 3.1723778225142985,
-        "massEvapRateKgS": 0.047666421530848456
+        "massEvapRateKgS": 0.04766642153084847
       },
       {
         "timeS": 3300,
@@ -1332,7 +1332,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7225794701061842,
         "heatEvapRateKgS": 3.173903040459749,
-        "massEvapRateKgS": 0.047834799697099216
+        "massEvapRateKgS": 0.04783479969709922
       },
       {
         "timeS": 3320,
@@ -1340,7 +1340,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7224108836934258,
         "heatEvapRateKgS": 3.1754079760017495,
-        "massEvapRateKgS": 0.04800261032752818
+        "massEvapRateKgS": 0.048002610327528186
       },
       {
         "timeS": 3340,
@@ -1348,7 +1348,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.722241997587914,
         "heatEvapRateKgS": 3.1768928686239617,
-        "massEvapRateKgS": 0.048169857787289584
+        "massEvapRateKgS": 0.04816985778728959
       },
       {
         "timeS": 3360,
@@ -1356,7 +1356,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7220728053374288,
         "heatEvapRateKgS": 3.1783579525166403,
-        "massEvapRateKgS": 0.04833654637657627
+        "massEvapRateKgS": 0.04833654637657628
       },
       {
         "timeS": 3380,
@@ -1364,7 +1364,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7219033003672587,
         "heatEvapRateKgS": 3.1798034566849287,
-        "massEvapRateKgS": 0.04850268033175712
+        "massEvapRateKgS": 0.04850268033175713
       },
       {
         "timeS": 3400,
@@ -1372,7 +1372,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7217334759757625,
         "heatEvapRateKgS": 3.181229605053141,
-        "massEvapRateKgS": 0.04866826382648216
+        "massEvapRateKgS": 0.048668263826482164
       },
       {
         "timeS": 3420,
@@ -1380,7 +1380,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7215633253297478,
         "heatEvapRateKgS": 3.182636616565051,
-        "massEvapRateKgS": 0.04883330097275603
+        "massEvapRateKgS": 0.04883330097275604
       },
       {
         "timeS": 3440,
@@ -1388,7 +1388,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7213928414596523,
         "heatEvapRateKgS": 3.1840247052803208,
-        "massEvapRateKgS": 0.04899779582198075
+        "massEvapRateKgS": 0.04899779582198076
       },
       {
         "timeS": 3460,
@@ -1396,7 +1396,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7212220172545231,
         "heatEvapRateKgS": 3.185394080467163,
-        "massEvapRateKgS": 0.049161752365968286
+        "massEvapRateKgS": 0.04916175236596829
       },
       {
         "timeS": 3480,
@@ -1404,7 +1404,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7210508454567738,
         "heatEvapRateKgS": 3.186744946691301,
-        "massEvapRateKgS": 0.04932517453792372
+        "massEvapRateKgS": 0.049325174537923726
       },
       {
         "timeS": 3500,
@@ -1412,7 +1412,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7208793186567174,
         "heatEvapRateKgS": 3.188077503901303,
-        "massEvapRateKgS": 0.04948806621339973
+        "massEvapRateKgS": 0.04948806621339974
       },
       {
         "timeS": 3520,
@@ -1428,7 +1428,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7205351696158957,
         "heatEvapRateKgS": 3.1906884684748276,
-        "massEvapRateKgS": 0.04981227329439235
+        "massEvapRateKgS": 0.049812273294392355
       },
       {
         "timeS": 3560,
@@ -1444,7 +1444,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.720189507588942,
         "heatEvapRateKgS": 3.193228484455381,
-        "massEvapRateKgS": 0.05013440349483332
+        "massEvapRateKgS": 0.050134403494833335
       },
       {
         "timeS": 3600,
@@ -1460,7 +1460,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7198422672055488,
         "heatEvapRateKgS": 3.1956989931143607,
-        "massEvapRateKgS": 0.050454485834632454
+        "massEvapRateKgS": 0.05045448583463247
       },
       {
         "timeS": 3640,
@@ -1468,7 +1468,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7196680338742155,
         "heatEvapRateKgS": 3.196908614257976,
-        "massEvapRateKgS": 0.05061376789510711
+        "massEvapRateKgS": 0.05061376789510712
       },
       {
         "timeS": 3660,
@@ -1476,7 +1476,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.719493380044203,
         "heatEvapRateKgS": 3.198101368857314,
-        "massEvapRateKgS": 0.05077254849353076
+        "massEvapRateKgS": 0.050772548493530766
       },
       {
         "timeS": 3680,
@@ -1492,7 +1492,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7191427743862612,
         "heatEvapRateKgS": 3.200436921145859,
-        "massEvapRateKgS": 0.05108861883529431
+        "massEvapRateKgS": 0.05108861883529432
       },
       {
         "timeS": 3720,
@@ -1500,7 +1500,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7189668037413929,
         "heatEvapRateKgS": 3.201580030369956,
-        "massEvapRateKgS": 0.051245915220908565
+        "massEvapRateKgS": 0.05124591522090858
       },
       {
         "timeS": 3740,
@@ -1516,7 +1516,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7186134779808986,
         "heatEvapRateKgS": 3.2038176648261705,
-        "massEvapRateKgS": 0.05155904666438514
+        "massEvapRateKgS": 0.051559046664385155
       },
       {
         "timeS": 3780,
@@ -1524,7 +1524,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7184361025688616,
         "heatEvapRateKgS": 3.2049124785804843,
-        "massEvapRateKgS": 0.05171488807681908
+        "massEvapRateKgS": 0.051714888076819086
       },
       {
         "timeS": 3800,
@@ -1540,7 +1540,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7180798739079979,
         "heatEvapRateKgS": 3.2070547923558026,
-        "massEvapRateKgS": 0.052025137820217525
+        "massEvapRateKgS": 0.05202513782021754
       },
       {
         "timeS": 3840,
@@ -1548,7 +1548,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7179009986877893,
         "heatEvapRateKgS": 3.2081025585635503,
-        "massEvapRateKgS": 0.05217955222864836
+        "massEvapRateKgS": 0.052179552228648375
       },
       {
         "timeS": 3860,
@@ -1580,7 +1580,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7171801542581716,
         "heatEvapRateKgS": 3.21214062087616,
-        "massEvapRateKgS": 0.052792542254932615
+        "massEvapRateKgS": 0.05279254225493263
       },
       {
         "timeS": 3940,
@@ -1596,7 +1596,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7168163525678972,
         "heatEvapRateKgS": 3.2140694981110456,
-        "massEvapRateKgS": 0.0530962766111599
+        "massEvapRateKgS": 0.05309627661115991
       },
       {
         "timeS": 3980,
@@ -1620,7 +1620,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7162661256502847,
         "heatEvapRateKgS": 3.2168525681803075,
-        "massEvapRateKgS": 0.053548489051202866
+        "massEvapRateKgS": 0.05354848905120287
       },
       {
         "timeS": 4040,
@@ -1628,7 +1628,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.716081452616409,
         "heatEvapRateKgS": 3.2177512585731884,
-        "massEvapRateKgS": 0.05369833332586462
+        "massEvapRateKgS": 0.053698333325864635
       },
       {
         "timeS": 4060,
@@ -1636,7 +1636,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7158961222046286,
         "heatEvapRateKgS": 3.218635605057082,
-        "massEvapRateKgS": 0.05384773527433349
+        "massEvapRateKgS": 0.053847735274333494
       },
       {
         "timeS": 4080,
@@ -1644,7 +1644,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7157101184487388,
         "heatEvapRateKgS": 3.219505695770413,
-        "massEvapRateKgS": 0.05399669740107492
+        "massEvapRateKgS": 0.05399669740107493
       },
       {
         "timeS": 4100,
@@ -1652,7 +1652,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7155234248412473,
         "heatEvapRateKgS": 3.220361615218665,
-        "massEvapRateKgS": 0.054145222169912854
+        "massEvapRateKgS": 0.05414522216991287
       },
       {
         "timeS": 4120,
@@ -1676,7 +1676,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7149590311132193,
         "heatEvapRateKgS": 3.222845135907189,
-        "massEvapRateKgS": 0.05458819636125053
+        "massEvapRateKgS": 0.05458819636125054
       },
       {
         "timeS": 4180,
@@ -1684,7 +1684,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7147694011773624,
         "heatEvapRateKgS": 3.2236451415929643,
-        "massEvapRateKgS": 0.05473499552965081
+        "massEvapRateKgS": 0.05473499552965082
       },
       {
         "timeS": 4200,
@@ -1708,7 +1708,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7141957395748921,
         "heatEvapRateKgS": 3.2259625758650956,
-        "massEvapRateKgS": 0.055172848027400176
+        "massEvapRateKgS": 0.05517284802740019
       },
       {
         "timeS": 4260,
@@ -1716,7 +1716,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7140028577354509,
         "heatEvapRateKgS": 3.2267077194657716,
-        "massEvapRateKgS": 0.055317957799846704
+        "massEvapRateKgS": 0.05531795779984672
       },
       {
         "timeS": 4280,
@@ -1740,7 +1740,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7134189072823776,
         "heatEvapRateKgS": 3.228861843364971,
-        "massEvapRateKgS": 0.05575079337059461
+        "massEvapRateKgS": 0.05575079337059462
       },
       {
         "timeS": 4340,
@@ -1756,7 +1756,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7130249351812342,
         "heatEvapRateKgS": 3.2302305714594675,
-        "massEvapRateKgS": 0.05603729241009545
+        "massEvapRateKgS": 0.05603729241009546
       },
       {
         "timeS": 4380,
@@ -1764,7 +1764,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7128264665739984,
         "heatEvapRateKgS": 3.230894825845295,
-        "massEvapRateKgS": 0.05617993034724107
+        "massEvapRateKgS": 0.05617993034724108
       },
       {
         "timeS": 4400,
@@ -1772,7 +1772,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7126269707864077,
         "heatEvapRateKgS": 3.2315457057205967,
-        "massEvapRateKgS": 0.056322163052567195
+        "massEvapRateKgS": 0.05632216305256721
       },
       {
         "timeS": 4420,
@@ -1796,7 +1796,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7120220053887731,
         "heatEvapRateKgS": 3.2334182491487318,
-        "massEvapRateKgS": 0.05674644771217485
+        "massEvapRateKgS": 0.056746447712174866
       },
       {
         "timeS": 4480,
@@ -1820,7 +1820,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7114065959335202,
         "heatEvapRateKgS": 3.235170735295342,
-        "massEvapRateKgS": 0.05716714802485827
+        "massEvapRateKgS": 0.05716714802485828
       },
       {
         "timeS": 4540,
@@ -1836,7 +1836,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7109900051833572,
         "heatEvapRateKgS": 3.2362722371449038,
-        "massEvapRateKgS": 0.05744564500141738
+        "massEvapRateKgS": 0.05744564500141739
       },
       {
         "timeS": 4580,
@@ -1852,7 +1852,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7105679500990351,
         "heatEvapRateKgS": 3.23732003986351,
-        "massEvapRateKgS": 0.05772257994482942
+        "massEvapRateKgS": 0.05772257994482943
       },
       {
         "timeS": 4620,
@@ -1860,7 +1860,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7103547511362839,
         "heatEvapRateKgS": 3.2378237022180665,
-        "massEvapRateKgS": 0.05786046512510955
+        "massEvapRateKgS": 0.05786046512510956
       },
       {
         "timeS": 4640,
@@ -1884,7 +1884,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7097058103341065,
         "heatEvapRateKgS": 3.239253041441264,
-        "massEvapRateKgS": 0.05827180688793426
+        "massEvapRateKgS": 0.05827180688793428
       },
       {
         "timeS": 4700,
@@ -1892,7 +1892,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7094861791264174,
         "heatEvapRateKgS": 3.2397020243742807,
-        "massEvapRateKgS": 0.05840815349452309
+        "massEvapRateKgS": 0.05840815349452311
       },
       {
         "timeS": 4720,
@@ -1900,7 +1900,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7092647777148586,
         "heatEvapRateKgS": 3.2401371253439444,
-        "massEvapRateKgS": 0.05854411826618165
+        "massEvapRateKgS": 0.058544118266181666
       },
       {
         "timeS": 4740,
@@ -1916,7 +1916,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7088163647724125,
         "heatEvapRateKgS": 3.24096523751277,
-        "massEvapRateKgS": 0.058814906226845556
+        "massEvapRateKgS": 0.05881490622684556
       },
       {
         "timeS": 4780,
@@ -1932,7 +1932,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7083599179328506,
         "heatEvapRateKgS": 3.2417363530662677,
-        "massEvapRateKgS": 0.05908417791026423
+        "massEvapRateKgS": 0.059084177910264234
       },
       {
         "timeS": 4820,
@@ -1956,7 +1956,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.707658500428917,
         "heatEvapRateKgS": 3.242783294934223,
-        "massEvapRateKgS": 0.05948525500105856
+        "massEvapRateKgS": 0.05948525500105857
       },
       {
         "timeS": 4880,
@@ -1972,7 +1972,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7071783867218099,
         "heatEvapRateKgS": 3.2434056867034493,
-        "massEvapRateKgS": 0.05975075884392365
+        "massEvapRateKgS": 0.059750758843923654
       },
       {
         "timeS": 4920,
@@ -1980,7 +1980,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.706934173743924,
         "heatEvapRateKgS": 3.243693449642785,
-        "massEvapRateKgS": 0.0598829474524783
+        "massEvapRateKgS": 0.05988294745247831
       },
       {
         "timeS": 4940,
@@ -2004,7 +2004,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7061829234891803,
         "heatEvapRateKgS": 3.2444591516695014,
-        "massEvapRateKgS": 0.06027726057280527
+        "massEvapRateKgS": 0.06027726057280528
       },
       {
         "timeS": 5000,
@@ -2012,7 +2012,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7059256483721088,
         "heatEvapRateKgS": 3.244680565591973,
-        "massEvapRateKgS": 0.06040794668795117
+        "massEvapRateKgS": 0.060407946687951186
       },
       {
         "timeS": 5020,
@@ -2020,7 +2020,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7056645614502726,
         "heatEvapRateKgS": 3.2448843081032512,
-        "massEvapRateKgS": 0.060538256240080746
+        "massEvapRateKgS": 0.06053825624008076
       },
       {
         "timeS": 5040,
@@ -2028,7 +2028,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7053993920516308,
         "heatEvapRateKgS": 3.2450698382592087,
-        "massEvapRateKgS": 0.060668188474316834
+        "massEvapRateKgS": 0.06066818847431684
       },
       {
         "timeS": 5060,
@@ -2036,7 +2036,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7051298351958638,
         "heatEvapRateKgS": 3.2452365464565154,
-        "massEvapRateKgS": 0.06079774240489111
+        "massEvapRateKgS": 0.06079774240489112
       },
       {
         "timeS": 5080,
@@ -2044,7 +2044,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7048555450292489,
         "heatEvapRateKgS": 3.245383742708146,
-        "massEvapRateKgS": 0.06092691678377221
+        "massEvapRateKgS": 0.060926916783772225
       },
       {
         "timeS": 5100,
@@ -2052,7 +2052,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7045761265281648,
         "heatEvapRateKgS": 3.2455106420651085,
-        "massEvapRateKgS": 0.06105571006248006
+        "massEvapRateKgS": 0.061055710062480076
       },
       {
         "timeS": 5120,
@@ -2060,7 +2060,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7042911248728415,
         "heatEvapRateKgS": 3.2456163462643253,
-        "massEvapRateKgS": 0.06118412034508658
+        "massEvapRateKgS": 0.06118412034508659
       },
       {
         "timeS": 5140,
@@ -2068,7 +2068,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7040000116303069,
         "heatEvapRateKgS": 3.245699820302414,
-        "massEvapRateKgS": 0.061312145329637024
+        "massEvapRateKgS": 0.06131214532963704
       },
       {
         "timeS": 5160,
@@ -2076,7 +2076,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7037021664792722,
         "heatEvapRateKgS": 3.245759862059117,
-        "massEvapRateKgS": 0.06143978223408895
+        "massEvapRateKgS": 0.061439782234088955
       },
       {
         "timeS": 5180,
@@ -2084,7 +2084,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7033968525635974,
         "heatEvapRateKgS": 3.2457950621943112,
-        "massEvapRateKgS": 0.06156702770113072
+        "massEvapRateKgS": 0.061567027701130726
       },
       {
         "timeS": 5200,
@@ -2092,7 +2092,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.703083182499733,
         "heatEvapRateKgS": 3.2458037500985832,
-        "massEvapRateKgS": 0.06169387767351725
+        "massEvapRateKgS": 0.061693877673517264
       },
       {
         "timeS": 5220,
@@ -2100,7 +2100,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7027600702545249,
         "heatEvapRateKgS": 3.2457839192698827,
-        "massEvapRateKgS": 0.06182032722713106
+        "massEvapRateKgS": 0.061820327227131065
       },
       {
         "timeS": 5240,
@@ -2108,7 +2108,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7024261608898017,
         "heatEvapRateKgS": 3.245733121310695,
-        "massEvapRateKgS": 0.06194637034147984
+        "massEvapRateKgS": 0.06194637034147985
       },
       {
         "timeS": 5260,
@@ -2116,7 +2116,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7020797241372811,
         "heatEvapRateKgS": 3.245648310120621,
-        "massEvapRateKgS": 0.0620719995740342
+        "massEvapRateKgS": 0.06207199957403421
       },
       {
         "timeS": 5280,
@@ -2124,7 +2124,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7017184857443632,
         "heatEvapRateKgS": 3.245525603115586,
-        "massEvapRateKgS": 0.06219720557977977
+        "massEvapRateKgS": 0.06219720557977978
       },
       {
         "timeS": 5300,
@@ -2140,7 +2140,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7009378630364439,
         "heatEvapRateKgS": 3.2451441944148813,
-        "massEvapRateKgS": 0.062446296066881624
+        "massEvapRateKgS": 0.06244629606688164
       },
       {
         "timeS": 5340,
@@ -2156,7 +2156,7 @@
         "transferRateKgS": 10.31258618542385,
         "flashRateKgS": 0.7000360390356533,
         "heatEvapRateKgS": 3.2445163555599743,
-        "massEvapRateKgS": 0.06269348375425082
+        "massEvapRateKgS": 0.06269348375425084
       },
       {
         "timeS": 5380,
@@ -2196,7 +2196,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.9934483701953587,
-        "massEvapRateKgS": 0.06083235519970983
+        "massEvapRateKgS": 0.060832355199709844
       },
       {
         "timeS": 5480,
@@ -2204,7 +2204,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.9602774944121246,
-        "massEvapRateKgS": 0.060233822277008756
+        "massEvapRateKgS": 0.06023382227700876
       },
       {
         "timeS": 5500,
@@ -2212,7 +2212,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.930759183094783,
-        "massEvapRateKgS": 0.05964149862520871
+        "massEvapRateKgS": 0.05964149862520872
       },
       {
         "timeS": 5520,
@@ -2220,7 +2220,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.9039413506764533,
-        "massEvapRateKgS": 0.05905467511265532
+        "massEvapRateKgS": 0.05905467511265533
       },
       {
         "timeS": 5540,
@@ -2260,7 +2260,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.794848254024675,
-        "massEvapRateKgS": 0.056188089543018
+        "massEvapRateKgS": 0.056188089543018016
       },
       {
         "timeS": 5640,
@@ -2268,7 +2268,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.776387344155234,
-        "massEvapRateKgS": 0.05562627809310944
+        "massEvapRateKgS": 0.05562627809310945
       },
       {
         "timeS": 5660,
@@ -2284,7 +2284,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.741782576589011,
-        "massEvapRateKgS": 0.05451256884779928
+        "massEvapRateKgS": 0.05451256884779929
       },
       {
         "timeS": 5700,
@@ -2292,7 +2292,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.7254822064728197,
-        "massEvapRateKgS": 0.05396037684500132
+        "massEvapRateKgS": 0.05396037684500134
       },
       {
         "timeS": 5720,
@@ -2300,7 +2300,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.709766272725074,
-        "massEvapRateKgS": 0.0534111218051619
+        "massEvapRateKgS": 0.05341112180516191
       },
       {
         "timeS": 5740,
@@ -2348,7 +2348,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.6253179429574898,
-        "massEvapRateKgS": 0.05017152025232975
+        "massEvapRateKgS": 0.05017152025232976
       },
       {
         "timeS": 5860,
@@ -2364,7 +2364,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.6001702749446425,
-        "massEvapRateKgS": 0.04911093560700339
+        "massEvapRateKgS": 0.0491109356070034
       },
       {
         "timeS": 5900,
@@ -2372,7 +2372,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.588055479693864,
-        "massEvapRateKgS": 0.04858394110584729
+        "massEvapRateKgS": 0.048583941105847295
       },
       {
         "timeS": 5920,
@@ -2380,7 +2380,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.5762235025479496,
-        "massEvapRateKgS": 0.04805906504075288
+        "massEvapRateKgS": 0.048059065040752885
       },
       {
         "timeS": 5940,
@@ -2396,7 +2396,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.5533477695202533,
-        "massEvapRateKgS": 0.04701544716552011
+        "massEvapRateKgS": 0.04701544716552013
       },
       {
         "timeS": 5980,
@@ -2404,7 +2404,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.5422771415698273,
-        "massEvapRateKgS": 0.04649660182384922
+        "massEvapRateKgS": 0.04649660182384923
       },
       {
         "timeS": 6000,
@@ -2412,7 +2412,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.531435283029807,
-        "massEvapRateKgS": 0.04597966735786171
+        "massEvapRateKgS": 0.045979667357861714
       },
       {
         "timeS": 6020,
@@ -2428,7 +2428,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.5103953597684527,
-        "massEvapRateKgS": 0.04495134971569902
+        "massEvapRateKgS": 0.044951349715699036
       },
       {
         "timeS": 6060,
@@ -2452,7 +2452,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.480305720595106,
-        "massEvapRateKgS": 0.04342212112934477
+        "massEvapRateKgS": 0.04342212112934478
       },
       {
         "timeS": 6120,
@@ -2460,7 +2460,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.4706353108069754,
-        "massEvapRateKgS": 0.04291575457032513
+        "massEvapRateKgS": 0.042915754570325135
       },
       {
         "timeS": 6140,
@@ -2468,7 +2468,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.461132655532594,
-        "massEvapRateKgS": 0.04241101523973992
+        "massEvapRateKgS": 0.042411015239739926
       },
       {
         "timeS": 6160,
@@ -2476,7 +2476,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.4517912681532446,
-        "massEvapRateKgS": 0.04190786852564168
+        "massEvapRateKgS": 0.041907868525641684
       },
       {
         "timeS": 6180,
@@ -2484,7 +2484,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.4426050711681815,
-        "massEvapRateKgS": 0.04140628098242266
+        "massEvapRateKgS": 0.04140628098242267
       },
       {
         "timeS": 6200,
@@ -2500,7 +2500,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.4246757742929894,
-        "massEvapRateKgS": 0.040407654978233364
+        "massEvapRateKgS": 0.04040765497823337
       },
       {
         "timeS": 6240,
@@ -2508,7 +2508,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.4159222636347883,
-        "massEvapRateKgS": 0.03991055476110075
+        "massEvapRateKgS": 0.03991055476110076
       },
       {
         "timeS": 6260,
@@ -2516,7 +2516,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.407303068195243,
-        "massEvapRateKgS": 0.039414890071157
+        "massEvapRateKgS": 0.039414890071157005
       },
       {
         "timeS": 6280,
@@ -2524,7 +2524,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.398813692983679,
-        "massEvapRateKgS": 0.038920632202508125
+        "massEvapRateKgS": 0.03892063220250813
       },
       {
         "timeS": 6300,
@@ -2532,7 +2532,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.390449887965034,
-        "massEvapRateKgS": 0.03842775321650563
+        "massEvapRateKgS": 0.038427753216505635
       },
       {
         "timeS": 6320,
@@ -2540,7 +2540,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.3822076295773256,
-        "massEvapRateKgS": 0.03793622589147544
+        "massEvapRateKgS": 0.037936225891475446
       },
       {
         "timeS": 6340,
@@ -2548,7 +2548,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.374083104014347,
-        "massEvapRateKgS": 0.037446023675834036
+        "massEvapRateKgS": 0.03744602367583404
       },
       {
         "timeS": 6360,
@@ -2556,7 +2556,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.366072692071219,
-        "massEvapRateKgS": 0.03695712064424019
+        "massEvapRateKgS": 0.036957120644240206
       },
       {
         "timeS": 6380,
@@ -2564,7 +2564,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.3581729553773405,
-        "massEvapRateKgS": 0.036469491456469355
+        "massEvapRateKgS": 0.03646949145646936
       },
       {
         "timeS": 6400,
@@ -2572,7 +2572,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.3503806238641785,
-        "massEvapRateKgS": 0.03598311131873065
+        "massEvapRateKgS": 0.03598311131873066
       },
       {
         "timeS": 6420,
@@ -2588,7 +2588,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.3351058700180998,
-        "massEvapRateKgS": 0.03501400153336671
+        "massEvapRateKgS": 0.035014001533366715
       },
       {
         "timeS": 6460,
@@ -2596,7 +2596,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.3276176510074342,
-        "massEvapRateKgS": 0.034531224711515214
+        "massEvapRateKgS": 0.03453122471151522
       },
       {
         "timeS": 6480,
@@ -2612,7 +2612,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.3129260116956387,
-        "massEvapRateKgS": 0.033569112407953405
+        "massEvapRateKgS": 0.03356911240795341
       },
       {
         "timeS": 6520,
@@ -2620,7 +2620,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.305717540478771,
-        "massEvapRateKgS": 0.033089732133945164
+        "massEvapRateKgS": 0.03308973213394517
       },
       {
         "timeS": 6540,
@@ -2628,7 +2628,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.298597448496076,
-        "massEvapRateKgS": 0.03261143981128442
+        "massEvapRateKgS": 0.03261143981128443
       },
       {
         "timeS": 6560,
@@ -2636,7 +2636,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.2915634719007256,
-        "massEvapRateKgS": 0.03213421384514286
+        "massEvapRateKgS": 0.03213421384514287
       },
       {
         "timeS": 6580,
@@ -2660,7 +2660,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.2709569691132168,
-        "massEvapRateKgS": 0.030708722090604414
+        "massEvapRateKgS": 0.030708722090604417
       },
       {
         "timeS": 6640,
@@ -2668,7 +2668,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.264246610532032,
-        "massEvapRateKgS": 0.030235550701052855
+        "massEvapRateKgS": 0.03023555070105286
       },
       {
         "timeS": 6660,
@@ -2684,7 +2684,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.2510524155683305,
-        "massEvapRateKgS": 0.029292073585896933
+        "massEvapRateKgS": 0.029292073585896937
       },
       {
         "timeS": 6700,
@@ -2692,7 +2692,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.2445650952586655,
-        "massEvapRateKgS": 0.02882172735535276
+        "massEvapRateKgS": 0.028821727355352766
       },
       {
         "timeS": 6720,
@@ -2716,7 +2716,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.2255226668081756,
-        "massEvapRateKgS": 0.027416017204344428
+        "massEvapRateKgS": 0.027416017204344435
       },
       {
         "timeS": 6780,
@@ -2724,7 +2724,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.2193099360054735,
-        "massEvapRateKgS": 0.026949156867884093
+        "massEvapRateKgS": 0.0269491568678841
       },
       {
         "timeS": 6800,
@@ -2732,7 +2732,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.2131621622676994,
-        "massEvapRateKgS": 0.026483118239244884
+        "massEvapRateKgS": 0.02648311823924489
       },
       {
         "timeS": 6820,
@@ -2756,7 +2756,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.1950950683883095,
-        "massEvapRateKgS": 0.025089733514847213
+        "massEvapRateKgS": 0.025089733514847216
       },
       {
         "timeS": 6880,
@@ -2772,7 +2772,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.1833511237243335,
-        "massEvapRateKgS": 0.02416455287056889
+        "massEvapRateKgS": 0.024164552870568894
       },
       {
         "timeS": 6920,
@@ -2780,7 +2780,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.177565781379271,
-        "massEvapRateKgS": 0.02370302472505085
+        "massEvapRateKgS": 0.023703024725050852
       },
       {
         "timeS": 6940,
@@ -2788,7 +2788,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.171836679099579,
-        "massEvapRateKgS": 0.023242177431662788
+        "massEvapRateKgS": 0.023242177431662795
       },
       {
         "timeS": 6960,
@@ -2796,7 +2796,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.166162726316796,
-        "massEvapRateKgS": 0.022781990296999642
+        "massEvapRateKgS": 0.022781990296999646
       },
       {
         "timeS": 6980,
@@ -2812,7 +2812,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.1549760737586494,
-        "massEvapRateKgS": 0.021863512523887237
+        "massEvapRateKgS": 0.02186351252388724
       },
       {
         "timeS": 7020,
@@ -2828,7 +2828,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.1439977466467885,
-        "massEvapRateKgS": 0.020947420531961847
+        "massEvapRateKgS": 0.02094742053196185
       },
       {
         "timeS": 7060,
@@ -2836,7 +2836,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.138584311539888,
-        "massEvapRateKgS": 0.02049021432645548
+        "massEvapRateKgS": 0.020490214326455484
       },
       {
         "timeS": 7080,
@@ -2844,7 +2844,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.133220141218751,
-        "massEvapRateKgS": 0.020033537901774617
+        "massEvapRateKgS": 0.02003353790177462
       },
       {
         "timeS": 7100,
@@ -2852,7 +2852,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.127904352910721,
-        "massEvapRateKgS": 0.019577368108767083
+        "massEvapRateKgS": 0.019577368108767087
       },
       {
         "timeS": 7120,
@@ -2868,7 +2868,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.117414515410263,
-        "massEvapRateKgS": 0.01866645309260223
+        "massEvapRateKgS": 0.018666453092602234
       },
       {
         "timeS": 7160,
@@ -2884,7 +2884,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.107108220055318,
-        "massEvapRateKgS": 0.01775727233015677
+        "massEvapRateKgS": 0.017757272330156774
       },
       {
         "timeS": 7200,
@@ -2892,7 +2892,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.1020219427859272,
-        "massEvapRateKgS": 0.017303267637833897
+        "massEvapRateKgS": 0.0173032676378339
       },
       {
         "timeS": 7220,
@@ -2900,7 +2900,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.096979243682389,
-        "massEvapRateKgS": 0.016849617258299476
+        "massEvapRateKgS": 0.01684961725829948
       },
       {
         "timeS": 7240,
@@ -2908,7 +2908,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.0919793961058235,
-        "massEvapRateKgS": 0.016396292889668058
+        "massEvapRateKgS": 0.01639629288966806
       },
       {
         "timeS": 7260,
@@ -2916,7 +2916,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.0870216924872538,
-        "massEvapRateKgS": 0.015943265156663087
+        "massEvapRateKgS": 0.01594326515666309
       },
       {
         "timeS": 7280,
@@ -2932,7 +2932,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.0772299780594277,
-        "massEvapRateKgS": 0.015037976038096534
+        "massEvapRateKgS": 0.015037976038096538
       },
       {
         "timeS": 7320,
@@ -2948,7 +2948,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.067598795628357,
-        "massEvapRateKgS": 0.01413348878773891
+        "massEvapRateKgS": 0.014133488787738912
       },
       {
         "timeS": 7360,
@@ -2964,7 +2964,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.0581231042757686,
-        "massEvapRateKgS": 0.013229516293220184
+        "massEvapRateKgS": 0.013229516293220186
       },
       {
         "timeS": 7400,
@@ -2980,7 +2980,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.048798108900134,
-        "massEvapRateKgS": 0.012325739197488859
+        "massEvapRateKgS": 0.012325739197488863
       },
       {
         "timeS": 7440,
@@ -2996,7 +2996,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.0396192437463045,
-        "massEvapRateKgS": 0.011421797734431527
+        "massEvapRateKgS": 0.011421797734431529
       },
       {
         "timeS": 7480,
@@ -3004,7 +3004,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.035083242181266,
-        "massEvapRateKgS": 0.01096963928237856
+        "massEvapRateKgS": 0.010969639282378561
       },
       {
         "timeS": 7500,
@@ -3012,7 +3012,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.030582157336665,
-        "massEvapRateKgS": 0.010517280835271104
+        "massEvapRateKgS": 0.010517280835271106
       },
       {
         "timeS": 7520,
@@ -3028,7 +3028,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.021682698659929,
-        "massEvapRateKgS": 0.00961171124679974
+        "massEvapRateKgS": 0.009611711246799744
       },
       {
         "timeS": 7560,
@@ -3036,7 +3036,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.0172833342035417,
-        "massEvapRateKgS": 0.009158359485421383
+        "massEvapRateKgS": 0.009158359485421385
       },
       {
         "timeS": 7580,
@@ -3044,7 +3044,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.0129169044910507,
-        "massEvapRateKgS": 0.00870452463985369
+        "massEvapRateKgS": 0.008704524639853689
       },
       {
         "timeS": 7600,
@@ -3052,7 +3052,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.0085829415480876,
-        "massEvapRateKgS": 0.00825011761529506
+        "massEvapRateKgS": 0.008250117615295061
       },
       {
         "timeS": 7620,
@@ -3060,7 +3060,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.0042809877303553,
-        "massEvapRateKgS": 0.007795039324866875
+        "massEvapRateKgS": 0.007795039324866876
       },
       {
         "timeS": 7640,
@@ -3068,7 +3068,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 2.00001059540814,
-        "massEvapRateKgS": 0.007339178772968455
+        "massEvapRateKgS": 0.007339178772968457
       },
       {
         "timeS": 7660,
@@ -3084,7 +3084,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 1.9915627529971378,
-        "massEvapRateKgS": 0.006424592085250753
+        "massEvapRateKgS": 0.006424592085250755
       },
       {
         "timeS": 7700,
@@ -3100,7 +3100,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 1.9832360223393288,
-        "massEvapRateKgS": 0.00550511941307917
+        "massEvapRateKgS": 0.005505119413079171
       },
       {
         "timeS": 7740,
@@ -3116,7 +3116,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 1.9750271534674497,
-        "massEvapRateKgS": 0.004579074275635308
+        "massEvapRateKgS": 0.004579074275635309
       },
       {
         "timeS": 7780,
@@ -3124,7 +3124,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 1.9709659383990719,
-        "massEvapRateKgS": 0.004112867359133992
+        "massEvapRateKgS": 0.004112867359133993
       },
       {
         "timeS": 7800,
@@ -3148,7 +3148,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 1.9589506629559985,
-        "massEvapRateKgS": 0.002696073067349278
+        "massEvapRateKgS": 0.0026960730673492783
       },
       {
         "timeS": 7860,
@@ -3156,7 +3156,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 1.955000486237978,
-        "massEvapRateKgS": 0.0022152905225736918
+        "massEvapRateKgS": 0.002215290522573692
       },
       {
         "timeS": 7880,
@@ -3180,7 +3180,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 1.9433098266886606,
-        "massEvapRateKgS": 0.000722672486690087
+        "massEvapRateKgS": 0.0007226724866900872
       },
       {
         "timeS": 7940,
@@ -3188,7 +3188,7 @@
         "transferRateKgS": 0,
         "flashRateKgS": 0,
         "heatEvapRateKgS": 0.5868685114059323,
-        "massEvapRateKgS": 0.00018437449205726967
+        "massEvapRateKgS": 0.0001843744920572697
       },
       {
         "timeS": 7960,

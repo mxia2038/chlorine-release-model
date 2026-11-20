@@ -11,7 +11,10 @@ These JSON files contain the numerical values behind the manuscript's reported c
 | `droplet_fate_bounds.json` | Figure 5 |
 | `transfer_pairs.json` | Table 5, fixed-fan comparison, and reference-inventory sensitivity |
 | `time_step_convergence.json` | Time-step comparison in Section 3.7 |
-| `ventilation_validation.json` | Published chamber measurements transcribed from Lambert et al. (2010) and the Section 3.7 comparison |
-| `additional_checks.json` | Six constant-rate inventory comparisons and nine pressure-by-pump cases |
+| `additional_checks.json` | Eight constant-rate inventory comparisons, nine pressure-by-pump cases, and equivalent transfer capacity under startup delay |
+| `scenario_pairs.json` | Paired transfer/no-transfer cases for retention, delay, orifice, discharge coefficient, pool depth and ground temperature (Table 5) |
+| `tank_pressure_comparison.json` | Constant-pressure versus closed-vessel tank cases (Table 6) |
+| `thermal_terms.json` | Thermal effects omitted from the reaction-heat duty (Table 7) |
+| `absorber_checks.json` | Caustic delivered per pass, required transfer units, and flooding and pressure drop of the two packed towers (§2.8) |
 
 The pressure study varies tank gauge pressure and the resulting Antoine temperature and flash fraction while retaining the baseline density, liquid heat capacity, boiling point and latent heat. Figure 1 is a process schematic and has no numerical dataset. Third-party publications and the engineering workbook are not part of this data package.

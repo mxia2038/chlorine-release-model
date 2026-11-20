@@ -1,0 +1,3605 @@
+{
+  "rows": [
+    {
+      "model": "constant",
+      "pumpM3H": 0,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 97271.7279339294,
+      "transferredKg": 0,
+      "leakDurationS": 12598.430933010002,
+      "initialLeakRateKgS": 7.9646086878935725,
+      "leakEndLeakRateKgS": 7.423262487530284,
+      "endGaugePressureKPa": 200,
+      "endFlashFraction": 0.09410958836568427,
+      "temperatureDropK": 0,
+      "tankInventoryAtDrainageKg": 830.0494200347822,
+      "liquidPlusResidualKg": 98101.7773539642,
+      "fanNm3H": 5306.509942579331,
+      "maxGasMolFraction": 0.8067066613449205,
+      "mainPeakReactionHeatKW": 7753.047994389988,
+      "tailPeakReactionHeatKW": 861.4481150390917,
+      "mainInitialSolutionKgPerTank": 394151.08734942484,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.9646086878935725,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 97112.43576017157
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.952125902614314,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 94725.05731599836
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.939899891646719,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 92341.38160035764
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.927893374684281,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 89961.33772898871
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.9160754507137705,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 87584.86493450266
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.904420024113859,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 85211.91091832383
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.892904686052819,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 82842.43059712992
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.881509897487045,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 80476.38513365062
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.870218377704655,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 78113.74117778926
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.8590146363100075,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 75754.47026698742
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.847884607271537,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 73398.54834982338
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.836815356700421,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 71045.95540701479
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.825794844452693,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 68696.6751510602
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.814811725204212,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 66350.69479077999
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.803855178370278,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 64008.00485069083
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.792914758755259,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 61668.59903790978
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.781980261508209,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 59332.47415143056
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.771041596067866,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 56999.63003035269
+        },
+        {
+          "timeS": 5420,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.760088664451961,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 54670.069539121905
+        },
+        {
+          "timeS": 5720,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.749111239566515,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 52343.79858917434
+        },
+        {
+          "timeS": 6020,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.738098839220572,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 50020.82619766548
+        },
+        {
+          "timeS": 6320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.727040591232294,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 47701.164585299084
+        },
+        {
+          "timeS": 6620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.715925084367521,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 45384.829316748685
+        },
+        {
+          "timeS": 6920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.704740198781999,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 43071.83948890247
+        },
+        {
+          "timeS": 7220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.69347290800342,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 40762.21797430475
+        },
+        {
+          "timeS": 7520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.682109042061925,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 38455.99172992229
+        },
+        {
+          "timeS": 7820,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.670632997792077,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 36153.19218501941
+        },
+        {
+          "timeS": 8120,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.659027376995109,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 33853.85572691956
+        },
+        {
+          "timeS": 8420,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.647272525096535,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 31558.02431042808
+        },
+        {
+          "timeS": 8720,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.635345930524331,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 29265.746226750234
+        },
+        {
+          "timeS": 9020,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.623221425426306,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 26977.077082578755
+        },
+        {
+          "timeS": 9320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.6108680964346425,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 24692.08106254788
+        },
+        {
+          "timeS": 9620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.598248760412612,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 22410.83258352311
+        },
+        {
+          "timeS": 9920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.5853177657325945,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 20133.41850645331
+        },
+        {
+          "timeS": 10220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.572017705772925,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 17859.941168431294
+        },
+        {
+          "timeS": 10520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.558274291974431,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 15590.522670042017
+        },
+        {
+          "timeS": 10820,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.543987922847826,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 13325.311179018994
+        },
+        {
+          "timeS": 11120,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.529018857386361,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 11064.490675755598
+        },
+        {
+          "timeS": 11420,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.513158717023895,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 8808.297060151976
+        },
+        {
+          "timeS": 11720,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.49606844337474,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 6557.047373541705
+        },
+        {
+          "timeS": 12020,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.477114888747941,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 4311.200830727592
+        },
+        {
+          "timeS": 12320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.454763542280196,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 2071.5218411735286
+        }
+      ]
+    },
+    {
+      "model": "constant",
+      "pumpM3H": 12.5,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 58326.376652353814,
+      "transferredKg": 38945.35128157571,
+      "leakDurationS": 7552.974701267916,
+      "initialLeakRateKgS": 7.9646086878935725,
+      "leakEndLeakRateKgS": 7.423984884465429,
+      "endGaugePressureKPa": 200,
+      "endFlashFraction": 0.09410958836568427,
+      "temperatureDropK": 0,
+      "tankInventoryAtDrainageKg": 830.0494200347822,
+      "liquidPlusResidualKg": 59156.4260723886,
+      "fanNm3H": 5144.475193179039,
+      "maxGasMolFraction": 0.6523792025568359,
+      "mainPeakReactionHeatKW": 6187.988912260384,
+      "tailPeakReactionHeatKW": 687.5514126064598,
+      "mainInitialSolutionKgPerTank": 236342.10337347587,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.9646086878935725,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 97009.30989831731
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.944173759047675,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 93076.32628989204
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.924351768637725,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 89149.37109535404
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.905003858123341,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 85228.28366462942
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.886024048840027,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 81312.93937955356
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.867327797007508,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 77403.24176838409
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.848844960623207,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 73499.11727957655
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.83051519346584,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 69600.51174301349
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.812284740151396,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 65707.38797040556
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.79410405935861,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 61819.724173916344
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.775925929385329,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 57937.513013839045
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.757703806455626,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 54060.76116935603
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.739390262132903,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 50189.48938519316
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.72093534349112,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 46323.73299547969
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.70228468476151,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 42463.542974605276
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.683377146852438,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 38608.98762352881
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.664141651874954,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 34760.1550827351
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.644492667842077,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 30917.156993346016
+        },
+        {
+          "timeS": 5420,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.624323380554183,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 27080.13385102587
+        },
+        {
+          "timeS": 5720,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.603494718840727,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 23249.263009107744
+        },
+        {
+          "timeS": 6020,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.581816434611564,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 19424.771110450187
+        },
+        {
+          "timeS": 6320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.559011500790172,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 15606.95453868863
+        },
+        {
+          "timeS": 6620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.534640697043548,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 11796.21600034685
+        },
+        {
+          "timeS": 6920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.507912169814098,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 7993.138855567897
+        },
+        {
+          "timeS": 7220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.477029988383579,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 4198.674809859162
+        },
+        {
+          "timeS": 7520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.434129632983054,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 414.9433391809018
+        }
+      ]
+    },
+    {
+      "model": "constant",
+      "pumpM3H": 25,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 41652.78959726478,
+      "transferredKg": 55618.938336664476,
+      "leakDurationS": 5393.306522400592,
+      "initialLeakRateKgS": 7.9646086878935725,
+      "leakEndLeakRateKgS": 7.425800135875391,
+      "endGaugePressureKPa": 200,
+      "endFlashFraction": 0.09410958836568427,
+      "temperatureDropK": 0,
+      "tankInventoryAtDrainageKg": 830.0494200347822,
+      "liquidPlusResidualKg": 42482.839017299564,
+      "fanNm3H": 5021.138776129302,
+      "maxGasMolFraction": 0.5401068448144393,
+      "mainPeakReactionHeatKW": 4980.318722050863,
+      "tailPeakReactionHeatKW": 553.3649075312441,
+      "mainInitialSolutionKgPerTank": 168779.69230741024,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.9646086878935725,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 96906.18403646308
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.936311045995971,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 91427.5847663707
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.909078296753111,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 85957.29480366339
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.882589089246379,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 80495.04906250653
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.856612367654497,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 75040.66309965872
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.830968396501328,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 69594.01288396979
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.805507088038572,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 64155.02314803314
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.780094333360737,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 58723.660813872826
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.754602062555951,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 53299.931848003594
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.728899656657622,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 47883.880834647345
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.702844950489446,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 42475.593148324035
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.67627290947585,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 37075.20014214749
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.64897902229088,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 31682.888481702554
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.620691650157947,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 26298.91602491128
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.591020092865151,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 20923.63938538047
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.559342340008836,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 15557.565272519585
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.524509063094394,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 10201.459396502594
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.4837339861285725,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 4856.641012062678
+        }
+      ]
+    },
+    {
+      "model": "constant",
+      "pumpM3H": 50,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 26502.700973976385,
+      "transferredKg": 70769.02695995278,
+      "leakDurationS": 3431.196873776447,
+      "initialLeakRateKgS": 7.9646086878935725,
+      "leakEndLeakRateKgS": 7.427548696428052,
+      "endGaugePressureKPa": 200,
+      "endFlashFraction": 0.09410958836568427,
+      "temperatureDropK": 0,
+      "tankInventoryAtDrainageKg": 830.0494200347822,
+      "liquidPlusResidualKg": 27332.750394011167,
+      "fanNm3H": 4832.037823334462,
+      "maxGasMolFraction": 0.4080772769073679,
+      "mainPeakReactionHeatKW": 3462.7716530066828,
+      "tailPeakReactionHeatKW": 384.7475541759478,
+      "mainInitialSolutionKgPerTank": 107390.59157749118,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.9646086878935725,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 96699.93231275461
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.9208192344654575,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 88130.07340472413
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.879157164120558,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 79572.98091648653
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.838669972761666,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 71028.18035282072
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.798711123678193,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 62495.427396141975
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.758755952533068,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 53974.649091701016
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.718300478089895,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 45465.92444065219
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.676773866426431,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 36969.491966361304
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.633414660679407,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 28485.787875828017
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.587011304666739,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 20015.539061966716
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.535127815349355,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 11559.998127869803
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.469890622561134,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 3121.777019840796
+        }
+      ]
+    },
+    {
+      "model": "constant",
+      "pumpM3H": 25,
+      "delayS": 1800,
+      "timeStepS": 20,
+      "leakedKg": 49720.85972928497,
+      "transferredKg": 47550.86820464428,
+      "leakDurationS": 6410.954744975069,
+      "initialLeakRateKgS": 7.9646086878935725,
+      "leakEndLeakRateKgS": 7.424787148690302,
+      "endGaugePressureKPa": 200,
+      "endFlashFraction": 0.09410958836568427,
+      "temperatureDropK": 0,
+      "tankInventoryAtDrainageKg": 830.0494200347822,
+      "liquidPlusResidualKg": 50550.909149319756,
+      "fanNm3H": 5098.598340655363,
+      "maxGasMolFraction": 0.5986580482788373,
+      "mainPeakReactionHeatKW": 5633.222495088239,
+      "tailPeakReactionHeatKW": 625.9102518157453,
+      "mainInitialSolutionKgPerTank": 201472.01393972646,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.9646086878935725,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 97112.43576017157
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.952125902614314,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 94725.05731599836
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.939899891646719,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 92341.38160035764
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.927893374684281,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 89961.33772898871
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.9160754507137705,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 87584.86493450266
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.904420024113859,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 85211.91091832383
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.892904686052819,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 82636.17887342144
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.866750642919975,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 77178.72841448289
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.840995345661021,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 71729.05602487961
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.815479024580992,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 66287.06832811782
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.790062630448001,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 60852.71624237588
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.764616781701775,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 55425.9906155009
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.739012871051714,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 50006.920775520935
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.713114432632439,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 44595.57566511494
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.68676700099664,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 39192.06775921453
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.659784049742347,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 33796.56057628218
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.6319246701928005,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 28409.281580471714
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.6028536144403756,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 23030.54425845394
+        },
+        {
+          "timeS": 5420,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.57205991530112,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 17660.787880130985
+        },
+        {
+          "timeS": 5720,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.538660496380734,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 12300.656933546683
+        },
+        {
+          "timeS": 6020,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.500778191002761,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 6951.19239697362
+        },
+        {
+          "timeS": 6320,
+          "gaugeKPa": 200,
+          "tempC": null,
+          "leakRateKgS": 7.451880378885283,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 1614.5261796968778
+        }
+      ]
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 0,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 96734.08161321568,
+      "transferredKg": 0,
+      "leakDurationS": 13045.103114168638,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.450771229278753,
+      "endGaugePressureKPa": 149.56699678493075,
+      "endFlashFraction": 0.0767815614999042,
+      "temperatureDropK": 5.206528961591388,
+      "tankInventoryAtDrainageKg": 699.9226957756473,
+      "liquidPlusResidualKg": 97434.00430899132,
+      "fanNm3H": 5245.544062586909,
+      "maxGasMolFraction": 0.8101608112721285,
+      "mainPeakReactionHeatKW": 7329.267889459081,
+      "tailPeakReactionHeatKW": 814.3614851700278,
+      "mainInitialSolutionKgPerTank": 391972.5110413873,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 199.99999999999994,
+          "tempC": -5.958345897427673,
+          "leakRateKgS": 7.964608724644085,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 97111.34810330122
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 199.50092284171436,
+          "tempC": -6.006488354089097,
+          "leakRateKgS": 7.94378270995719,
+          "flashFraction": 0.09394925625501033,
+          "remainingLiquidKg": 94709.02766924037
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 198.99274656856107,
+          "tempC": -6.055571412475853,
+          "leakRateKgS": 7.923042427310656,
+          "flashFraction": 0.09378578984786086,
+          "remainingLiquidKg": 92313.04207291412
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 198.47507359018496,
+          "tempC": -6.105637221838176,
+          "leakRateKgS": 7.9023418218848365,
+          "flashFraction": 0.09361904888309458,
+          "remainingLiquidKg": 89923.37453666078
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 197.9474813228805,
+          "tempC": -6.156730569631836,
+          "leakRateKgS": 7.881640995535471,
+          "flashFraction": 0.0934488840559999,
+          "remainingLiquidKg": 87540.02124763645
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 197.40951948781353,
+          "tempC": -6.208899160662117,
+          "leakRateKgS": 7.860904492189822,
+          "flashFraction": 0.09327513604744869,
+          "remainingLiquidKg": 85162.98978798141
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 196.86070718672633,
+          "tempC": -6.262193920015104,
+          "leakRateKgS": 7.840100064644984,
+          "flashFraction": 0.09309763446753645,
+          "remainingLiquidKg": 82792.29801450878
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 196.30052968933182,
+          "tempC": -6.3166693263915725,
+          "leakRateKgS": 7.8191977556442085,
+          "flashFraction": 0.09291619669054108,
+          "remainingLiquidKg": 80427.97324222891
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 195.72843487488427,
+          "tempC": -6.372383781722508,
+          "leakRateKgS": 7.798169189243674,
+          "flashFraction": 0.09273062656027548,
+          "remainingLiquidKg": 78070.05168100815
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 195.1438292576887,
+          "tempC": -6.429400024246764,
+          "leakRateKgS": 7.77698700472938,
+          "flashFraction": 0.0925407129402971,
+          "remainingLiquidKg": 75718.57805140768
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 194.54607352613618,
+          "tempC": -6.4877855923237,
+          "leakRateKgS": 7.755624387862463,
+          "flashFraction": 0.09234622808280674,
+          "remainingLiquidKg": 73373.60537493667
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 193.93447750396857,
+          "tempC": -6.547613348371815,
+          "leakRateKgS": 7.734054667490443,
+          "flashFraction": 0.09214692578259154,
+          "remainingLiquidKg": 71035.19485918041
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 193.30840731485415,
+          "tempC": -6.608962809580174,
+          "leakRateKgS": 7.7122529687308035,
+          "flashFraction": 0.09194257615336648,
+          "remainingLiquidKg": 68703.41578885364
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 192.66698948663148,
+          "tempC": -6.671919023614219,
+          "leakRateKgS": 7.6901907281560895,
+          "flashFraction": 0.09173286885194623,
+          "remainingLiquidKg": 66378.34598208674
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 192.0093143207865,
+          "tempC": -6.736574581813517,
+          "leakRateKgS": 7.667839106419332,
+          "flashFraction": 0.09151747895538374,
+          "remainingLiquidKg": 64060.071815630414
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 191.3344609423426,
+          "tempC": -6.803030811200703,
+          "leakRateKgS": 7.645169276635297,
+          "flashFraction": 0.09129607492871196,
+          "remainingLiquidKg": 61748.688482163
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 190.64153376377158,
+          "tempC": -6.871399292213599,
+          "leakRateKgS": 7.62215294279586,
+          "flashFraction": 0.09106833041784826,
+          "remainingLiquidKg": 59444.300371559635
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 189.92921828290844,
+          "tempC": -6.941799693131021,
+          "leakRateKgS": 7.598754167842343,
+          "flashFraction": 0.09083377773964389,
+          "remainingLiquidKg": 57147.022082121635
+        },
+        {
+          "timeS": 5420,
+          "gaugeKPa": 189.19643013242631,
+          "tempC": -7.014366305918461,
+          "leakRateKgS": 7.574940935782592,
+          "flashFraction": 0.09059202068634188,
+          "remainingLiquidKg": 54856.97829615269
+        },
+        {
+          "timeS": 5720,
+          "gaugeKPa": 188.44172989731283,
+          "tempC": -7.0892451753683225,
+          "leakRateKgS": 7.550674416366579,
+          "flashFraction": 0.09034254136016312,
+          "remainingLiquidKg": 52574.30533162808
+        },
+        {
+          "timeS": 6020,
+          "gaugeKPa": 187.66368162855343,
+          "tempC": -7.166599176965892,
+          "leakRateKgS": 7.525915302554906,
+          "flashFraction": 0.09008481756821403,
+          "remainingLiquidKg": 50299.151439830144
+        },
+        {
+          "timeS": 6320,
+          "gaugeKPa": 186.86053801379154,
+          "tempC": -7.24660766009308,
+          "leakRateKgS": 7.500617888924026,
+          "flashFraction": 0.08981821784705692,
+          "remainingLiquidKg": 48031.6784487396
+        },
+        {
+          "timeS": 6620,
+          "gaugeKPa": 186.03062138884545,
+          "tempC": -7.329473226917013,
+          "leakRateKgS": 7.474736863310131,
+          "flashFraction": 0.08954212680435555,
+          "remainingLiquidKg": 45772.06233045256
+        },
+        {
+          "timeS": 6920,
+          "gaugeKPa": 185.17170911642395,
+          "tempC": -7.415419050876725,
+          "leakRateKgS": 7.4482157804013,
+          "flashFraction": 0.08925573969769444,
+          "remainingLiquidKg": 43520.49566214124
+        },
+        {
+          "timeS": 7220,
+          "gaugeKPa": 184.2815239011813,
+          "tempC": -7.504698287476376,
+          "leakRateKgS": 7.4209958113822125,
+          "flashFraction": 0.08895822377252022,
+          "remainingLiquidKg": 41277.1886029876
+        },
+        {
+          "timeS": 7520,
+          "gaugeKPa": 183.35751584254066,
+          "tempC": -7.597597361802865,
+          "leakRateKgS": 7.393011438531478,
+          "flashFraction": 0.08864864414839774,
+          "remainingLiquidKg": 39042.371319659906
+        },
+        {
+          "timeS": 7820,
+          "gaugeKPa": 182.39673139214318,
+          "tempC": -7.69444101431937,
+          "leakRateKgS": 7.364187638601645,
+          "flashFraction": 0.08832591768401153,
+          "remainingLiquidKg": 36816.29653805642
+        },
+        {
+          "timeS": 8120,
+          "gaugeKPa": 181.3957545098955,
+          "tempC": -7.795599646748588,
+          "leakRateKgS": 7.334438303401254,
+          "flashFraction": 0.08798879022043671,
+          "remainingLiquidKg": 34599.24253290672
+        },
+        {
+          "timeS": 8420,
+          "gaugeKPa": 180.35073165455645,
+          "tempC": -7.901500175168071,
+          "leakRateKgS": 7.303666136635242,
+          "flashFraction": 0.08763584146241045,
+          "remainingLiquidKg": 32391.516796635915
+        },
+        {
+          "timeS": 8720,
+          "gaugeKPa": 179.2572646336193,
+          "tempC": -8.012638177350613,
+          "leakRateKgS": 7.271759938789963,
+          "flashFraction": 0.08726544470030782,
+          "remainingLiquidKg": 30193.460483246236
+        },
+        {
+          "timeS": 9020,
+          "gaugeKPa": 178.11006211765348,
+          "tempC": -8.129589414901073,
+          "leakRateKgS": 7.23858706567281,
+          "flashFraction": 0.08687564316099276,
+          "remainingLiquidKg": 28005.453926295366
+        },
+        {
+          "timeS": 9320,
+          "gaugeKPa": 176.9029804665836,
+          "tempC": -8.253032898285884,
+          "leakRateKgS": 7.203992964003508,
+          "flashFraction": 0.08646415616650051,
+          "remainingLiquidKg": 25827.923232879813
+        },
+        {
+          "timeS": 9620,
+          "gaugeKPa": 175.62893277037168,
+          "tempC": -8.383780510416646,
+          "leakRateKgS": 7.167797878018906,
+          "flashFraction": 0.086028339177576,
+          "remainingLiquidKg": 23661.348970493284
+        },
+        {
+          "timeS": 9920,
+          "gaugeKPa": 174.27910180762353,
+          "tempC": -8.522801924531965,
+          "leakRateKgS": 7.129779508697357,
+          "flashFraction": 0.08556490222665192,
+          "remainingLiquidKg": 21506.277001229144
+        },
+        {
+          "timeS": 10220,
+          "gaugeKPa": 172.8429714428642,
+          "tempC": -8.671281745716275,
+          "leakRateKgS": 7.089670505660818,
+          "flashFraction": 0.08506990254859395,
+          "remainingLiquidKg": 19363.332752356655
+        },
+        {
+          "timeS": 10520,
+          "gaugeKPa": 171.30756883597513,
+          "tempC": -8.830682879530588,
+          "leakRateKgS": 7.047139361173682,
+          "flashFraction": 0.08453846018088657,
+          "remainingLiquidKg": 17233.239584211296
+        },
+        {
+          "timeS": 10820,
+          "gaugeKPa": 169.65660845428053,
+          "tempC": -9.002841130079272,
+          "leakRateKgS": 7.001767064492526,
+          "flashFraction": 0.08396442751311867,
+          "remainingLiquidKg": 15116.843981880487
+        },
+        {
+          "timeS": 11120,
+          "gaugeKPa": 167.86947743227105,
+          "tempC": -9.19011388700623,
+          "leakRateKgS": 6.953016937913853,
+          "flashFraction": 0.08333998688754662,
+          "remainingLiquidKg": 13015.150766867026
+        },
+        {
+          "timeS": 11420,
+          "gaugeKPa": 165.91901404904283,
+          "tempC": -9.395582013922425,
+          "leakRateKgS": 6.900173767687514,
+          "flashFraction": 0.08265479952531998,
+          "remainingLiquidKg": 10929.37237780956
+        },
+        {
+          "timeS": 11720,
+          "gaugeKPa": 163.76901244562592,
+          "tempC": -9.623409882279258,
+          "leakRateKgS": 6.842264417535852,
+          "flashFraction": 0.0818950097200348,
+          "remainingLiquidKg": 8861.003777312306
+        },
+        {
+          "timeS": 12020,
+          "gaugeKPa": 161.36897940212,
+          "tempC": -9.879399251100853,
+          "leakRateKgS": 6.777894855842847,
+          "flashFraction": 0.08104119724212112,
+          "remainingLiquidKg": 6811.938086735954
+        },
+        {
+          "timeS": 12320,
+          "gaugeKPa": 158.64586877867154,
+          "tempC": -10.172021844763162,
+          "leakRateKgS": 6.704953714405893,
+          "flashFraction": 0.08006509264041216,
+          "remainingLiquidKg": 4784.661184797883
+        },
+        {
+          "timeS": 12620,
+          "gaugeKPa": 155.48752977248944,
+          "tempC": -10.514361068926402,
+          "leakRateKgS": 6.6199062668069,
+          "flashFraction": 0.07892299431723379,
+          "remainingLiquidKg": 2782.6144121785956
+        },
+        {
+          "timeS": 12920,
+          "gaugeKPa": 151.70820277279725,
+          "tempC": -10.928270711441943,
+          "leakRateKgS": 6.515296036291998,
+          "flashFraction": 0.07754192224420896,
+          "remainingLiquidKg": 811.0315090705097
+        }
+      ]
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 12.5,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 57013.803115441086,
+      "transferredKg": 39720.510676718535,
+      "leakDurationS": 7679.085155639711,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.4643776441513605,
+      "endGaugePressureKPa": 149.44147271488487,
+      "endFlashFraction": 0.0769038162033304,
+      "temperatureDropK": 5.220448581950485,
+      "tankInventoryAtDrainageKg": 699.6905168316935,
+      "liquidPlusResidualKg": 57713.49363227278,
+      "fanNm3H": 5061.5527677845175,
+      "maxGasMolFraction": 0.6562514549730509,
+      "mainPeakReactionHeatKW": 5863.865221085273,
+      "tailPeakReactionHeatKW": 651.5377370067627,
+      "mainInitialSolutionKgPerTank": 231023.47382109825,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 199.99999999999994,
+          "tempC": -5.958345897427673,
+          "leakRateKgS": 7.964608724644085,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 97007.51772746495
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 199.17183550323307,
+          "tempC": -6.038269083120294,
+          "leakRateKgS": 7.93031177462704,
+          "flashFraction": 0.09384342221068556,
+          "remainingLiquidKg": 93049.84033338631
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 198.31666598052462,
+          "tempC": -6.12097516046995,
+          "leakRateKgS": 7.896106298143348,
+          "flashFraction": 0.09356798183434967,
+          "remainingLiquidKg": 89102.42255673284
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 197.4323580330886,
+          "tempC": -6.206681991966985,
+          "leakRateKgS": 7.861808682246631,
+          "flashFraction": 0.09328251722622309,
+          "remainingLiquidKg": 85165.26655193657
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 196.51669961074168,
+          "tempC": -6.295634082775752,
+          "leakRateKgS": 7.827267128639435,
+          "flashFraction": 0.09298624391810409,
+          "remainingLiquidKg": 81238.42461828922
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 195.5671189726756,
+          "tempC": -6.388106169851337,
+          "leakRateKgS": 7.7923447387776905,
+          "flashFraction": 0.09267825071064462,
+          "remainingLiquidKg": 77321.9927757671
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 194.5806306878415,
+          "tempC": -6.484408667215295,
+          "leakRateKgS": 7.756911105519727,
+          "flashFraction": 0.09235747980800903,
+          "remainingLiquidKg": 73416.10742108608
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 193.55392956295375,
+          "tempC": -6.584895350770662,
+          "leakRateKgS": 7.720839034321119,
+          "flashFraction": 0.09202275468434627,
+          "remainingLiquidKg": 69520.94389527928
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 192.48322374767736,
+          "tempC": -6.689971434390447,
+          "leakRateKgS": 7.683998084201406,
+          "flashFraction": 0.09167272272436135,
+          "remainingLiquidKg": 65636.71689360734
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 191.36413454041542,
+          "tempC": -6.8001042394210565,
+          "leakRateKgS": 7.646250061167044,
+          "flashFraction": 0.0913058184479482,
+          "remainingLiquidKg": 61763.682161868725
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 190.19175635940792,
+          "tempC": -6.915838289961034,
+          "leakRateKgS": 7.607447832576613,
+          "flashFraction": 0.090920278340164,
+          "remainingLiquidKg": 57902.13978993781
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 188.959988734835,
+          "tempC": -7.0378089911638035,
+          "leakRateKgS": 7.567421156264012,
+          "flashFraction": 0.09051391479833368,
+          "remainingLiquidKg": 54052.43895875687
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 187.66196015757254,
+          "tempC": -7.166770536212855,
+          "leakRateKgS": 7.5259821476689135,
+          "flashFraction": 0.0900842467469678,
+          "remainingLiquidKg": 50214.98383916825
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 186.28928490480175,
+          "tempC": -7.303622696231063,
+          "leakRateKgS": 7.4829093762898236,
+          "flashFraction": 0.08962824328796085,
+          "remainingLiquidKg": 46390.24289029994
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 184.83203857145966,
+          "tempC": -7.449455520094414,
+          "leakRateKgS": 7.437944491143761,
+          "flashFraction": 0.08914230014468874,
+          "remainingLiquidKg": 42578.75947500035
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 183.27800163284485,
+          "tempC": -7.605604290356599,
+          "leakRateKgS": 7.39077458797794,
+          "flashFraction": 0.08862196741350051,
+          "remainingLiquidKg": 38781.16725453889
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 181.61197807547887,
+          "tempC": -7.773730522540188,
+          "leakRateKgS": 7.34101449756655,
+          "flashFraction": 0.08806169207557024,
+          "remainingLiquidKg": 34998.21050658798
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 179.81471842139402,
+          "tempC": -7.955938320858909,
+          "leakRateKgS": 7.288179503270739,
+          "flashFraction": 0.08745441371213716,
+          "remainingLiquidKg": 31230.77160905076
+        },
+        {
+          "timeS": 5420,
+          "gaugeKPa": 177.8616666624173,
+          "tempC": -8.15495474484744,
+          "leakRateKgS": 7.231651247238286,
+          "flashFraction": 0.0867910791990862,
+          "remainingLiquidKg": 27479.910012359942
+        },
+        {
+          "timeS": 5720,
+          "gaugeKPa": 175.7202271280334,
+          "tempC": -8.374397713416432,
+          "leakRateKgS": 7.170609546793351,
+          "flashFraction": 0.08605962005017723,
+          "remainingLiquidKg": 23746.91819827867
+        },
+        {
+          "timeS": 6020,
+          "gaugeKPa": 173.34589616900578,
+          "tempC": -8.619217282461047,
+          "leakRateKgS": 7.103931313517734,
+          "flashFraction": 0.08524347658569392,
+          "remainingLiquidKg": 20033.405458248675
+        },
+        {
+          "timeS": 6320,
+          "gaugeKPa": 170.6758597932529,
+          "tempC": -8.896458388258925,
+          "leakRateKgS": 7.0300192937035435,
+          "flashFraction": 0.08431913620838134,
+          "remainingLiquidKg": 16341.429699982004
+        },
+        {
+          "timeS": 6620,
+          "gaugeKPa": 167.6169184502947,
+          "tempC": -9.21665756060273,
+          "leakRateKgS": 6.94647446576968,
+          "flashFraction": 0.08325148153801325,
+          "remainingLiquidKg": 12673.717006260087
+        },
+        {
+          "timeS": 6920,
+          "gaugeKPa": 164.02096752563114,
+          "tempC": -9.596632645145977,
+          "leakRateKgS": 6.849408583352099,
+          "flashFraction": 0.08198429475657487,
+          "remainingLiquidKg": 9034.059572842247
+        },
+        {
+          "timeS": 7220,
+          "gaugeKPa": 159.63092787934832,
+          "tempC": -10.065898258354903,
+          "leakRateKgS": 6.731807533654848,
+          "flashFraction": 0.08041910060212404,
+          "remainingLiquidKg": 5428.128768059653
+        },
+        {
+          "timeS": 7520,
+          "gaugeKPa": 153.93178924963686,
+          "tempC": -10.684176796582417,
+          "leakRateKgS": 6.5781469783034145,
+          "flashFraction": 0.07835640623810859,
+          "remainingLiquidKg": 1865.4978062211424
+        }
+      ]
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 25,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 40431.21570376645,
+      "transferredKg": 56303.508484168924,
+      "leakDurationS": 5442.656753207917,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.446743689459993,
+      "endGaugePressureKPa": 149.31706376495472,
+      "endFlashFraction": 0.0766995978488384,
+      "temperatureDropK": 5.234244544363662,
+      "tankInventoryAtDrainageKg": 699.2801210559943,
+      "liquidPlusResidualKg": 41130.49582482244,
+      "fanNm3H": 4922.376091844548,
+      "maxGasMolFraction": 0.5441586257804422,
+      "mainPeakReactionHeatKW": 4698.963948611674,
+      "tailPeakReactionHeatKW": 522.1033417480025,
+      "mainInitialSolutionKgPerTank": 163829.798966078,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 199.99999999999994,
+          "tempC": -5.958345897427673,
+          "leakRateKgS": 7.964608724644085,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 96903.68746935869
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 198.8378514640506,
+          "tempC": -6.070549603903675,
+          "leakRateKgS": 7.916834075683565,
+          "flashFraction": 0.09373592186492527,
+          "remainingLiquidKg": 91390.5802484587
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 197.62022083947917,
+          "tempC": -6.188459399883602,
+          "leakRateKgS": 7.86904114142506,
+          "flashFraction": 0.0933432159921607,
+          "remainingLiquidKg": 85891.52789092368
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 196.34098213057254,
+          "tempC": -6.312731872736887,
+          "leakRateKgS": 7.820781237033969,
+          "flashFraction": 0.09292930779861285,
+          "remainingLiquidKg": 80406.59891471214
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 194.99277131511377,
+          "tempC": -6.444142002920106,
+          "leakRateKgS": 7.771673153420179,
+          "flashFraction": 0.09249159358755434,
+          "remainingLiquidKg": 74935.98496309837
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 193.56698178051616,
+          "tempC": -6.583616526771902,
+          "leakRateKgS": 7.721361924275467,
+          "flashFraction": 0.09202701561434956,
+          "remainingLiquidKg": 69479.9874449897
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 192.05302510650358,
+          "tempC": -6.732274944984116,
+          "leakRateKgS": 7.6694822855999725,
+          "flashFraction": 0.09153180589177526,
+          "remainingLiquidKg": 64039.01627797835
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 190.4380909189966,
+          "tempC": -6.8914904378231405,
+          "leakRateKgS": 7.615638712323101,
+          "flashFraction": 0.09100138550486556,
+          "remainingLiquidKg": 58613.59620321803
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 188.70635245951928,
+          "tempC": -7.0629736612152065,
+          "leakRateKgS": 7.559378766248491,
+          "flashFraction": 0.09043007408004143,
+          "remainingLiquidKg": 53204.381227647646
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 186.83761871649207,
+          "tempC": -7.248892124244559,
+          "leakRateKgS": 7.500156646619316,
+          "flashFraction": 0.08981060146946171,
+          "remainingLiquidKg": 47812.178778922564
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 184.8061137546965,
+          "tempC": -7.452056027527714,
+          "leakRateKgS": 7.437296924381724,
+          "flashFraction": 0.08913363777419876,
+          "remainingLiquidKg": 42437.98483805962
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 182.57758081735415,
+          "tempC": -7.676198304726686,
+          "leakRateKgS": 7.3699224794623115,
+          "flashFraction": 0.08838672932539728,
+          "remainingLiquidKg": 37083.03825775619
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 180.10518917457136,
+          "tempC": -7.926434137189947,
+          "leakRateKgS": 7.296849894763694,
+          "flashFraction": 0.0875527643506087,
+          "remainingLiquidKg": 31748.902244671262
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 177.32279288631275,
+          "tempC": -8.210055421504446,
+          "leakRateKgS": 7.216415606813915,
+          "flashFraction": 0.08660742416806032,
+          "remainingLiquidKg": 26437.59415441276
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 174.13194844124197,
+          "tempC": -8.537986574936458,
+          "leakRateKgS": 7.126142972121894,
+          "flashFraction": 0.08551427395848585,
+          "remainingLiquidKg": 21151.802345273438
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 170.37607198088534,
+          "tempC": -8.927722859176246,
+          "leakRateKgS": 7.022067273519928,
+          "flashFraction": 0.08421491437129253,
+          "remainingLiquidKg": 15895.277207308694
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 165.7819981397452,
+          "tempC": -9.410061599213105,
+          "leakRateKgS": 6.8971634793374745,
+          "flashFraction": 0.08260652105285589,
+          "remainingLiquidKg": 10673.621917010874
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 159.80007036324392,
+          "tempC": -10.047701091815181,
+          "leakRateKgS": 6.73678607287485,
+          "flashFraction": 0.08047978227277823,
+          "remainingLiquidKg": 5496.188296782584
+        },
+        {
+          "timeS": 5420,
+          "gaugeKPa": 151.00279448039575,
+          "tempC": -11.006044474879165,
+          "leakRateKgS": 6.496743861405806,
+          "flashFraction": 0.07728237528485958,
+          "remainingLiquidKg": 382.41291362064334
+        }
+      ]
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 50,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 25567.297103682446,
+      "transferredKg": 71167.84677389656,
+      "leakDurationS": 3439.8520214924583,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.480004938771386,
+      "endGaugePressureKPa": 149.0607290406041,
+      "endFlashFraction": 0.07704731541358162,
+      "temperatureDropK": 5.262698963079508,
+      "tankInventoryAtDrainageKg": 698.8604314122621,
+      "liquidPlusResidualKg": 26266.157535094706,
+      "fanNm3H": 4711.428875679476,
+      "maxGasMolFraction": 0.4121265626619778,
+      "mainPeakReactionHeatKW": 3252.5676613142477,
+      "tailPeakReactionHeatKW": 361.39173156460794,
+      "mainInitialSolutionKgPerTank": 103600.2769566011,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 199.99999999999994,
+          "tempC": -5.958345897427673,
+          "leakRateKgS": 7.964608724644085,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 96696.02730774337
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 198.15452667113877,
+          "tempC": -6.13667442379759,
+          "leakRateKgS": 7.88981014887654,
+          "flashFraction": 0.09351569017788613,
+          "remainingLiquidKg": 88071.84217226919
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 196.16107846884336,
+          "tempC": -6.330242863634876,
+          "leakRateKgS": 7.814219524076326,
+          "flashFraction": 0.09287098837101329,
+          "remainingLiquidKg": 79468.93528985727
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 193.99099981650005,
+          "tempC": -6.542082717085673,
+          "leakRateKgS": 7.736296696891529,
+          "flashFraction": 0.09216535821473072,
+          "remainingLiquidKg": 70887.71382155134
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 191.60643320938078,
+          "tempC": -6.776238798621026,
+          "leakRateKgS": 7.654621139909921,
+          "flashFraction": 0.09138535024462385,
+          "remainingLiquidKg": 62329.01342040476
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 188.9551927875015,
+          "tempC": -7.0382844996193406,
+          "leakRateKgS": 7.5675969824527805,
+          "flashFraction": 0.09051232999966238,
+          "remainingLiquidKg": 53794.11244579734
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 185.96308718787955,
+          "tempC": -7.336222516347991,
+          "leakRateKgS": 7.473185590239574,
+          "flashFraction": 0.08951963287027315,
+          "remainingLiquidKg": 45284.82987655587
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 182.5185048910693,
+          "tempC": -7.682157433244097,
+          "leakRateKgS": 7.368488016678526,
+          "flashFraction": 0.08836686800748045,
+          "remainingLiquidKg": 36803.731868416784
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 178.44172382700083,
+          "tempC": -8.095735743603388,
+          "leakRateKgS": 7.248956311501074,
+          "flashFraction": 0.0869884637089656,
+          "remainingLiquidKg": 28354.5352006145
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 173.41349158514674,
+          "tempC": -8.612223415465198,
+          "leakRateKgS": 7.1065704074196185,
+          "flashFraction": 0.08526678697538133,
+          "remainingLiquidKg": 19942.954482529123
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 166.77109631030157,
+          "tempC": -9.305680073662469,
+          "leakRateKgS": 6.9245381929234,
+          "flashFraction": 0.08295460656948786,
+          "remainingLiquidKg": 11578.795622324094
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 156.68677607049645,
+          "tempC": -10.383995020589897,
+          "leakRateKgS": 6.654461533483194,
+          "flashFraction": 0.07935793479289073,
+          "remainingLiquidKg": 3283.097705737976
+        }
+      ]
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 25,
+      "delayS": 1800,
+      "timeStepS": 20,
+      "leakedKg": 48485.54419565568,
+      "transferredKg": 48249.181297758274,
+      "leakDurationS": 6461.859485951515,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.445435344624056,
+      "endGaugePressureKPa": 149.31910603853376,
+      "endFlashFraction": 0.07668841890325624,
+      "temperatureDropK": 5.234018072477596,
+      "tankInventoryAtDrainageKg": 699.2788155773195,
+      "liquidPlusResidualKg": 49184.823011233,
+      "fanNm3H": 5022.713646587556,
+      "maxGasMolFraction": 0.6008272637596935,
+      "mainPeakReactionHeatKW": 5358.194889517995,
+      "tailPeakReactionHeatKW": 595.3516759590593,
+      "mainInitialSolutionKgPerTank": 196466.43861849495,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 199.99999999999994,
+          "tempC": -5.958345897427673,
+          "leakRateKgS": 7.964608724644085,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 97111.34810330122
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 199.50092284171436,
+          "tempC": -6.006488354089097,
+          "leakRateKgS": 7.94378270995719,
+          "flashFraction": 0.09394925625501033,
+          "remainingLiquidKg": 94709.02766924037
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 198.99274656856107,
+          "tempC": -6.055571412475853,
+          "leakRateKgS": 7.923042427310656,
+          "flashFraction": 0.09378578984786086,
+          "remainingLiquidKg": 92313.04207291412
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 198.47507359018496,
+          "tempC": -6.105637221838176,
+          "leakRateKgS": 7.9023418218848365,
+          "flashFraction": 0.09361904888309458,
+          "remainingLiquidKg": 89923.37453666078
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 197.9474813228805,
+          "tempC": -6.156730569631836,
+          "leakRateKgS": 7.881640995535471,
+          "flashFraction": 0.0934488840559999,
+          "remainingLiquidKg": 87540.02124763645
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 197.40951948781353,
+          "tempC": -6.208899160662117,
+          "leakRateKgS": 7.860904492189822,
+          "flashFraction": 0.09327513604744869,
+          "remainingLiquidKg": 85162.98978798141
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 196.86070718672633,
+          "tempC": -6.262193920015104,
+          "leakRateKgS": 7.840100064644984,
+          "flashFraction": 0.09309763446753645,
+          "remainingLiquidKg": 82584.54843078538
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 195.54083652048902,
+          "tempC": -6.390667745669941,
+          "leakRateKgS": 7.791372181231705,
+          "flashFraction": 0.0926697152741092,
+          "remainingLiquidKg": 77108.19942454899
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 194.14700960718636,
+          "tempC": -6.52681737158461,
+          "leakRateKgS": 7.7415817718490345,
+          "flashFraction": 0.0922162202658934,
+          "remainingLiquidKg": 71646.33419118206
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 192.66942894950247,
+          "tempC": -6.671679380544344,
+          "leakRateKgS": 7.690369901529541,
+          "flashFraction": 0.0917336670874702,
+          "remainingLiquidKg": 66199.31931086662
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 191.096313795714,
+          "tempC": -6.826518179231126,
+          "leakRateKgS": 7.637357282761817,
+          "flashFraction": 0.09121785010045592,
+          "remainingLiquidKg": 60767.632552925
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 189.4130568950015,
+          "tempC": -6.99289759692839,
+          "leakRateKgS": 7.582115880635843,
+          "flashFraction": 0.09066353790523493,
+          "remainingLiquidKg": 55351.87438762134
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 187.60151631482208,
+          "tempC": -7.172787257663497,
+          "leakRateKgS": 7.524144234983612,
+          "flashFraction": 0.09006420255266984,
+          "remainingLiquidKg": 49952.78756436529
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 185.63822587433387,
+          "tempC": -7.368713582212077,
+          "leakRateKgS": 7.462822006991895,
+          "flashFraction": 0.08941137261194049,
+          "remainingLiquidKg": 44571.28803382232
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 183.4926754465528,
+          "tempC": -7.583999705388269,
+          "leakRateKgS": 7.397361896454295,
+          "flashFraction": 0.0886939764948388,
+          "remainingLiquidKg": 39208.51028077865
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 181.12375133348576,
+          "tempC": -7.823141195163071,
+          "leakRateKgS": 7.326719968409387,
+          "flashFraction": 0.0878970204487189,
+          "remainingLiquidKg": 33865.87612788115
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 178.47406710918492,
+          "tempC": -8.092438223074364,
+          "leakRateKgS": 7.249451422061883,
+          "flashFraction": 0.08699946030365559,
+          "remainingLiquidKg": 28545.202908447274
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 175.4601346674201,
+          "tempC": -8.401130284451202,
+          "leakRateKgS": 7.163457606110842,
+          "flashFraction": 0.08597048158350583,
+          "remainingLiquidKg": 23248.877981123136
+        },
+        {
+          "timeS": 5420,
+          "gaugeKPa": 171.95299229518957,
+          "tempC": -8.763592193365572,
+          "leakRateKgS": 7.065484025574081,
+          "flashFraction": 0.08476213953275236,
+          "remainingLiquidKg": 17980.165247756235
+        },
+        {
+          "timeS": 5720,
+          "gaugeKPa": 167.736500992365,
+          "tempC": -9.204083242904101,
+          "leakRateKgS": 6.950015161627861,
+          "flashFraction": 0.08329339539574827,
+          "remainingLiquidKg": 12743.793072757115
+        },
+        {
+          "timeS": 6020,
+          "gaugeKPa": 162.40354632351378,
+          "tempC": -9.76883302615509,
+          "leakRateKgS": 6.806396829480506,
+          "flashFraction": 0.08140998331791212,
+          "remainingLiquidKg": 7547.258362601922
+        },
+        {
+          "timeS": 6320,
+          "gaugeKPa": 155.01841796068274,
+          "tempC": -10.565483787886588,
+          "leakRateKgS": 6.608363274651822,
+          "flashFraction": 0.07875242877603364,
+          "remainingLiquidKg": 2404.512239705006
+        }
+      ]
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 0,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 96698.30702552522,
+      "transferredKg": 0,
+      "leakDurationS": 12945.186129942012,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.731413401720483,
+      "endGaugePressureKPa": 163.38475541451476,
+      "endFlashFraction": 0.08177135758747377,
+      "temperatureDropK": 3.7059282871164854,
+      "tankInventoryAtDrainageKg": 735.6972834661108,
+      "liquidPlusResidualKg": 97434.00430899134,
+      "fanNm3H": 5254.0168398171545,
+      "maxGasMolFraction": 0.810311205243596,
+      "mainPeakReactionHeatKW": 7411.323796481187,
+      "tailPeakReactionHeatKW": 823.4788068464826,
+      "mainInitialSolutionKgPerTank": 391827.5501885561,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 199.99999999999994,
+          "tempC": -5.958345897427673,
+          "leakRateKgS": 7.964608724644085,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 97111.34697864548
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 199.54561123473022,
+          "tempC": -6.002172692125821,
+          "leakRateKgS": 7.944522518765395,
+          "flashFraction": 0.09396362108807249,
+          "remainingLiquidKg": 94708.88820797321
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 199.08379737584264,
+          "tempC": -6.046771129670983,
+          "leakRateKgS": 7.924552773174819,
+          "flashFraction": 0.09381509409723904,
+          "remainingLiquidKg": 92312.5301580163
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 198.61424013528415,
+          "tempC": -6.092172580938854,
+          "leakRateKgS": 7.904655020547721,
+          "flashFraction": 0.09366389585717956,
+          "remainingLiquidKg": 89922.2463300667
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 198.13660077072615,
+          "tempC": -6.13841011289129,
+          "leakRateKgS": 7.884791033206671,
+          "flashFraction": 0.09350990754194861,
+          "remainingLiquidKg": 87538.02258521787
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 197.6505510645891,
+          "tempC": -6.185518798702514,
+          "leakRateKgS": 7.864927701991797,
+          "flashFraction": 0.09335301297348936,
+          "remainingLiquidKg": 85159.85545254697
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 197.1557431359742,
+          "tempC": -6.233535799120627,
+          "leakRateKgS": 7.845035336993818,
+          "flashFraction": 0.09319308885025737,
+          "remainingLiquidKg": 82787.75097595085
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 196.6518075189658,
+          "tempC": -6.282500562595754,
+          "leakRateKgS": 7.82508677591066,
+          "flashFraction": 0.09303000405287085,
+          "remainingLiquidKg": 80421.72383796822
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 196.1383510726759,
+          "tempC": -6.332455043329265,
+          "leakRateKgS": 7.8050567057414835,
+          "flashFraction": 0.09286361888603782,
+          "remainingLiquidKg": 78061.79670654821
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 195.61495469236397,
+          "tempC": -6.383443940393082,
+          "leakRateKgS": 7.784921131260959,
+          "flashFraction": 0.09269378424558437,
+          "remainingLiquidKg": 75707.99977607648
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 195.08117078050728,
+          "tempC": -6.435514962121378,
+          "leakRateKgS": 7.764656945517086,
+          "flashFraction": 0.09252034069576291,
+          "remainingLiquidKg": 73360.37043935868
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 194.53652044092533,
+          "tempC": -6.4887191196077545,
+          "leakRateKgS": 7.744241571817034,
+          "flashFraction": 0.09234311744311535,
+          "remainingLiquidKg": 71018.95308589502
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 193.98049034858715,
+          "tempC": -6.543111054204889,
+          "leakRateKgS": 7.723652655277018,
+          "flashFraction": 0.0921619311894228,
+          "remainingLiquidKg": 68683.79899647033
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 193.41252924423986,
+          "tempC": -6.59874940431666,
+          "leakRateKgS": 7.7028677879244265,
+          "flashFraction": 0.09197658484474655,
+          "remainingLiquidKg": 66354.96629554493
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 192.83211590285518,
+          "tempC": -6.6556976653096775,
+          "leakRateKgS": 7.681865543145371,
+          "flashFraction": 0.09178688959788511,
+          "remainingLiquidKg": 64032.52001594237
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 192.2385715119003,
+          "tempC": -6.7140235650301925,
+          "leakRateKgS": 7.660621961341277,
+          "flashFraction": 0.09159260345589024,
+          "remainingLiquidKg": 61716.53233832532
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 191.63119010410773,
+          "tempC": -6.77380035847121,
+          "leakRateKgS": 7.639112722886849,
+          "flashFraction": 0.09139347355262288,
+          "remainingLiquidKg": 59407.082710899405
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 191.0092244978579,
+          "tempC": -6.8351073998840555,
+          "leakRateKgS": 7.6173127602164366,
+          "flashFraction": 0.09118923135341502,
+          "remainingLiquidKg": 57104.2581611327
+        },
+        {
+          "timeS": 5420,
+          "gaugeKPa": 190.37186392406448,
+          "tempC": -6.898030732714968,
+          "leakRateKgS": 7.595195720053939,
+          "flashFraction": 0.09097958506350916,
+          "remainingLiquidKg": 54808.153636052186
+        },
+        {
+          "timeS": 5720,
+          "gaugeKPa": 189.71838327865134,
+          "tempC": -6.962665097805729,
+          "leakRateKgS": 7.572736541134936,
+          "flashFraction": 0.09076426854108531,
+          "remainingLiquidKg": 52518.87223317853
+        },
+        {
+          "timeS": 6020,
+          "gaugeKPa": 189.04770951387124,
+          "tempC": -7.029111653754317,
+          "leakRateKgS": 7.549903443530673,
+          "flashFraction": 0.09054289815536236,
+          "remainingLiquidKg": 50236.52628865726
+        },
+        {
+          "timeS": 6320,
+          "gaugeKPa": 188.35876793119718,
+          "tempC": -7.0974815723285865,
+          "leakRateKgS": 7.526664039482006,
+          "flashFraction": 0.0903150862064062,
+          "remainingLiquidKg": 47961.237601270266
+        },
+        {
+          "timeS": 6620,
+          "gaugeKPa": 187.65062549438053,
+          "tempC": -7.167898815092219,
+          "leakRateKgS": 7.5029878242724575,
+          "flashFraction": 0.0900804882290309,
+          "remainingLiquidKg": 45693.1378383252
+        },
+        {
+          "timeS": 6920,
+          "gaugeKPa": 186.92185276348144,
+          "tempC": -7.240496157380139,
+          "leakRateKgS": 7.4788342980535525,
+          "flashFraction": 0.08983859122588742,
+          "remainingLiquidKg": 43432.370383384805
+        },
+        {
+          "timeS": 7220,
+          "gaugeKPa": 186.17120975820347,
+          "tempC": -7.315422988936053,
+          "leakRateKgS": 7.454165321341067,
+          "flashFraction": 0.08958894012577837,
+          "remainingLiquidKg": 41179.09021537488
+        },
+        {
+          "timeS": 7520,
+          "gaugeKPa": 185.3971083066434,
+          "tempC": -7.392842573575539,
+          "leakRateKgS": 7.428934975569572,
+          "flashFraction": 0.0893309587281037,
+          "remainingLiquidKg": 38933.4660501558
+        },
+        {
+          "timeS": 7820,
+          "gaugeKPa": 184.59799289877154,
+          "tempC": -7.472938349633925,
+          "leakRateKgS": 7.403096295371853,
+          "flashFraction": 0.08906407545506957,
+          "remainingLiquidKg": 36695.68079576683
+        },
+        {
+          "timeS": 8120,
+          "gaugeKPa": 183.77186525163603,
+          "tempC": -7.555911971100134,
+          "leakRateKgS": 7.376592066429049,
+          "flashFraction": 0.0887875637191182,
+          "remainingLiquidKg": 34465.934264864576
+        },
+        {
+          "timeS": 8420,
+          "gaugeKPa": 182.91678585883045,
+          "tempC": -7.641992547302213,
+          "leakRateKgS": 7.349363705173753,
+          "flashFraction": 0.0885007081782729,
+          "remainingLiquidKg": 32244.444035083798
+        },
+        {
+          "timeS": 8720,
+          "gaugeKPa": 182.03039725518155,
+          "tempC": -7.731435811426481,
+          "leakRateKgS": 7.321341789229213,
+          "flashFraction": 0.08820264381881755,
+          "remainingLiquidKg": 30031.448252200993
+        },
+        {
+          "timeS": 9020,
+          "gaugeKPa": 181.11003191068,
+          "tempC": -7.824530644434962,
+          "leakRateKgS": 7.292447300139617,
+          "flashFraction": 0.08789238991134746,
+          "remainingLiquidKg": 27827.20860749868
+        },
+        {
+          "timeS": 9320,
+          "gaugeKPa": 180.15273268284048,
+          "tempC": -7.921606263700834,
+          "leakRateKgS": 7.262591040520654,
+          "flashFraction": 0.08756885465027284,
+          "remainingLiquidKg": 25632.01313463313
+        },
+        {
+          "timeS": 9620,
+          "gaugeKPa": 179.15511396006664,
+          "tempC": -8.02303893052746,
+          "leakRateKgS": 7.231669708796143,
+          "flashFraction": 0.08723078556627613,
+          "remainingLiquidKg": 23446.180509806953
+        },
+        {
+          "timeS": 9920,
+          "gaugeKPa": 178.11327534179046,
+          "tempC": -8.129261376582864,
+          "leakRateKgS": 7.199562459627078,
+          "flashFraction": 0.08687673669255949,
+          "remainingLiquidKg": 21270.0650530973
+        },
+        {
+          "timeS": 10220,
+          "gaugeKPa": 177.02269258763374,
+          "tempC": -8.240774705325858,
+          "leakRateKgS": 7.166126283240516,
+          "flashFraction": 0.08650502697160857,
+          "remainingLiquidKg": 19104.062985594886
+        },
+        {
+          "timeS": 10520,
+          "gaugeKPa": 175.87816651280906,
+          "tempC": -8.358165459598741,
+          "leakRateKgS": 7.131191344634059,
+          "flashFraction": 0.08611371717118371,
+          "remainingLiquidKg": 16948.62009276539
+        },
+        {
+          "timeS": 10820,
+          "gaugeKPa": 174.6735430022532,
+          "tempC": -8.48212380673548,
+          "leakRateKgS": 7.094549977072642,
+          "flashFraction": 0.08570050696389774,
+          "remainingLiquidKg": 14804.24294694983
+        },
+        {
+          "timeS": 11120,
+          "gaugeKPa": 173.4014543331684,
+          "tempC": -8.613468868842642,
+          "leakRateKgS": 7.055942664444992,
+          "flashFraction": 0.08526263623440469,
+          "remainingLiquidKg": 12671.511922399584
+        },
+        {
+          "timeS": 11420,
+          "gaugeKPa": 172.05315414695517,
+          "tempC": -8.753186935676329,
+          "leakRateKgS": 7.0150395187688614,
+          "flashFraction": 0.08479681515651386,
+          "remainingLiquidKg": 10551.101276272286
+        },
+        {
+          "timeS": 11720,
+          "gaugeKPa": 170.61808691597562,
+          "tempC": -8.902479593537546,
+          "leakRateKgS": 6.971403452303873,
+          "flashFraction": 0.08429905827502336,
+          "remainingLiquidKg": 8443.806967586586
+        },
+        {
+          "timeS": 12020,
+          "gaugeKPa": 169.08321796182582,
+          "tempC": -9.062826997940984,
+          "leakRateKgS": 6.924417501837687,
+          "flashFraction": 0.0837644279399471,
+          "remainingLiquidKg": 6350.591559588166
+        },
+        {
+          "timeS": 12320,
+          "gaugeKPa": 167.43222627792042,
+          "tempC": -9.236078272118625,
+          "leakRateKgS": 6.873120043276804,
+          "flashFraction": 0.08318671827335283,
+          "remainingLiquidKg": 4272.663373207146
+        },
+        {
+          "timeS": 12620,
+          "gaugeKPa": 165.64461350135645,
+          "tempC": -9.424586146379205,
+          "leakRateKgS": 6.815679410135133,
+          "flashFraction": 0.08255809338038443,
+          "remainingLiquidKg": 2211.650352597206
+        },
+        {
+          "timeS": 12920,
+          "gaugeKPa": 163.69431440638064,
+          "tempC": -9.631349980896196,
+          "leakRateKgS": 6.745258968526395,
+          "flashFraction": 0.08186852641741078,
+          "remainingLiquidKg": 170.27180127549533
+        }
+      ]
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 12.5,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 57168.30958365569,
+      "transferredKg": 39530.12105992134,
+      "leakDurationS": 7646.411915146848,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.733086644653074,
+      "endGaugePressureKPa": 163.3369588212889,
+      "endFlashFraction": 0.08176944683825574,
+      "temperatureDropK": 3.7110157635090673,
+      "tankInventoryAtDrainageKg": 735.5736654141931,
+      "liquidPlusResidualKg": 57903.883249069884,
+      "fanNm3H": 5073.6389170313105,
+      "maxGasMolFraction": 0.655746119212447,
+      "mainPeakReactionHeatKW": 5917.239849474467,
+      "tailPeakReactionHeatKW": 657.4682393065983,
+      "mainInitialSolutionKgPerTank": 231649.5436333943,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 199.99999999999994,
+          "tempC": -5.958345897427673,
+          "leakRateKgS": 7.964608724644085,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 97007.51585971641
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 199.24654937472562,
+          "tempC": -6.03105379092543,
+          "leakRateKgS": 7.93155094370017,
+          "flashFraction": 0.09386745793958702,
+          "remainingLiquidKg": 93049.61631928103
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 198.47085845859047,
+          "tempC": -6.106045355196539,
+          "leakRateKgS": 7.898673480677212,
+          "flashFraction": 0.09361769028935983,
+          "remainingLiquidKg": 89101.59421879561
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 197.67154837870777,
+          "tempC": -6.183483049660989,
+          "leakRateKgS": 7.865806879385213,
+          "flashFraction": 0.09335979487698272,
+          "remainingLiquidKg": 85163.4226489572
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 196.8468053265708,
+          "tempC": -6.26354528695796,
+          "leakRateKgS": 7.832807475847018,
+          "flashFraction": 0.09309313493369782,
+          "remainingLiquidKg": 81235.12176201501
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 195.99476723293157,
+          "tempC": -6.346430830629497,
+          "leakRateKgS": 7.799552136043476,
+          "flashFraction": 0.09281705097065408,
+          "remainingLiquidKg": 77316.75129050852
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 195.11347683083068,
+          "tempC": -6.432362164613554,
+          "leakRateKgS": 7.765930119876293,
+          "flashFraction": 0.09253084482563927,
+          "remainingLiquidKg": 73408.40651094553
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 194.20045868455742,
+          "tempC": -6.521587452172557,
+          "leakRateKgS": 7.731830755441473,
+          "flashFraction": 0.09223364087359294,
+          "remainingLiquidKg": 69510.21643236051
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 193.2531145854618,
+          "tempC": -6.614387393860557,
+          "leakRateKgS": 7.697146976856815,
+          "flashFraction": 0.09192451246203978,
+          "remainingLiquidKg": 65622.34269384744
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 192.26849431567865,
+          "tempC": -6.71108019105387,
+          "leakRateKgS": 7.661768689172653,
+          "flashFraction": 0.09160240541184682,
+          "remainingLiquidKg": 61744.98021262225
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 191.2432284137878,
+          "tempC": -6.812028659820125,
+          "leakRateKgS": 7.625579426235729,
+          "flashFraction": 0.09126611335119285,
+          "remainingLiquidKg": 57878.35869664957
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 190.1734443191844,
+          "tempC": -6.917649098760453,
+          "leakRateKgS": 7.588452916611081,
+          "flashFraction": 0.09091424687382837,
+          "remainingLiquidKg": 54022.74517634808
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 189.05466063667473,
+          "tempC": -7.028422464020014,
+          "leakRateKgS": 7.550249267403165,
+          "flashFraction": 0.09054519454955544,
+          "remainingLiquidKg": 50178.447691451256
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 187.88165224383962,
+          "tempC": -7.144908616876453,
+          "leakRateKgS": 7.510810450993986,
+          "flashFraction": 0.09015707304964844,
+          "remainingLiquidKg": 46345.820203335745
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 186.64849105265492,
+          "tempC": -7.2677668126164825,
+          "leakRateKgS": 7.469958673812424,
+          "flashFraction": 0.08974773402694243,
+          "remainingLiquidKg": 42525.26881975962
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 185.34781494275703,
+          "tempC": -7.397775433353782,
+          "leakRateKgS": 7.4274799296734715,
+          "flashFraction": 0.0893145127137699,
+          "remainingLiquidKg": 38717.26107039761
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 183.97125389225687,
+          "tempC": -7.535871375892729,
+          "leakRateKgS": 7.383127849155257,
+          "flashFraction": 0.08885435741508901,
+          "remainingLiquidKg": 34922.33601196099
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 182.50830009109515,
+          "tempC": -7.683186815572316,
+          "leakRateKgS": 7.336597173337528,
+          "flashFraction": 0.08836343683133299,
+          "remainingLiquidKg": 31141.119691519478
+        },
+        {
+          "timeS": 5420,
+          "gaugeKPa": 180.9462711414537,
+          "tempC": -7.841115692128721,
+          "leakRateKgS": 7.28751479224357,
+          "flashFraction": 0.08783710444058174,
+          "remainingLiquidKg": 27374.344712949
+        },
+        {
+          "timeS": 5720,
+          "gaugeKPa": 179.26942589868227,
+          "tempC": -8.011399944533931,
+          "leakRateKgS": 7.235410518062356,
+          "flashFraction": 0.08726957029691254,
+          "remainingLiquidKg": 23622.87706266193
+        },
+        {
+          "timeS": 6020,
+          "gaugeKPa": 177.4576722866355,
+          "tempC": -8.196253721335953,
+          "leakRateKgS": 7.179671777462855,
+          "flashFraction": 0.08665341855549484,
+          "remainingLiquidKg": 19887.75523822067
+        },
+        {
+          "timeS": 6320,
+          "gaugeKPa": 175.48514337107568,
+          "tempC": -8.398558496471114,
+          "leakRateKgS": 7.119479529164836,
+          "flashFraction": 0.08597905534296274,
+          "remainingLiquidKg": 16170.24558777415
+        },
+        {
+          "timeS": 6620,
+          "gaugeKPa": 173.31745257681516,
+          "tempC": -8.622160243863199,
+          "leakRateKgS": 7.053682950763984,
+          "flashFraction": 0.08523366643855992,
+          "remainingLiquidKg": 12471.930231884915
+        },
+        {
+          "timeS": 6920,
+          "gaugeKPa": 170.9072771588131,
+          "tempC": -8.872352965912224,
+          "leakRateKgS": 6.980547709830823,
+          "flashFraction": 0.08439952808573929,
+          "remainingLiquidKg": 8794.852431771415
+        },
+        {
+          "timeS": 7220,
+          "gaugeKPa": 168.18740643977839,
+          "tempC": -9.156728181578362,
+          "leakRateKgS": 6.897132937746412,
+          "flashFraction": 0.083451308710612,
+          "remainingLiquidKg": 5141.794728272732
+        },
+        {
+          "timeS": 7520,
+          "gaugeKPa": 165.05739728804892,
+          "tempC": -9.486717332705343,
+          "leakRateKgS": 6.796574538068822,
+          "flashFraction": 0.08235088344082551,
+          "remainingLiquidKg": 1516.9956206037264
+        }
+      ]
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 25,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 40589.448042046424,
+      "transferredKg": 56109.10611659318,
+      "leakDurationS": 5426.75392787627,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.734320473591719,
+      "endGaugePressureKPa": 163.28920204862277,
+      "endFlashFraction": 0.08176668066925014,
+      "temperatureDropK": 3.716099001395431,
+      "tankInventoryAtDrainageKg": 735.4501503516243,
+      "liquidPlusResidualKg": 41324.89819239805,
+      "fanNm3H": 4937.328492346397,
+      "maxGasMolFraction": 0.5433879777855231,
+      "mainPeakReactionHeatKW": 4743.474696972808,
+      "tailPeakReactionHeatKW": 527.0489726701826,
+      "mainInitialSolutionKgPerTank": 164470.9662354541,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 199.99999999999994,
+          "tempC": -5.958345897427673,
+          "leakRateKgS": 7.964608724644085,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 96903.68484666113
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 198.9433636071789,
+          "tempC": -6.060346692180094,
+          "leakRateKgS": 7.918587213912884,
+          "flashFraction": 0.09376989331828324,
+          "remainingLiquidKg": 91390.27636506865
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 197.8413208605282,
+          "tempC": -6.167023126968477,
+          "leakRateKgS": 7.872736102284177,
+          "flashFraction": 0.09341461603398701,
+          "remainingLiquidKg": 85890.39513482655
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 196.68927234090364,
+          "tempC": -6.278858695872874,
+          "leakRateKgS": 7.826636487517702,
+          "flashFraction": 0.0930421358299239,
+          "remainingLiquidKg": 80404.05002386915
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 195.4818734169387,
+          "tempC": -6.396414487228622,
+          "leakRateKgS": 7.779946437810424,
+          "flashFraction": 0.09265056441103388,
+          "remainingLiquidKg": 74931.36212381901
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 194.21311430531495,
+          "tempC": -6.520349116920993,
+          "leakRateKgS": 7.732361649710262,
+          "flashFraction": 0.09223776535183441,
+          "remainingLiquidKg": 69472.54893340594
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 192.8754613074226,
+          "tempC": -6.651439586230477,
+          "leakRateKgS": 7.683577255273331,
+          "flashFraction": 0.09180106606987848,
+          "remainingLiquidKg": 64027.919431553964
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 191.46044301227863,
+          "tempC": -6.790618160896468,
+          "leakRateKgS": 7.633283233942891,
+          "flashFraction": 0.09133743670397255,
+          "remainingLiquidKg": 58597.875022049455
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 189.95741937951342,
+          "tempC": -6.9390109927316,
+          "leakRateKgS": 7.581130949133149,
+          "flashFraction": 0.09084307227729466,
+          "remainingLiquidKg": 53182.91721506686
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 188.35353590493747,
+          "tempC": -7.098001003668022,
+          "leakRateKgS": 7.526721599447961,
+          "flashFraction": 0.09031335453352207,
+          "remainingLiquidKg": 47783.66106836879
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 186.63299207633787,
+          "tempC": -7.269313710147944,
+          "leakRateKgS": 7.4695812455294135,
+          "flashFraction": 0.08974258063687653,
+          "remainingLiquidKg": 42400.85586283446
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 184.77541604185274,
+          "tempC": -7.455136158659602,
+          "leakRateKgS": 7.409115728773211,
+          "flashFraction": 0.08912337983055851,
+          "remainingLiquidKg": 37035.41552543572
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 182.75492563471377,
+          "tempC": -7.6583091132234,
+          "leakRateKgS": 7.344570837303623,
+          "flashFraction": 0.08844633343091696,
+          "remainingLiquidKg": 31688.463206224173
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 180.53697942648222,
+          "tempC": -7.88261057949931,
+          "leakRateKgS": 7.274937174902844,
+          "flashFraction": 0.08769881937603663,
+          "remainingLiquidKg": 26361.398606875304
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 178.0744164591162,
+          "tempC": -8.133228483132736,
+          "leakRateKgS": 7.198809499152436,
+          "flashFraction": 0.0868635114985686,
+          "remainingLiquidKg": 21056.001761505082
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 175.30036378096207,
+          "tempC": -8.417572783370556,
+          "leakRateKgS": 7.114116752744141,
+          "flashFraction": 0.08591569300811373,
+          "remainingLiquidKg": 15774.605626926337
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 172.1149616620468,
+          "tempC": -8.74677044047029,
+          "leakRateKgS": 7.017535600120743,
+          "flashFraction": 0.0848182077567619,
+          "remainingLiquidKg": 10520.405756299711
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 168.35923306652145,
+          "tempC": -9.13869993485142,
+          "leakRateKgS": 6.902867188891669,
+          "flashFraction": 0.08351143090227506,
+          "remainingLiquidKg": 5298.10939222036
+        },
+        {
+          "timeS": 5420,
+          "gaugeKPa": 163.7552059174649,
+          "tempC": -9.62487746022726,
+          "leakRateKgS": 6.7499154168396425,
+          "flashFraction": 0.0818901152153264,
+          "remainingLiquidKg": 116.02672465230096
+        }
+      ]
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 50,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 25693.916956810746,
+      "transferredKg": 71004.88425797409,
+      "leakDurationS": 3433.7780625152554,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.744736640881795,
+      "endGaugePressureKPa": 163.19367844270764,
+      "endFlashFraction": 0.08182829530439546,
+      "temperatureDropK": 3.7262665480180814,
+      "tankInventoryAtDrainageKg": 735.2030942064387,
+      "liquidPlusResidualKg": 26429.120051017184,
+      "fanNm3H": 4730.775392064645,
+      "maxGasMolFraction": 0.41078268628787395,
+      "mainPeakReactionHeatKW": 3282.575993475022,
+      "tailPeakReactionHeatKW": 364.72595360603975,
+      "mainInitialSolutionKgPerTank": 104113.3484713216,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 199.99999999999994,
+          "tempC": -5.958345897427673,
+          "leakRateKgS": 7.964608724644085,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 96696.02313932427
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 198.32449237822624,
+          "tempC": -6.120217363493449,
+          "leakRateKgS": 7.892644680368242,
+          "flashFraction": 0.09357050537828396,
+          "remainingLiquidKg": 88071.3927469484
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 196.52827400904883,
+          "tempC": -6.294508962893904,
+          "leakRateKgS": 7.820402817715649,
+          "flashFraction": 0.0929899933532372,
+          "remainingLiquidKg": 79467.23126562999
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 194.5907408253593,
+          "tempC": -6.483420704791623,
+          "leakRateKgS": 7.746499544020519,
+          "flashFraction": 0.09236077145151812,
+          "remainingLiquidKg": 70883.78173811895
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 192.4850268568403,
+          "tempC": -6.689794304162209,
+          "leakRateKgS": 7.669731177186756,
+          "flashFraction": 0.09167331301925412,
+          "remainingLiquidKg": 62321.66131377326
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 190.17595752694143,
+          "tempC": -6.917400577095709,
+          "leakRateKgS": 7.588839499942956,
+          "flashFraction": 0.0909150746704721,
+          "remainingLiquidKg": 53781.84746030919
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 187.61547201351019,
+          "tempC": -7.171398074781759,
+          "leakRateKgS": 7.502310961849079,
+          "flashFraction": 0.09006883078474683,
+          "remainingLiquidKg": 45265.72832897
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 184.7356851863414,
+          "tempC": -7.459122652558321,
+          "leakRateKgS": 7.408134677892591,
+          "flashFraction": 0.08911010210941166,
+          "remainingLiquidKg": 36775.21976056191
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 181.435946689194,
+          "tempC": -7.7915345590283245,
+          "leakRateKgS": 7.30338878249885,
+          "flashFraction": 0.08800234466316292,
+          "remainingLiquidKg": 28312.988059936357
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 177.5568140231357,
+          "tempC": -8.18611879746027,
+          "leakRateKgS": 7.183388581240286,
+          "flashFraction": 0.08668721528262677,
+          "remainingLiquidKg": 19882.87570323736
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 172.82185348547011,
+          "tempC": -8.673469684727603,
+          "leakRateKgS": 7.039547635813777,
+          "flashFraction": 0.08506260873142721,
+          "remainingLiquidKg": 11490.811165316194
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 166.68080155567452,
+          "tempC": -9.315200414540083,
+          "leakRateKgS": 6.851235843271332,
+          "flashFraction": 0.08292287116974852,
+          "remainingLiquidKg": 3147.2648954962633
+        }
+      ]
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 25,
+      "delayS": 1800,
+      "timeStepS": 20,
+      "leakedKg": 48645.01369208763,
+      "transferredKg": 48053.53440479861,
+      "leakDurationS": 6445.815228467905,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.733493144159242,
+      "endGaugePressureKPa": 163.2915458095694,
+      "endFlashFraction": 0.08176168867786521,
+      "temperatureDropK": 3.715849531136545,
+      "tankInventoryAtDrainageKg": 735.456212105043,
+      "liquidPlusResidualKg": 49380.46990419267,
+      "fanNm3H": 5032.615374011921,
+      "maxGasMolFraction": 0.6005308201926286,
+      "mainPeakReactionHeatKW": 5400.5111506466155,
+      "tailPeakReactionHeatKW": 600.0534749649174,
+      "mainInitialSolutionKgPerTank": 197112.61892959638,
+      "history": [
+        {
+          "timeS": 20,
+          "gaugeKPa": 199.99999999999994,
+          "tempC": -5.958345897427673,
+          "leakRateKgS": 7.964608724644085,
+          "flashFraction": 0.09410958836568427,
+          "remainingLiquidKg": 97111.34697864548
+        },
+        {
+          "timeS": 320,
+          "gaugeKPa": 199.54561123473022,
+          "tempC": -6.002172692125821,
+          "leakRateKgS": 7.944522518765395,
+          "flashFraction": 0.09396362108807249,
+          "remainingLiquidKg": 94708.88820797321
+        },
+        {
+          "timeS": 620,
+          "gaugeKPa": 199.08379737584264,
+          "tempC": -6.046771129670983,
+          "leakRateKgS": 7.924552773174819,
+          "flashFraction": 0.09381509409723904,
+          "remainingLiquidKg": 92312.5301580163
+        },
+        {
+          "timeS": 920,
+          "gaugeKPa": 198.61424013528415,
+          "tempC": -6.092172580938854,
+          "leakRateKgS": 7.904655020547721,
+          "flashFraction": 0.09366389585717956,
+          "remainingLiquidKg": 89922.2463300667
+        },
+        {
+          "timeS": 1220,
+          "gaugeKPa": 198.13660077072615,
+          "tempC": -6.13841011289129,
+          "leakRateKgS": 7.884791033206671,
+          "flashFraction": 0.09350990754194861,
+          "remainingLiquidKg": 87538.02258521787
+        },
+        {
+          "timeS": 1520,
+          "gaugeKPa": 197.6505510645891,
+          "tempC": -6.185518798702514,
+          "leakRateKgS": 7.864927701991797,
+          "flashFraction": 0.09335301297348936,
+          "remainingLiquidKg": 85159.85545254697
+        },
+        {
+          "timeS": 1820,
+          "gaugeKPa": 197.1557431359742,
+          "tempC": -6.233535799120627,
+          "leakRateKgS": 7.845035336993818,
+          "flashFraction": 0.09319308885025737,
+          "remainingLiquidKg": 82580.00799760899
+        },
+        {
+          "timeS": 2120,
+          "gaugeKPa": 195.97094639961625,
+          "tempC": -6.348749440441882,
+          "leakRateKgS": 7.7986169191189365,
+          "flashFraction": 0.09280932358486027,
+          "remainingLiquidKg": 77101.86514580545
+        },
+        {
+          "timeS": 2420,
+          "gaugeKPa": 194.72738246751902,
+          "tempC": -6.4700680864198326,
+          "leakRateKgS": 7.751424023582105,
+          "flashFraction": 0.09240525051511414,
+          "remainingLiquidKg": 71637.49964249316
+        },
+        {
+          "timeS": 2720,
+          "gaugeKPa": 193.41795849787036,
+          "tempC": -6.5982174594724405,
+          "leakRateKgS": 7.703151221952287,
+          "flashFraction": 0.09197835791311779,
+          "remainingLiquidKg": 66187.18443545228
+        },
+        {
+          "timeS": 3020,
+          "gaugeKPa": 192.03482822681696,
+          "tempC": -6.734064891625362,
+          "leakRateKgS": 7.653496532057425,
+          "flashFraction": 0.09152584176246945,
+          "remainingLiquidKg": 60751.28351343308
+        },
+        {
+          "timeS": 3320,
+          "gaugeKPa": 190.56808836760592,
+          "tempC": -6.878652445551804,
+          "leakRateKgS": 7.602125715136062,
+          "flashFraction": 0.09104416663113447,
+          "remainingLiquidKg": 55330.25751441288
+        },
+        {
+          "timeS": 3620,
+          "gaugeKPa": 189.00593791259604,
+          "tempC": -7.033253223339276,
+          "leakRateKgS": 7.5486643236338935,
+          "flashFraction": 0.09052909746644514,
+          "remainingLiquidKg": 49924.674482654846
+        },
+        {
+          "timeS": 3920,
+          "gaugeKPa": 187.33372930742235,
+          "tempC": -7.199443402579345,
+          "leakRateKgS": 7.4926695008124025,
+          "flashFraction": 0.08997536086540205,
+          "remainingLiquidKg": 44535.22729301525
+        },
+        {
+          "timeS": 4220,
+          "gaugeKPa": 185.53332426739095,
+          "tempC": -7.37921124106035,
+          "leakRateKgS": 7.433604704317049,
+          "flashFraction": 0.08937639383786113,
+          "remainingLiquidKg": 39162.76011480496
+        },
+        {
+          "timeS": 4520,
+          "gaugeKPa": 183.58105426424473,
+          "tempC": -7.575108403833422,
+          "leakRateKgS": 7.370783137833987,
+          "flashFraction": 0.08872360963354946,
+          "remainingLiquidKg": 33808.30651869827
+        },
+        {
+          "timeS": 4820,
+          "gaugeKPa": 181.44620585131878,
+          "tempC": -7.79049693442818,
+          "leakRateKgS": 7.303309744086128,
+          "flashFraction": 0.08800580423242943,
+          "remainingLiquidKg": 28473.146525953845
+        },
+        {
+          "timeS": 5120,
+          "gaugeKPa": 179.08739683749613,
+          "tempC": -8.029933736535174,
+          "leakRateKgS": 7.22996188319365,
+          "flashFraction": 0.08720780415316375,
+          "remainingLiquidKg": 23158.893380988524
+        },
+        {
+          "timeS": 5420,
+          "gaugeKPa": 176.44657309201128,
+          "tempC": -8.299814843618012,
+          "leakRateKgS": 7.148975663902878,
+          "flashFraction": 0.0863082095608857,
+          "remainingLiquidKg": 17867.633557024477
+        },
+        {
+          "timeS": 5720,
+          "gaugeKPa": 173.4393497177824,
+          "tempC": -8.609547962738677,
+          "leakRateKgS": 7.057635287533709,
+          "flashFraction": 0.08527570302028274,
+          "remainingLiquidKg": 12602.169051631212
+        },
+        {
+          "timeS": 6020,
+          "gaugeKPa": 169.93460387883633,
+          "tempC": -8.973802034957497,
+          "leakRateKgS": 6.951225598686044,
+          "flashFraction": 0.08406127480020513,
+          "remainingLiquidKg": 7366.488789505258
+        },
+        {
+          "timeS": 6320,
+          "gaugeKPa": 165.71247800899127,
+          "tempC": -9.417411390499606,
+          "leakRateKgS": 6.8189911048727945,
+          "flashFraction": 0.0825820178290234,
+          "remainingLiquidKg": 2166.951219500377
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "model": "constant",
+      "pumpM3H": 12.5,
+      "delayS": 0,
+      "releaseReductionPct": 40.03768834869339,
+      "fanReductionPct": 3.053508825077833,
+      "mainHeatReductionPct": 20.186371647151702
+    },
+    {
+      "model": "constant",
+      "pumpM3H": 25,
+      "delayS": 0,
+      "releaseReductionPct": 57.17893525490068,
+      "fanReductionPct": 5.377756181331483,
+      "mainHeatReductionPct": 35.763086651152406
+    },
+    {
+      "model": "constant",
+      "pumpM3H": 50,
+      "delayS": 0,
+      "releaseReductionPct": 72.75395272922671,
+      "fanReductionPct": 8.94132159138561,
+      "mainHeatReductionPct": 55.336641079581824
+    },
+    {
+      "model": "constant",
+      "pumpM3H": 25,
+      "delayS": 1800,
+      "releaseReductionPct": 48.88457233631416,
+      "fanReductionPct": 3.9180479104672816,
+      "mainHeatReductionPct": 27.34183382890999
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 12.5,
+      "delayS": 0,
+      "releaseReductionPct": 41.061307282156555,
+      "fanReductionPct": 3.5075731441221225,
+      "mainHeatReductionPct": 19.9938478232095
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 25,
+      "delayS": 0,
+      "releaseReductionPct": 58.20375297981555,
+      "fanReductionPct": 6.160809381953536,
+      "mainHeatReductionPct": 35.88767637529388
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 50,
+      "delayS": 0,
+      "releaseReductionPct": 73.56950448352686,
+      "fanReductionPct": 10.182264804845175,
+      "mainHeatReductionPct": 55.62220251231265
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 25,
+      "delayS": 1800,
+      "releaseReductionPct": 49.87749572118576,
+      "fanReductionPct": 4.2479943613220055,
+      "mainHeatReductionPct": 26.893177185894302
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 12.5,
+      "delayS": 0,
+      "releaseReductionPct": 40.879720294828836,
+      "fanReductionPct": 3.4331432175638277,
+      "mainHeatReductionPct": 20.1594747178108
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 25,
+      "delayS": 0,
+      "releaseReductionPct": 58.024654939065144,
+      "fanReductionPct": 6.027547248626231,
+      "mainHeatReductionPct": 35.996930815181
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 50,
+      "delayS": 0,
+      "releaseReductionPct": 73.42878303957443,
+      "fanReductionPct": 9.95888410153476,
+      "mainHeatReductionPct": 55.70864148408208
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 25,
+      "delayS": 1800,
+      "releaseReductionPct": 49.694037891224994,
+      "fanReductionPct": 4.2139466346464705,
+      "mainHeatReductionPct": 27.13162588833702
+    }
+  ],
+  "vsConstant": [
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 0,
+      "delayS": 0,
+      "leakedChangePct": -0.552726195096398,
+      "liquidPlusResidualChangePct": -0.6806941351974238,
+      "fanChangePct": -1.148888453091057,
+      "mainHeatChangePct": -5.4659806728598825,
+      "solutionChangePct": -0.552726195096398
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 12.5,
+      "delayS": 0,
+      "leakedChangePct": -2.2503944394422715,
+      "liquidPlusResidualChangePct": -2.4391812283421688,
+      "fanChangePct": -1.611873364740224,
+      "mainHeatChangePct": -5.237948803252013,
+      "solutionChangePct": -2.2503944394422826
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 25,
+      "delayS": 0,
+      "leakedChangePct": -2.932754097167478,
+      "liquidPlusResidualChangePct": -3.1832693477157448,
+      "fanChangePct": -1.9669379534832943,
+      "mainHeatChangePct": -5.649332686148423,
+      "solutionChangePct": -2.932754097167478
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 50,
+      "delayS": 0,
+      "leakedChangePct": -3.5294661899269553,
+      "liquidPlusResidualChangePct": -3.902252219557678,
+      "fanChangePct": -2.49602656404202,
+      "mainHeatChangePct": -6.070397148767159,
+      "solutionChangePct": -3.529466189926944
+    },
+    {
+      "model": "closedAdiabatic",
+      "pumpM3H": 25,
+      "delayS": 1800,
+      "leakedChangePct": -2.4845015559972428,
+      "liquidPlusResidualChangePct": -2.7023967740155697,
+      "fanChangePct": -1.48834422713231,
+      "mainHeatChangePct": -4.88224290466156,
+      "solutionChangePct": -2.484501555997254
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 0,
+      "delayS": 0,
+      "leakedChangePct": -0.5895041864514505,
+      "liquidPlusResidualChangePct": -0.6806941351974127,
+      "fanChangePct": -0.9892208500538846,
+      "mainHeatChangePct": -4.407611021575885,
+      "solutionChangePct": -0.5895041864514505
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 12.5,
+      "delayS": 0,
+      "leakedChangePct": -1.9854946169562737,
+      "liquidPlusResidualChangePct": -2.1173402561304178,
+      "fanChangePct": -1.3769388224798673,
+      "mainHeatChangePct": -4.375396701979806,
+      "solutionChangePct": -1.9854946169562626
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 25,
+      "delayS": 0,
+      "leakedChangePct": -2.5528699650123388,
+      "liquidPlusResidualChangePct": -2.725667238081686,
+      "fanChangePct": -1.6691489225779232,
+      "mainHeatChangePct": -4.7555997576902875,
+      "solutionChangePct": -2.55286996501235
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 50,
+      "delayS": 0,
+      "leakedChangePct": -3.051704118609655,
+      "liquidPlusResidualChangePct": -3.3060351774623298,
+      "fanChangePct": -2.095646494752368,
+      "mainHeatChangePct": -5.203798505604573,
+      "solutionChangePct": -3.051704118609666
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 25,
+      "delayS": 1800,
+      "leakedChangePct": -2.1637719923891074,
+      "liquidPlusResidualChangePct": -2.3153673491208338,
+      "fanChangePct": -1.2941393346737162,
+      "mainHeatChangePct": -4.131051891604331,
+      "solutionChangePct": -2.1637719923891074
+    }
+  ],
+  "stepCheck": [
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 0,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 96698.30702552522,
+      "transferredKg": 0,
+      "leakDurationS": 12945.186129942012,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.731413401720483,
+      "endGaugePressureKPa": 163.38475541451476,
+      "endFlashFraction": 0.08177135758747377,
+      "temperatureDropK": 3.7059282871164854,
+      "tankInventoryAtDrainageKg": 735.6972834661108,
+      "liquidPlusResidualKg": 97434.00430899134,
+      "fanNm3H": 5254.0168398171545,
+      "maxGasMolFraction": 0.810311205243596,
+      "mainPeakReactionHeatKW": 7411.323796481187,
+      "tailPeakReactionHeatKW": 823.4788068464826,
+      "mainInitialSolutionKgPerTank": 391827.5501885561
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 25,
+      "delayS": 0,
+      "timeStepS": 20,
+      "leakedKg": 40589.448042046424,
+      "transferredKg": 56109.10611659318,
+      "leakDurationS": 5426.75392787627,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.734320473591719,
+      "endGaugePressureKPa": 163.28920204862277,
+      "endFlashFraction": 0.08176668066925014,
+      "temperatureDropK": 3.716099001395431,
+      "tankInventoryAtDrainageKg": 735.4501503516243,
+      "liquidPlusResidualKg": 41324.89819239805,
+      "fanNm3H": 4937.328492346397,
+      "maxGasMolFraction": 0.5433879777855231,
+      "mainPeakReactionHeatKW": 4743.474696972808,
+      "tailPeakReactionHeatKW": 527.0489726701826,
+      "mainInitialSolutionKgPerTank": 164470.9662354541
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 0,
+      "delayS": 0,
+      "timeStepS": 10,
+      "leakedKg": 96698.22182950244,
+      "transferredKg": 0,
+      "leakDurationS": 12945.731007826322,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.732322176195178,
+      "endGaugePressureKPa": 163.4176962316946,
+      "endFlashFraction": 0.08178437831985913,
+      "temperatureDropK": 3.7024220617049153,
+      "tankInventoryAtDrainageKg": 735.7824794889552,
+      "liquidPlusResidualKg": 97434.0043089914,
+      "fanNm3H": 5253.31848498574,
+      "maxGasMolFraction": 0.8102102841977225,
+      "mainPeakReactionHeatKW": 7409.620249520516,
+      "tailPeakReactionHeatKW": 823.2895228662184,
+      "mainInitialSolutionKgPerTank": 391827.2049689765
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 25,
+      "delayS": 0,
+      "timeStepS": 10,
+      "leakedKg": 40586.87891106799,
+      "transferredKg": 56111.46664368128,
+      "leakDurationS": 5426.967552882721,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.7361206898957615,
+      "endGaugePressureKPa": 163.3698581917925,
+      "endFlashFraction": 0.08179664141797192,
+      "temperatureDropK": 3.7075139496877973,
+      "tankInventoryAtDrainageKg": 735.6587542420046,
+      "liquidPlusResidualKg": 41322.537665309996,
+      "fanNm3H": 4935.483899989755,
+      "maxGasMolFraction": 0.5429688175857489,
+      "mainPeakReactionHeatKW": 4739.850286844987,
+      "tailPeakReactionHeatKW": 526.6462548772932,
+      "mainInitialSolutionKgPerTank": 164460.55595704948
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 0,
+      "delayS": 0,
+      "timeStepS": 5,
+      "leakedKg": 96698.17926530413,
+      "transferredKg": 0,
+      "leakDurationS": 12946.00382046619,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.730100348928251,
+      "endGaugePressureKPa": 163.43415356642416,
+      "endFlashFraction": 0.08177869096188715,
+      "temperatureDropK": 3.7006703405827466,
+      "tankInventoryAtDrainageKg": 735.8250436869811,
+      "liquidPlusResidualKg": 97434.00430899112,
+      "fanNm3H": 5252.969118488811,
+      "maxGasMolFraction": 0.8101755508199519,
+      "mainPeakReactionHeatKW": 7409.123779765111,
+      "tailPeakReactionHeatKW": 823.234359712033,
+      "mainInitialSolutionKgPerTank": 391827.03249619954
+    },
+    {
+      "model": "closedWithWall",
+      "pumpM3H": 25,
+      "delayS": 0,
+      "timeStepS": 5,
+      "leakedKg": 40585.588021102354,
+      "transferredKg": 56112.65309370645,
+      "leakDurationS": 5427.074950277708,
+      "initialLeakRateKgS": 7.964608724644085,
+      "leakEndLeakRateKgS": 6.731962916121337,
+      "endGaugePressureKPa": 163.41023961888283,
+      "endFlashFraction": 0.08178062241504643,
+      "temperatureDropK": 3.7032157446661564,
+      "tankInventoryAtDrainageKg": 735.7631941824619,
+      "liquidPlusResidualKg": 41321.35121528481,
+      "fanNm3H": 4934.560536304289,
+      "maxGasMolFraction": 0.5429384472948715,
+      "mainPeakReactionHeatKW": 4737.695326070098,
+      "tailPeakReactionHeatKW": 526.4068136444648,
+      "mainInitialSolutionKgPerTank": 164455.3251906756
+    }
+  ]
+}

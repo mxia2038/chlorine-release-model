@@ -87,3 +87,14 @@ test("countercurrent cooler handles equal terminal differences and temperature p
  assert.equal(coolerTemperatureBasis(h,100,17).status,"infeasible_temperature_approach");
  assert.throws(()=>coolerTemperatureBasis({...h,coolantReturnTempC:6},100,28));
 });
+test("last tank runs to the terminal fraction below the switch fraction of the first",()=>{
+ const r=simulateTankBank([{timeS:40,durationS:40,chlorineKg:40,netHeatKJ:4000}],{...p,switchNaohFraction:0.1,finalNaohFraction:0.05});
+ const first=(18-10)/1.1,last=(18-5)/1.05;
+ assert.ok(Math.abs(r.events[0].timeS-first)<1e-10);
+ assert.ok(Math.abs(r.events[1].timeS-(first+last))<1e-10);
+ assert.ok(Math.abs(r.tanks[0].naohKg/r.tanks[0].liquidKg-0.1)<1e-12);
+ assert.ok(Math.abs(r.tanks[1].naohKg/r.tanks[1].liquidKg-0.05)<1e-12);
+ assert.ok(Math.abs(r.unhandledKg-(40-first-last))<1e-10);
+ assert.ok(Math.abs(r.massBalanceErrorKg)<1e-10);
+ assert.throws(()=>simulateTankBank([],{...p,finalNaohFraction:0.06}),/finalNaohFraction/);
+});

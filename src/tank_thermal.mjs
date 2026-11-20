@@ -6,6 +6,9 @@ export function simulateTankBank(intervals, p) {
   }
   if (!Number.isInteger(p.count) || p.count < 1) throw new Error("count must be a positive integer");
   if (!(p.initialNaohFraction > p.switchNaohFraction && p.switchNaohFraction >= 0 && p.initialNaohFraction <= 1)) throw new Error("Invalid NaOH fractions");
+  // The last tank may run to a lower terminal fraction than the switch fraction of the earlier tanks.
+  const lastFraction = p.finalNaohFraction ?? p.switchNaohFraction;
+  if (!(lastFraction >= 0 && lastFraction <= p.switchNaohFraction)) throw new Error("finalNaohFraction must lie in [0, switchNaohFraction]");
   if (!Number.isFinite(p.initialTempC)) throw new Error("initialTempC required");
   if (p.coolerCapacityKW !== null && (!Number.isFinite(p.coolerCapacityKW) || p.coolerCapacityKW < 0)) throw new Error("coolerCapacityKW must be null (ideal control) or nonnegative");
   const tanks = Array.from({length:p.count}, (_,i)=>({id:i+1, liquidKg:p.initialSolutionKg,
@@ -25,8 +28,9 @@ export function simulateTankBank(intervals, p) {
       if(t.startedAtS===null) t.startedAtS=now;
       const coolerKW=p.coolerCapacityKW===null ? heatKW : Math.min(heatKW,p.coolerCapacityKW);
       const storedKW=heatKW-coolerKW;
-      const chemicalRoom=t.naohKg-p.switchNaohFraction*t.liquidKg;
-      const chemicalRate=kgS*(p.naohKgPerKgChlorine+p.switchNaohFraction);
+      const endFraction=active<p.count-1 ? p.switchNaohFraction : lastFraction;
+      const chemicalRoom=t.naohKg-endFraction*t.liquidKg;
+      const chemicalRate=kgS*(p.naohKgPerKgChlorine+endFraction);
       const chemicalTime=chemicalRate>0 ? Math.max(0,chemicalRoom/chemicalRate) : Infinity;
       const thermalRoom=t.liquidKg*p.solutionCpKJkgK*p.switchRiseK-t.energyKJ;
       const thermalRate=storedKW-kgS*p.solutionCpKJkgK*p.switchRiseK;
@@ -134,7 +138,9 @@ export function buildThermalStudy(result, basis) {
     chlorineKg:(r.gasExtractedKg+r.dropletsExtractedKg)*p.mainCaptureFraction,
     netHeatKJ:(r.gasExtractedKg*h.gasNetHeatKJkg+r.dropletsExtractedKg*h.dropletNetHeatKJkg)*p.mainCaptureFraction}));
   const params={count:p.mainTankCount,initialSolutionKg,
-    initialNaohFraction:a.naohMassFraction,switchNaohFraction:a.finalNaohMassFraction,
+    initialNaohFraction:a.naohMassFraction,
+    switchNaohFraction:basis.stageCapacity?.mainSwitchNaohMassFraction ?? a.finalNaohMassFraction,
+    finalNaohFraction:a.finalNaohMassFraction,
     naohKgPerKgChlorine:basis.naohKgPerKgChlorine,solutionCpKJkgK:h.solutionCpKJkgK,
     switchRiseK:h.switchTemperatureRiseK,initialTempC:h.initialLiquidTempC,
     circulationKgS:basis.tower.circulationM3H*a.solutionDensityKgM3/3600};

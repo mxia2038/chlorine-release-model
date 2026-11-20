@@ -68,7 +68,7 @@
       "packingHeight": "excluded",
       "heatExchangerArea": "vendor"
     },
-    "naohMassFraction": 0.18,
+    "naohMassFraction": 0.2,
     "finalNaohMassFraction": 0.05,
     "naohExcessFactor": null,
     "solutionDensityKgM3": 1236.49,
@@ -100,6 +100,7 @@
       "tailTankCount": 1,
       "reuseRetiredTanks": false,
       "mainCaptureFraction": 0.9,
+      "mainSwitchNaohMassFraction": 0.085,
       "mainInitialSolutionKgPerTank": null,
       "mainTankSizingBasis": "chemical_capacity",
       "tailInitialSolutionKg": null

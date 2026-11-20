@@ -6,7 +6,9 @@ const base=JSON.parse(await fs.readFile(new URL('../config/default_25mm.json',im
 const out=new URL('../outputs/research/',import.meta.url);
 await fs.mkdir(out,{recursive:true});
 const rows=[];
-const scenarios=[[0,0],...[12.5,25,37.5,50].flatMap(p=>[0,30,60,120,300].map(t=>[p,t]))];
+const scenarios=[[0,0],...[12.5,25,37.5,50].flatMap(p=>[0,30,60,120,300].map(t=>[p,t])),
+  // Extended delays at the baseline pump capacity.
+  ...[600,1200,1800,2400].map(t=>[25,t])];
 for(const [pump,delay] of scenarios){
   const c=structuredClone(base); c.tank.transferPumpM3H=pump; c.tank.transferStartDelayS=delay;
   const r=calculate(c), b=buildDesignBasis(r), s=r.release.summary;
@@ -16,7 +18,7 @@ for(const [pump,delay] of scenarios){
   rows.push({pumpM3H:pump,delayS:delay,leakKg:s.leakedKg,leakDurationS:s.leakDurationS,poolDryS:s.finalGasTimeS,
     fanNm3H:b.fanNm3H,actualM3H:b.tower.maxActualGasM3H,
     solutionKg:2*mainInitial+b.tailDesign.initialSolutionKg,
-    mainTankM3:(mainInitial+b.stageCapacity.mainChlorineKg/2)/c.absorption.solutionDensityKgM3/c.absorption.tankWorkingVolumeFraction,
+    mainTankM3:b.stageCapacity.mainFinalGrossVolumeM3PerTank,
     tailTankM3:b.tailDesign.finalBasisGrossVolumeM3,
     mainDiameterMm:b.tower.selectedDiameterMm,tailDiameterMm:b.tailTower.selectedDiameterMm,
     mainCoolingKW:b.thermalStudy.peakDesignCoolerKW,tailCoolingKW:b.tailDesign.peakReactionKW,

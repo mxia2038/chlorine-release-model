@@ -68,23 +68,51 @@ export function buildDesignBasis(result) {
   const residualBasisSolutionKg = theoreticalNaohKg !== null && finalConcentration !== null
     ? (theoreticalNaohKg + finalConcentration * chlorineCapacityKg) / (concentration - finalConcentration) : null;
   const excessBasisSolutionKg = theoreticalSolutionKg !== null && excess !== null ? theoreticalSolutionKg * excess : null;
-  const solutionKg = residualBasisSolutionKg !== null || excessBasisSolutionKg !== null
+  let solutionKg = residualBasisSolutionKg !== null || excessBasisSolutionKg !== null
     ? Math.max(residualBasisSolutionKg ?? 0, excessBasisSolutionKg ?? 0) : null;
-  const designNaohKg = solutionKg !== null ? solutionKg * concentration : null;
-  const finalSolutionKg = solutionKg !== null ? solutionKg + chlorineCapacityKg : null;
-  const remainingNaohKg = designNaohKg !== null ? designNaohKg - theoreticalNaohKg : null;
+  let designNaohKg = solutionKg !== null ? solutionKg * concentration : null;
+  let finalSolutionKg = solutionKg !== null ? solutionKg + chlorineCapacityKg : null;
+  let remainingNaohKg = designNaohKg !== null ? designNaohKg - theoreticalNaohKg : null;
   const mainFraction = a.process?.mainCaptureFraction ?? null;
   if (mainFraction !== null && (!Number.isFinite(mainFraction) || mainFraction < 0 || mainFraction > 1)) throw new Error("mainCaptureFraction must lie in [0,1]");
   const mainCount = a.process?.mainTankCount ?? null;
-  const mainInitialPerTank = mainFraction !== null && solutionKg !== null && Number.isInteger(mainCount) && mainCount > 0
-    ? solutionKg * mainFraction / mainCount : null;
+  // Tanks before the last are retired at the switch fraction, which may be set
+  // above the terminal fraction so that the liquor still carries the caustic
+  // needed per pass; the last main tank and the tail tank run to the terminal fraction.
+  const switchConcentration = a.process?.mainSwitchNaohMassFraction ?? finalConcentration;
+  if (switchConcentration !== null && (!Number.isFinite(switchConcentration) || finalConcentration === null || switchConcentration < finalConcentration || switchConcentration >= concentration)) throw new Error("mainSwitchNaohMassFraction must lie between the final and initial concentrations");
+  const stagedSwitch = switchConcentration !== null && switchConcentration !== finalConcentration;
+  if (stagedSwitch && excess !== null) throw new Error("mainSwitchNaohMassFraction cannot be combined with naohExcessFactor");
+  const mainChlorineKg = chlorineCapacityKg !== null && mainFraction !== null ? chlorineCapacityKg * mainFraction : null;
+  const tailInletChlorineKg = chlorineCapacityKg !== null && mainFraction !== null ? chlorineCapacityKg * (1-mainFraction) : null;
+  const tanksReady = mainChlorineKg !== null && Number.isInteger(mainCount) && mainCount > 0;
+  // Chlorine absorbed per unit initial solution between the initial fraction and an end fraction.
+  const uptake = end => (concentration - end) / (ratio + end);
+  if (stagedSwitch && tanksReady) {
+    const perTank = mainChlorineKg / ((mainCount - 1) * uptake(switchConcentration) + uptake(finalConcentration));
+    solutionKg = mainCount * perTank + tailInletChlorineKg / uptake(finalConcentration);
+    designNaohKg = solutionKg * concentration;
+    finalSolutionKg = solutionKg + chlorineCapacityKg;
+    remainingNaohKg = designNaohKg - theoreticalNaohKg;
+  }
+  const mainInitialPerTank = !tanksReady || solutionKg === null ? null
+    : stagedSwitch ? mainChlorineKg / ((mainCount - 1) * uptake(switchConcentration) + uptake(finalConcentration))
+    : solutionKg * mainFraction / mainCount;
+  const tailInitialSolutionKg = solutionKg === null || mainFraction === null ? null
+    : stagedSwitch ? tailInletChlorineKg / uptake(finalConcentration) : solutionKg * (1-mainFraction);
+  // Equal vessels: the gross volume follows the tank that absorbs the most chlorine (the last one).
+  const mainLastTankChlorineKg = mainInitialPerTank === null ? null
+    : stagedSwitch ? mainInitialPerTank * uptake(finalConcentration) : mainChlorineKg / mainCount;
   const stageCapacity = {
     mainCaptureFraction: mainFraction,
-    mainChlorineKg: chlorineCapacityKg !== null && mainFraction !== null ? chlorineCapacityKg * mainFraction : null,
-    tailInletChlorineKg: chlorineCapacityKg !== null && mainFraction !== null ? chlorineCapacityKg * (1-mainFraction) : null,
+    mainChlorineKg,
+    tailInletChlorineKg,
+    mainSwitchNaohMassFraction: switchConcentration,
     mainInitialSolutionKgPerTank: mainInitialPerTank,
-    tailInitialSolutionKg: solutionKg !== null && mainFraction !== null ? solutionKg * (1-mainFraction) : null,
+    mainLastTankChlorineKg,
+    tailInitialSolutionKg,
     mainInitialGrossVolumeM3PerTank: mainInitialPerTank !== null && density !== null && workingFraction !== null ? mainInitialPerTank/density/workingFraction : null,
+    mainFinalGrossVolumeM3PerTank: mainLastTankChlorineKg !== null && density !== null && workingFraction !== null ? (mainInitialPerTank+mainLastTankChlorineKg)/density/workingFraction : null,
     basis: "Chemical-capacity allocation only, same initial/final NaOH concentrations in both stages; assumes tail treats all main-stage remainder; no thermal early-switch allowance",
     phaseBasis: "Main capture fraction applied equally to gas and droplets; operating tank masses are not automatically assigned"
   };
@@ -163,7 +191,7 @@ export function buildDesignBasis(result) {
 function report(b) {
   const f = (v, digits=2) => v === null ? "待定" : v.toFixed(digits);
   const thermal = b.thermalStudy;
-  const reasonLabel=reason=>({concentration:"NaOH降至5 wt%",temperature:"温升达到20℃",temperature_and_concentration:"温度和浓度同时达到限值"}[reason]??reason);
+  const reasonLabel=reason=>({concentration:"NaOH降至切换浓度",temperature:"温升达到20℃",temperature_and_concentration:"温度和浓度同时达到限值"}[reason]??reason);
   const heat=thermal.reactionHeat;
   const heatText=heat ? `## 主塔反应放热\n\n气态氯 ${f(heat.gasHeatKJkg)} kJ/kg，液滴氯 ${f(heat.dropletHeatKJkg)} kJ/kg。按主塔持续吸收${f(heat.mainCaptureFraction*100)}%分别计算，不重复扣汽化热。参考：[OxyChem手册第6–7页](${heat.source ?? b.reactionSource})。\n\n` +
     `主塔峰值反应放热 **${f(heat.peak.totalReactionKW)} kW**，发生在 ${f(heat.peak.timeMin)} min；该时刻气态氯贡献 ${f(heat.peak.gasReactionKW)} kW，液滴贡献 ${f(heat.peak.dropletReactionKW)} kW。窗口内累计放热 ${f(heat.totalEnergyKJ/1e6,3)} GJ。\n\n` +
@@ -203,13 +231,13 @@ function report(b) {
     `- 吸收后总液体体积：${f(b.circulationTanks.finalLiquidVolumeM3)} m³；若终态也满足85%装液率，对应单槽几何容积 ${f(b.circulationTanks.finalBasisGrossVolumePerTankM3)} m³。\n\n` +
     `公式：单槽几何容积=液体质量/密度/槽数/有效装液率。初始装液基准和吸收后增重校核分别列出，尚未圆整或确定设备规格；未另扣塔和管道持液量。\n\n` +
     `## 两级氯负荷与化学容量分配\n\n主塔吸收率 ${f(b.stageCapacity.mainCaptureFraction === null ? null : b.stageCapacity.mainCaptureFraction*100)}%，当前对气态氯与液滴合计应用同一比例。主塔累计吸收 ${f(b.stageCapacity.mainChlorineKg)} kg，尾塔累计入口 ${f(b.stageCapacity.tailInletChlorineKg)} kg；该比例以主塔有可用槽为前提，主塔槽提前失效时进入尾塔的量会增加。\n\n` +
-    `仅按18→5 wt%化学容量分配：主塔每槽初始碱液 ${f(b.stageCapacity.mainInitialSolutionKgPerTank)} kg（主塔两槽均分），按85%装液率对应初始几何容积 ${f(b.stageCapacity.mainInitialGrossVolumeM3PerTank)} m³；尾塔初始碱液 ${f(b.stageCapacity.tailInitialSolutionKg)} kg。尾塔用量以处理主塔全部剩余氯为容量目标，并非已验证尾塔去除率。这些量本身未考虑温升提前切槽；配置选择chemical_capacity时，将主塔单槽化学容量液量作为热计算初始装液量，实际采用值见下文。\n\n` +
+    `仅按化学容量分配（初始 ${f(b.naohMassFraction*100)} wt%，首槽切换 ${f(b.stageCapacity.mainSwitchNaohMassFraction*100)} wt%，末槽及尾塔终点 ${f(b.finalNaohMassFraction*100)} wt%）：主塔每槽初始碱液 ${f(b.stageCapacity.mainInitialSolutionKgPerTank)} kg（主塔两槽装液相同），按85%装液率对应初始几何容积 ${f(b.stageCapacity.mainInitialGrossVolumeM3PerTank)} m³；尾塔初始碱液 ${f(b.stageCapacity.tailInitialSolutionKg)} kg。尾塔用量以处理主塔全部剩余氯为容量目标，并非已验证尾塔去除率。这些量本身未考虑温升提前切槽；配置选择chemical_capacity时，将主塔单槽化学容量液量作为热计算初始装液量，实际采用值见下文。\n\n` +
     `## 尾气塔塔径与循环量\n\n沿用主塔风机最大实际气量 ${f(b.tailTower.maxActualGasM3H)} m³/h，未扣除主塔吸收后的气量收缩，未修正尾塔入口温压。空塔气速 ${f(b.tailTower.superficialGasVelocityMS)} m/s，负荷波动系数 ${f(b.tailTower.loadFluctuationFactor)}，计算塔径 ${f(b.tailTower.calculatedDiameterM,3)} m；向上按 ${f(b.tailTower.diameterIncrementMm,0)} mm圆整，选径 ${f(b.tailTower.selectedDiameterMm,0)} mm。圆整后截面积 ${f(b.tailTower.selectedAreaM2,3)} m²、空塔气速 ${f(b.tailTower.selectedSuperficialGasVelocityMS,3)} m/s。喷淋密度 ${f(b.tailTower.sprayDensityM3M2H)} m³/(m²·h)，循环量 ${f(b.tailTower.circulationM3H)} m³/h。循环量未加泵选型裕量；此处不代表已验证尾塔吸收效率。\n\n` +
-    (b.tailDesign.status === "calculated" ? `## 尾气塔槽容与冷却初算\n\n以主塔持续吸收90%、尾塔气相出口4 mg/Nm³及液滴全捕集为设计目标，不代表尾塔去除率或出口浓度已验证。沿用主塔吸收液性质；尾塔独立采用循环水冷却，进塔液温=循环水上水+6℃，出塔液温由反应热和固定循环量计算，气液相分别计算反应热，未计级间蒸发与气体显热。\n\n尾塔需处理氯 ${f(b.tailDesign.chlorineCapacityKg)} kg；18→5 wt%对应初始碱液 ${f(b.tailDesign.initialSolutionKg)} kg，初始液体积 ${f(b.tailDesign.initialLiquidM3)} m³，吸收后 ${f(b.tailDesign.finalLiquidM3)} m³。按85%装液率，初始基准槽容 ${f(b.tailDesign.initialBasisGrossVolumeM3)} m³；按吸收后增重校核所需槽容 ${f(b.tailDesign.finalBasisGrossVolumeM3)} m³，尚未圆整、未另扣管道与塔内持液。\n\n峰值反应热 ${f(b.tailDesign.peakReactionKW)} kW（${f(b.tailDesign.peakTimeMin)} min）；设计循环液进/出塔温度 ${f(b.tailDesign.designInletTemperatureC)}/${f(b.tailDesign.designOutletTemperatureC)} ℃；循环水上/回水 ${f(b.tailDesign.coolantSupplyTempC)}/${f(b.tailDesign.coolantReturnTempC)} ℃。出塔参考温度 ${f(b.tailDesign.outletReferenceC)} ℃，上限 ${f(b.tailDesign.outletLimitC)} ℃，上限校核 ${b.tailDesign.outletLimitSatisfied ? '满足' : '不满足'}，温度余量 ${f(b.tailDesign.outletLimitMarginK)} ℃。循环水回水=计算出塔液温−${f(b.tailDesign.coolantReturnApproachK)} ℃，水温升 ${f(b.tailDesign.coolantTemperatureRiseK)} ℃，峰值负荷下所需循环水质量流量 ${f(b.tailDesign.coolantPeakKgH)} kg/h。换热面积及传热系数由厂家确定，本模型提供热负荷、流量和温度条件。主塔停用穿透负荷及尾塔动态浓度、温度尚未纳入本项初算。\n\n` : '') +
+    (b.tailDesign.status === "calculated" ? `## 尾气塔槽容与冷却初算\n\n以主塔持续吸收90%、尾塔气相出口4 mg/Nm³及液滴全捕集为设计目标，不代表尾塔去除率或出口浓度已验证。沿用主塔吸收液性质；尾塔独立采用循环水冷却，进塔液温=循环水上水+6℃，出塔液温由反应热和固定循环量计算，气液相分别计算反应热，未计级间蒸发与气体显热。\n\n尾塔需处理氯 ${f(b.tailDesign.chlorineCapacityKg)} kg；${f(b.naohMassFraction*100)}→${f(b.finalNaohMassFraction*100)} wt%对应初始碱液 ${f(b.tailDesign.initialSolutionKg)} kg，初始液体积 ${f(b.tailDesign.initialLiquidM3)} m³，吸收后 ${f(b.tailDesign.finalLiquidM3)} m³。按85%装液率，初始基准槽容 ${f(b.tailDesign.initialBasisGrossVolumeM3)} m³；按吸收后增重校核所需槽容 ${f(b.tailDesign.finalBasisGrossVolumeM3)} m³，尚未圆整、未另扣管道与塔内持液。\n\n峰值反应热 ${f(b.tailDesign.peakReactionKW)} kW（${f(b.tailDesign.peakTimeMin)} min）；设计循环液进/出塔温度 ${f(b.tailDesign.designInletTemperatureC)}/${f(b.tailDesign.designOutletTemperatureC)} ℃；循环水上/回水 ${f(b.tailDesign.coolantSupplyTempC)}/${f(b.tailDesign.coolantReturnTempC)} ℃。出塔参考温度 ${f(b.tailDesign.outletReferenceC)} ℃，上限 ${f(b.tailDesign.outletLimitC)} ℃，上限校核 ${b.tailDesign.outletLimitSatisfied ? '满足' : '不满足'}，温度余量 ${f(b.tailDesign.outletLimitMarginK)} ℃。循环水回水=计算出塔液温−${f(b.tailDesign.coolantReturnApproachK)} ℃，水温升 ${f(b.tailDesign.coolantTemperatureRiseK)} ℃，峰值负荷下所需循环水质量流量 ${f(b.tailDesign.coolantPeakKgH)} kg/h。换热面积及传热系数由厂家确定，本模型提供热负荷、流量和温度条件。主塔停用穿透负荷及尾塔动态浓度、温度尚未纳入本项初算。\n\n` : '') +
     (b.outletTarget.status === "calculated_design_target" ? `## 出口设计目标\n\n设计4 mg/Nm³，验收严格<5 mg/Nm³。暂按干气标况（0℃、101.325 kPa），出口体积=空气体积+残余氯体积，液滴按全捕集。窗口内目标残余氯 ${f(b.outletTarget.emittedWithinWindowKg,4)} kg；尾塔最严格气态氯所需去除率 ${f(b.outletTarget.mostDemanding.requiredGasRemovalFraction*100,5)}%，发生于 ${f(b.outletTarget.mostDemanding.timeS/60)} min。低负荷时出口不超过入口可用氯量。数值为达到目标所需性能，不是传质预测或达标证明。\n\n` : '') +
     heatText +
     (thermal.cooler?.lmtdK ? `## 冷却器换热温差\n\n冷冻水 ${f(thermal.cooler.coldInletC)}→${f(thermal.cooler.coldOutletC)} ℃；循环液 ${f(thermal.cooler.hotInletC)}→${f(thermal.cooler.hotOutletC)} ℃。按理想逆流计算，对数平均温差 ${f(thermal.cooler.lmtdK)} K，所需UA为 ${f(thermal.cooler.requiredUAWK)} W/K。换热面积由厂家确定（本项目不计算）。未计实际流型温差修正或面积裕量。\n\n` : '') +
-    `## 单槽温度、浓度与切换\n\n主塔按1号槽→2号槽，无重复投用。任何一槽温升达到20℃或游离NaOH达到5 wt%即退出；最后一槽退出后继续统计未处理负荷。槽温升与循环液单次通过塔的温升分别计算。\n\n${thermalText}\n\n` +
+    `## 单槽温度、浓度与切换\n\n主塔按1号槽→2号槽，无重复投用。任何一槽温升达到20℃或游离NaOH达到切换浓度（首槽 ${f(b.stageCapacity.mainSwitchNaohMassFraction*100)} wt%，末槽 ${f(b.finalNaohMassFraction*100)} wt%）即退出；最后一槽退出后继续统计未处理负荷。槽温升与循环液单次通过塔的温升分别计算。\n\n${thermalText}\n\n` +
     `不预设反应时间：逐步累计实际吸收氯质量和净热量，在步内求达到温度或浓度限值的最早时刻。冷却工况目前为反算维持18℃所需负荷，表示理想调节而非已选冷却器性能；另计算不冷却对照。使用区间平均源项，忽略塔内持液与单次质量增量；冷冻水温差不能单独确定换热面积。\n\n` +
     `## 计算范围\n\n本表完成入口负荷、碱液总容量、主塔入口气速塔径和循环液量估算；单槽温度切换模块已建立，数值结果取决于完整输入，尾塔按指定捕集分配计算容量与峰值热负荷，不预测实际移除效率。填料高度不在本模型计算范围内，换热面积由厂家确定。出口氯气要求为严格低于 ${f(b.outletChlorineRequirement.limitMgNm3 ?? null)} mg/Nm³（项目输入要求）；当前未预测实际出口浓度，达标状态为未验证。本轮暂采用干基计算出口设计目标；干湿基口径需与验收条件保持一致。尾塔承担全部剩余氯的容量假设不等于实际零排放。未校核泛点。温度与实际气量沿用现有近似热衡算；液池蒸发假设见 README。\n`;
 }
